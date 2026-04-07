@@ -2,17 +2,17 @@
 
 ---
 
-## SCENE 1 — HOMEROOM
+## SCENE 1 — AFTER SCHOOL
 
-*It is an unremarkable Tuesday afternoon and aside from the occasional explosion on the science lab, nothing else was <blah blah>. The kind where the sky is too bright to look at and the classroom smells like chalk dust and someone's leftover lunch. Half the seats are empty as the class is about to end.*
+*It is an unremarkable Tuesday after school. The classroom is mostly empty. The hallway outside is winding down. Nothing is happening — aside from the distant explosion from the science lab, which stopped being notable about two months ago.*
 
 ---
 
-> **To Shuu:** You're at the back of the classroom, feet up, jacket draped over the chair like it owes you something. You see your friend Byron sleeping. What are you doing right now?
+> **To Shuu:** You've already flicked an eraser at Byron twice. The second one actually hit him. You're not sorry. You're bored out of your skull and Mari hasn't looked up in ten minutes which means she's not going to react either, and you need something to happen or you're going to start moving furniture. What are you doing right now?
 
-> **To Byron:** You're somewhere in the middle of the room, face down on a textbook that has not been opened today, yesterday, or arguably this semester. You're awake — barely. What does waking up here look like for you?
+> **To Byron:** Something hit you recently. You're pretty sure it was Shuu. You didn't move. You're not asleep but you're not exactly awake either — somewhere comfortable in between. What are you doing right now?
 
-> **To Mari:** You're near the front. You've probably already noticed your friend Byron is asleep and made a mental note about it. What are you actually doing right now?
+> **To Mari:** You noticed the eraser. Both of them. You didn't say anything. You've had years of practice deciding which battles are worth it. What are you actually doing right now?
 
 *Let them establish themselves. One or two exchanges. Don't rush it.*
 
@@ -24,11 +24,11 @@
 
 *The door bursts open. Yumemi Okazaki — student council president, two years running, the kind of person who color-codes her contingency plans — stops in the doorway, scans the room, doesn't find what she's looking for.*
 
-> "Did anyone see Ms. Kitashirakawa come through here?"
+> **Yumemi:** "Did anyone see Ms. Kitashirakawa come through here?"
 
 *She doesn't wait for an answer. Already moving. One of the council members shouts back over their shoulder:*
 
-> "She destroyed the physics lab equipment again — Rikako-sensei is furious, the council is filing a destruction of property report—"
+> "She destroyed the physics lab equipment again — Rikako-sensei is furious, the council is filing a destruction of property report —"
 
 *Then they're gone. The hallway goes quiet.*
 
@@ -44,75 +44,90 @@
 
 ## SCENE 2 — THE ANNOUNCEMENT
 
-### BRANCH A — They stayed put or lost the chase
+### BRANCH A — They stayed put
 
 *A minute passes. The hallway stays quiet.*
 
 *Then the PA crackles.*
 
-> *"Attention! This is Chiyuri Kitashirakawa from the Science Research Club! My experiment has just produced a completely successful result—"*
+> **Chiyuri:** *"Attention! This is Chiyuri Kitashirakawa from the Science Research Club! My experiment has just produced a completely successful —"*
 
-*Scuffling. Someone grabbing for the microphone.*
+*Scuffling. The microphone changes hands.*
 
-> *"This announcement is unauthorized—"* — Yumemi —
+> **Yumemi:** *"This announcement is completely unauthorized —"*
 
-> *"—the destruction was incidental to the success—"*
+> **Chiyuri:** *"— the destruction was incidental to the success, which is the important —"*
 
 *The PA cuts dead.*
 
----
+> **DM:** That's all you got. Do you move?
 
-> **DM:** That's all you got. Chiyuri's experiment worked. The one nobody would tell you anything about. Do you move?
-##COMMENT this looks confusing to read can you fix this?
 ---
 
 ### BRANCH B — They gave chase
 
 > **DM:** Give me an **Athletics or Acrobatics check, DC 13.**
 
-*On a failure — falls into Branch A.*
+**On a failure:**
+> You lose her. The hallway splits three ways and she's already gone. You're standing in an empty corridor when the floor shifts.
+> **→ Scene 3, Branch B Failure**
 
-*On a success:*
+**On a success:**
+> You round the corner just as Chiyuri spots you — and that's her mistake. She's so distracted she doesn't see Yumemi cut off the left. Two council members close from the right. Pinned.
 
-> You round the corner just as Chiyuri spots you — and that's her mistake. She's so distracted that she doesn't see Yumemi cut off the left. Two council members close from the right. She's pinned against the wall in seconds.
-##COMMENT make Chiyuri squeal something like "UGYAA??!!"
-> **Yumemi:** "You're filing a full report for every piece of equipment you destroyed. Do you understand me?"
+> **Chiyuri:** *"UGYAA??!!"*
 
-> *"Let me go! I have successfully — look it doesn't matter, the point is it worked and I need to check on it right now—"*
+> **Yumemi:** "You are filing a full incident report for every single piece of equipment you destroyed. Do you understand me?"
+
+> **Chiyuri:** *"Let me go! It worked, that's the part that matters, I need to check on it right —"*
 
 *The floor moves.*
 
-> *"...uhhh. maybe a slight miscalculation somewhere. ahehe."*
+> **Chiyuri:** *She sticks her tongue out.* "...looks like there's a slight problem. Ahehe."
 
-> **→ Scene 3 begins.**
+> **→ Scene 3, Branch B Success**
 
 ---
 
 ## SCENE 3 — THE QUAKE
 
-*It starts small. The floor shifts — longer this time. A desk scrapes on its own. Something falls off a shelf down the hall. The lights flicker.*
+**Branch A — They're in the classroom:**
 
-**Branch A:**
-*The door swings open. Chiyuri, breathless, grabs the frame.*
-##COMMENT ADD GRINNING YET SOMEWHAT PANIC
-> *"Okay so — we need to move. Now. Somewhere open, away from the walls—"*
-##COMMENT go put something like She sticks out her tongue and said "looks like there is a slight problem Okay so — we need to move. Now. Somewhere open, away from the walls—"
+*The floor shifts again. Longer this time. A desk scrapes. Something falls off a shelf down the hall.*
+
+*The door swings open. Chiyuri grabs the frame — grinning, but her eyes are doing something her mouth isn't.*
+
+> **Chiyuri:** *She sticks her tongue out.* "Okay so. Slight problem. We need to move — somewhere open, away from the walls, now —"
+
 > **DM:** She looks genuinely rattled for the first time today. What do you do?
 
-**Branch B:**
-*Chiyuri stops laughing. She looks around the hallway.*
-
-> *"Okay we need to move. Away from the walls — come on—"*
-##COMMENT go put something like She sticks out her tongue and said "looks like there is a slight problem Okay so — we need to move. Now. Somewhere open, away from the walls—"
 ---
 
-*The hum gets louder. The windows rattle. The normal sounds outside — voices, the sports club, traffic — just stop.*
+**Branch B Success — They're in the hallway with Chiyuri:**
+
+*The floor shifts again. Everyone in the hallway grabs something — a wall, a door frame, each other.*
+
+*Chiyuri goes still. Whatever she was about to argue evaporates.*
+
+> **Chiyuri:** *Tongue out, grin gone wobbly.* "Slight problem. Away from the walls — all of you, now —"
+
+---
+
+**Branch B Failure — They're in the hallway, alone:**
+
+*The floor shifts. Then again. The lights flicker.*
+
+*Then Chiyuri rounds the corner at a dead sprint and nearly collides with them.*
+
+> **Chiyuri:** *She doesn't stop moving.* "Oh good, you're here — slight problem — walk fast —"
+
+---
+
+*The hum gets louder. The windows rattle. The normal sounds outside — the baseball club, traffic, voices — just stop.*
 
 > **DM:** It's not coming from one direction. It's coming from everywhere. What do you do?
 
-*Let them act. Track where they are and what they grab.*
-
-*Whatever they are carrying right now is what they bring with them.*
+*Let them act. Whatever they are carrying right now is what they bring with them.*
 
 ---
 
@@ -158,10 +173,3 @@
 *Then the ground arrives.*
 
 > **→ LANDING**
-
-
-## AFTER — LANDING
-
-*They land wherever you've decided — Human Village, Youkai Mountain, Scarlet Devil Mansion, or Eientei.*
-
-*They land together. 

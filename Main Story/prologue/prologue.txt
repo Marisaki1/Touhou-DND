@@ -4,110 +4,164 @@
 
 ## SCENE 1 — HOMEROOM
 
-*It is an unremarkable Tuesday afternoon. The kind where the sky is too bright to look at and the classroom smells like chalk dust and someone's leftover lunch.*
-
-Shuu Seiji is doing what Shuu Seiji does best — occupying space with maximum presence and minimum effort. He's at the back of the classroom, feet up, jacket draped over the chair like it owes him something.
-
-Across the room — or nearby, or perhaps neither of you have noticed yet — there is IronAngel. Asleep. Specifically, asleep on top of a textbook that has not been opened today, yesterday, or arguably this semester. The pencil still loosely held in one hand suggests the sleep was recent and swift.
+*It is an unremarkable Tuesday afternoon. The kind where the sky is too bright to look at and the classroom smells like chalk dust and someone's leftover lunch. Half the seats are empty before the final period even starts.*
 
 ---
 
-> **DM:** The classroom is half-empty before the final period starts. What are you doing right now, Shuu? IronAngel, you're awake — barely — what does waking up here look like for you?
+> **To Shuu:** You're at the back of the classroom, feet up, jacket draped over the chair like it owes you something. What are you doing right now?
 
-*Let the players briefly establish themselves. One or two exchanges. Don't rush it — this is the last normal moment.*
+> **To Byron:** You're somewhere in the middle of the room, face down on a textbook that has not been opened today, yesterday, or arguably this semester. You're awake — barely. What does waking up here look like for you?
+
+> **To Mari:** You're near the front. You've probably already noticed Byron is asleep and made a mental note about it. What are you actually doing right now?
+
+*Let them establish themselves. One or two exchanges. Don't rush it.*
+
+---
+
+*Then — movement outside the classroom door. Fast footsteps. A girl in a lab coat shoots past the window in the door, clutching something to her chest, hair coming loose, grinning like she just did something she absolutely should not have done.*
+
+*Three seconds behind her: the student council.*
+
+*The door bursts open. Yumemi Okazaki — student council president, two years running, the kind of person who color-codes her contingency plans — stops in the doorway, scans the room, doesn't find what she's looking for.*
+
+> "Did anyone see Kitashirakawa come through here?"
+
+*She doesn't wait for an answer. Already moving. One of the council members shouts back over their shoulder:*
+
+> "She destroyed the physics lab equipment again — Kamimura-sensei is furious, the council is filing a destruction of property report—"
+
+*Then they're gone. The hallway goes quiet.*
+
+---
+
+> **DM:** Chiyuri Kitashirakawa — third year, science club, your mutual disaster of a friend — just ran past this classroom being chased by the entire student council. You have about thirty seconds before this gets further away.
+
+> Shuu — that looked like a fight worth watching. Byron — you caught maybe forty percent of that. Something about Chiyuri. Mari — you caught all of it, and Chiyuri looked like she was having the time of her life, which is usually a bad sign.
+
+> Do you go after them, or do you stay put?
 
 ---
 
 ## SCENE 2 — THE ANNOUNCEMENT
 
-The school PA system crackles.
+### BRANCH A — They stayed put or lost the chase
 
-There's a brief feedback squeal, then the voice of one Chiyuri Kitashirakawa — third-year, science club, chronically overconfident in the practical applications of theoretical physics — comes through at a volume that is frankly unnecessary.
+*A minute passes. The hallway stays quiet.*
 
-*"Attention, this is an important announcement from the Science Research Club! We have successfully opened a micro-scale spatial rift using the resonance equipment in Lab 3. We believe this constitutes a breakthrough in—"*
+*Then the PA crackles.*
 
-The PA cuts out.
+> *"Attention! This is Chiyuri Kitashirakawa from the Science Research Club! My experiment has just produced a completely successful result—"*
 
-There is approximately one second of silence.
+*Scuffling. Someone grabbing for the microphone.*
 
-Then, clearly audible through the intercom, the unmistakable voice of Yumemi Okazaki — student council president, two years running, the kind of person who has a contingency plan for her contingency plans — cuts in over the system.
+> *"This announcement is unauthorized—"* — Yumemi —
 
-*"This announcement is unauthorized. Everyone please disregard—"*
+> *"—the destruction was incidental to the success—"*
 
-*"—the readings are off the charts, I'm telling you, the boundary coefficient is—"*
-
-*"—Kitashirakawa, put down the microphone—"*
-
-*"—it's already destabilizing, you can't just close the equipment now—"*
-
-Then: a sound. Not loud, exactly. More like the air in the building changed pitch.
+*The PA cuts dead.*
 
 ---
 
-> **DM:** The PA goes dead. What do you do?
+> **DM:** That's all you got. Chiyuri's experiment worked. The one nobody would tell you anything about. Do you move?
+
+---
+
+### BRANCH B — They gave chase
+
+> **DM:** Give me an **Athletics or Acrobatics check, DC 13.**
+
+*On a failure — falls into Branch A.*
+
+*On a success:*
+
+> You round the corner just as Chiyuri spots you — and that's her mistake. She's so distracted that she doesn't see Yumemi cut off the left. Two council members close from the right. She's pinned against the wall in seconds.
+
+> **Yumemi:** "You're filing a full report for every piece of equipment you destroyed. Do you understand me?"
+
+> *"Let me go! I have successfully — look it doesn't matter, the point is it worked and I need to check on it right now—"*
+
+*The floor moves.*
+
+> *"...uhhh. maybe a slight miscalculation somewhere. ahehe."*
+
+> **→ Scene 3 begins.**
 
 ---
 
 ## SCENE 3 — THE QUAKE
 
-It starts in the floor.
+*It starts small. The floor shifts — longer this time. A desk scrapes on its own. Something falls off a shelf down the hall. The lights flicker.*
 
-Not a violent shaking — more like the building took a single, slow breath and forgot to exhale. Desks shift. A stack of papers slides off a table. The fluorescent lights flicker once, twice.
+**Branch A:**
+*The door swings open. Chiyuri, breathless, grabs the frame.*
 
-Then it gets worse.
+> *"Okay so — we need to move. Now. Somewhere open, away from the walls—"*
 
-The windows rattle. Something on a shelf falls. The sound from outside — the normal sounds of a school in the afternoon, distant voices, the sports club, traffic — cuts off completely, replaced by a low hum that shouldn't be coming from anywhere.
+> **DM:** She looks genuinely rattled for the first time today. What do you do?
+
+**Branch B:**
+*Chiyuri stops laughing. She looks around the hallway.*
+
+> *"Okay we need to move. Away from the walls — come on—"*
 
 ---
 
-> **DM:** This is real, and it is escalating. What do you do?
+*The hum gets louder. The windows rattle. The normal sounds outside — voices, the sports club, traffic — just stop.*
 
-*Allow the players to act. Running into the hall, hiding under desks, heading toward Lab 3 — all valid. Track where they physically are when the next beat happens.*
+> **DM:** It's not coming from one direction. It's coming from everywhere. What do you do?
 
-*Note: whatever they are carrying on their person at this moment is what they bring with them.*
+*Let them act. Track where they are and what they grab.*
+
+*Whatever they are carrying right now is what they bring with them.*
 
 ---
 
 ## SCENE 4 — THE RIFT
 
-It opens in the floor.
+*It opens in the floor. Between you. A seam of light splits the linoleum and the hum becomes a tone you feel behind your teeth.*
 
-Not in Lab 3. Not where Chiyuri's equipment is. Right here. In the middle of the ordinary classroom floor, between the rows of ordinary desks, a seam of light splits the linoleum like something on the other side is pushing through.
+*Chiyuri freezes. Whatever is in her jacket pocket starts glowing through the fabric. She doesn't get a chance to reach for it — the rift lurches and she gets pulled in, grabbing Yumemi on the way down. The rest of the student council follows.*
 
-It is approximately one meter across and growing.
+*Then it starts pulling at the three of you.*
 
-It looks like static. It looks like a hole in the sky. It looks like nothing that has a name in any language currently being taught at this school.
+> **DM:** Shuu, Byron, Mari — give me a **Strength or Dexterity check DC 15** to resist.
 
-It is very bright. It is very loud — a high, resonant tone that you feel behind your back teeth. And it is pulling. Not physically, not yet, but the way a thought pulls at you right before you make a decision you can't take back.
+*On a success:*
+> You hold your ground. You have a few seconds — grab what you can.
+> **DC 10 check for every additional item you want to secure.**
 
----
+*On a failure:*
+> The rift takes you immediately.
 
-> **DM:** It's right there. You have maybe ten seconds before it stabilizes or closes or does something else entirely. What do you do?
-
-*If they jump in: they go through.*
-*If they hesitate and get pulled: they go through.*
-*If they try to run: the hum intensifies, the pull becomes physical, they go through.*
-
-*They go through.*
+*Either way — the rift takes all three of you.*
 
 ---
 
-> **DM NOTE — ITEMS:**
-> Whatever the players describe doing in Scenes 1–3 determines what they have on them.
-> Shuu: Phone (dying battery), anything a delinquent would reasonably pocket.
-> IronAngel: Phone, school bag if they grabbed it, whatever a practiced slacker keeps within arm's reach.
-> Decide with the players before Scene 4 closes. Be fair. Be specific.
+*The sensation is like being turned inside out. Colors with no names. You are moving very fast through something that is not space.*
+
+> **DM:** Everyone roll a **d4.**
+
+*Whatever they roll — they see one landscape through the fabric. Mountain. Village. Mansion. Bamboo. Just one.*
+
+> **DM:** You can see somewhere through the fabric. Do you resist?
+
+*On resist — **DC 13.** Success changes the vision, they roll d4 again and choose again. Failure — they land on what they saw.*
+
+*On no resist — they land there.*
 
 ---
+
+*Before the ground arrives — Mari. She's falling with you but something is wrong. The space is pulling at her differently. Like she's being pulled apart at the edges.*
+
+*She doesn't look like she's in pain.*
+
+*Then the ground arrives.*
+
+> **→ LANDING**
+
 
 ## AFTER — LANDING
 
 *They land wherever you've decided — Human Village, Youkai Mountain, Scarlet Devil Mansion, or Eientei.*
 
-*They land together. Mostly.*
-
-*One of them lands slightly apart. Or they all land together, but when they look around — really look — they might notice something that doesn't quite add up. A shadow that doesn't have anyone to cast it. A footprint in the dust that isn't theirs and isn't each other's.*
-
-*Mari is there. She's always been there.*
-
-*They just keep forgetting.*
+*They land together. 

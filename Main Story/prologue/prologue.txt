@@ -4,15 +4,15 @@
 
 ## SCENE 1 — HOMEROOM
 
-*It is an unremarkable Tuesday afternoon and as usual you would occasionally hear explosion on the science lab. The kind where the sky is too bright to look at and the classroom smells like chalk dust and someone's leftover lunch. Half the seats are empty before the final period even starts.*
+*It is an unremarkable Tuesday afternoon and aside from the occasional explosion on the science lab, nothing else was <blah blah>. The kind where the sky is too bright to look at and the classroom smells like chalk dust and someone's leftover lunch. Half the seats are empty as the class is about to end.*
 
 ---
 
-> **To Shuu:** You're at the back of the classroom, feet up, jacket draped over the chair like it owes you something. What are you doing right now?
+> **To Shuu:** You're at the back of the classroom, feet up, jacket draped over the chair like it owes you something. You see your friend Biron sleeping. What are you doing right now?
 
 > **To Biron:** You're somewhere in the middle of the room, face down on a textbook that has not been opened today, yesterday, or arguably this semester. You're awake — barely. What does waking up here look like for you?
 
-> **To Mari:** You're near the front. You've probably already noticed Biron is asleep and made a mental note about it. What are you actually doing right now?
+> **To Mari:** You're near the front. You've probably already noticed your friend Biron is asleep and made a mental note about it. What are you actually doing right now?
 
 *Let them establish themselves. One or two exchanges. Don't rush it.*
 
@@ -24,11 +24,11 @@
 
 *The door bursts open. Yumemi Okazaki — student council president, two years running, the kind of person who color-codes her contingency plans — stops in the doorway, scans the room, doesn't find what she's looking for.*
 
-> "Did anyone see Kitashirakawa come through here?"
+> "Did anyone see Ms. Kitashirakawa come through here?"
 
 *She doesn't wait for an answer. Already moving. One of the council members shouts back over their shoulder:*
 
-> "She destroyed the physics lab equipment again — Kamimura-sensei is furious, the council is filing a destruction of property report—"
+> "She destroyed the physics lab equipment again — Rikako-sensei is furious, the council is filing a destruction of property report—"
 
 *Then they're gone. The hallway goes quiet.*
 
@@ -63,7 +63,7 @@
 ---
 
 > **DM:** That's all you got. Chiyuri's experiment worked. The one nobody would tell you anything about. Do you move?
-
+##COMMENT this looks confusing to read can you fix this?
 ---
 
 ### BRANCH B — They gave chase
@@ -75,7 +75,7 @@
 *On a success:*
 
 > You round the corner just as Chiyuri spots you — and that's her mistake. She's so distracted that she doesn't see Yumemi cut off the left. Two council members close from the right. She's pinned against the wall in seconds.
-
+##COMMENT make Chiyuri squeal something like "UGYAA??!!"
 > **Yumemi:** "You're filing a full report for every piece of equipment you destroyed. Do you understand me?"
 
 > *"Let me go! I have successfully — look it doesn't matter, the point is it worked and I need to check on it right now—"*
@@ -94,16 +94,16 @@
 
 **Branch A:**
 *The door swings open. Chiyuri, breathless, grabs the frame.*
-
+##COMMENT ADD GRINNING YET SOMEWHAT PANIC
 > *"Okay so — we need to move. Now. Somewhere open, away from the walls—"*
-
+##COMMENT go put something like She sticks out her tongue and said "looks like there is a slight problem Okay so — we need to move. Now. Somewhere open, away from the walls—"
 > **DM:** She looks genuinely rattled for the first time today. What do you do?
 
 **Branch B:**
 *Chiyuri stops laughing. She looks around the hallway.*
 
 > *"Okay we need to move. Away from the walls — come on—"*
-
+##COMMENT go put something like She sticks out her tongue and said "looks like there is a slight problem Okay so — we need to move. Now. Somewhere open, away from the walls—"
 ---
 
 *The hum gets louder. The windows rattle. The normal sounds outside — voices, the sports club, traffic — just stop.*

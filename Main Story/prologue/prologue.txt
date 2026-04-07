@@ -4,15 +4,15 @@
 
 ## SCENE 1 — HOMEROOM
 
-*It is an unremarkable Tuesday afternoon. The kind where the sky is too bright to look at and the classroom smells like chalk dust and someone's leftover lunch. Half the seats are empty before the final period even starts.*
+*It is an unremarkable Tuesday afternoon and as usual you would occasionally hear explosion on the science lab. The kind where the sky is too bright to look at and the classroom smells like chalk dust and someone's leftover lunch. Half the seats are empty before the final period even starts.*
 
 ---
 
 > **To Shuu:** You're at the back of the classroom, feet up, jacket draped over the chair like it owes you something. What are you doing right now?
 
-> **To Byron:** You're somewhere in the middle of the room, face down on a textbook that has not been opened today, yesterday, or arguably this semester. You're awake — barely. What does waking up here look like for you?
+> **To Biron:** You're somewhere in the middle of the room, face down on a textbook that has not been opened today, yesterday, or arguably this semester. You're awake — barely. What does waking up here look like for you?
 
-> **To Mari:** You're near the front. You've probably already noticed Byron is asleep and made a mental note about it. What are you actually doing right now?
+> **To Mari:** You're near the front. You've probably already noticed Biron is asleep and made a mental note about it. What are you actually doing right now?
 
 *Let them establish themselves. One or two exchanges. Don't rush it.*
 
@@ -36,7 +36,7 @@
 
 > **DM:** Chiyuri Kitashirakawa — third year, science club, your mutual disaster of a friend — just ran past this classroom being chased by the entire student council. You have about thirty seconds before this gets further away.
 
-> Shuu — that looked like a fight worth watching. Byron — you caught maybe forty percent of that. Something about Chiyuri. Mari — you caught all of it, and Chiyuri looked like she was having the time of her life, which is usually a bad sign.
+> Shuu — that looked like a fight worth watching. Biron — you caught maybe forty percent of that. Something about Chiyuri. Mari — you caught all of it, and Chiyuri looked like she was having the time of her life, which is usually a bad sign.
 
 > Do you go after them, or do you stay put?
 
@@ -124,7 +124,7 @@
 
 *Then it starts pulling at the three of you.*
 
-> **DM:** Shuu, Byron, Mari — give me a **Strength or Dexterity check DC 15** to resist.
+> **DM:** Shuu, Biron, Mari — give me a **Strength or Dexterity check DC 15** to resist.
 
 *On a success:*
 > You hold your ground. You have a few seconds — grab what you can.

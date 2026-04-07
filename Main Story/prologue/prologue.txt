@@ -1,200 +1,113 @@
-# TOUHOU LABYRINTH TOWER — ISEKAI CAMPAIGN DESIGN DOCUMENT
-## "Strangers from Beyond the Boundary"
+# PROLOGUE — "An Ordinary Day (Until It Wasn't)"
 
 ---
 
-## PREMISE
+## SCENE 1 — HOMEROOM
 
-The Great Hakurei Barrier, already strained by the mysterious crystalline tower that materialized at Gensokyo's heart, finally cracked when the boundary-keeper Reimu Hakurei cleared the tower's 10th Floor. In that moment of spiritual resonance, rifts tore open between worlds — brief, unstable tears that pulled unsuspecting outsiders into Gensokyo. The rifts are one-way. The instability makes return passage impossible... for now.
+*It is an unremarkable Tuesday afternoon. The kind where the sky is too bright to look at and the classroom smells like chalk dust and someone's leftover lunch.*
 
-The players are high school students from the modern world, dropped into the strangest land they've ever seen, with no way home — and a tower that might just hold the answers they need.
+Shuu Seiji is doing what Shuu Seiji does best — occupying space with maximum presence and minimum effort. He's at the back of the classroom, feet up, jacket draped over the chair like it owes him something.
 
----
-
-## THE PLAYERS — SCHOOL ARCHETYPES & CLASSES
-
-Player personality determines their school role, which determines their starting class. Let the players describe themselves first — then map accordingly.
-
-| School Archetype | Personality | D&D Class | Starting Flavor |
-|---|---|---|---|
-| Class Representative | Responsible, rule-following, protective | Paladin | Commands respect; naturally takes charge |
-| The Delinquent | Stubborn, fierce, surprisingly loyal | Barbarian / Fighter | Surprising physical aptitude; NPCs wary at first |
-| The Bookworm | Analytical, curious, overthinks | Wizard | Gensokyo lore fascinates them; dangerous knowledge-seeker |
-| The Club Athlete | Driven, competitive, team-minded | Ranger / Fighter | Navigation instincts; adapts fast to hostile terrain |
-| The Quiet One | Observant, internalizes everything | Rogue | Moves unseen; notices what others miss |
-| The Social Butterfly | Warm, talks to everyone, gets in trouble | Bard | Charm works on humans; dicey with youkai |
-| The Caretaker | Empathetic, puts others first | Cleric / Druid | Healing instinct; animals and spirits drawn to them |
-| The Slacker | Lazy, avoids effort, surprisingly clever | Rogue / Bard | Luck-based; creative solutions to skip hard work |
-
-Delinquent- Shuu
-Slacker - IronAngel
-Caretaker - Mari
-
-###Prologue
-In a ordinary day Shuu Seiji, can be seen ???, You see the slacker sleeping on a ??? what do you do? (keep this up for the first part of the prologue for their interactions) also include Mari
-
-Just then you can here on the announcement that the ??? club made a scientific discovery that they announced on the coms. In which you here the student counsil president barging in and trying to stop them.
-
-As the day goes by a sudden large quake begins and ??? what do you do?
-
-all of a sudden ??? appeared on the floor.   What do you do?
-
-<Note>: Depending on their actions they can start with some items they brought along
-
-### Character Creation Note
-Characters begin at Level 1 with modern-world starting equipment (phone with dying battery, school bag, whatever they had on them). Their abilities manifest as an instinctive response to Gensokyo's magic-saturated environment — Gensokyo *awakens* something latent in outsiders.
+Across the room — or nearby, or perhaps neither of you have noticed yet — there is IronAngel. Asleep. Specifically, asleep on top of a textbook that has not been opened today, yesterday, or arguably this semester. The pencil still loosely held in one hand suggests the sleep was recent and swift.
 
 ---
 
-## THE FORGOTTEN ONE
+> **DM:** The classroom is half-empty before the final period starts. What are you doing right now, Shuu? IronAngel, you're awake — barely — what does waking up here look like for you?
 
-**The third PC is subject to the Rift's Perception Distortion.**
-
-*She is a cleric class
-This character arrived through the most unstable tear in the barrier. The rift's energy warped how they are perceived — not invisibility, not silence, but a profound absence from the notice of others. People's eyes slide past them. Names slip from memory. They exist in a perpetual social blind spot.
-
-### Mechanical Rules — Perception Distortion
-
-**NPCs:**
-- Any NPC who has not been formally introduced to The Forgotten One must make a DC 20 Wisdom saving throw to acknowledge them when they speak. On a failure, the NPC responds only to the other party members, as if no one else spoke.
-- An NPC forgets The Forgotten One was present entirely after failing a DC 20 which happens every 6 seconds.
-- Named, powerful NPCs (Keine, Sakuya, Reimu, etc.) make the save with advantage — their awareness is stronger.
-
-**Party Members:**
-- Once per long rest, each other party member must roll 1d20 at the DM's discretion. On a 20, they momentarily remember The Forgotten One (THE DM will give vague recollection on what happened so far with them)
-
-
-**Mechanical Benefits:**
-- The Forgotten One has Advantage on all Stealth checks.
-- Hostile NPCs require a DC 20 Perception check to target The Forgotten One in combat.
-- They can enter most locations without challenge — people simply don't register their presence as an intrusion.
-
-**Narrative Weight:**
-Other PC must be able to discern the presence of her
+*Let the players briefly establish themselves. One or two exchanges. Don't rush it — this is the last normal moment.*
 
 ---
 
-## LANDING LOCATIONS
+## SCENE 2 — THE ANNOUNCEMENT
 
-When the rift deposits the players, roll 1d4 or let the DM choose based on the party's composition. Each location provides a different entry lens into Gensokyo's world.
+The school PA system crackles.
 
----
+There's a brief feedback squeal, then the voice of one Chiyuri Kitashirakawa — third-year, science club, chronically overconfident in the practical applications of theoretical physics — comes through at a volume that is frankly unnecessary.
 
-### LANDING 1 — HUMAN VILLAGE
-*For parties that benefit from a grounded, lore-heavy introduction*
+*"Attention, this is an important announcement from the Science Research Club! We have successfully opened a micro-scale spatial rift using the resonance equipment in Lab 3. We believe this constitutes a breakthrough in—"*
 
-**First Scene:** The players materialize in the middle of the village market in broad daylight. Villagers scatter. Stalls overturn. Within minutes, a firm but calm woman with white-streaked hair steps through the panicking crowd — Keine Kamishirasawa, half-beast history teacher, guardian of the Human Village.
+The PA cuts out.
 
-**Keine's Reaction:** Controlled alarm. She recognizes the smell of a boundary breach immediately. She gathers the players quickly, gets them off the street, and sits them down in her schoolroom. She is not warm, exactly — but she is responsible. She will not let outsiders come to harm in *her* village.
+There is approximately one second of silence.
 
-**What Keine Teaches:**
-- Gensokyo's nature: a sealed land kept separate from the outside world by the Great Hakurei Barrier
-- The rules of survival: don't provoke youkai, don't wander at night, stay on known paths
-- The tower: she explains it appeared weeks ago with an announcement from a girl in a shifting mask, and that since then, residents and outsiders alike have been attempting to climb it — some for fun, some for profit, some to understand what it *is*
-- The Barrier crack: she reveals that when Reimu cleared the tower's 10th Floor, the barrier thinned dramatically — she suspects this is why the players arrived
+Then, clearly audible through the intercom, the unmistakable voice of Yumemi Okazaki — student council president, two years running, the kind of person who has a contingency plan for her contingency plans — cuts in over the system.
 
-**Lore Drop (Mid-Conversation):**
-*"The announcement came through every part of Gensokyo simultaneously. 'Reimu Hakurei has reached Floor 10.' And then — the boundary weakened. For just a moment, I could feel the outside world pressing against ours. I suspect you felt that too, from the other side."*
+*"This announcement is unauthorized. Everyone please disregard—"*
 
-**Companion Offer:** Keine offers to accompany them to the tower's base — not because she trusts them entirely, but because loose outsiders near her village is her problem to manage. She is protective, informative, and occasionally exasperated.
+*"—the readings are off the charts, I'm telling you, the boundary coefficient is—"*
 
----
+*"—Kitashirakawa, put down the microphone—"*
 
-### LANDING 2 — YOUKAI MOUNTAIN
-*For parties that benefit from an active, high-tension introduction*
+*"—it's already destabilizing, you can't just close the equipment now—"*
 
-**First Scene:** The players materialize on a rocky mountain slope surrounded by mist. Within two minutes they are surrounded by white wolf tengu patrols. Weapons drawn. Tense standoff. (There is a narrative option to flee and )
-
-Then a cheerful, green-haired girl in shrine maiden clothes pushes through the wolves with her hands up — "I've got this! They're outsiders, not threats!"
-
-Sanae Kochiya, wind priestess and relatively recent arrival to Gensokyo herself, is *delighted.*
-
-**Sanae's Reaction:** Immediate excitement. Sanae came from the outside world herself, years ago, and she's been hoping to meet other outsiders ever since. She talks fast, references games and media the players might know, and is shockingly casual about how dangerous their situation actually is.
-
-**What Sanae Explains:**
-- She was an outsider once too — she understands the disorientation
-- Youkai Mountain: home to the tengu (journalists and soldiers), kappa (engineers and inventors), and the Moriya Shrine Goddess faith
-- She theorizes about the barrier crack openly: she was in the middle of a ritual when it happened, felt the fluctuation, immediately started scanning the mountain for anyone who came through
-- The tower: she's been watching teams go in and out; she's intensely curious about it and frankly wants to climb it herself
-
-**Lore Drop:**
-*"When Reimu cleared the 10th Floor — oh, you probably don't know who Reimu is yet — there was this huge spiritual shockwave. Lady Kanako even spilled her tea. The boundary between Gensokyo and the outside? It just... flexed. Like a wall someone hit really hard. You must have been standing right against it."*
-
-**Companion Offer:** Sanae joins them immediately, barely giving them a choice. She is enthusiastic, knowledgeable about modern-world references, and occasionally *too* confident about things she doesn't actually know yet.
+Then: a sound. Not loud, exactly. More like the air in the building changed pitch.
 
 ---
 
-### LANDING 3 — SCARLET DEVIL MANSION
-*For parties that benefit from a high-stakes, socially treacherous introduction*
-
-**First Scene:** The players materialize in the SDM's grand foyer. Tall ceilings. Red carpets. Hundreds of identical fairy maids who stop and stare. Within thirty seconds, a silver-haired woman appears from nowhere — standing directly in front of them, five throwing knives already between her fingers.
-
-Sakuya Izayoi, head maid of the Scarlet Devil Mansion, appraises them with the cool efficiency of someone deciding whether to throw the knives.
-
-**Sakuya's Reaction:** Measured. Professional. She doesn't act on the knives. She introduces herself as the mansion's chief maid and asks, with perfect politeness, what business outsiders have materializing in the foyer. This is not a conversation they can bluff their way out of — Sakuya has seen too many incidents.
-
-**The Guest Exchange:** Mistress Remilia Scarlet is summoned (or rather, Sakuya informs the players they will be presented). Remilia is amused and theatrical. She declares them "honorary guests" — on the condition that they offer something of equal value. This could be information, a service, a skill demonstration, or simply acknowledging her nobility with appropriate reverence. Getting this right earns them safety; getting it wrong earns them a more complicated stay.
-
-**What Sakuya Explains (as escort to the gate):**
-- The mansion's rules: don't wander, don't touch things, don't provoke the residents
-- Gensokyo's structure, briefly and efficiently — she has no patience for unnecessary explanation
-- The barrier breach: she knew the moment it happened; her time-sense felt it; she explains Reimu's Floor 10 clear as the trigger
-- The tower: she is evaluating it as a potential resource; Remilia is "considering" entering
-
-**Lore Drop:**
-*"When Miss Hakurei cleared the 10th Floor, time itself stuttered slightly in this region. I noticed. The Mistress noticed. Whatever that tower is doing to the boundary, it is not incidental — it is structural. You arrived because something in the tower wanted the boundary open."*
-
-**Companion Offer:** Sakuya accompanies them to the tower base as a matter of the Mistress's interest. She is efficient, slightly intimidating, observant, and occasionally reveals surprising warmth beneath the professionalism.
+> **DM:** The PA goes dead. What do you do?
 
 ---
 
-### LANDING 4 — EIENTEI
-*For parties that benefit from a mysterious, medically-flavored introduction*
+## SCENE 3 — THE QUAKE
 
-**First Scene:** The players materialize in the middle of the Bamboo Forest of the Lost — except the bamboo parts before them, and a moon rabbit with long ears and a military-style uniform is already running toward them with a medical kit.
+It starts in the floor.
 
-Reisen Udongein Inaba, earth-based agent of the Lunarian manor, was *already sent* to retrieve them. Someone at Eientei anticipated the arrival.
+Not a violent shaking — more like the building took a single, slow breath and forgot to exhale. Desks shift. A stack of papers slides off a table. The fluorescent lights flicker once, twice.
 
-**Reisen's Reaction:** Efficient and slightly frantic. She checks them for injuries before saying much, then leads them through the bamboo with practiced surety. At Eientei, Princess Kaguya and the genius doctor Eirin Yagokoro receive them with gracious, layered hospitality — the kind that is also surveillance.
+Then it gets worse.
 
-**Eirin's Revelation:** Eirin knew the barrier crack was coming. Lunarian science tracked the tower's structural interference with the Great Barrier weeks in advance. She anticipated outsider arrivals. The players are examined (medically, gently, without their consent being particularly asked), fed, and given clean clothes.
-
-**What Reisen Explains:**
-- The Bamboo Forest: dangerous to outsiders; they were lucky Eientei was watching
-- Gensokyo's sealed nature and the Barrier
-- The tower: Eientei has been studying it remotely; Eirin's assessment is that it's of scientific origin dressed in mystical aesthetics — which makes it more dangerous, not less
-- The barrier breach: directly tied to Floor 10; Eirin has *data*
-
-**Lore Drop (Eirin, directly):**
-*"The tower has been weakening the Hakurei Barrier since it appeared — gradually, structurally. When Miss Hakurei reached the 10th Floor, she triggered a resonance point built into the tower's architecture. The boundary thinned for approximately forty seconds. You came through in that window. The question isn't how you arrived. The question is whether the tower did this intentionally."*
-
-**Companion Offer:** Reisen accompanies them — Eirin assigns her, essentially. Reisen is capable, responsible, slightly prone to panic under pressure, and deeply knowledgeable about Gensokyo's hidden workings.
+The windows rattle. Something on a shelf falls. The sound from outside — the normal sounds of a school in the afternoon, distant voices, the sports club, traffic — cuts off completely, replaced by a low hum that shouldn't be coming from anywhere.
 
 ---
 
-## THE TOWER BASE — BOUNDARY BAZAAR
+> **DM:** This is real, and it is escalating. What do you do?
 
-*"By the time the players reach the tower, they will find it is not standing alone. The tower arrived and the world reorganized around it."*
+*Allow the players to act. Running into the hall, hiding under desks, heading toward Lab 3 — all valid. Track where they physically are when the next beat happens.*
 
-The tower's arrival transformed a wide clearing at Gensokyo's heart into something unprecedented: a permanent, semi-organized economic zone. No one planned it. It simply happened — the way markets always happen when people want things and other people want to sell.
-
-Tents. Stalls. Permanent structures going up week by week. The smell of cooking, magic, wood shavings, and money. Climbers coming and going through the tower's great entrance. Teams arguing over strategy. Spectators making bets.
-
-The Companion who guides the players here will remark: *"It wasn't like this before the tower. It grew. Like the tower wanted witnesses."*
+*Note: whatever they are carrying on their person at this moment is what they bring with them.*
 
 ---
 
+## SCENE 4 — THE RIFT
 
-## HOW TOWER BASE RESIDENTS REACT TO ISEKAI'D PLAYERS
+It opens in the floor.
 
-**General Human Villagers passing through:** Curious, cautious. Outsiders aren't completely unheard of, but students in school uniforms are unusual. They'll talk, but won't trust.
+Not in Lab 3. Not where Chiyuri's equipment is. Right here. In the middle of the ordinary classroom floor, between the rows of ordinary desks, a seam of light splits the linoleum like something on the other side is pushing through.
 
-**Youkai merchants/operators:** Treat them as customers first. What you can pay for, you can have. What you can't pay for, they won't give. No charity — but no hostility either, unless provoked.
+It is approximately one meter across and growing.
 
-**The Companion:** Speaks for them in early interactions, vouches for their non-threat status, and occasionally has to prevent them from accidentally offending someone.
+It looks like static. It looks like a hole in the sky. It looks like nothing that has a name in any language currently being taught at this school.
 
-**Established Climber Teams:** Sized them up immediately. They look weak. They'll be watched to see if that changes.
-
-**The Tower Announcer (Hologram):** Does not appear at the base — only activates inside. However, on Day 1, when the players first approach the tower entrance, the announcer's hologram briefly flickers into existence outside — unprecedented. It looks directly at them. It says nothing. It disappears.
+It is very bright. It is very loud — a high, resonant tone that you feel behind your back teeth. And it is pulling. Not physically, not yet, but the way a thought pulls at you right before you make a decision you can't take back.
 
 ---
+
+> **DM:** It's right there. You have maybe ten seconds before it stabilizes or closes or does something else entirely. What do you do?
+
+*If they jump in: they go through.*
+*If they hesitate and get pulled: they go through.*
+*If they try to run: the hum intensifies, the pull becomes physical, they go through.*
+
+*They go through.*
+
+---
+
+> **DM NOTE — ITEMS:**
+> Whatever the players describe doing in Scenes 1–3 determines what they have on them.
+> Shuu: Phone (dying battery), anything a delinquent would reasonably pocket.
+> IronAngel: Phone, school bag if they grabbed it, whatever a practiced slacker keeps within arm's reach.
+> Decide with the players before Scene 4 closes. Be fair. Be specific.
+
+---
+
+## AFTER — LANDING
+
+*They land wherever you've decided — Human Village, Youkai Mountain, Scarlet Devil Mansion, or Eientei.*
+
+*They land together. Mostly.*
+
+*One of them lands slightly apart. Or they all land together, but when they look around — really look — they might notice something that doesn't quite add up. A shadow that doesn't have anyone to cast it. A footprint in the dust that isn't theirs and isn't each other's.*
+
+*Mari is there. She's always been there.*
+
+*They just keep forgetting.*

@@ -1,23 +1,24 @@
-**Operator:** Lunasa, Merlin, and Lyrica Prismriver (with occasional Raiko appearances)
+## PRISMRIVER STAGE — Entertainment & Morale
+*"They don't need to know what the music does to them. They just need to feel it."*
 
+**Operators:** Lunasa, Merlin, and Lyrica Prismriver *(with occasional Raiko Horikawa appearances)*
 
-**Mechanical Effect:** Listening to a full performance before entering the tower (15 minutes) grants one use of Bardic Inspiration that expires at session end.
+Attending a complete performance (15 minutes) before entering the tower grants **one use of Bardic Inspiration** that expires at session end. The quality of that inspiration scales with cumulative donations to the stage.
 
-Optional Leave tips
-Hidden Mechanic
-The more donated gold
-the higher the bardic die that will be received
-Threshold Total donated (DM will adjust price later)
-0gp = 1d4
-500gp = 1d6
-1000gp = 1d8
-5000gp = 1d10
-10000gp = 1d12
-100000gp = 1d20
+**Donation Thresholds** *(cumulative total — all sources, all sessions)*:
+| Donated Total | Bardic Inspiration Die |
+|---|---|
+| 0gp | 1d4 |
+| 1,000gp | 1d6 |
+| 3,000gp | 1d8 |
+| 5,000gp | 1d10 |
+| 10,000gp | 1d12 |
+| 20,000gp | 1d20 |
 
-Current Total Donated
-0gp
+**Current Total Donated:** 0gp
+**Current Die:** 1d4
 
-
-When the party sees them for the first time they will talk to one another saying they finally managed to afford new musical instruments and that they can finally perform again
-
+**Notes:**
+- The total increases naturally over time from other climbers — players don't need to fund it alone (DM sets pace)
+- When Raiko appears, the current die increases by one step for that session only; she does not announce her visits
+- Donations are tracked cumulatively and never reset

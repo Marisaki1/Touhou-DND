@@ -9,8 +9,6 @@ The social heart of the hub. Miyoi runs a clean, welcoming establishment. She is
 | Room | Cost | Benefit |
 |---|---|---|
 | Basic Room | 5gp | Standard long rest |
-| Premium Room | 200gp | Long rest + one Inspiration die usable next session *(Locked)* |
-| Shrine Room | 300gp | Long rest + advantage on next saving throw vs. curse or charm *(Locked)* |
 
 **Meals:**
 | Meal | Effect | Price |
@@ -22,3 +20,56 @@ The social heart of the hub. Miyoi runs a clean, welcoming establishment. She is
 **Notes:**
 - Miyoi remembers every regular and what they usually order
 - Local gossip flows freely at the bar — conversations here may yield rumors (DM discretion)
+
+
+
+
+| Premium Room | 200gp | Long rest + one Inspiration die usable next session *(Locked)* |
+| Shrine Room | 300gp | Long rest + advantage on next saving throw vs. curse or charm *(Locked)* |
+
+
+Miyoi wipes down the counter with a practiced hand, setting a coaster in front of you. "If you're looking for the Special, you're in for a treat—or at least a story. I never make it the same way twice. It depends on what the local hunters brought in, what's growing behind the shrine, and... well, who else is 'sitting' at the bar."
+
+
+### Miyoi’s Special: The Three-Dice Spread
+
+To determine the result of your meal, roll your dice and consult the tables below.
+
+---
+
+#### Die 1: The Main Course (d12)
+| Roll | Dish | Description |
+|:---:|---|---|
+| **1-2** | **Phantom Stir-fry** | Translucent vegetables that crunch despite being invisible. |
+| **3-4** | **Forest Boar Stew** | Slow-cooked for 14 hours with root vegetables. |
+| **5-6** | **River-Gold Trout** | Flash-seared with a glaze made from local honey. |
+| **7-8** | **Deep-Fried Tofu Skewers** | Crispy, golden, and surprisingly heavy. |
+| **9-10** | **Miyoi’s Mystery Miso** | A rich, cloudy soup. You swear you see a face in the steam. |
+| **11-12** | **The 'Everything' Bowl** | A chaotic mix of whatever was freshest this morning. |
+
+---
+
+
+#### Die 4: The Culinary Benefit (d6)
+*Miyoi is a great listener, and her food reflects that care. Choose one benefit based on your roll.*
+
+| Roll | The Benefit | 
+|:---:|---|
+| **1** | **Deeply Happy** |  
+| **2** | **Unexpectedly Sad** |
+| **3** | **Extremely Energetic** | 
+| **4** | **Perfectly Relaxed** | 
+| **5** | **Strangely Quiet** |
+| **6** | **Bravely Bold** | 
+
+
+#### Die 3: The Spice Level (1-5)
+| Roll | Heat Level | Mechanical Consequence |
+|:---:|---|---|
+| **1** | **Mild** |  |
+| **2** | **Zesty** | |
+| **3** | **Sharp** | |
+| **4** | **Blazing** |  |
+| **5** | **Unbearable** | Roll a DC 13 Constitution Save. On a fail, you are *Stunned* for 1 minute as you transcend space and time. On a success, your next melee attack deals an extra $1d6$ fire damage. |
+
+---

@@ -1,0 +1,97 @@
+Welcome to **Floor 2: The Labyrinth of Eientei**. This floor is designed to be a test your luck or mind
+
+---
+
+## 🏁 Objective: Exorcise the Phantom
+The Phantom is a manifestation of moonlight and regret. It is hiding somewhere and its your job to find it and defeat it. 
+
+**The Weakness:** It is immune to all except radiant.
+
+---
+
+## 🔫 The Arsenal: White Bullets & Tools
+The players start with **White Bullets** (Spirit Pellets). These deal |3d6| radiant damage to ghosts but cannot be thrown by hand with any accuracy. They need a delivery system.
+
+### 1. The Toy Gun (The Precise Option) (DM Discretion when to be called)
+Hidden in a shifting cabinet or held by a frozen statue. Finding it requires a successful check based on how the players search:
+* **Strength (Athletics):** Prying open a jammed, enchanted vault door where the gun is displayed.
+* **Dexterity (Sleight of Hand):** Snatching it from a pedestal before a pressure plate triggers a trap.
+* **Intelligence (Investigation):** Solving a sliding-tile puzzle on a wall that reveals a hidden compartment.
+* **Wisdom (Perception):** You notice a slight draft behind a hanging scroll; the gun is tucked behind it.
+
+### 2. The Slingshot (The Craftable Option) (DM Discretion when to be called)
+If the players can’t find the gun, they can make a Slingshot.
+* **Materials:** Bamboo sticks + Elastic Bandage 
+The hourai branch can be used as a makeshift slingshot
+
+
+### **The Grand Architecture (The Patterns)**
+The floor consists of 100 numbered doors. Players start at room 1 and can look at a door number before turning the handle. The properties of the room are determined *exclusively* by the digits painted on the door.
+
+#### **1. The Wraiths (3 Rooms) — Pattern: The Lunar Orbit**
+
+The Eientei Wraiths are tied to the moon's sidereal orbit (27.3 days). Therefore, the Wraiths hide exclusively in rooms that are **multiples of 27**.
+* **The Rooms:** **27, 54, and 81**
+* **The Mechanic:** There is no chase. The Wraiths are dormant, lingering in the center of these specific rooms. If players enter early and attack without the Toy Gun + White Bullets, the Wraith takes the hit, laughs, and phases into the floor, reforming in the same room 10 minutes later. Once they have the Gun, they just enter the room, blast it to anchor it, and execute it. 
+
+#### **2. The Mimic Tea Rooms (17 Rooms) — Pattern: The Fractured Digits**
+Mimics disguise themselves as standard rooms, but their door numbers are "fractured." A door hides a Mimic if it is a **two-digit number where the absolute difference between the two digits is exactly 4 or 5.**
+* **The Math:** If |X| and |Y| are the digits, ||X - Y| = 4| or |5|.
+* **The Rooms (Difference of 4):** 15, 26, 37, 48, 51, 59, 62, 73, 84, 95
+* **The Rooms (Difference of 5):** 16, 38, 49, 61, 72, 83, 94
+    * *(Note: 27 has a difference of 5, but the Wraith pattern overrides the Mimic pattern).*
+* **The Mechanic:** The moment they step inside these rooms, the door vanishes, and the furniture attacks. 
+
+#### **3. The Normal Tea Rooms (40 Rooms) — Pattern: The Even Sums**
+Empty, repeating tea rooms meant to exhaust the party. A door is a Normal Room if it is not a Wraith or Mimic, and **the sum of its digits equals an EVEN number.**
+* **The Math:** E.g., Room 11 (|1+1=2|, Even), Room 35 (|3+5=8|, Even). 
+* **The Mechanic:** Nothing is here except cold tea and dead ends. Players can rest safely here, but finding nothing builds paranoia.
+
+#### **4. The Unique Rooms (40 Rooms) — Pattern: The Odd Sums**
+These rooms hold the Toy Gun parts, the White Bullets, and most importantly, the clues. A door is a Unique Room if it is not a Wraith or Mimic, and **the sum of its digits equals an ODD number.** * **The Math:** E.g., Room 12 (|1+2=3|, Odd), Room 90 (|9+0=9|, Odd), Room 100 (|1+0+0=1|, Odd). 
+* **The Mechanic:** This creates a strict dichotomy. If the digits add up to an Even number, it’s useless. If they add up to an Odd number, there is something valuable inside.
+
+---
+
+### **How to Run the Floor (The Clue System) DM Discretion on when to use**
+You do not tell the players these rules. They must figure them out by finding "Eientei Architectural Notes" scattered throughout the **Unique Rooms**. Here are the exact clues you give them to help them crack the 100-door cipher:
+
+**Clue 1: Finding the Wraiths**
+>  (A dusty observatory with lunar charts).
+> "The Phantoms are tethered to the moon’s orbit. They anchor themselves in the cycle. To find them, count exactly twenty-seven paces, and then twenty-seven again. They wait in the dark of the multiples."
+
+**Clue 2: Avoiding the Mimics**
+>  (A library filled with ripped books).
+> "Beware the fractured doors. If the first digit and the second digit stand exactly four steps apart, the room has teeth. 15 will bite you. Do not open the fractured numbers."
+
+**Clue 3: Sorting the Unique from the Normal**
+> *Found in Room 30 (A tea room where the cups are cut perfectly in half).*
+> "Balance brings only silence. If you add a door's numbers together and they divide cleanly in half, the room holds nothing but cold tea. Seek the unbalanced sums. The odd additions hide our treasures."
+
+**Clue 4: 
+> "Beware the fractured doors. If the first digit and the second digit stand exactly five steps apart, the room has teeth. 38 will eat you alive. Do not open the fractured numbers."
+
+**Clue 5:
+> "If the room you found is dangerous then the reverse of it is also dangerous
+
+Clue 6:
+> "Twins are always normal"
+
+Clue 7:
+> Moving 11 spaces ahead changes nothing most of the time
+
+
+---
+
+### **Gameplay Flow:**
+1.  **The Start:** Drop them at random doors normal tea rooms but it has a chest with a White Bullet.
+2.  **The Test:** They walk down the hall to Door 15. The sum is 6 (Even, so they think it's Normal), but the difference between 1 and 5 is **4**. If they walk in, it's a Mimic. 
+3.  **The Hunt:** They will eventually realize they need to find rooms **27, 54, and 81**. They must navigate the hallway, ignoring the Even-Sum doors to save time, dodging the "Difference of 4 or 5" doors to avoid mimics, and looting the Odd-Sum doors to build the Toy Gun.
+4.  **The Exorcism:** Once they build the gun, they go back to the Wraith rooms they mapped out. They kick open door 54, shoot the Wraith to anchor it, kill it, and move to the next.
+
+This creates a highly structured puzzle. The players will literally have a notepad out, doing basic arithmetic on the door numbers before they touch the handles. It turns a standard dungeon crawl into a paranoid, intellectual manhunt.
+
+
+## To be used when a player rolls a NAT 20
+Admin Note: Room 73 is currently experiencing a logic loop. While the 'Fractured Digit' security protocol (|7-3=4|) is active, the 'Mimic_Entity' has been overwritten by !@#$%^&*()_+
+Warning: Do not attempt to 'fix' the bug. The Leader is currently using the Mimic's digestive tract to power a supercomputer. If you need the High-Frequency Lens for the Toy Gun, you’ll have to enter the 'Death Door'

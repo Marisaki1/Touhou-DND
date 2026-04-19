@@ -1,0 +1,62 @@
+Objective
+Find a Peach
+
+Be careful there are various guards around each area. With varying difficulty
+
+Strength Stealth
+Dexterity Stealth
+Wisdom Stealth
+
+Look through a window of an obelisk/tower to see everything around you.
+Can be used by anyone.
+Can only be used one at a time even if there is multiple towers.
+It takes 10 minutes to use
+
+
+
+Layout
+
+A Hexagonal shape starting point with 6 different directions leading to different areas.
+
+To complete the floor they must find the golden peach.
+
+Will need to succeed various checks in each areas while also avoiding patrol guards.
+
+Only 1 may do the check. A failure will require the player to fight off the guards and run back to the center.
+
+Each check will be assigned a random set of minutes that is needed to perform. A Nat 1 will double the time of attempt while a NAT 20 will halve the time needed.
+
+Make either an ability check 1d6
+1) Strength
+2) Dexterity
+3) Constitution
+4) Intelligence
+5) Wisdom
+6) Charisma
+
+Or 3 random skill check  3d18
+1) Athletics
+2) Acrobatics
+3) Sleight of Hand
+4) Stealth
+5) Arcana
+6) History
+7) Investigation
+8) Nature
+9) Religion
+10) Animal Handling
+11) Insight
+12) Medicine
+13) Perception
+14) Survival
+15) Deception
+16) Intimidation
+17) Performance
+18) Persuasion
+
+
+A random trap event to each area every 30 minutes.
+
+Different trap list 20 at least
+
+

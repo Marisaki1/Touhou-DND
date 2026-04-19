@@ -1,0 +1,209 @@
+Here's the improved version with the Masked Girl's announcement woven in at the top:
+
+---
+
+# FLOOR 2: THE LABYRINTH OF EIENTEI
+*"One hundred doors. Most of them are lying to you."*
+
+---
+
+## Tower Entry
+
+Before the door opens, the Masked Girl's voice arrives first.
+
+**Masked Girl:** *"Welcome back, dearest climbers. I hope Floor 1 was a sufficient warm-up — fairies are, after all, rather easy to bribe."*
+
+*[A pause. She sounds almost fond of this.]*
+
+*"Floor 2 is a little different. Somewhere inside this floor, a Phantom is hiding. It is made of moonlight and old regret, and it would very much prefer not to be found. Your task is simple: find it, and exorcise it.*
+
+*"You'll be given something to help with that. Whether you know how to use it is another matter entirely.*
+
+*"One last thing — the floor has... opinions about arithmetic. I suggest you pay attention to the doors.*
+
+*"Good luck. ♪"*
+
+*[She steps aside.]*
+
+---
+
+## Objective: Exorcise the Phantom
+
+The Phantom is a manifestation of moonlight and accumulated regret. It does not fight — it hides. The party must locate and exorcise it.
+
+**The Weakness:** The Phantom is immune to all damage types except radiant.
+
+---
+
+## The Arsenal: White Bullets & Delivery Systems
+
+Upon entering, each player finds a small pouch waiting by the first door. Inside: **White Bullets** — Spirit Pellets that deal **3d6 radiant damage** to spectral entities. They glow faintly and smell faintly of antiseptic.
+
+The problem is accuracy. A White Bullet thrown bare-handed goes where it wants to. To hit something, the party needs a delivery system.
+
+### Option 1 — The Toy Gun *(Precise)*
+A proper launcher, hidden somewhere on the floor. Finding it depends entirely on how the party searches:
+
+| Approach | Check | Description |
+|---|---|---|
+| Force it open | Strength (Athletics) | Prying apart an enchanted vault where the gun sits displayed like a museum piece |
+| Grab it fast | Dexterity (Sleight of Hand) | Snatching it off a pressure-plate pedestal before the trap resets |
+| Solve your way in | Intelligence (Investigation) | A sliding-tile puzzle on the wall conceals a hidden compartment |
+| Notice the draft | Wisdom (Perception) | A hanging scroll shifts slightly in a breeze that shouldn't exist |
+
+**DM Note:** The gun is a single object. Whichever method the party uses first, that's where it is. Commit to it.
+
+### Option 2 — The Slingshot *(Craftable)*
+If the gun stays elusive, the party can improvise. A **hourai branch** found in any Unique Room (see below) makes a passable frame. Combine it with an **elastic bandage** from the floor's scattered supplies, and you have something that fires.
+
+It's less accurate than the gun. But it works.
+
+---
+
+## The Grand Architecture: Reading the Doors
+
+The floor is a single winding corridor of **one hundred numbered doors**. Every door has its number painted on it. Every number tells the truth about what's inside — if the party knows how to read it.
+
+**The properties of a room are determined entirely by its door number.** The party can examine a door before touching the handle.
+
+---
+
+### Category 1 — The Wraith Rooms *(3 rooms)*
+**Pattern: Multiples of 27**
+
+The Eientei Phantoms are bound to the moon's sidereal orbit: 27.3 days. They anchor themselves at regular intervals.
+
+**Wraith Rooms: 27, 54, and 81**
+
+The Wraiths are not aggressive — they are dormant, hovering in the center of their rooms like they've been waiting a very long time. Attacking without the White Bullet delivery system does nothing useful; the Wraith absorbs the hit, produces what sounds like a laugh, and phases into the floor. It reforms in the same room ten minutes later. Once the party has the gun or slingshot, the process is straightforward: enter, anchor the Wraith with a White Bullet, then finish it.
+
+There are three Wraiths. All three must be exorcised to clear the floor.
+
+---
+
+### Category 2 — The Mimic Rooms *(17 rooms)*
+**Pattern: Two-digit numbers where the absolute difference between the two digits is exactly 4 or 5**
+
+Mimics are the floor's primary hazard. They disguise themselves as ordinary rooms perfectly — until the door closes behind you and the furniture wakes up.
+
+**The Math:** For a door number XY, calculate |X − Y|. If the result is 4 or 5, the room has teeth.
+
+| Difference of 4 | 15, 26, 37, 48, 51, 59, 62, 73, 84, 95 |
+|---|---|
+| Difference of 5 | 16, 38, 49, 61, 72, 83, 94 |
+
+**Note:** Room 27 would qualify by the difference-of-5 rule, but the Wraith pattern takes precedence. The Mimic that should be there was evicted.
+
+The moment a player steps inside a Mimic Room, the door vanishes. The furniture attacks.
+
+---
+
+### Category 3 — Normal Tea Rooms *(~40 rooms)*
+**Pattern: Non-Wraith, non-Mimic rooms where the digit sum is even**
+
+Empty. Repeating. Cold tea, faded cushions, nothing of value. These rooms exist to build paranoia and drain time. The party can rest in them safely — there is nothing here to interrupt a short rest. There is also nothing here to reward one.
+
+**The Math:** Room 11 → 1+1=2, even. Room 35 → 3+5=8, even. Normal.
+
+---
+
+### Category 4 — Unique Rooms *(~40 rooms)*
+**Pattern: Non-Wraith, non-Mimic rooms where the digit sum is odd**
+
+These are the rooms that matter. The Toy Gun, the White Bullets, the crafting materials, and all of the floor's clues are distributed across the Unique Rooms.
+
+**The Math:** Room 12 → 1+2=3, odd. Room 90 → 9+0=9, odd. Room 100 → 1+0+0=1, odd. Unique.
+
+If the digit sum is even, there's nothing inside. If it's odd, there's something worth finding.
+
+---
+
+## The Clue System: Eientei Architectural Notes
+
+The party will not be told the rules above. They must find them.
+
+Scattered throughout the Unique Rooms are handwritten notes — official-looking, in precise brushwork, as though someone documented all of this and expected it to be found.
+
+**DM Note:** Release these at your discretion. Don't give them all at once. Let the party develop theories between clues.
+
+---
+
+**Clue 1 — The Wraiths** *(found in a dusty observatory scattered with lunar charts)*
+
+> *"The Phantoms are tethered to the moon's orbit. They anchor themselves in the cycle. To find them, count exactly twenty-seven paces, and then twenty-seven again. They wait in the dark of the multiples."*
+
+---
+
+**Clue 2 — The Mimics (Part 1)** *(found in a library where every book has been torn open at the spine)*
+
+> *"Beware the fractured doors. If the first digit and the second digit stand exactly four steps apart, the room has teeth. Fifteen will bite you. Do not open the fractured numbers."*
+
+---
+
+**Clue 3 — Sorting the Rooms** *(found in Room 30 — a tea room where every cup has been cut in half)*
+
+> *"Balance brings only silence. If you add a door's numbers together and they divide cleanly in half, the room holds nothing but cold tea. Seek the unbalanced sums. The odd additions hide our treasures."*
+
+---
+
+**Clue 4 — The Mimics (Part 2)**
+
+> *"Beware the fractured doors. If the first digit and the second digit stand exactly five steps apart, the room has teeth. Thirty-eight will eat you alive. Do not open the fractured numbers."*
+
+---
+
+**Clue 5 — Symmetry**
+
+> *"If the room you found is dangerous, its mirror is dangerous too."*
+
+---
+
+**Clue 6 — Twins**
+
+> *"Twins are always normal."*
+
+*(Rooms with matching digits — 11, 22, 33, etc. — are always safe tea rooms.)*
+
+---
+
+**Clue 7 — The Shift**
+
+> *"Moving eleven spaces ahead changes nothing, most of the time."*
+
+---
+
+## Gameplay Flow
+
+**The Start:** The party enters into a hallway of ordinary-looking doors. The first room — wherever they begin — is a Normal Tea Room with a single unlocked chest inside. It contains one White Bullet and nothing else.
+
+**The First Test:** They will eventually reach Door 15. The digit sum is 6 — even, so they might assume it's normal. But 5 minus 1 is 4. If they open it, the Mimic engages. This is the floor teaching them that two rules exist, and they cannot apply only one.
+
+**The Hunt:** Once the logic clicks, the dungeon becomes a methodical exercise. Even sums mean nothing. Difference-of-4-or-5 means danger. Odd sums mean progress. The Wraiths wait at 27, 54, and 81 — visible on any map the party constructs, unreachable until they have bullets that work.
+
+**The Exorcism:** Three rooms. Three Wraiths. The party picks the order. Each one is anchored and destroyed the same way. The floor clears when the last Wraith is exorcised.
+
+---
+
+## Special Event — NAT 20 Discovery
+
+*Use only if a player rolls a natural 20 while investigating the corridor.*
+
+The party's attention is drawn to a small placard mounted beside Door 73. It reads, in very small type:
+
+> **ADMIN NOTE:** *Room 73 is currently experiencing a logic loop. While the 'Fractured Digit' security protocol (|7−3|=4) is active, the Mimic_Entity assigned to this room has been overwritten by* !@#$%^&*()_+
+>
+> *Warning: Do not attempt to correct the bug. The Supervisor is currently utilizing the Mimic's digestive tract to power an auxiliary supercomputer.*
+>
+> *If you require the High-Frequency Lens component for the Toy Gun, you will need to enter the Death Door.*
+>
+> *— Maintenance, probably*
+
+**DM Note:** Room 73 is technically a Mimic Room by the fractured-digit rule — but the note is accurate. What's inside is not a Mimic. It's something stranger. The High-Frequency Lens is a legitimate Toy Gun upgrade component; whether the party recovers it from whatever has replaced the Mimic is up to you.
+
+---
+
+*[Floor 2 complete. Continues to Chapter 3: Floor 3 TBD]*
+
+---
+
+The main changes: the Masked Girl opens with a proper announcement that teases the objective, the arithmetic puzzle, and the tone of the floor without giving anything away. The room categories and clue system got cleaned up into consistent prose and table formatting that matches Chapter 1's style, and the NAT 20 note is now framed as an in-world maintenance placard rather than a raw admin aside.

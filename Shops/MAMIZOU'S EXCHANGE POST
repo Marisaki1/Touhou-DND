@@ -13,7 +13,7 @@ Players may trade one item for a comparable item of equivalent type and enhancem
 |---|---|
 | Same enhancement tier required | A +1 for a +1; a +2 for a +2 |
 | Processing time | 1–3 days for the replacement to arrive |
-| Commission fee | 5% of the item's value (minimum 1gp) |
+| Commission fee | 20% of the item's value (minimum 1gp) |
 | Multi-party trades | Possible; Mamizou negotiates on behalf of all parties |
 
 **Additional Services:**
@@ -37,7 +37,6 @@ Players may trade one item for a comparable item of equivalent type and enhancem
 | Greatclub | 1d8 Bludgeoning | Two-Handed | Push | 10 lb. | 2 SP |
 | Handaxe | 1d6 Slashing | Light, Thrown (Range 20/60) | Vex | 2 lb. | 5 GP |
 | Javelin | 1d6 Piercing | Thrown (Range 30/120) | Slow | 2 lb. | 5 SP |
-| Light Hammer | 1d4 Bludgeoning | Light, Thrown (Range 20/60) | Nick | 2 lb. | 2 GP |
 | Mace | 1d6 Bludgeoning | — | Sap | 4 lb. | 5 GP |
 | Quarterstaff | 1d6 Bludgeoning | Versatile (1d8) | Topple | 4 lb. | 2 SP |
 | Spear | 1d6 Piercing | Thrown (Range 20/60), Versatile (1d8) | Sap | 3 lb. | 1 GP |
@@ -58,8 +57,14 @@ Players may trade one item for a comparable item of equivalent type and enhancem
 | Name | Damage | Properties | Mastery | Weight | Cost |
 |------|--------|------------|---------|--------|------|
 | Battleaxe | 1d8 Slashing | Versatile (1d10) | Topple | 4 lb. | 10 GP |
-| Greataxe | 1d12 Slashing | Heavy, Two-Handed | Cleave | 7 lb. | 30 GP |
+| Flail | 1d8 Bludgeoning | — | Sap | 2 lb. | 10 GP |
+| Morningstar | 1d8 Piercing | — | Sap | 4 lb. | 15 GP |
+| Trident | 1d8 Piercing | Thrown (Range 20/60), Versatile (1d10) | Topple | 4 lb. | 5 GP |
 | Warhammer | 1d8 Bludgeoning | Versatile (1d10) | Push | 5 lb. | 15 GP |
+| War Pick | 1d8 Piercing | Versatile (1d10) | Sap | 2 lb. | 5 GP |
+| Halberd | 1d10 Slashing | Heavy, Reach, Two-Handed | Cleave | 6 lb. | 20 GP |
+| Scimitar | 1d6 Slashing | Finesse, Light | Nick | 3 lb. | 25 GP |
+
 ### Martial Ranged Weapons
 
 | Name | Damage | Properties | Mastery | Weight | Cost |
@@ -82,7 +87,6 @@ Players may trade one item for a comparable item of equivalent type and enhancem
 
 | Armor | Armor Class (AC) | Strength | Stealth | Weight | Cost |
 |-------|-----------------|----------|---------|--------|------|
-| Hide Armor | 12 + Dex modifier (max 2) | — | — | 12 lb. | 10 GP |
 | Chain Shirt | 13 + Dex modifier (max 2) | — | — | 20 lb. | 50 GP |
 
 ### Heavy Armor *(10 Minutes to Don and 5 Minutes to Doff)*
@@ -90,12 +94,12 @@ Players may trade one item for a comparable item of equivalent type and enhancem
 | Armor | Armor Class (AC) | Strength | Stealth | Weight | Cost |
 |-------|-----------------|----------|---------|--------|------|
 | Ring Mail | 14 | — | Disadvantage | 40 lb. | 30 GP |
+| Breastplate | 14 + Dex modifier (max 2) | — | — | 20 lb. | 400 GP |
 
 ### Shield *(Utilize Action to Don or Doff)*
 
 | Armor | Armor Class (AC) | Strength | Stealth | Weight | Cost |
 |-------|-----------------|----------|---------|--------|------|
-| Shield | +2 | — | — | 6 lb. | 10 GP |
 
 
 
@@ -109,7 +113,7 @@ Byron:
 
 
 
-
+Mamizou: "It's not directly for sale but there is climber that is exchanging her +2 heavy armor for a +2 light armor"
 
 
 
@@ -217,3 +221,78 @@ Byron:
 | Armor | Armor Class (AC) | Strength | Stealth | Weight | Cost |
 |-------|-----------------|----------|---------|--------|------|
 | Shield | +2 | — | — | 6 lb. | 10 GP |
+
+
+
+| Name | Damage | Properties | Mastery | Weight | Cost |
+|------|--------|------------|---------|--------|------|
+| Battleaxe | 1d8 Slashing | Versatile (1d10) | Topple | 4 lb. | 10 GP |
+| Flail | 1d8 Bludgeoning | — | Sap | 2 lb. | 10 GP |
+| Glaive | 1d10 Slashing | Heavy, Reach, Two-Handed | Graze | 6 lb. | 20 GP |
+| Greataxe | 1d12 Slashing | Heavy, Two-Handed | Cleave | 7 lb. | 30 GP |
+| Greatsword | 2d6 Slashing | Heavy, Two-Handed | Graze | 6 lb. | 50 GP |
+| Lance | 1d10 Piercing | Heavy, Reach, Two-Handed (unless mounted) | Topple | 6 lb. | 10 GP |
+| Longsword | 1d8 Slashing | Versatile (1d10) | Sap | 3 lb. | 15 GP |
+| Maul | 2d6 Bludgeoning | Heavy, Two-Handed | Topple | 10 lb. | 10 GP |
+| Morningstar | 1d8 Piercing | — | Sap | 4 lb. | 15 GP |
+| Pike | 1d10 Piercing | Heavy, Reach, Two-Handed | Push | 18 lb. | 5 GP |
+| Rapier | 1d8 Piercing | Finesse | Vex | 2 lb. | 25 GP |
+| Shortsword | 1d6 Piercing | Finesse, Light | Vex | 2 lb. | 10 GP |
+| Trident | 1d8 Piercing | Thrown (Range 20/60), Versatile (1d10) | Topple | 4 lb. | 5 GP |
+| Warhammer | 1d8 Bludgeoning | Versatile (1d10) | Push | 5 lb. | 15 GP |
+| War Pick | 1d8 Piercing | Versatile (1d10) | Sap | 2 lb. | 5 GP |
+| Whip | 1d4 Slashing | Finesse, Reach | Slow | 3 lb. | 2 GP |
+
+
+
+
+
+
+
+# ⚔️ Mamizou's Exchange — Enchanted Weapon Roster
+
+*All items listed are +1 (attack roll and damage). Additional effects noted below.*
+
+---
+
+## 🗡️ Martial Melee
+
+| Item Name | Weapon | Additional Effect |
+|---|---|---|
+| **Ashfang Battleaxe +1** | Battleaxe | +1 to attack rolls and damage. Deals an additional 1 fire damage on hit. |
+| **Rattleskull Flail +1** | Flail | +1 to attack rolls and damage. Deals an additional 1 necrotic damage on hit. |
+| **Galewhisper Glaive +1** | Glaive | +1 to attack rolls and damage. Deals an additional 1 thunder damage on hit. |
+| **Bonecleaver Greataxe +1** | Greataxe | +1 to attack rolls and damage. Once per long rest, cast *Inflict Wounds* (1st level). |
+| **Voidedge Greatsword +1** | Greatsword | +1 to attack rolls and damage. Deals an additional 1 psychic damage on hit. |
+| **Tidecaller Halberd +1** | Halberd | +1 to attack rolls and damage. Deals an additional 1 cold damage on hit. |
+| **Ironvow Lance +1** | Lance | +1 to attack rolls and damage. Once per long rest, cast *Compelled Duel*. |
+| **Dawnbreaker Longsword +1** | Longsword | +1 to attack rolls and damage. Sheds dim light in a 10 ft. radius. Deals an additional 1 radiant damage on hit. |
+| **Grudgekeeper Maul +1** | Maul | +1 to attack rolls and damage. Once per long rest, cast *Thunderwave* (1st level, DC 13). |
+| **Venomthorn Morningstar +1** | Morningstar | +1 to attack rolls and damage. Deals an additional 1 poison damage on hit. |
+| **Stormspike Pike +1** | Pike | +1 to attack rolls and damage. Deals an additional 1 lightning damage on hit. |
+| **Mirrorfang Rapier +1** | Rapier | +1 to attack rolls and damage. Once per long rest, cast *Blur* on yourself. |
+| **Emberstep Scimitar +1** | Scimitar | +1 to attack rolls and damage. Deals an additional 1 fire damage on hit. |
+| **Ghostwhisper Shortsword +1** | Shortsword | +1 to attack rolls and damage. Deals an additional 1 psychic damage on hit. |
+| **Tidepull Trident +1** | Trident | +1 to attack rolls and damage. Once per long rest, cast *Create or Destroy Water*. |
+| **Earthshaker Warhammer +1** | Warhammer | +1 to attack rolls and damage. Deals an additional 1 thunder damage on hit. |
+| **Rustvein War Pick +1** | War Pick | +1 to attack rolls and damage. Deals an additional 1 acid damage on hit. |
+| **Thornlash Whip +1** | Whip | +1 to attack rolls and damage. On hit, target must succeed a DC 13 Constitution save or have their speed reduced by 10 ft. until the start of your next turn. |
+
+---
+
+## 🏹 Martial Ranged
+
+| Item Name | Weapon | Additional Effect |
+|---|---|---|
+| **Cindershot Hand Crossbow +1** | Hand Crossbow | +1 to attack rolls and damage. Deals an additional 1 fire damage on hit. |
+| **Frostpiercer Heavy Crossbow +1** | Heavy Crossbow | +1 to attack rolls and damage. Deals an additional 1 cold damage on hit. |
+| **Solarveil Longbow +1** | Longbow | +1 to attack rolls and damage. Once per long rest, cast *Scorching Ray*. |
+| **Needleblight Blowgun +1** | Blowgun | +1 to attack rolls and damage. On hit, target must succeed a DC 13 Constitution save or be **poisoned** until the end of their next turn. |
+| **Thunderlock Musket +1** | Musket | +1 to attack rolls and damage. Once per long rest, cast *Thunderwave* (1st level, DC 13) centered on yourself after firing. |
+| **Ashveil Pistol +1** | Pistol | +1 to attack rolls and damage. Deals an additional 1 necrotic damage on hit. |
+
+---
+
+*All items require attunement unless otherwise noted by Mamizou.*
+
+*Items marked with spell effects follow standard spell rules. All items require attunement unless otherwise noted by Mamizou.*

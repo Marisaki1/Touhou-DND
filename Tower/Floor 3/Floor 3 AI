@@ -1,0 +1,546 @@
+# FLOOR 3: THE LUNAR CAPITAL
+*"The moon doesn't forget. Neither do its guards."*
+
+---
+
+## Tower Entry
+
+The Masked Girl's voice arrives before the door finishes opening.
+
+**Masked Girl:** *"Welcome back, dearest climbers. I do hope Floor 2's arithmetic didn't leave any permanent damage."*
+
+*[A brief pause. She sounds almost genuinely curious about the next part.]*
+
+*"Floor 3 is a little more... spatial. You'll be searching the grounds of a Lunar estate for something that was very deliberately hidden. The estate is large. The guards are attentive. And I'm told the view from the obelisk in the center is quite lovely, if you have the patience for it.*
+
+*"You're looking for a Golden Peach. You'll know it when you see it. Whether you can get to it is another matter entirely.*
+
+*"One small note — the estate operates on a schedule. I would recommend keeping track of time.*
+
+*"Good luck. ♪"*
+
+*[She steps aside.]*
+
+---
+
+## Objective: Retrieve the Golden Peach
+
+The Golden Peach is hidden somewhere on the estate grounds. It is not in any of the six main areas. It is in a seventh location — the Crescent Alcove — a narrow passage between Areas 3 and 6 that does not appear on any obvious path. It can only be identified from the Obelisk, and only if a player looks specifically at the spaces between areas rather than the areas themselves.
+
+**Floor Clear Condition:** Return the Golden Peach to the starting hexagonal courtyard.
+
+---
+
+## The Center — The Hexagonal Courtyard
+
+> *The floor opens onto a wide stone courtyard, hexagonal in shape, paved in pale grey with silver veins running through the rock. Six paths branch outward from it, evenly spaced, each one leading into a different part of the estate. The architecture here is clean, almost severe — white walls, arched doorways, lanterns burning with cold blue flame.*
+>
+> *In the very center of the courtyard stands an obelisk of pale stone, perhaps fifteen feet tall. Near its top, at each face, is a narrow arched window. A spiral staircase winds around the outside.*
+>
+> *The courtyard itself is empty. No guards patrol here. It is, for now, a safe zone.*
+
+**The Obelisk:**
+- Climbing and using it takes **10 minutes**
+- From the windows, a player can observe any one area at a time — they must specify which direction they are looking
+- **What it reveals:** The visual character of the area — its obstacle type, guard composition, and the general nature of the check required (see each area's Obelisk entry below)
+- **Information goes stale after 30 minutes** — guard positions shift with the trap cycle, and scouted intel from before the last cycle may no longer be accurate
+- **One at a time** — the staircase is narrow; a second player cannot use it while another is up there
+- **Spotting the Alcove:** If a player specifically asks to look at the space *between* areas rather than the areas themselves, and they are looking between Areas 3 and 6, they may make a **DC 14 Perception check**. On a success, they notice a faint golden shimmer in a narrow gap in the wall — not an area, but a passage. This is the Crescent Alcove.
+
+---
+
+## Guard Types — Lunarian Rabbits
+
+All guards are Lunarian Rabbits: disciplined, precise, and significantly less forgiving than the fairies on Floor 1. They patrol on fixed routes and respond to alert states as a coordinated unit.
+
+---
+
+### Scout Rabbit *(Ranged)*
+*Light armor, silver longbow, moves faster than it looks.*
+
+| Stat | Value |
+|---|---|
+| AC | 13 |
+| HP | 16 |
+| Speed | 35ft |
+| Passive Perception | 14 |
+
+**Lunar Bow:** +4 to hit, 1d6+2 piercing, range 80/320ft.
+**First Sight:** If a Scout spots an intruder from more than 30ft away before engaging, it calls out before attacking — immediately raising the area's alert level by one step before combat begins.
+**Quick Step:** As a bonus action, the Scout can Disengage. It will not chase into the center courtyard.
+
+---
+
+### Sentinel Rabbit *(Melee)*
+*Standard armor, lunar spear and shield, holds position at key chokepoints.*
+
+| Stat | Value |
+|---|---|
+| AC | 15 (chain shirt + shield) |
+| HP | 22 |
+| Speed | 30ft |
+| Passive Perception | 12 |
+
+**Lunar Spear:** +4 to hit, 1d6+2 piercing.
+**Shield Bash:** +4 to hit, 1d4+2 bludgeoning. Target makes DC 13 Strength save or is pushed 5ft and loses their next reaction.
+**Hold the Line:** While adjacent to another Sentinel or Warden, the Sentinel has advantage on saving throws against being moved or knocked prone.
+
+---
+
+### Warden Rabbit *(Tank)*
+*Heavy armor, lunar glaive, anchor of any patrol formation.*
+
+| Stat | Value |
+|---|---|
+| AC | 17 (splint armor) |
+| HP | 35 |
+| Speed | 25ft |
+| Passive Perception | 11 |
+
+**Lunar Glaive:** +5 to hit, 1d10+3 slashing, reach 10ft.
+**Aura of Authority:** All Lunarian Rabbits within 10ft gain +1 to attack rolls.
+**Unyielding:** The Warden cannot be frightened and has advantage on Strength saving throws.
+
+---
+
+## Alert System
+
+Each area has its own alert level, tracked independently. A fight in Area 2 does not automatically affect Area 5, but it may affect adjacent areas depending on how loud it gets.
+
+| Level | State | Effect |
+|---|---|---|
+| 0 | Normal | Standard patrol, standard Passive Perception |
+| 1 | Alerted | Guards move faster; Passive Perception +2; will investigate unusual sounds |
+| 2 | Searching | Guards actively sweep; Stealth DCs increase by 4; Warden joins patrol if not already present |
+
+**Alert drops one level every 15 minutes if nothing further happens.**
+
+**Noise from combat or a failed check in one area raises the alert level of adjacent areas by 1 step.** Players should be aware that a messy Area 2 run will make Area 3 harder for whoever goes next — including the other party if two groups are operating simultaneously.
+
+---
+
+## The 30-Minute Trap Cycle
+
+The estate has a rhythm. Three events rotate in sequence. Players who survive long enough will notice the pattern.
+
+**DM Note:** Track elapsed time from the moment the floor is entered. Trigger events at the listed intervals. If two parties enter at different times, track their personal timers separately — but the environmental events affect the floor as a whole. Both parties feel the same Moonfall even if they entered at different times.
+
+---
+
+### Cycle A — Moonfall *(First trigger: minute 30, then every 90 minutes)*
+
+> *A low resonance passes through the floor. Then, for three minutes, fine silver shards rain down across two randomly chosen areas — not the center.*
+
+Roll 2d6 (1–6 = Area 1–6, reroll duplicates) to determine affected areas. For the duration:
+- Any player in an affected area attempting a check must make a **DC 12 Constitution save** or take 1d4 piercing damage and have their check time **doubled** as they shield themselves
+- Guards in affected areas become **Alerted** (step 1) regardless of prior status
+
+---
+
+### Cycle B — Patrol Surge *(First trigger: minute 60, then every 90 minutes)*
+
+> *Somewhere in the estate, a horn sounds — short, sharp, professional. Footsteps multiply.*
+
+Each area gains **one additional Scout Rabbit** for 20 minutes. After 20 minutes, the Scouts return to barracks and guard compositions return to normal. Areas that were already Alerted remain Alerted.
+
+---
+
+### Cycle C — Silver Fog *(First trigger: minute 90, then every 90 minutes)*
+
+> *A low silver mist rolls in from the edges of the courtyard. It doesn't obscure vision badly, but it thickens the air around the obelisk.*
+
+For 10 minutes, the obelisk takes **15 minutes to use** instead of 10. Passive Perception in the center courtyard drops by 2 (the fog muffles sound and softens edges). Guards do not enter the center, so this primarily affects player scouting decisions.
+
+---
+
+## Walking Times
+
+| Route | Time |
+|---|---|
+| Center to any area (first visit) | 5 minutes |
+| Center to any area (known path) | 3 minutes |
+| Running back to center after a failed check | 3–4 minutes (DM discretion based on guards pursuing) |
+
+---
+
+## Check Resolution
+
+Each area requires a character to succeed on a check to make progress. **Only one character may perform the primary check at a time.** Others may assist (granting advantage) if it logically makes sense, but the assist character is also present and exposed to guard detection.
+
+**Time required per check:** Roll 1d6 at the start of the attempt.
+
+| Roll | Time Required |
+|---|---|
+| 1–2 | 5 minutes |
+| 3–4 | 8 minutes |
+| 5 | 12 minutes |
+| 6 | 15 minutes |
+
+A **Natural 1** on the check doubles the time before failure is confirmed — and then the character must fight or flee.
+A **Natural 20** halves the time required (round down, minimum 1 minute).
+
+**On Failure:** The character must fight or flee back to the center. If they flee, area alert level raises by 1. If they fight and win, the area can be reattempted — but at Alert level 1.
+
+---
+
+## The Six Areas
+
+---
+
+### AREA 1 — THE SILVER GATE ARCHIVE
+*Northwest path*
+
+> *The path opens onto a wide, formal entryway — two tall silver gates set into a white stone wall, ornately worked with lunar crests. The gates are locked. To one side is a carved panel with several mechanical recesses; to the other, a noticeboard covered in official Lunarian script. The whole structure has the feeling of something that was built to impress before it was built to keep people out.*
+
+**Guard Composition:** 1 Sentinel (stationed at the gate), 1 Scout (perimeter, 30ft circuit)
+
+**Obelisk View:** *The gate is clearly locked — heavy mechanism, ornate but functional. Someone is examining the panel to one side, and the scout's patrol circuit is visible as a clear loop. This is manual work. Hands, not words.*
+**Check Category revealed:** Physical / Dexterity
+
+**Primary Check Options:**
+- Dexterity (Sleight of Hand) DC 14 — picking the gate mechanism
+- Intelligence (Investigation) DC 13 — reading the Lunarian panel and finding the correct sequence
+- Strength (Athletics) DC 17 — forcing it (noisy; automatically raises alert by 1 regardless of success)
+
+**What's Inside:** A small records room beyond the gate. Contains one lootable item (DM discretion from floor loot table) and a **Patrol Log** — a handwritten document listing guard rotation times for the estate. This is a legitimate intel item: players who have it can predict guard movement more accurately and reduce the DC of future area attempts in Areas 2 and 4 by 2.
+
+**DM Note:** The noticeboard is in Lunarian script. A character who can read it (Arcana DC 12 or a relevant language) will find that it lists visiting hours, a complaints procedure, and a note that the gate mechanism was serviced three months ago. Nothing mechanically useful. But fun.
+
+---
+
+### AREA 2 — THE LUNAR BARRACKS COURT
+*Northeast path*
+
+> *An open courtyard behind a low wall, wide enough that crossing it in the open would be foolish. Three rabbit-eared guards move through it in a slow, deliberate formation — two Scouts sweeping the perimeter, one Sentinel crossing the center on a longer route. The formation has gaps, but they are not large ones. In the far corner, a locked door leads deeper into the barracks.*
+
+**Guard Composition:** 2 Scouts (perimeter sweep), 1 Sentinel (center cross-route)
+
+**Obelisk View:** *Heavy patrol presence — multiple guards moving in a clear coordinated formation. The gaps exist but they're narrow. This area requires patience and quiet movement, not force.*
+**Check Category revealed:** Stealth / Timing
+
+**Primary Check Options:**
+- Dexterity (Stealth) DC 14 — moving through the patrol gaps
+- Wisdom (Perception) DC 12 first, then Stealth DC 12 — timing the crossing by reading the guard pattern before moving (the Perception check reduces the Stealth DC)
+- Charisma (Deception) DC 15 — bluffing a guard as a contractor or messenger (requires either Lunarian clothing found elsewhere on the floor, or a remarkably convincing story)
+
+**What's Inside:** A supply room with one lootable item and a **Guard Schedule Board** — confirms patrol rotations visually. Same benefit as the Patrol Log from Area 1 (they do not stack, but either one is sufficient).
+
+**DM Note:** If another party is currently causing a fight in Area 3 or Area 1, the guards in Area 2 are at Alert level 1 already. The Perception-then-Stealth approach becomes harder but still viable. Conversely, if one party is loudly occupying guards in Area 2, a second party approaching Area 3 will find that area's perimeter patrol has drifted slightly toward the noise — Stealth DC in Area 3 drops by 2 for 10 minutes.
+
+---
+
+### AREA 3 — THE MOON SAGE'S LIBRARY
+*East path*
+
+> *A building rather than an open space — white walls, a single heavy door, and a warden standing at the entrance with the unmistakable posture of someone who has been there for a long time and expects to be there for a long time more. Above the door, silver script is carved into the lintel. Through a high window, the interior is visible: shelves, lecterns, glowing inscriptions on the walls.*
+
+**Guard Composition:** 1 Warden (entrance), 1 Scout (rooftop, 40ft patrol arc)
+
+**Obelisk View:** *The glowing inscriptions on the interior walls are visible even from above. A Warden blocks the entrance — immovable by normal means. This is knowledge work: the building wants to be engaged with, not forced.*
+**Check Category revealed:** Knowledge / Arcana
+
+**Primary Check Options:**
+- Intelligence (Arcana) DC 14 — reading the inscription on the lintel; it is a code phrase, and speaking it correctly causes the Warden to step aside temporarily
+- Intelligence (History) DC 13 — recognizing the architectural style and knowing that Moon Sage buildings always have a secondary entrance (DC 12 Perception to find it on the side of the building)
+- Intelligence (Religion) DC 15 — identifying the lunar deity crest above the door and offering a correct ceremonial gesture, which the Warden recognizes and allows entry
+
+**What's Inside:** Two lootable items (this area is richer — the DM may include a Spell Card from the floor loot table here). Also: a **Lunar Atlas**, which when studied for 5 minutes grants the reader the ability to make the Obelisk Crescent Alcove Perception check at advantage (they now know what to look for).
+
+**DM Note:** The inscription on the lintel reads, in Lunarian: *"Knowledge passes. Stone remains."* A character who succeeds the Arcana check and speaks this phrase aloud will cause the Warden to pause, nod with what looks like professional respect, and step aside for exactly 3 minutes before resuming position.
+
+---
+
+### AREA 4 — THE ASCENSION TERRACE
+*Southeast path*
+
+> *The path opens upward — a tiered garden cut into a slope, with wide stone steps between levels and tall moonflower hedges on either side. The hedges are dense enough to block sight lines but not movement if you're willing to push through. Two Sentinels patrol the terraces on separate loops, occasionally passing within sight of each other at the top.*
+>
+> *Somewhere on the upper terrace, behind a locked iron grate, a container sits on a stone plinth. It is clearly something worth protecting.*
+
+**Guard Composition:** 2 Sentinels (separate terrace loops, different timing)
+
+**Obelisk View:** *The two guards' routes are visibly different — one shorter loop, one longer. Their crossing point at the top is predictable. The hedge walls are dense but the gaps between levels are clear. This area rewards reading the land and knowing when to move.*
+**Check Category revealed:** Survival / Nature / Perception
+
+**Primary Check Options:**
+- Wisdom (Perception) DC 13 — watching the guard loops long enough to identify the safe crossing windows (this takes 3 minutes before the actual check; failure means the window was misread and a guard crosses paths unexpectedly)
+- Wisdom (Survival) DC 14 — using the hedges and terrace angles to navigate upward without being seen
+- Intelligence (Nature) DC 12 — the moonflowers have a scent that disrupts a Lunarian Rabbit's sharp senses; crushing a handful and applying it (1 minute action) grants advantage on the Stealth check to navigate upward
+
+**What's Inside:** The container on the upper plinth holds one lootable item and a **Hand-Drawn Partial Map** — a previous climber's notes, incomplete, showing the rough layout of the estate. Useful for confirming area positions. The Crescent Alcove is not marked, but the map shows a gap in the wall between Areas 3 and 6 that is labeled: *"sealed? check later."*
+
+**DM Note:** If the party has the Patrol Log from Area 1, the Perception check to read the guard loops is made with advantage. The two mechanics were designed to connect.
+
+---
+
+### AREA 5 — THE CELESTIAL ARMORY
+*Southwest path*
+
+> *A heavy stone building with its doors standing open — but the interior is partially collapsed. A stone archway has come down, blocking the main corridor with rubble. Beyond the rubble, visible through the gaps, is a storage area. One Warden stands at the entrance. A Sentinel patrols inside, navigating the collapsed sections with practiced ease.*
+
+**Guard Composition:** 1 Warden (entrance), 1 Sentinel (interior patrol)
+
+**Obelisk View:** *Collapsed stonework clearly visible, even from above — heavy debris across the main path. The Warden at the entrance is armored and not moving. This is a physical problem requiring physical solutions.*
+**Check Category revealed:** Strength / Physical
+
+**Primary Check Options:**
+- Strength (Athletics) DC 15 — clearing or shifting enough rubble to pass (takes the full rolled time; generates moderate noise — Perception check DC 11 for the Sentinel, DC 10 if Alert level 1)
+- Dexterity (Acrobatics) DC 14 — threading through the collapsed gaps without disturbing them (quieter, but the gaps are tight)
+- Intelligence (Investigation) DC 13 — finding a structural weak point that lets a single small push create a clean gap rather than a noisy collapse (reduces the Athletics DC to 11 if the investigation succeeds first)
+
+**What's Inside:** Armory storage — equipment and lootable items (two items, one of which may be a weapon from the floor loot table). Also a **Reinforced Carrying Case**, which counts as a large container and is useful for transporting the Golden Peach safely (without it, the Peach requires both hands to carry and prevents any item use; with the case, it is stored and leaves hands free).
+
+**DM Note:** The Warden at the entrance will not react to noise from the rubble unless it crosses the alert threshold. It is doing its job — entrance security — and considers the interior the Sentinel's problem. Players who realize this can cause the rubble noise without triggering the Warden, as long as the Sentinel doesn't hear them.
+
+---
+
+### AREA 6 — THE PRAYER HALL
+*West path*
+
+> *A wide, low building with open sides — more pavilion than wall, with silk screens filtering the cold blue light. Inside, a Lunarian attendant in ceremonial robes moves through a slow ritual, placing offerings on a stone altar. A Scout stands at the pavilion's entrance with the look of someone trying very hard to seem like part of the furniture.*
+>
+> *The hall is quiet. Deliberately so. Sound carries differently here.*
+
+**Guard Composition:** 1 Warden (stationed at the altar, not patrolling), 1 Scout (entrance)
+
+**Obelisk View:** *The ritual in progress is clearly social in nature — bowing, placement, formal movement. The Scout at the entrance is watchful but the attendant is absorbed in the ceremony. This is a space that responds to conduct, not force.*
+**Check Category revealed:** Social / Charisma
+
+**Primary Check Options:**
+- Charisma (Persuasion) DC 14 — approaching the attendant respectfully and requesting passage on ceremonial grounds
+- Charisma (Performance) DC 13 — demonstrating knowledge of or participation in the ritual gesture sequence (a character who observed any Lunarian ritual elsewhere on the floor has advantage)
+- Wisdom (Insight) DC 12 first, then Charisma (Deception) DC 13 — reading the attendant's disposition and choosing the most credible story (the Insight check reveals whether the attendant is suspicious of outsiders or absorbed enough to be approachable)
+
+**What's Inside:** The altar area holds one lootable item. More importantly, the attendant — if successfully engaged — will mention, in the course of casual conversation, that *"the old keeper used to leave offerings in the crescent passage between the third and sixth courts."* This is the most direct verbal clue to the Crescent Alcove. The attendant doesn't think anything of it.
+
+**DM Note:** If a fight breaks out here, the sound carries — Area 3 and the center courtyard both receive a noise alert. The Prayer Hall is the worst place to cause a scene on this floor, which makes it quietly one of the most tense areas to navigate.
+
+---
+
+## The Golden Peach — The Crescent Alcove
+
+The Crescent Alcove is a narrow passage between Areas 3 and 6, accessible from either area's outer wall. It does not appear on any path from the center — it must be found by observing from the Obelisk or receiving the clue from the Area 6 attendant.
+
+> *Between the library's white wall and the prayer hall's silk screens, there is a gap — barely wide enough for one person. At the end of it, partially overgrown with silver-veined ivy, is a small stone shelf. On it sits a peach the size of a large fist, perfectly golden, with a warmth that has nothing to do with temperature.*
+>
+> *There are no guards here. There never were. Whatever put the peach here was relying on it simply not being found.*
+
+**The Peach:** No check required to take it. It weighs about as much as a large fruit — not heavy, but awkward. Both hands required to carry it safely unless the character has the Reinforced Carrying Case from Area 5.
+
+**DM Note:** There is no combat encounter here. No trap. No final guardian. The Crescent Alcove is a reward for paying attention — to the Obelisk, to the clues, to the spaces between things. A party that finds it without a fight should feel smart, not cheated. Let them have it.
+
+---
+
+## Floor Clear
+
+Once the Golden Peach is returned to the center courtyard, a chime sounds — the same resonant tone as the previous floors.
+
+> *The peach pulses once, gold light spreading briefly across the pale stone of the courtyard.*
+>
+> *The Masked Girl's voice, from somewhere above:*
+>
+> *"Congratulations. Floor 3 complete. You found the thing that wasn't where things are supposed to be. That's worth something.*
+>
+> *"Please collect your things and proceed to the exit. The next floor will be available shortly."*
+
+---
+
+## DM Time Tracking
+
+Use this section to run two parties simultaneously on the same timeline.
+
+**Master Clock:** Track a single elapsed time in minutes from the moment the floor is entered (or from when the first party enters, if they enter at different times).
+
+**Individual Action Log (suggested format):**
+
+| Minute | Party | Action | Time Cost | Notes |
+|---|---|---|---|---|
+| 0 | Both | Floor entry | — | |
+| 0–10 | A | Obelisk — look at Area 2 | 10 min | Reveals patrol pattern |
+| 5 | B | Walk to Area 1 | 5 min | First visit |
+| 10 | A | Walk to Area 2 | 5 min | First visit |
+| 10 | B | Area 1 check begins | Roll 1d6 for time | |
+
+**Trap Cycle Triggers:**
+- Minute 30 — MOONFALL (2 random areas, 3 minutes, 1d4 piercing + Con DC 12)
+- Minute 60 — PATROL SURGE (+1 Scout per area, 20 minutes)
+- Minute 90 — SILVER FOG (obelisk +5 minutes, Perception −2 in center, 10 minutes)
+- Minute 120 — Cycle resets
+
+**Alert Propagation:**
+- Loud failure or combat: target area +1 alert, adjacent areas +1 alert
+- Alert drops 1 step per 15 minutes of quiet
+- Guards do not enter the center courtyard under any circumstances
+
+**Two-Party Interaction Notes:**
+- Party A fight in Area 2 → Area 3 stealth DCs +2 for 10 minutes (guards drift toward noise)
+- Party A occupying guards in Area 5 → Area 5's Warden is distracted; if Party B enters Area 5 within 5 minutes, reduce entrance Warden's Passive Perception by 3
+- Both parties in center simultaneously → no mechanical effect; social/roleplay moment, handle as appropriate
+
+---
+
+## Loot Table — Floor 3 (DM Assigns Per Area)
+
+| Roll (d12) | Item | Rarity |
+|---|---|---|
+| 1 | Pale green Peach | Common |
+| 2 | Pure white Peach | Common |
+| 3 | Ruby red Peach (advantage on one saving throw vs. charm or fear, single use) | Uncommon |
+| 4 | Soft pink Peach (material component, counts as silver for spell purposes — 3 uses) | Uncommon |
+| 5 | Peach | Common |
+| 6 | Peach — small-scale Fireball (3d6, DC 13 Dex) | Uncommon |
+| 7 | Peach (bring to Misumaru or Rinnosuke) | Unknown |
+| 8 | Peach (see Area 1 and 2 — do not award twice) | Utility |
+| 9 | Peach | Utility |
+| 10 | Peach (free hands while transporting bulky items — see Area 5) | Utility |
+| 11 | Peach | Currency |
+| 12 | Peach  (Detect Thoughts 1d4 charges, regains 1 at dawn) | Rare |
+
+## 🗡️ Martial Melee
+
+| Number | Item Name | Weapon | Additional Effect |
+|---|---|---|---|
+| 1 | **Crestfallen Battleaxe +1** | Battleaxe | +1 to attack rolls and damage. Deals an additional 1 fire damage on hit. |
+| 2 | **Ashfang  Flail +1** | Flail | +1 to attack rolls and damage. Deals an additional 1 necrotic damage on hit. |
+| 3 | **Bonecrown Glaive +1** | Glaive | +1 to attack rolls and damage. Deals an additional 1 thunder damage on hit. |
+| 4 | **Stormtouched  Greataxe +1** | Greataxe | +1 to attack rolls and damage. Once per long rest, cast *Inflict Wounds* (1st level). |
+| 5 | **Tidecutter Greatsword +1** | Greatsword | +1 to attack rolls and damage. Deals an additional 1 psychic damage on hit. |
+| 6 | **Soulshear Halberd +1** | Halberd | +1 to attack rolls and damage. Deals an additional 1 cold damage on hit. |
+| 7 | **Shadowedge Lance +1** | Lance | +1 to attack rolls and damage. Once per long rest, cast *Compelled Duel*. |
+| 8 | **Godsliver Longsword +1** | Longsword | +1 to attack rolls and damage. Sheds dim light in a 10 ft. radius. Deals an additional 1 radiant damage on hit. |
+| 9 | **Siltedge Maul +1** | Maul | +1 to attack rolls and damage. Once per long rest, cast *Thunderwave* (1st level, DC 13). |
+| 10 | **Ironweep Morningstar +1** | Morningstar | +1 to attack rolls and damage. Deals an additional 1 poison damage on hit. |
+| 11 | **Nightshiv Pike +1** | Pike | +1 to attack rolls and damage. Deals an additional 1 lightning damage on hit. |
+| 12 | **Coldmourne Rapier +1** | Rapier | +1 to attack rolls and damage. Once per long rest, cast *Blur* on yourself. |
+| 13 | **Embersong Scimitar +1** | Scimitar | +1 to attack rolls and damage. Deals an additional 1 fire damage on hit. |
+| 14 | **Duskcleaver Shortsword +1** | Shortsword | +1 to attack rolls and damage. Deals an additional 1 psychic damage on hit. |
+| 15 | **Gravewhisper Trident +1** | Trident | +1 to attack rolls and damage. Once per long rest, cast *Create or Destroy Water*. |
+| 16 | **Veinrender Warhammer +1** | Warhammer | +1 to attack rolls and damage. Deals an additional 1 thunder damage on hit. |
+| 17 | **Hollowbite War Pick +1** | War Pick | +1 to attack rolls and damage. Deals an additional 1 acid damage on hit. |
+| 18 | **Despair's Edge Whip +1** | Whip | +1 to attack rolls and damage. On hit, target must succeed a DC 13 Constitution save or have their speed reduced by 10 ft. until the start of your next turn. |
+| 25 | **Shapeshifting weapon +2** | Any | +2 to attack rolls and damage. Curse Wearing a different weapon imposses disadvantage on all D20 Test. |
+| 26 | **Armor +1** | Any | Armor. |
+| 27 | **Shield +1** | Any | Shield. |
+
+---
+
+## 🏹 Martial Ranged
+
+| Number | Item Name | Weapon | Additional Effect |
+|---|---|---|---|
+| 19 | **Coldsting  Hand Crossbow +1** | Hand Crossbow | +1 to attack rolls and damage. Deals an additional 1 fire damage on hit. |
+| 20 | **Wraithshot Heavy Crossbow +1** | Heavy Crossbow | +1 to attack rolls and damage. Deals an additional 1 cold damage on hit. |
+| 21 | **Ironsting  Longbow +1** | Longbow | +1 to attack rolls and damage. Once per long rest, cast *Scorching Ray*. |
+| 22 | **Veinquill Blowgun +1** | Blowgun | +1 to attack rolls and damage. On hit, target must succeed a DC 13 Constitution save or be **poisoned** until the end of their next turn. |
+| 23 | **Silentdeath  Musket +1** | Musket | +1 to attack rolls and damage. Once per long rest, cast *Thunderwave* (1st level, DC 13) centered on yourself after firing. |
+| 24 | **Hollowshaft Pistol +1** | Pistol | +1 to attack rolls and damage. Deals an additional 1 necrotic damage on hit. |
+
+
+---
+
+*[Floor 3 complete. Continues to Chapter 4: Floor 4 — Palace of Earth Spirits]*
+
+
+## Holy Items
+
+**Ritual Tools**
+-1 Ofuda (paper talismans, inscribed with prayers or seals)
+-2 Gohei (wooden wand with two zigzag paper streamers)
+-3 Haraigushi (purification wand, used in cleansing rituals)
+-4 Shakujo (staff with metal rings, used by wandering priests)
+-5 Tamagushi (sacred branch with paper streamers, offered at the altar)
+-6 Magatama beads (curved stone beads worn or offered, symbolize the soul)
+-7 Kagami (sacred mirror, used to invite divine presence)
+-8 Kannagi bell (small handbell rung during prayer to call spirits)
+
+**Protective and Warding Items**
+-1 Omamori (cloth amulets containing prayers, sealed shut)
+-2 Shide (folded paper lightning-bolt shapes, hung to mark sacred space)
+-3 Shimenawa rope (thick twisted rope that marks a boundary as sacred)
+-4 Salt bundles (coarse salt packed in cloth, used for purification)
+-5 Sealed spirit vessels (small ceramic jars containing bound entities or prayers)
+-6 Ema (wooden votive plaques with wishes written on them)
+
+**Offerings**
+-1 Sake bottles (ritual rice wine, left at the altar)
+-2 Rice cakes wrapped in sacred paper
+-3 Dried fish and pressed seaweed, ceremonially packaged
+-4 Candles in iron holders, unlit
+
+---
+
+## Medicinal Herbs
+
+**Common**
+-1 Mugwort — treats fever, used in smoke purification, wards insects
+-2 Perilla leaf — anti-inflammatory, eaten or brewed
+-3 Ginger root — nausea, cold symptoms, warming the body
+-4 Chrysanthemum petals — eye strain, headaches, brewed as tea
+-5 Kuzu root — starch base for medicine, soothes the stomach
+
+**Less Common**
+-1 Dokudami (fish mint) — detoxifying, bitter, used for skin conditions and poison
+-2 Houttuynia — antiviral, brewed as a strong tea
+-3 Burdock root — blood purification, joint pain
+-4 Valerian root — sleep, calming anxiety
+-5 Licorice root — soothes throat and lungs, base for other medicines
+
+**Rare or Shrine-Specific**
+-1 Moonvine — grows near sacred springs, used to slow bleeding
+-2 Ghost grass — pale and odorless, dried and ground into a powder that dulls pain
+-3 Shrine cedar bark — stripped at specific times of year, boiled to reduce fever
+-4 Spirit moss — found only on old shrine stones, used in small doses to clear confusion or mental fog
+
+---
+
+The common herbs are all real and grounded. The last four are invented but stay within the logic of what a shrine herbalist would actually use them for — no dramatic magical effects, just plausible folk medicine with a slight supernatural edge.
+
+
+
+# STORAGE BUILDING — EVACUATION LOOT
+*Items being moved out due to the fire. Some are stacked near the door. Some are mid-transit. Some have been dropped and forgotten in the chaos.*
+
+---
+
+## Stacked Near the Exit
+*Clearly being moved out. Easy to grab but also easy to be seen grabbing.*
+
+| Item | Notes |
+|---|---|
+| Crate of Ration Packs | Dried lunar grain and preserved fish, individually wrapped. 10 packs. Each counts as a Standard Meal. |
+| Bundle of Torches | 8 torches wrapped in cloth. |
+| Coil of Rope | 50ft, military grade, heavier than standard. |
+| Two Waterskins | Both full. |
+| Crate of Antitoxin Vials | 4 vials. Lunarian military standard issue. |
+| Box of Bandages | Enough for 6 uses of stabilizing a downed creature without a Medicine check. |
+| Bag of Caltrops | Standard issue. Two bags. |
+
+---
+
+## Mid-Transit — Dropped or Abandoned
+*Left on the floor, on shelving half-pulled out, or sitting in the aisle where someone set it down and did not come back.*
+
+| Item | Notes |
+|---|---|
+| Lunarian Military Ration Tin | Sealed. Contains something that smells overwhelmingly of salted fish. Counts as a Hearty Meal. |
+| Smoke Canister | Lunarian military version of Smokepowder. 15ft cloud, lasts 2 minutes. One use. |
+| Whetstone | Well-made. Using it during a short rest adds +1 to one weapon's damage roll for the next combat. Single use. |
+| Grappling Hook | Military issue, compact. Fits in a pack. |
+| Signal Mirror | Polished silver disc. Can be used to signal across line of sight or briefly blind a target (DC 11 Con save or blinded until end of their next turn). |
+| Lunar Flare | Small hand-launched flare that burns cold silver-white. Illuminates a 60ft radius for 1 minute. Also immediately raises the alert level of every area on the floor by 1 if used outdoors. |
+| Folded Canvas Tarp | Heavy duty. Large enough to cover a doorway, make a stretcher, or block a grate. |
+
+---
+
+## Still On the Shelves
+*Not yet reached by whoever was evacuating. Requires actually entering the building and spending time searching.*
+
+| Item | Notes |
+|---|---|
+| Lunarian Silver Polish | A small tin. Applied to a weapon during a short rest, the next hit deals an additional 1d4 radiant damage. Single use per tin. There are 3 tins. |
+| Sealed Oil Flask | Lamp oil, half a liter. Can also be used as a fire hazard — poured on the floor and ignited, creates a 5ft burning tile dealing 1d6 fire to anyone crossing it. |
+| Spare Guard Uniform | Lunarian military issue — white and silver, rabbit-ear helmet included. One set. Wearing it grants advantage on Deception checks to pass as a guard within this area only. Obviously sized for a rabbit-eared Lunarian. |
+| Leather Repair Kit | Lets a character repair damaged light armor during a short rest, restoring its full AC bonus if it has been damaged. |
+| Wooden Crate of Salt | Heavy. 20lb. Useful for preservation, ritual purification (see shrine items), or just weighing something down. |
+| Compass — Lunarian Make | Points toward the nearest structure with a sacred boundary rather than magnetic north. Useful on the floor, confusing everywhere else. |
+| Locked Iron Box | Small, heavy. DC 13 Thieves' Tools to open. Inside: 45gp in Lunarian silver coin and a folded note in Lunarian script that reads, if translated: *"Do not move this to the south compound. — R"* |

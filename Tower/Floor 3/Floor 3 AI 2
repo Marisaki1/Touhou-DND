@@ -1,0 +1,350 @@
+# FLOOR 3 — AREA GENERATION TABLES
+*Roll before the session. Each area requires three rolls: Environment, Obstacle, and Guard Composition.*
+*Results combine to create the full area on the fly.*
+
+---
+
+## HOW TO USE
+
+For each area, roll:
+- **1d6** → Environment Variant (changes the visual and flavor of the area)
+- **1d6** → Obstacle Variant (determines what the players are up against mechanically)
+- **1d8** → Guard Composition (determines who and how many guards are present)
+
+The Check Options are listed under each Obstacle result. The Obelisk hint updates to match whatever was rolled. (Use a 3d6 for environment and its respective obstacle and a d8 for the guards that patrol the area)
+
+Guards are individually weak but highly intelligent and will always pick the best options for them
+
+Entering an area roll a d20 on a 10 and below, Players must make a Strength-based or Dex-based or Wis-based Stealth check when entering an area 
+
+When players make a check and fails they may risk guards appearing.
+
+---
+
+## MASTER GUARD COMPOSITION TABLE
+*Roll 1d8. Used for all six areas unless an area specifies its own table.*
+
+| d8 | Composition | Total Guards | Notes |
+|---|---|---|---|
+| 1 | 6 Scouts | 6 | Light presence. Patrol only. |
+| 2 | 2 Sentinel + 4 Scouts | 6 | Standard gate/entry setup. |
+| 3 | 4 Sentinels + 2 Scout | 6 | Holding pattern. Melee-heavy. |
+| 4 | 4 Scouts + 4 Sentinels | 8 | Balanced patrol and hold. |
+| 5 | 6 Scouts + 4 Sentinel | 10 | Ranged-heavy. Perimeter sweep. |
+| 6 | 4 Scouts + 4 Sentinels + 1 Wardens | 9 | Standard heavy response. |
+| 7 | 6 Scouts + 4 Sentinels + 1 Wardens | 11 | Active patrol with anchor. |
+| 8 | 8 Scouts + 4 Sentinels + 2 Wardens | 14 | Full alert deployment. Treat as if area is already at Alert Level 1. |
+
+**DM Note:** Roll at the start of the session before players enter the floor. If a Patrol Surge trap triggers (minute 60), add 1 Scout to whatever composition was rolled, per area.
+
+---
+
+---
+
+# AREA 1 — THE SILVER GATE ARCHIVE
+*Northwest path*
+
+---
+
+## Environment — Roll 1d6
+
+| d6 | What the Area Looks Like |
+|---|---|
+| 1 | **Twin Iron Gates** — Two heavy iron gates set side by side in a plain stone wall. Functional, not decorative. A panel of numbered glyphs is embedded beside the right gate. The surrounding wall is too tall to climb without rope. |
+| 2 | **Ornate Silver Archway** — A single wide arch of silver-veined stone, sealed by an ornate lattice gate. Lunar crests are carved above it. A mechanical panel beside it has several rotating rings set with symbols. |
+| 3 | **Gatehouse Passage** — A short enclosed gatehouse corridor, perhaps 20ft long, with a heavy wooden door at each end. The inner door is reinforced with iron bands. A wall-mounted lever inside the corridor operates both. |
+| 4 | **Portcullis and Moat** — A wide stone portcullis, lowered into place, with a shallow reflecting pool running along the wall's base. The winch mechanism is on the far side, operated from behind the gate. |
+| 5 | **Keyhole Gate** — A clean, understated locked gate with an oversized visible lock. Three different keyholes — only one is correct. The wrong two trigger a soft alarm chime. The correct one can be determined by examining wear marks. |
+| 6 | **Collapsed Section** — The original gate was damaged. One side has been jury-rigged shut with a heavy brace and chain. The other side of the wall has a partially-collapsed section — not a clean passage, but workable. |
+
+---
+
+## Obstacle — Roll 1d6
+
+| d6 | Obstacle Type | Primary Check Options | Obelisk Hint |
+|---|---|---|---|
+| 1 | **Glyph Combination Lock** | INT (Investigation) DC 13 — decode the symbol sequence from context clues around the gate. INT (Arcana) DC 14 — recognize the Lunarian numeral system. STR (Athletics) DC 18 — force it (noisy; +1 alert). | *The panel beside the gate is covered in symbols — this is a reading and reasoning problem, not a physical one.* |
+| 2 | **Physical Lock and Pick** | DEX (Sleight of Hand) DC 14 — pick the lock cleanly. INT (Investigation) DC 12 — examine the lock to determine its type first, reducing Sleight of Hand DC by 2. STR (Athletics) DC 17 — force it (noisy; +1 alert). | *The gate uses a mechanical lock. Someone with steady hands and patience could manage it.* |
+| 3 | **Guard Rotation Window** | WIS (Perception) DC 12 — identify the gap in the guard's patrol timing. DEX (Stealth) DC 13 — slip through when the gap occurs (must succeed Perception first or DC becomes 16). | *The gate itself is open — the obstacle here is timing. The guards' routes create a window, if you can read it.* |
+| 4 | **Verbal Authorization Code** | INT (History) DC 14 — recall or deduce the correct Lunarian authorization phrase. CHA (Deception) DC 15 — fabricate credentials convincingly. CHA (Persuasion) DC 16 — argue legitimate access rights (very hard without evidence). | *A guard is posted specifically to verify who approaches. Words are going to matter here.* |
+| 5 | **Maintenance Access** | INT (Investigation) DC 12 — find the maintenance hatch on the side of the wall (3 minutes to locate). DEX (Acrobatics) DC 13 — navigate the hatch passage, which is tight and awkward. | *There's a secondary access point — this structure was built to be serviced. Not the front door, but something.* |
+| 6 | **Weight-Based Mechanism** | STR (Athletics) DC 13 — two characters pushing together (one check, advantage if second character actively assists). INT (Investigation) DC 14 — find a counterweight to reduce the DC to 10. | *The gate is mechanical and heavy — built for a cart or larger party to open together. Numbers help here.* |
+
+---
+
+## Guard Composition — Use Master Table (1d8)
+
+**Area 1 Special Rule:** Regardless of composition rolled, one guard is always **stationary at the gate**. This guard does not patrol and cannot be avoided by timing alone — they must be neutralized, bypassed through an alternate entry, or the Obstacle must be completed while they are present.
+
+---
+
+## What's Always Inside
+A small records room. Contains:
+- **1 lootable item** (roll from loot table)
+- **Patrol Log** — reduces DC of future attempts in Areas 2 and 4 by 2
+
+---
+---
+
+# AREA 2 — THE LUNAR BARRACKS COURT
+*Northeast path*
+
+---
+
+## Environment — Roll 1d6
+
+| d6 | What the Area Looks Like |
+|---|---|
+| 1 | **Open Parade Ground** — Wide flat courtyard, almost no cover. Three stone pillars in a line are the only interruptions. The far door is clearly visible from the entrance. |
+| 2 | **Training Yard with Equipment** — Obstacles and wooden training posts scattered around the yard. Provides cover but also increases the number of surfaces that generate noise when brushed against. |
+| 3 | **Tiered Terrace Court** — The courtyard drops in levels, with three steps between each tier. Guards patrol different tiers; sight lines between levels are interrupted. |
+| 4 | **Night Garden** — The court is partially overgrown with moonflowers and silver hedges, waist-high, that create natural lanes. Guards follow the lanes too. |
+| 5 | **Paved Market Space** — Rows of locked supply crates and equipment racks divide the courtyard into corridors. The guards navigate them at predictable angles. |
+| 6 | **Flooded Courtyard** — 2 inches of standing water across the full court. Movement is quieter than expected, but footprints are visible. Any running causes splashing that automatically alerts nearby guards. |
+
+---
+
+## Obstacle — Roll 1d6
+
+| d6 | Obstacle Type | Primary Check Options | Obelisk Hint |
+|---|---|---|---|
+| 1 | **Multiple Crossing Guards** | WIS (Perception) DC 12 — map patrol timing before crossing. DEX (Stealth) DC 14 — cross during the gap. Failure on Stealth without prior Perception check triggers immediate pursuit. | *Several guards, multiple routes. Patience first. Movement second.* |
+| 2 | **Single Long Patrol Route** | DEX (Stealth) DC 13 — shadow the guard's movement along the longer arc. WIS (Insight) DC 11 — read the guard's pace to predict when they will stop or turn. | *One guard covering a wide area. If you can read their rhythm, you have the whole courtyard.* |
+| 3 | **Locked Far Door** | DEX (Sleight of Hand) DC 14 — pick the door at the far end (while avoiding guards). INT (Investigation) DC 12 — find a guard carrying the key (requires identifying which guard, then pickpocketing or neutralizing). DEX (Sleight of Hand or Stealth) second check required. | *The door at the far side is locked. Someone on this side has the key.* |
+| 4 | **Guard Conversation Block** | CHA (Deception) DC 13 — interrupt a guard pair in conversation with a plausible reason to be there. CHA (Persuasion) DC 15 — convince them to clear the route entirely. DEX (Stealth) DC 15 — slip past while they are talking (harder; they are facing the route). | *Two guards have stopped to talk directly in the path. This is either a social problem or a very careful stealth problem.* |
+| 5 | **Open Ground Sprint** | DEX (Athletics or Acrobatics) DC 14 — cross the open space in the window between patrols. Must succeed WIS (Perception) DC 11 first to identify the window, or the sprint DC becomes 17. | *No cover, but there is a timing window. The whole problem is reading when to move and being fast enough.* |
+| 6 | **Noise Hazard Terrain** | DEX (Acrobatics) DC 13 — navigate the hazardous surface without generating noise (water, crates, training equipment — matched to Environment roll). Failure triggers immediate attention from nearest guard. | *The ground itself is the problem. Movement here is loud if you aren't careful.* |
+
+---
+
+## Guard Composition — Use Master Table (1d8)
+**Area 2 Modifier:** Add +1 Scout to any result. This is a barracks — it is always busier than other areas.
+
+**Area 2 Special Rule — Noise Propagation:** Any combat or failed check in Area 2 affects Area 3 and the center courtyard simultaneously. Guards in those areas raise to Alert Level 1 for 15 minutes.
+
+---
+
+## What's Always Inside
+A supply room. Contains:
+- **1 lootable item** (roll from loot table)
+- **Guard Schedule Board** — same benefit as Patrol Log (they do not stack)
+
+---
+---
+
+# AREA 3 — THE MOON SAGE'S LIBRARY
+*East path*
+
+---
+
+## Environment — Roll 1d6
+
+| d6 | What the Area Looks Like |
+|---|---|
+| 1 | **Single Heavy Door** — Carved stone door, sealed, with glowing inscription across the lintel. No windows at ground level. A warden stands directly in front of it. |
+| 2 | **Open Colonnade Entry** — The library has no wall, only a row of columns. Silk screens hang between them. The inside is visible but the entry is clearly guarded by both a stationed guard and a rooftop scout. |
+| 3 | **Locked Reading Pavilion** — A separate smaller building in front of the main library. Its door is unlocked; the inner passage to the real library is gated. The first room is unguarded; the gate inside has a guard beyond it. |
+| 4 | **Overgrown Archive** — Silver vines have grown across the lower windows and most of the entry arch. The building looks half-abandoned but the guards are very present. The vines can be climbed to reach a high open window. |
+| 5 | **Underground Entrance** — The library is built into a slope. The visible entrance is the upper floor; a lower entrance exists via stone stairs cut into the hillside, partly obscured by decorative stonework. |
+| 6 | **Two-Door Security** — Two sequential doors, each requiring separate handling. The outer door is social/knowledge-based. The inner door is physical. Only one guard per door. |
+
+---
+
+## Obstacle — Roll 1d6
+
+| d6 | Obstacle Type | Primary Check Options | Obelisk Hint |
+|---|---|---|---|
+| 1 | **Inscription Code Phrase** | INT (Arcana) DC 14 — read the inscription and speak the correct response. INT (History) DC 13 — recognize the ceremonial format and guess the response structure. WIS (Perception) DC 11 — notice a worn etching near the base with a partial translation. | *Glowing inscriptions on the lintel. This building wants a correct response, not force.* |
+| 2 | **Secondary Entrance** | INT (History) DC 13 — recall that Lunarian buildings of this type always include a maintenance entry. WIS (Perception) DC 12 — spot the secondary entry from the exterior. DEX (Stealth) DC 11 — enter through it unobserved (lower DC because this route avoids the guards entirely). | *Something about the building's layout from above suggests it wasn't designed to have only one way in.* |
+| 3 | **Ceremonial Gesture Sequence** | WIS (Religion) DC 15 — identify the correct lunar deity crest and perform the associated gesture. CHA (Performance) DC 13 — perform a plausible ceremonial greeting convincingly enough that the guard allows entry. INT (Arcana) DC 12 first — identify what ceremony this is (grants advantage on Religion or Performance if successful). | *This entrance is ceremonial. Conduct matters as much as knowledge here.* |
+| 4 | **Warden Persuasion** | CHA (Persuasion) DC 14 — convince the Warden you have authorized access. CHA (Deception) DC 13 — present false credentials. WIS (Insight) DC 11 first — read what kind of authority the Warden responds to (grants advantage on whichever social skill is chosen). | *The Warden is the obstacle. This is a conversation.* |
+| 5 | **Roof Access** | STR (Athletics) DC 13 — climb the colonnade or overgrowth to reach the high window. DEX (Acrobatics) DC 12 — navigate the rooftop entry without making noise. Scout on rooftop must be avoided or neutralized first. | *There is a high opening visible from above. Getting to it requires going up, not through.* |
+| 6 | **Distraction and Entry** | CHA (Deception) DC 12 — create a plausible distraction elsewhere that draws the stationed guard off position for 3 minutes. DEX (Stealth) DC 12 — enter during the window. Both checks required in sequence. Failure on the second check occurs with the first guard away — only one guard responds. | *The guard needs to be somewhere else for a moment. Manufacture that moment.* |
+
+---
+
+## Guard Composition — Use Master Table (1d8)
+**Area 3 Special Rule:** Regardless of the composition rolled, one guard is always **a Warden** stationed at the primary entrance. Wardens here have been specifically briefed — they are harder to deceive (add +2 to social DCs against them) but respond appropriately to correct ceremonial conduct.
+
+---
+
+## What's Always Inside
+Two lootable items (this area is richer). Contains:
+- **2 lootable items** (roll twice from loot table; one may be a Spell Card)
+- **Lunar Atlas** — advantage on the Obelisk Crescent Alcove Perception check
+
+---
+---
+
+# AREA 4 — THE Sun-Drenched Bastion
+*Southeast path*
+
+---
+
+## Environment — Roll 1d6
+
+| d6 | What the Area Looks Like |
+|---|---|
+| 1 | **Three Open Terraces** — Wide stone steps between three levels, minimal cover. Guards are visible between levels. The target is at the top. |
+| 2 | **Moonflower Hedge Maze** — Dense silver-leafed hedges divide the terrace into corridors. Guards follow the corridors too. Sight lines are short in all directions. |
+| 3 | **Statue Garden Terraces** — Large stone statues of Lunarian figures on each level, tall enough to stand behind. Predictable cover, predictable patrol routes that wind between them. |
+| 4 | **Flooded Lower Level** — The first terrace is knee-deep in reflecting water from an overflowing basin. The second and third levels are dry. Stealth in the lower level is impossible at normal movement. |
+| 5 | **Collapsed Upper Terrace** — The top level has partially fallen. The stone plinth with the target is still intact on a stable section, but reaching it requires navigating collapsed sections. No guards on the top level — they patrol the second level only. |
+| 6 | **Formal Garden with Benches** — Open stone paths between trimmed silver shrubs and benches. Three rest spots the guards use during their routes, which creates very predictable stop points. |
+
+---
+
+## Obstacle — Roll 1d6
+
+| d6 | Obstacle Type | Primary Check Options | Obelisk Hint |
+|---|---|---|---|
+| 1 | **Guard Timing — Two Routes** | WIS (Perception) DC 13 — time both patrol loops to find the crossing window. DEX (Stealth) DC 13 — move between levels during the window. Failure on Perception means the window is misjudged — check again at +3 DC. | *Two guards, different loops, different timing. From above the pattern is clear. From ground level, less so.* |
+| 2 | **Scent-Based Detection** | WIS (Nature) DC 12 — identify the moonflowers and know that crushing them disrupts Lunarian senses. 1 minute to gather and apply. Grants advantage on Stealth for the rest of this area attempt. DEX (Stealth) DC 15 if not applied. | *The plants here have properties. The guards' senses aren't purely sight.* |
+| 3 | **Pressure Plate Field** | WIS (Perception) DC 14 — spot the plates before stepping on them. DEX (Acrobatics) DC 13 — navigate through the field. Failure on Perception means a random plate triggers — alert raised by 1 and guards rush toward the level. | *The ground on at least one level is uneven in a suspicious way. Look before stepping.* |
+| 4 | **Locked Final Grate** | DEX (Sleight of Hand) DC 14 — pick the iron grate at the top. STR (Athletics) DC 16 — force it (noisy; +1 alert). INT (Investigation) DC 13 — find that one of the guards is carrying a spare key. | *There's a locked grate at the top. The obstacle isn't just getting there — it's getting in when you arrive.* |
+| 5 | **Guard Call and Response** | Guards on this terrace use a verbal call-and-response check at irregular intervals. INT (History) DC 13 or INT (Arcana) DC 12 — identify the correct response from context. CHA (Deception) DC 14 — fake the response if caught mid-route. | *The guards here communicate with each other at intervals. Being caught between call points without knowing the response is a problem.* |
+| 6 | **Narrow Ledge Route** | DEX (Acrobatics) DC 13 — traverse the outer ledge of the terrace wall to bypass the guarded path entirely. STR (Athletics) DC 11 for anyone in medium or heavy armor (movement is restricted). This route has no guards — but a fall is a 10ft drop. | *The wall has a ledge on the outside face. Not the intended route. Possibly the better one.* |
+
+---
+
+## Guard Composition — Use Master Table (1d8)
+**Area 4 Modifier:** Subtract 1 Scout from any result (minimum 0 Scouts). Sentinels and Wardens remain as rolled. This area uses fewer fast-moving scouts and more positioned guards due to the terrace layout.
+
+**Area 4 Special Rule — Patrol Log Benefit:** If the party has the Patrol Log from Area 1 or the Guard Schedule from Area 2, all Perception checks to read patrol timing in this area are made with advantage.
+
+---
+
+## What's Always Inside
+The stone plinth at the top. Contains:
+- **1 lootable item** (roll from loot table)
+- **Hand-Drawn Partial Map** — shows estate layout including a label on the gap between Areas 3 and 6 reading *"sealed? check later."*
+
+---
+---
+
+# AREA 5 — THE CELESTIAL ARMORY
+*Southwest path*
+
+---
+
+## Environment — Roll 1d6
+
+| d6 | What the Area Looks Like |
+|---|---|
+| 1 | **Collapsed Interior** — The building's main corridor has a stone archway that has come down. Rubble blocks the path. The target storage area is visible through the gaps. |
+| 2 | **Sealed Blast Door** — A thick circular metal door, clearly over-engineered, sealed with a rotating combination mechanism. The building around it is intact. |
+| 3 | **Flooded Lower Level** — The armory basement is accessible via stairs, but the lower section has flooded. The storage area is on the far side of the flooded section — elevated shelving, accessible if you can cross. |
+| 4 | **Active Forge Area** — The armory is operational. Workers are present alongside guards. The target area is at the back, behind a secured rack. Social navigation is more viable here than force. |
+| 5 | **Burning Outer Section** — A small fire has broken out in the eastern wing (not threatening the building, but the smoke is thick). The guards are distracted and partially repositioned. Stealth DCs are reduced by 2, but movement through the smoke causes a DC 11 Constitution save or 1 level of exhaustion. |
+| 6 | **Exterior Storage Yard** — The target isn't inside the building — it's in a locked yard attached to the building's side, surrounded by a lower wall and stacked supply crates. |
+
+---
+
+## Obstacle — Roll 1d6
+
+| d6 | Obstacle Type | Primary Check Options | Obelisk Hint |
+|---|---|---|---|
+| 1 | **Rubble Clearance** | STR (Athletics) DC 15 — shift enough rubble to pass (noise check: Perception DC 11 for interior guards). INT (Investigation) DC 13 — find the structural weak point that allows a clean, quiet gap. DEX (Acrobatics) DC 14 — thread through without clearing anything (silent but tight). | *Heavy debris. Moving it takes strength. Moving it quietly takes thinking about it first.* |
+| 2 | **Combination Lock** | INT (Investigation) DC 14 — examine for wear patterns, failed attempts, or external clues to narrow the combination. INT (Arcana) DC 13 — the symbols on the rotating mechanism follow a Lunarian numeral pattern (same as Area 1 if also rolled). DEX (Thieves' Tools or Sleight of Hand) DC 16 — bypass the mechanism directly (hard without knowing the system). | *The mechanism is complex. It was designed to resist brute force. Knowledge matters more than tools here.* |
+| 3 | **Flooded Crossing** | STR (Athletics) DC 12 — wade or swim across the flooded section. WIS (Perception) DC 12 — spot a submerged ledge that reduces the crossing to knee-depth (reduces Athletics DC to 9). CON Save DC 11 — if fully submerged, avoid losing equipment from waterlogged containers. | *There's water between you and the target. Manageable, but it depends on what you're carrying.* |
+| 4 | **Worker Distraction** | CHA (Deception) DC 12 — pose as an authorized contractor. CHA (Persuasion) DC 14 — request that the workers clear the area for a fabricated safety reason. WIS (Insight) DC 11 first — identify which worker or guard to approach for maximum effect. | *People are working here. The guards follow the workers' lead. Social entry is possible.* |
+| 5 | **Smoke Navigation** | CON Save DC 11 each round of movement through smoke (fail = 1 exhaustion level). WIS (Perception) DC 13 — navigate through by sound and landmark rather than sight. INT (Nature) DC 11 — control breathing technique reduces the CON save DC to 8. | *Smoke is thick across the approach route. You can get through it. The question is what condition you're in when you come out the other side.* |
+| 6 | **Exterior Wall Entry** | DEX (Acrobatics) DC 12 — scale the outer yard wall. STR (Athletics) DC 13 — alternative if not agile. WIS (Perception) DC 11 — identify whether the guards inside the yard are facing toward or away from the wall at a given time. | *The building itself isn't the problem — the low wall around the yard is. It's climbable. The timing is the question.* |
+
+---
+
+## Guard Composition — Use Master Table (1d8)
+**Area 5 Modifier:** Add +1 Warden to any result. The armory always has a command presence. If the result already includes 2 Wardens, the second Warden is inside, not at the entrance.
+
+**Area 5 Special Rule — Distraction Window:** If the other party is currently engaged in combat or a difficult check in Area 4, the Warden at the Area 5 entrance has their Passive Perception reduced by 3 for 10 minutes (they can hear the commotion and are monitoring it).
+
+---
+
+## What's Always Inside
+Armory storage. Contains:
+- **2 lootable items** (roll twice; one may be a weapon from the floor loot table)
+- **Reinforced Carrying Case** — removes the two-hand carry penalty for the Golden Peach
+
+---
+---
+
+# AREA 6 — THE PRAYER HALL
+*West path*
+
+---
+
+## Environment — Roll 1d6
+
+| d6 | What the Area Looks Like |
+|---|---|
+| 1 | **Open Pavilion with Silk Screens** — Wide pavilion, open sides, silk screens filtering the cold blue light. The ceremony is visible from outside. The attendant is easily approachable. |
+| 2 | **Walled Garden Shrine** — Low stone walls surround a garden with a central altar. One entrance gate (unlocked). The ceremony is happening at the altar in the garden's center. |
+| 3 | **Elevated Platform Hall** — The prayer hall sits on a raised stone platform, reached by a short staircase. The elevation means the attendant can see anyone approaching from a distance. |
+| 4 | **Interior Shrine Room** — A fully enclosed room with a single door. The ceremony is happening inside; the door is ajar. A scout is posted outside with a clear view of the approach path. |
+| 5 | **Double-Hall Design** — Two connected chambers. The outer chamber is empty and unguarded; the inner chamber has the attendant, the altar, and the guards. The transition between rooms is the key chokepoint. |
+| 6 | **Courtyard Ceremony** — The ritual is being conducted in the open, in a small secondary courtyard adjacent to the prayer hall itself. Multiple guards form a ceremonial ring around the attendant, facing outward. |
+
+---
+
+## Obstacle — Roll 1d6
+
+| d6 | Obstacle Type | Primary Check Options | Obelisk Hint |
+|---|---|---|---|
+| 1 | **Ceremonial Approach** | CHA (Persuasion) DC 14 — approach with appropriate conduct and request passage. CHA (Performance) DC 13 — participate in the ceremony convincingly enough to be granted access. WIS (Insight) DC 11 first — read the attendant's disposition (grants advantage on either social check). | *The ceremony is in progress. This is a social space. How you approach matters as much as what you say.* |
+| 2 | **Disguise and Blend** | CHA (Deception) DC 13 — pass as a Lunarian attendant (requires either Lunarian robes found elsewhere, or a convincing physical disguise). DEX (Stealth) DC 14 — approach without disguise while the attendant is absorbed in the ritual. | *The people here look a particular way and behave a particular way. Matching that is the path.* |
+| 3 | **The Guard Ring** | WIS (Perception) DC 12 — identify a gap in the ceremonial guard ring. DEX (Stealth) DC 14 — slip through the gap when the ceremony reaches its loud climactic moment (the sound masks movement). | *The guards here form a pattern. There are gaps if you can read them and time your movement to when the ceremony covers the noise.* |
+| 4 | **Attendant Conversation** | CHA (Persuasion) DC 13 — engage the attendant in direct conversation and navigate naturally toward the passage request. WIS (Insight) DC 11 — identify the topic the attendant most wants to discuss (reduces Persuasion DC to 10 if used first). CHA (Deception) DC 15 — lie convincingly about having official business beyond the hall. | *One person stands between you and the passage. Talking to them is not dangerous. Getting what you want from the conversation is the skill.* |
+| 5 | **Noise-Sensitive Hall** | DEX (Stealth) DC 15 — move through the hall in complete silence (this area amplifies sound; the DC is higher than elsewhere). INT (Investigation) DC 12 — identify the silent path through the hall by examining the floor for loose stones or resonant surfaces before moving. | *This space was built for silence. It enforces that. You will need to be more careful here than anywhere else on the floor.* |
+| 6 | **Ritual Participation** | INT (Religion) DC 13 — know enough about the Lunarian ceremony to participate appropriately. CHA (Performance) DC 14 — participate convincingly without the knowledge base. WIS (Religion or Insight) DC 11 — watch long enough to mimic the gestures before participating (reduces either DC by 2). | *The ceremony is ongoing. Joining it correctly is not an insult — it is access.* |
+
+---
+
+## Guard Composition — Special Table for Area 6 — Roll 1d6
+
+*Area 6 uses a different composition table. It is a ceremonial location — guards here are positioned, not mobile.*
+
+| d6 | Composition | Notes |
+|---|---|---|
+| 1 | 1 Scout (entrance) + 1 Warden (altar, stationary) | Minimum ceremonial presence. |
+| 2 | 2 Scouts (entrance and perimeter) + 1 Warden (altar) | Standard presence. |
+| 3 | 1 Scout + 2 Sentinels (flanking the attendant) + 1 Warden | Full honor guard. Sentinels face outward. |
+| 4 | 3 Scouts (perimeter ring) + 1 Warden | Perimeter-heavy. The interior is actually less guarded. |
+| 5 | 2 Sentinels + 2 Wardens | No scouts. Two heavy guards, both positioned at the altar, both watching the entrance. |
+| 6 | 4 Scouts (ceremonial ring, facing outward) + 1 Sentinel + 1 Warden | Maximum ceremonial guard. Stealth DCs in this area increase by 3 due to the full perimeter ring. |
+
+**Area 6 Special Rule — Sound Propagation:** Any combat in Area 6 is the worst outcome on the floor. Area 3, Area 5, and the center courtyard all receive Alert Level 1 simultaneously. This is the loudest area if it goes wrong.
+
+**Area 6 Special Rule — The Clue:** If the party successfully engages the attendant in conversation (any social check succeeds), the attendant mentions the old crescent passage between Areas 3 and 6 in the course of natural conversation. They do not think it is significant. It is the most direct verbal clue to the Crescent Alcove.
+
+---
+
+## What's Always Inside
+The altar area. Contains:
+- **1 lootable item** (roll from loot table)
+- The verbal clue to the Crescent Alcove (from attendant conversation)
+
+---
+---
+
+# DM QUICK REFERENCE — PRE-SESSION ROLLS
+
+*Fill this out before the session begins.*
+
+| Area | Environment (1d6) | Obstacle (1d6) | Guard Comp (1d8) | Result Summary |
+|---|---|---|---|---|
+| 1 — Gate Archive | ___ | ___ | ___ | |
+| 2 — Barracks Court | ___ | ___ | ___ (+1 Scout) | |
+| 3 — Sage's Library | ___ | ___ | ___ (Warden always) | |
+| 4 — Ascension Terrace | ___ | ___ | ___ (−1 Scout) | |
+| 5 — Celestial Armory | ___ | ___ | ___ (+1 Warden) | |
+| 6 — Prayer Hall | ___ | ___ | Roll 1d6 special | |
+
+**Trap Cycle:** Minute 30 (Moonfall) / Minute 60 (Patrol Surge) / Minute 90 (Silver Fog)
+
+**Crescent Alcove Status:** Found via [ ] Obelisk [ ] Lunar Atlas [ ] Attendant clue [ ] Not yet found
+
+| Moonmaiden Shozoku | Light Armor + 1| Moon's Blessing: When you fail a saving throw you can use your reaction to turn it to a success. Can only be used once per long rest.
+
+| Moonflower Hairpin | Requires attunement. Makes you proficient to Dexterity and Charisma Saving throws |
+
+| Crescent Scimitar | Scimitar + 1 | +1 to attack rolls and damage. Emits a bright light when held in a 20-foot radius and dim light for an additional 20 feet"

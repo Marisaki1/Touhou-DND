@@ -1,0 +1,134 @@
+Got it, correcting that. And yes — full realistic technical lead interview, including things you don't know yet but need to. Here we go.
+
+---
+
+**Interviewer:** "Hi Aejae, thanks for joining. Let's get right into it. Walk me through your Salesforce experience at your previous role."
+
+**You:** *"In my previous role at WeServ under Project Ridgelinez, I worked on a Salesforce implementation for a Japanese client. I built triggers for Lead, Opportunity, Contact, and Account objects following the Handler-Logic pattern — keeping the trigger clean and putting all business logic in separate classes. On the Lead side I built deduplication logic that automatically finds or creates a matching Account when a Lead comes in. For Opportunities I built a sales calculator that distributes revenue across fiscal years. I also worked on integration classes connecting Salesforce to an external project management system, and used Custom Metadata to drive industry field automation without hardcoding."*
+
+---
+
+**Interviewer:** "Good. What is the Handler-Logic pattern and why is it better than just writing logic directly in the trigger?"
+
+**You:** *"Instead of putting business logic directly in the trigger file, we split it into a Handler class that routes the event, and a Logic class that contains the actual rules. The trigger just calls the handler, the handler calls the logic. It's cleaner, easier to unit test, and if rules change you only touch the Logic class."*
+
+---
+
+**Interviewer:** "What are governor limits and how did your code handle them?"
+
+**You:** *"Governor limits prevent any single process from hogging shared resources on Salesforce's multi-tenant platform. The most common ones are 100 SOQL queries and 150 DML statements per transaction. We handled it through bulkification — collecting records into lists first, doing one SOQL query outside the loop, then processing everything in bulk. In the Lead trigger for example, we build the WHERE clause lists first, run one query for all matching Accounts, then loop through results."*
+
+---
+
+**Interviewer:** "Speaking of SOQL — what's the difference between SOQL and SOSL?"
+
+**You:** *"SOQL is Salesforce Object Query Language — it queries a specific object, like SELECT Id, Name FROM Account. SOSL is Salesforce Object Search Language — it searches across multiple objects at once using a text search index. SOSL is better when you don't know which object the data lives in. SOQL is more precise and used more commonly in triggers and logic."*
+
+---
+
+**Interviewer:** "What happens if you put a SOQL query inside a for loop?"
+
+**You:** *"That's a governor limit violation waiting to happen. Every iteration of the loop fires a separate SOQL query, and you only have 100 per transaction. If you're processing 200 records in a bulk trigger, you'd hit the limit immediately and get a LimitException. The fix is to collect all the values you need first, then run one SOQL query outside the loop using an IN clause."*
+
+---
+
+**Interviewer:** "What is a test class in Salesforce and what's the minimum code coverage required for deployment?"
+
+**You:** ⚠️ *This is something you need to know:*
+
+*"A test class in Salesforce is an Apex class annotated with @isTest that verifies your code works correctly. Salesforce requires a minimum of 75% code coverage across all Apex classes before you can deploy to production. Best practice is to test both positive scenarios — where things work as expected — and negative scenarios like invalid input or missing data. You also use @TestVisible to access private methods and System.assert statements to verify outcomes."*
+
+---
+
+**Interviewer:** "Did you write test classes for your triggers at Ridgelinez?"
+
+**You:** *"Yes, the project required test coverage for deployment. I worked on test classes alongside the logic, using mock data and @TestVisible annotations where needed — you can actually see that in the AccountTriggerLogic where we have a MOCK_NAME_TO_MAPPING variable specifically to support testing without hitting real Custom Metadata."*
+
+---
+
+**Interviewer:** "What's the difference between a workflow rule and a Flow?"
+
+**You:** *"Workflow rules are the older, simpler automation tool — they can do basic things like field updates, email alerts, and outbound messages, but only on a single object and only when a record is created or edited. Flows are much more powerful — they can work across multiple objects, handle complex logic, create and update related records, interact with users through screen flows, and even call Apex. Salesforce has been retiring workflow rules in favor of Flows, so Flow is now the go-to declarative automation tool."*
+
+---
+
+**Interviewer:** "When would you use a Flow over Apex?"
+
+**You:** *"If the business requirement can be handled declaratively — no complex calculations, no bulk processing, no external callouts — Flow is preferred because it's faster to build and admins can maintain it without code. Apex is better when you need bulk processing, complex logic like our fiscal year sales calculator, integrations with external systems, or when you need precise control over governor limits."*
+
+---
+
+**Interviewer:** "What is a Lightning Web Component and have you worked with them?"
+
+**You:** ⚠️ *Know this:*
+
+*"Lightning Web Components, or LWC, is Salesforce's modern framework for building UI components using standard web technologies — HTML, JavaScript, and CSS. They're faster and more lightweight than the older Aura framework. I have exposure to LWC from my time at Ridgelinez — our project had an lwc folder with components. LWC components communicate with each other through properties using @api for parent-to-child, and custom events for child-to-parent. They can call Apex methods using @wire for reactive data or imperative calls for on-demand data fetching."*
+
+---
+
+**Interviewer:** "What's the difference between @wire and an imperative Apex call in LWC?"
+
+**You:** ⚠️ *Know this:*
+
+*"@wire is reactive — it automatically calls the Apex method when the component loads or when its parameters change, and re-renders when the data updates. It's good for read-only data that you want to stay in sync. An imperative call is manual — you call the Apex method explicitly in JavaScript, like inside a button click handler. It's better when you need to control exactly when the call happens, like on a form submit, or when you need to handle errors more specifically."*
+
+---
+
+**Interviewer:** "What is Pardot and how does it connect to Salesforce?"
+
+**You:** *"Pardot — now called Marketing Cloud Account Engagement — is Salesforce's B2B marketing automation tool. It handles email campaigns, lead scoring, and prospect tracking. It syncs with Salesforce so that prospects in Pardot map to Leads or Contacts in Salesforce. When a prospect reaches a certain score or takes an action, it can automatically create or update records in Salesforce, trigger assignments to sales reps, and push campaign data back for reporting. I had exposure to Pardot at Ridgelinez where it was part of the overall Salesforce setup."*
+
+---
+
+**Interviewer:** "What is Lead conversion in Salesforce?"
+
+**You:** *"Lead conversion is the process of converting a qualified Lead into three records — an Account, a Contact, and optionally an Opportunity — all in one action. Salesforce maps Lead fields to the corresponding fields on those three objects during conversion. In our project we actually had custom logic around this — the Lead trigger would pre-create or match an Account before conversion, so by the time conversion happened the Account was already there."*
+
+---
+
+**Interviewer:** "What is a sandbox and what types are there?"
+
+**You:** ⚠️ *Know this:*
+
+*"A sandbox is a copy of your Salesforce org used for development and testing without affecting production. There are four types: Developer sandbox — smallest, no data copy, good for coding. Developer Pro — slightly larger storage, still no data copy. Partial Copy — copies a sample of production data, good for testing. Full sandbox — exact copy of production including all data, used for final UAT before deployment. At Ridgelinez we worked in sandboxes and deployed to production using change sets."*
+
+---
+
+**Interviewer:** "How do you deploy changes from sandbox to production?"
+
+**You:** ⚠️ *Know this:*
+
+*"The most common ways are Change Sets — which is a point-and-click approach where you add components and deploy through the UI — or Salesforce DX with the CLI, which is more developer-friendly and supports version control through Git. Our project used Salesforce DX, which is why we had the force-app project structure with separate folders for classes, triggers, LWC, and so on."*
+
+---
+
+**Interviewer:** "What's a big mistake a junior Salesforce developer commonly makes?"
+
+**You:** *"The most common one is writing SOQL or DML inside a for loop — which breaks bulkification and hits governor limits fast. Another common mistake is having multiple triggers on the same object, which makes execution order unpredictable. That's why we followed the one-trigger-per-object pattern, routing everything through the handler."*
+
+---
+
+**Interviewer:** "Last one — where do you see yourself growing as a Salesforce developer?"
+
+**You:** *"I want to go deeper on the platform — get certified, get more comfortable with LWC, and eventually grow into a senior role where I'm making architectural decisions and mentoring others. I think Dentsu is a great place for that given the scale of projects and the kind of clients you work with."*
+
+---
+
+**Interviewer:** "Great. Any questions for me?"
+
+**You:** *"Yes — what Salesforce clouds does the team primarily work on? And what does a typical project look like for a developer here?"*
+
+---
+
+## ⚠️ The Parts You Need to Study Before the Interview
+
+| Topic | Priority |
+|---|---|
+| Test classes + code coverage (75%) | 🔴 High |
+| @wire vs imperative LWC calls | 🔴 High |
+| Sandbox types | 🔴 High |
+| Salesforce DX + deployment | 🟡 Medium |
+| SOQL vs SOSL | 🟡 Medium |
+| Flow vs Apex decision making | 🟡 Medium |
+
+Want me to drill you on any of these specifically? 🎯

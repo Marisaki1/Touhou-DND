@@ -1,0 +1,589 @@
+# FLOOR 5: THE MAZE OF SKULLHOLLOW
+*"Something small and bright is being hunted by something ancient and terrible. Your job is to make sure it survives long enough to matter."*
+
+Lumis will be in a selected spot DM Discretion
+Parties near Lumis will roll a d20
+on a 10 or higher lumis can then be tracked (give hints on how to approach)
+Once approached Lumis will flee (it will do this several times until it doesnt become afraid)
+
+
+---
+
+## Tower Entry
+
+The Masked Girl's voice reaches them before the door opens all the way.
+
+**Masked Girl:** *"Welcome back, dearest climbers. Floor 5 is a little different from what you've seen so far."*
+
+*[Pause. She sounds like she's choosing her next words carefully.]*
+
+*"You are not the hunters this time. Something small lives in these tunnels — something that should not be caught. Five very old, very dangerous things are looking for it, and they have been looking for a long time.*
+
+*"Your task is simple: keep it alive. Find it. Shield it. Or, if you're feeling ambitious — remove what's hunting it.*
+
+*"I will note that all four parties on this floor share the same failure condition. This is the first floor where that is true.*
+
+*"Good luck. You're going to want it. ♪"*
+
+*[She steps aside.]*
+
+---
+
+## The Unit — LUMIS, The Pale Cave Sprite
+
+Lumis is a small bioluminescent cave creature roughly the size of a cat — pale, faintly translucent, with wide dark eyes and thin limbs that end in soft luminous pads. It does not speak. It does not fight. It moves constantly, and it is very good at hiding in places where it shouldn't fit.
+
+It has survived in Skullhollow for a long time. It knows the tunnels. It does not know what the Horsemen are.
+
+**Lumis — Stats:**
+
+| Stat | Value |
+|---|---|
+| HP | 40 |
+| AC | 12 |
+| Speed | 40ft (can pass through gaps as small as 6 inches) |
+| Passive Perception | 16 |
+| Passive Stealth | 18 |
+
+**Lumis's Movement Pattern — Fixed Circuit:**
+Lumis follows a looping route through the maze's major corridors in a counterclockwise circuit. The full circuit takes approximately **90 minutes** at its standard pace. It does not deviate unless a Horseman is within 60ft of it — then it immediately teleports to a random room at least 10 rooms away and resumes the circuit from there.
+
+**DM Note:** Mark Lumis's position on your map each 15 minutes. Players who successfully track it (DC 14 Survival or DC 12 Perception in a room Lumis recently passed through) can intercept rather than chase.
+
+**If a Horseman Reaches Lumis:**
+- Lumis takes **2d10 damage**
+- Lumis immediately teleports to a random distant room (DM rolls d6 for quadrant)
+- If Lumis reaches 0 HP, the floor fails for ALL parties simultaneously
+
+**Lumis's Trust:**
+Lumis will not approach characters it has not seen before. However, if a character has been within 30ft of it without attacking for 2 consecutive rounds, Lumis will cautiously approach and follow that character for up to 10 minutes before resuming its circuit. This effectively lets a party escort it through a section of the maze.
+
+---
+
+## The Five Horsemen
+
+The Horsemen are ancient manifestations. They are not enemies in the standard sense — they are forces. Each is mounted. Each can be dismounted. An unmounted Horseman is significantly weaker and cannot pursue Lumis.
+
+**General Rules:**
+- Horsemen do not engage player parties unless attacked or blocked
+- A Horseman that is blocked (party deliberately stands in its path for 2+ rounds) will attack
+- A dismounted Horseman will attempt to recover its mount for **3 rounds** — during this time it is stationary and does not pursue Lumis
+- Killing a mount **permanently** prevents remounting for that Horseman
+- The **Fifth Horseman** cannot be damaged until the other four are defeated or dismounted simultaneously
+
+**Movement:** Each Horseman moves once every **10 minutes** of real time. Roll 1d6 for direction (1=N, 2=NE, 3=SE, 4=S, 5=SW, 6=NW). If movement is blocked by a wall, they move along the wall toward the nearest corridor.
+
+---
+
+### HORSEMAN I — CONQUEST *(White Horse)*
+*"He does not conquer by force. He conquers by making you believe you've already lost."*
+
+**Starting Position:** Northwest quadrant of the maze.
+
+| Stat | Mounted | Unmounted |
+|---|---|---|
+| AC | 18 | 14 |
+| HP | 120 | 80 |
+| Speed | 60ft | 30ft |
+| Attack | Vorpal Lance: +8, 2d10+5 piercing + DC 15 Con or be Stunned 1 round | Silver Bow: +6, 1d8+4 piercing |
+
+**Mounted Special — Crown of Inevitability:** While mounted, all creatures within 30ft must succeed a DC 15 Wisdom save at the start of their turn or have their movement halved and cannot take the Dash action.
+
+**Weakness — Humility of the Crown:**
+Conquest is bound by an ancient rule: a crowned ruler who willingly kneels before him cannot be harmed by him. If a player character is wearing any crown, circlet, or headpiece (including makeshift ones) and uses their action to kneel and speak aloud *"I acknowledge your victory,"* Conquest is **Stunned for 3 rounds** and his horse rears back, requiring a DC 14 Athletics check to control. On a failed check, the horse bucks him and he is dismounted.
+
+Conquest will not attack a character who has knelt to him — only pursue Lumis. He considers it beneath him to strike the defeated.
+
+**Killing the Mount (White Horse):**
+White Horse AC 14, HP 40. It is proud and will not flee — but if it takes more than 20 damage in a single round, it rears uncontrollably and Conquest must make a DC 14 Strength save or be thrown.
+
+**Clues that reveal this weakness:** Look for clues tagged **[C1]** in the room tables.
+
+---
+
+### HORSEMAN II — WAR *(Red Horse)*
+*"He does not need a reason. He needs a target."*
+
+**Starting Position:** Northeast quadrant of the maze.
+
+| Stat | Mounted | Unmounted |
+|---|---|---|
+| AC | 17 | 13 |
+| HP | 140 | 90 |
+| Speed | 50ft | 30ft |
+| Attack | Greatsword of Ruin: +9, 2d6+6 slashing + on crit deals max damage | Thrown Axe: +7, 1d12+5 slashing, range 30/90 |
+
+**Mounted Special — Tide of Battle:** When War hits a creature, all other creatures within 15ft must succeed a DC 14 Strength save or be pushed 10ft in a random direction and take 1d6 bludgeoning from the shockwave.
+
+**Weakness — The White Banner:**
+War cannot strike a creature carrying a White Banner — any white cloth tied to a weapon or pole and held aloft. This is an ancient compact. While the banner is raised, War halts and his horse stops moving. He will wait. If the banner is lowered, the compulsion immediately ends. The banner must be held as an action each round to maintain the effect.
+
+A makeshift White Banner (DC 10 Investigation to construct from available cloth) counts. War recognizes the symbol regardless of craftsmanship.
+
+**Killing the Mount (Red Horse):**
+Red Horse AC 15, HP 50. It attacks any creature that comes within 5ft of War, dealing 1d8+3 hooves on a hit (+5). Killing it causes War to howl with rage — he gains advantage on all attacks for 3 rounds but takes a −2 AC penalty (fury and grief, simultaneously).
+
+**Clues that reveal this weakness:** Look for clues tagged **[C2]** in the room tables.
+
+---
+
+### HORSEMAN III — FAMINE *(Black Horse)*
+*"He does not starve you. He makes you starve everything around you."*
+
+**Starting Position:** Southeast quadrant of the maze.
+
+| Stat | Mounted | Unmounted |
+|---|---|---|
+| AC | 15 | 11 |
+| HP | 100 | 60 |
+| Speed | 45ft | 25ft |
+| Attack | Balance Scales (melee, reach 10ft): +7, 1d10+4 necrotic + target cannot benefit from healing for 1 minute | Touch of Drought: +5, 1d6+3 necrotic |
+
+**Mounted Special — Withering Aura:** All food, potions, and consumable items within 20ft of Famine spoil and are destroyed at the start of his turn. (Magical items are immune. Standard rations and non-magical potions are not.)
+
+**Weakness — Offering of Abundance:**
+Famine is compelled to stop when presented with an offering of genuine food placed on the ground before him. He must spend 1 full round examining it — ancient compulsion, not choice. If the offering is a **Hearty Meal** or better quality food, he spends 2 rounds examining it and cannot move. If the food is poisoned (Medicine's Hollow oils count), the offering causes him 3d8 necrotic damage on examination and his horse flees — effectively dismounting him without combat.
+
+**Killing the Mount (Black Horse):**
+Black Horse AC 12, HP 35. It is the weakest of the mounts but it passively extends Famine's Withering Aura by 10ft. Killing it removes the aura entirely.
+
+**Clues that reveal this weakness:** Look for clues tagged **[C3]** in the room tables.
+
+---
+
+### HORSEMAN IV — DEATH *(Pale Horse)*
+*"He does not hurry. He has already arrived."*
+
+**Starting Position:** Southwest quadrant of the maze.
+
+| Stat | Mounted | Unmounted |
+|---|---|---|
+| AC | 19 | 15 |
+| HP | 160 | 110 |
+| Speed | 40ft | 30ft |
+| Attack | Scythe of Ending: +10, 2d8+7 necrotic + DC 16 Con save or drop to 0 HP (usable once per round, on a crit only) | Touch of Death: +8, 1d12+5 necrotic |
+
+**Mounted Special — Deathly Stillness:** All creatures within 30ft of Death must succeed a DC 16 Wisdom save at the start of their turn or be Frightened until the start of their next turn.
+
+**Immunity:** Death is immune to necrotic damage. He takes half damage from all sources while mounted.
+
+**Weakness — Radiant Anchor:**
+Death cannot willingly move through an area illuminated by **true radiant light** (Divine spells, the Godsliver Longsword's glow, or Medicine's Radiant-imbued Oil applied to a torch count). He must stop at the edge of any such light source. He can be kept stationary by maintaining a radiant light source between him and his destination.
+
+Additionally, if struck by **10 or more radiant damage in a single hit**, Death is **knocked from his horse** automatically — the force disrupts his form.
+
+**Killing the Mount (Pale Horse):**
+Pale Horse AC 16, HP 60. It is immune to necrotic damage. Radiant damage deals double to it. Killing it causes Death's form to briefly destabilize — he becomes visible as a flickering, translucent figure and loses his Deathly Stillness aura for 5 rounds.
+
+**Clues that reveal this weakness:** Look for clues tagged **[C4]** in the room tables.
+
+---
+
+### HORSEMAN V — THE GILDED *(Gold Horse)*
+*"He does not represent one catastrophe. He is the residue of all of them."*
+
+**Starting Position:** Center of the maze — dormant. He does not move or act until the other four Horsemen have been defeated or simultaneously dismounted.
+
+**Activation Condition:** When the fourth Horseman falls (or all four are dismounted at the same time), The Gilded activates. His Gold Horse rears and he turns toward Lumis's last known position.
+
+| Stat | Mounted | Unmounted |
+|---|---|---|
+| AC | 20 | 16 |
+| HP | 200 | 150 |
+| Speed | 70ft | 40ft |
+| Attack | All Four Attacks (alternates between Conquest's lance, War's sword, Famine's scales, Death's scythe — one per turn) | All Four Unmounted Attacks |
+
+**Special — Inheritance of All:**
+The Gilded inherits all weaknesses of the four defeated Horsemen simultaneously. A White Banner halts him. Radiant light blocks his path. Food offerings slow him. A kneeling crown-wearer stuns him.
+
+If the party uses **all four weakness mechanics** against him in the same combat, he is forcibly dismounted with no Athletics check required — the accumulated weight of the compact breaks his mount entirely.
+
+**Killing the Mount (Gold Horse):**
+Gold Horse AC 18, HP 80. Immune to all damage unless all four previous mounts are already dead. If all four are dead, Gold Horse takes normal damage from all sources and has no special properties.
+
+**Clues that reveal this weakness:** Look for clues tagged **[C5]** in the room tables.
+
+---
+
+## The Four Parties — Starting Positions
+
+Each party enters from a different point on the maze's perimeter.
+
+| Party | Entry Point | Starting Quadrant |
+|---|---|---|
+| A | The Echoing Mouth (southwest entrance) | Lower Left |
+| B | Upper North passage | Upper Left |
+| C | Northeast cavern gap | Upper Right |
+| D | The Forgotten Tomb approach (east side) | Lower Right |
+
+**DM Note:** All four parties are on the same floor simultaneously. If your table is running all four (or a subset), track their individual timers. Horseman positions affect all parties equally. A party that eliminates a Horseman benefits every other party on the floor.
+
+---
+
+## Mountslayer Equipment
+
+Mountslayer gear is distributed across the maze in specific high-value rooms (DM places 3 pieces before the session). Each piece is a one-use weapon that destroys a mount in a single hit — bypassing all HP and resistances.
+
+| Item | Form | Notes |
+|---|---|---|
+| Mountslayer Spear | One-handed spear, glows faintly silver | Single use; shatters on impact. The hit automatically dismounts the rider and kills the mount regardless of current HP. Must be a melee attack. |
+| Mountslayer Bolt | Crossbow bolt, black iron tip | Single use; fired from any crossbow. Same effect as Spear but ranged (range 80ft). |
+| Mountslayer Dust | Vial, thrown | 15ft range, thrown as an action. On contact with a mount, the mount makes a DC 18 Con save or instantly dies. On a success the mount takes 8d10 damage instead. |
+
+**Finding Mountslayer gear:** These items are never in normal random rooms. They are always in rooms that have a special marker (DM places three ★ symbols on the map before play). Players reaching those rooms always find the gear regardless of their room content roll.
+
+---
+
+## THE ROOM CONTENT SYSTEM
+
+When any party enters a room for the first time, roll on the **Master Room Table**. After a room has been entered once, its contents are fixed — a looted room stays looted, a triggered trap stays triggered.
+
+**DM Note:** Track visited rooms on your map copy. Mark each with its result so you don't re-roll.
+
+---
+
+### MASTER ROOM TABLE — Roll d20
+
+| d20 | Category | Sub-Table |
+|---|---|---|
+| 1 | **Empty** | Nothing. Cold stone. |
+| 2 | **Empty with Tracks** | Lumis passed through recently. See Tracks entry. |
+| 3–4 | **Junk** | Roll on Junk Table (d20) |
+| 5–6 | **Junk** | Roll on Junk Table (d20) — roll twice, take both |
+| 7–8 | **Useful Item** | Roll on Item Table (d12) |
+| 9 | **Useful Item (Good)** | Roll on Item Table (d12) — roll twice, take higher number result |
+| 10 | **Trap** | Roll on Trap Table (d12) |
+| 11 | **Trick** | Roll on Trick Table (d10) |
+| 12 | **Clue** | Roll on Clue Table (d20) |
+| 13 | **Junk + Clue** | Roll once on each table |
+| 14 | **Item + Trap** | Roll on both — item is present but so is the trap guarding it |
+| 15 | **Item + Clue** | Roll on both — item and clue together |
+| 16 | **Trick + Clue** | Roll on both — environmental trick, plus something written or carved nearby |
+| 17 | **Trap + Junk** | Junk is bait for the trap |
+| 18 | **Multiple Items** | Roll on Item Table (d12) three times. Take all three. |
+| 19 | **Horseman Sign** | A Horseman was here recently. Roll d5 for which one. The room holds their lingering effect (see Horseman Signs). |
+| 20 | **Special Room** | Roll on Special Room Table (d6) |
+
+---
+
+### TRACKS ENTRY *(rolled on result 2)*
+
+> *The dust on the floor is disturbed — small, soft impressions, each one faintly luminous, already fading. Whatever made them was moving fast.*
+
+A DC 11 Survival check reveals the direction Lumis was heading. A DC 14 Survival check reveals approximately how long ago (within 5 minutes). This information lets the party intercept Lumis on its circuit rather than chase it blindly.
+
+---
+
+### JUNK TABLE — Roll d20
+
+| d20 | Item | Notes |
+|---|---|---|
+| 1 | Pile of old bones | No mechanical value. Clatter if disturbed — DC 11 Dexterity save or make noise (alert nearby Horseman to room) |
+| 2 | Broken lantern | Holds no oil. Glass intact. Could carry small liquid if repaired (DC 13 Investigation + tinker's tools) |
+| 3 | Rusted iron cage (small) | Might hold Lumis if caught — but Lumis would escape in 1d4 minutes |
+| 4 | Tattered mining banner | Old cloth. Can be torn into strips. Enough for one makeshift White Banner (War's weakness) |
+| 5 | Empty ration tin (Lunarian military) | Stamped with Floor 3 insignia. Worthless here. Worth 2gp to Chimata. |
+| 6 | Cracked obsidian mirror | Broken. If held up, briefly reflects bioluminescent light — will draw Lumis toward the holder for 1 round if within 30ft |
+| 7 | Bundle of dried mushrooms | Inedible. Crumble if touched. Strong smell — DC 12 Perception reveals something large crushed these recently (Horseman passed through) |
+| 8 | Skull with carved runes | Runes are decorative. Worth 3gp to Akyuu if brought out. |
+| 9 | Waterlogged journal (unreadable) | Ink completely destroyed. Back cover has a rough sketch of the maze — incomplete and incorrect in 2 locations, but better than nothing. |
+| 10 | Corroded compass | Points in a random direction each time it's checked. DC 14 Investigation to determine it's broken. Until then, it's actively misleading. |
+| 11 | Collapsed rope bridge (fragments) | 15ft of usable rope can be salvaged. Takes 2 minutes. |
+| 12 | Empty potion vials (6) | Cleaned and intact. Could hold liquid. Worthless otherwise. |
+| 13 | Dead torch | Cannot be lit. The head is made of some material that refuses flame. DC 15 Arcana — it's a moon-stone torch, works only in moonlight (useless underground). |
+| 14 | Pile of shed scales | Large, dark grey. DC 13 Nature — these are from the Gold Horse. Recent. The Gilded was here. |
+| 15 | Dented iron pot | Full of stale water. The water is not poisonous. It's just old. Could be used as a loud distraction if thrown. |
+| 16 | Old campsite (cold ashes) | Previous climbers were here. Among the ash: 3 copper pieces, a torn equipment list, and a note reading *"Don't go north. Don't."* |
+| 17 | Broken stalagmite (fallen) | Large enough to use as an improvised weapon: 1d8 bludgeoning, heavy. Shatters after 3 hits. |
+| 18 | Sticky webbing (not magical) | Giant cave spider webbing, old and brittle. Movement through the room costs double. Can be burned away (fire damage or torch). |
+| 19 | Pile of coins (corroded) | 8cp, 3sp, and 1gp. All corroded but still legal tender. |
+| 20 | Perfectly intact teacup | Sitting upright in the middle of the floor. Porcelain. Warm. No explanation. Worth 15gp if brought to Akyuu. She will have questions. |
+
+---
+
+### ITEM TABLE — Roll d12
+
+| d12 | Item | Effect | Notes |
+|---|---|---|---|
+| 1 | Cave Bioluminescence Flask | Throws a 20ft bright light radius for 1 hour when broken | Counts as radiant light for Death's weakness. Single use thrown item. |
+| 2 | Climbing Kit (Underdark) | Advantage on Athletics checks to climb rough stone surfaces | Standard equipment. |
+| 3 | Salted Expedition Ration | Counts as a Hearty Meal (removes 1 exhaustion) | Also useful as Famine bait. |
+| 4 | Vial of Echo Dust | Thrown 30ft; creates a 10-second burst of echoing sound in a 20ft radius | Draws attention of any Horseman within 60ft toward that location. Useful as distraction. |
+| 5 | Spelunker's Oil | Applied to boots; advantage on Dexterity saves to avoid falling, and movement is silent on stone for 10 minutes | Single use. |
+| 6 | Emergency Signal Stone | When broken, sends a pulse of light visible to all parties anywhere on the floor | Does not reveal position — only that the holder needs help. All parties see it. |
+| 7 | Runewrit Torch | Burns for 2 hours; produces light that does not flicker in wind | Counts as true radiant light for Death's weakness. |
+| 8 | Reinforced Canvas (large) | Can be made into a makeshift White Banner (War's weakness) in 1 minute | Better quality than torn cloth — War's halt lasts 1 extra round. |
+| 9 | Steel Mirror (undamaged) | Can reflect the Cave Bioluminescence Flask's light, extending its effective radius | Also useful for looking around corners. |
+| 10 | Whetstone (fine quality) | During a short rest, sharpen one weapon: next combat, that weapon deals +2 damage on every hit. Single use per weapon. | |
+| 11 | Map Fragment (Floor 5) | Reveals the accurate layout of 1d6+2 adjacent rooms | DM marks those rooms on the player's copy of the map. |
+| 12 | Crown of Tin (crude) | A crude circlet that nevertheless qualifies for Conquest's weakness | Makeshift. Counts. Conquest will absolutely notice the craftsmanship and have opinions about it. |
+
+---
+
+### TRAP TABLE — Roll d10
+
+All traps require a **DC 13 Passive Perception** to notice before triggering unless otherwise stated.
+
+---
+
+**1 — The Pressure Plate Field**
+
+> *Three flat stones in the corridor floor are slightly discolored — older, smoother than the surrounding rock.*
+
+- **Trigger:** Stepping on any plate
+- **Effect:** A 10ft section of ceiling drops sharp stalagmite fragments. All creatures in a 10ft square make a DC 13 Dexterity save. Failure: 2d6 piercing. Success: half.
+- **Spot DC:** 13 Perception. A DC 11 Investigation after noticing reveals all three plate locations.
+- **Disarm:** DC 14 Thieves' Tools, or place weight on all three simultaneously (requires coordinating three characters — can hold boulders or packs in place)
+- **After Trigger:** The plates are spent. The room is now safe but noticeably louder — any Horseman within 40ft investigates the sound (moves toward this room this round).
+
+---
+
+**2 — The Crystal Resonance Snare**
+
+> *A fist-sized crystal sits in a small alcove in the wall. It pulses faintly blue.*
+
+- **Trigger:** Moving within 5ft of the crystal, or making any sound louder than a whisper within 10ft
+- **Effect:** The crystal emits a high-pitched shriek. All creatures within 20ft take 1d6 thunder damage and must succeed a DC 12 Constitution save or be Deafened for 1 minute. Additionally, every Horseman on the floor is alerted to this room's approximate location and moves toward it for 1d4 rounds.
+- **Spot DC:** 11 Perception (the crystal is not hidden)
+- **Disarm:** Wrapping it in cloth or leather (any padding) before approaching silences it. DC 12 Stealth to approach without triggering.
+- **After Trigger:** The crystal goes dark and is inert.
+
+---
+
+**3 — The Collapse Ceiling (Weight-Sensitive)**
+
+> *The floor here is covered in old rubble. The ceiling above is cracked. Crude wooden supports have been placed — they look old.*
+
+- **Trigger:** More than 200 lbs of weight in the room at once (effectively: 2+ medium creatures)
+- **Effect:** 1d4 sections of ceiling fall. Each creature in the room: DC 14 Dexterity save. Failure: 3d6 bludgeoning and Restrained under rubble (STR DC 15 to free themselves or be freed by ally as an action). Success: half damage, not Restrained.
+- **Spot DC:** 14 Perception (the supports are visibly rotted — not obvious it's a trap vs. just dangerous)
+- **Disarm:** Cannot be disarmed. Crossing one at a time (one person at a time, moving fast) avoids triggering. DC 12 Acrobatics to cross without pausing.
+- **After Trigger:** The room is now partially collapsed and counts as Difficult Terrain.
+
+---
+
+**4 — The Memory Thief Mirror**
+
+> *An intact oval mirror stands against one wall, ornately framed. Your reflection looks back at you — a half-second delayed.*
+
+- **Trigger:** A spellcaster looks directly at their reflection while within 10ft
+- **Effect:** DC 14 Wisdom save. On failure: one prepared spell slot (lowest available level) is temporarily "stolen" — the caster cannot use that slot for 1 hour but they feel no different and may not realize immediately. On a natural 1: they lose their highest available slot instead.
+- **Spot DC:** DC 15 Arcana to notice the half-second reflection delay before it activates. DC 10 Perception notices the mirror exists.
+- **Disarm:** Covering the mirror with cloth before looking. Any character who does not look directly at their own reflection (looks away, looks at someone else's reflection, closes eyes) is immune.
+- **After Trigger:** The mirror cracks. Stolen spell slot returns in 1 hour.
+
+---
+
+**5 — The Adhesive Floor**
+
+> *The stone floor in this section has a faintly yellowish tint and a slight sheen.*
+
+- **Trigger:** Stepping onto the adhesive section
+- **Effect:** Movement speed halved while in the area. DC 13 Strength save each round or become Restrained (stuck in place). Restrained creatures can use their action to attempt DC 15 Athletics to break free, or an ally can pull them (DC 14 Athletics as an action, both move at half speed).
+- **Spot DC:** DC 12 Perception. DC 10 if carrying a light source (the sheen is more obvious in good light).
+- **Disarm:** Any 2 gallons of liquid poured on the floor dissolves the adhesive. Water, oil, or alchemicals all work. The dissolved adhesive becomes Difficult Terrain (slippery) for 10 minutes.
+- **Special:** Lumis is immune — its weight and the texture of its pads mean it passes through cleanly. Horsemen pass through but their mounts are slowed.
+
+---
+
+**6 — The Razor Wire Tripwire**
+
+> *At shin height, almost invisible in the dim light, a near-transparent line runs across the corridor.*
+
+- **Trigger:** Crossing the corridor without spotting it
+- **Effect:** The triggering creature takes 1d4 slashing damage and falls Prone. If Prone in this corridor: all movement until standing costs double. Additionally, a small bell sounds — any Horseman within 50ft investigates.
+- **Spot DC:** DC 15 Perception (it is specifically designed to be hard to see). DC 11 if using a light source held low.
+- **Disarm:** Any bladed weapon or sharp item cuts it as a free action once spotted. Can also be stepped over (DC 12 Acrobatics).
+- **After Trigger:** Wire is severed. Bell cannot be un-rung.
+
+---
+
+**7 — The Poison Dart Wall**
+
+> *Several small holes in the south wall, evenly spaced. Easy to miss. Easy to regret missing.*
+
+- **Trigger:** A pressure plate 10ft before the holes (DC 14 to spot before stepping)
+- **Effect:** 1d4 darts fire at the triggering creature and all creatures within 5ft of them. Each dart: +5 to hit, 1d4 piercing. Any creature hit must succeed DC 14 Constitution save or be Poisoned for 1 hour.
+- **Spot DC:** DC 14 for the plate. DC 12 for the holes (once you know to look for them).
+- **Disarm:** DC 13 Thieves' Tools on the plate mechanism, or stuff the holes with cloth before crossing.
+- **Darts:** 2d4 darts remain embedded in the wall after firing. Can be extracted and used as improvised thrown weapons (1d4 piercing, range 20/60, no poison remaining).
+
+---
+
+**8 — The Heartbeat Sensor Door**
+
+> *A sealed stone door with no visible handle or lock — only a hand-carved image of a ribcage on its surface.*
+
+- **Trigger:** This door only opens when all living creatures in the room hold perfectly still for 1 full minute (6 rounds of taking no actions, no movement, no speaking)
+- **Effect (if failed):** A sharp vibration passes through the floor. All creatures: DC 11 Constitution save or take 1d4 thunder damage. The door remains sealed.
+- **Bypass:** The door cannot be forced open (it's 2ft thick stone). Thieves' Tools cannot crack it. Knock spell opens it instantly.
+- **On Success:** The door grinds open. It will close again in 10 minutes. Whatever is on the other side is worth the wait — the DM places a better-quality item (treat as rolling twice on the Item Table and taking the higher result) behind it.
+- **Special:** If a Horseman enters the room while characters are holding still, the characters must still hold still to keep the effect going. Horsemen ignore still characters who are not attacking.
+
+---
+
+**9 — The Cave-In Trigger (Auditory)**
+
+> *The ceiling here shows stress fractures. Several loose rocks are visible in the cracks above.*
+
+- **Trigger:** Any loud noise (combat, shouting, running on stone) — DC 11 Dexterity save for each creature in the room
+- **Effect:** Falling rocks. Failure: 2d8 bludgeoning. Success: half. The room is now partially collapsed (Difficult Terrain throughout).
+- **Spot DC:** DC 10 Perception (the cracks are visible). DC 12 to predict it would be noise-triggered specifically.
+- **Disarm:** Cannot be disarmed — the ceiling is genuinely unstable. Moving slowly and quietly through the room avoids triggering. DC 10 Stealth if moving normally, DC 7 if taking half speed.
+- **Special:** If a Horseman gallops through this room, the cave-in triggers automatically.
+
+---
+
+**10 — The False Floor**
+
+> *The stone here sounds slightly hollow if tapped (DC 12 Perception when stepping, DC 10 if specifically tapping with a weapon).*
+
+- **Trigger:** Stepping on the false section with more than 50 lbs of weight
+- **Effect:** 15ft drop into a lower chamber. DC 13 Dexterity save. Failure: 2d6 falling damage, land Prone in lower chamber. Success: catch the edge (hanging, require STR DC 12 to pull up or take the fall voluntarily for 1d6).
+- **The Lower Chamber:** Contains 1 item (roll Item Table) and 1 junk (roll Junk Table). There is a climbable route back up (DC 11 Athletics, 1 minute). The lower chamber counts as a new room — roll for contents when first reached through the false floor.
+- **After Trigger:** The hole remains. Other creatures can now see it and choose to descend or avoid it.
+
+---
+
+
+
+---
+
+### TRICK TABLE — Roll d8
+
+| d10 | Trick | Description |
+|---|---|---|
+| 1 | **The Confusion Room** | Confusion you will not find anything in the next two rooms you visit. |
+| 2 | **The Echo Chamber** | The nearest horseman will go to the room. |
+| 3 | **The Trick Room** | Moving is now halve for 10 turns. (once) |
+| 4 | **The Counting Room** | You do a random math. |
+| 5 | **The Warm Pool** | Resting here for 10 minutes removes exhaustion. |
+| 6 | **The Silence** | No one can speak inside here |
+| 7 | **The Mystic** | A fake lumis will fly towards a direction |
+| 8 | **The Vision** | You vision can see through walls for 10 turns (once) |
+
+---
+
+### CLUE TABLE — Roll d20
+1st Horseman (White Horse): Often identified as Conquest, 
+2nd Horseman (Red Horse): Represents War,
+3rd Horseman (Black Horse): Represents Famine, 
+4th Horseman (Pale Horse): Identified directly as Death, 
+5th Horseman (Gold Horse): Everything evil
+Clues are fragments — notes, etchings, residual magic, or environmental evidence. They do not spell out weaknesses directly. Players must connect what they find.
+
+| d20 | Clue Type | Content |
+|---|---|---|
+| 1 | **[ALL]** Remove them from their horse and they will become very weak
+| 4 | **[2]** Carrying a white flag means truce
+| 5 | **[1]** If no one attacks him the horseman leaves
+| 6 | **[4]** Death ignores those who shed light
+| 7 | **[3]** Dropping any food on the ground makes the horse lazy and will not move (Famine)
+| 8 | **[4]** They compete against one another
+| 9 | **ALL** They take double the damage against heals
+| 10| A final page, written in different ink than the rest: *"If the Gilded wakes, remember: you did not defeat one enemy. You defeated four. The fifth is the echo of those four defeats. Show it that you know what it is. All four compacts, all at once. It will understand."* |
+
+
+---
+
+### HORSEMAN SIGNS *(rolled on result 19 — Master Table)*
+
+When this result appears, roll d5 to determine which Horseman recently passed through.
+
+| d5 | Horseman | Lingering Effect |
+|---|---|---|
+| 1 | Conquest | DC Intelligence 13. All creatures have disadvantage on their attack rolls. |
+| 2 | War | DC Charisma 13. On a fail roll a 1d2 on a 2 you must attack the nearest creature with your weapon |
+| 3 | Famine | All consumable becomes unusable. Magical consumables are unaffected. |
+| 4 | Death | A cold so profound it's painful. Each creature: DC 14 Constitution save or gain 1 level of exhaustion. The room feels like something ended here recently. |
+| 5 | The Gilded | All marked enemies takes damage when gilded starts its turn |
+
+---
+
+### SPECIAL ROOM TABLE — Roll d6
+
+| d6 | Room | Description |
+|---|---|---|
+| 1 | **The Crossroads Spring** | Lumis Appears, players wins |
+| 2 | **The Climber's Cache** | A bunch of potions |
+| 3 | **The Forgotten Altar** | DC 12 Religion check grants Heroic Inspiration. Investigation gets 200 gp |
+| 4 | **The Narrow Bridge Room** | Athletics check of 13 Lumis appears and must be caught |
+| 5 | **The Map Room** | Gets full access to a map |
+| 6 | **Lumis's Rest** | Everyone gets fully healed. Lumis is emitting energy, disturbing her is not a good idea |
+
+---
+
+## FLOOR TRACKING — DM QUICK REFERENCE
+
+**Before the session, mark on your map:**
+- Lumis starting position (center, counterclockwise circuit)
+- 5 Horseman starting positions (by quadrant)
+- 4 Party entry points
+- 3 Mountslayer item locations (★ markers)
+- Any rooms you want to pre-assign (Map Room, Crossroads Spring, etc.)
+
+**Every 10 minutes:**
+- Move each Horseman (1d6 for direction, blocked by walls)
+- Check if any Horseman is within 60ft of Lumis's current position
+- Move Lumis one segment along its circuit
+
+**Every 15 minutes:**
+- Update Lumis's position on the map
+- Check if any party has intercepted Lumis's path
+
+**Alert Tracking Per Horseman:**
+
+| Horseman | Mounted? | HP Remaining | Weakness Revealed? |
+|---|---|---|---|
+| Conquest (White) | ☐ Yes ☐ No | ___ / 120 | ☐ |
+| War (Red) | ☐ Yes ☐ No | ___ / 140 | ☐ |
+| Famine (Black) | ☐ Yes ☐ No | ___ / 100 | ☐ |
+| Death (Pale) | ☐ Yes ☐ No | ___ / 160 | ☐ |
+| The Gilded | ☐ Dormant ☐ Active | ___ / 200 | ☐ |
+
+**Lumis:**
+
+| HP | Circuit Position | Last Teleport | Currently Escorted? |
+|---|---|---|---|
+| ___ / 40 | | | ☐ |
+
+---
+
+## VICTORY CONDITIONS & PRIZES
+
+**Floor Clears When:** Either all five Horsemen are defeated/dismounted simultaneously, OR Lumis survives until it completes 3 full circuits of the maze (approximately 270 minutes of floor time), whichever comes first.
+
+**Floor Fails When:** Lumis reaches 0 HP.
+
+---
+
+**Rankings are assigned at floor end. Tracked by the Masked Girl.**
+
+| Rank | Condition | Reward |
+|---|---|---|
+| **1st Place** | Party that dealt the killing blow or final dismount to the most Horsemen | +1 Armor (any type) AND +1 Weapon (any type) — both unidentified |
+| **2nd Place** | Party with the second-most Horseman contributions | +1 Armor (any type) — unidentified |
+| **3rd Place and beyond** | Any party that contributed at least 1 Horseman defeat or used a Weakness mechanic successfully | +1 Weapon (any type) — unidentified |
+
+**Bonus Points** *(each grants a separate unidentified item, DM selects rarity)*:
+- Horseman defeated (not just dismounted): +1 item per Horseman killed
+- Lumis successfully escorted for a full circuit segment: +1 item
+- Fast Clear (floor complete in under 90 minutes): +1 item
+- Hidden area found (Special Room Table result 2, 3, or 5): +1 item per unique find
+- All four weaknesses used in the same combat against The Gilded: +1 item (rare rarity)
+
+---
+
+## POST-FLOOR NOTES
+
+**Reporting to Akyuu:**
+She will want information about the Horsemen (types, weaknesses confirmed, how they moved), Lumis (what it is, what it does, whether it can be communicated with), and the maze layout. A comprehensive report yields 200–400gp. She will pause mid-sentence to write down *"creature of uncertain classification, bioluminescent, non-hostile"* and then ask seven follow-up questions.
+
+**Lumis After the Floor:**
+If Lumis survived, the Masked Girl's announcement confirms the floor clear. Lumis is not mentioned. If a player asks what happens to it, the Masked Girl's response, from no particular direction: *"It's fine. It was always fine. It just needed company for a little while."*
+
+If Lumis did not survive: *"The floor is complete. I recommend reviewing your prioritization strategy."* She does not elaborate.
+
+---
+
+*[Floor 5 complete. Continues to Chapter 6: Floor 6 TBD]*

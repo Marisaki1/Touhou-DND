@@ -246,15 +246,15 @@ When any party enters a room for the first time, roll on the **Master Room Table
 
 | d20 | Category | Sub-Table |
 |---|---|---|
-| 1 | **Empty** | Nothing. Cold stone. |
+| 1 | **Enemy Fight** | Nothing. Cold stone. |
 | 2 | **Empty with Tracks** | Lumis passed through recently. See Tracks entry. |
 | 3–4 | **Junk** | Roll on Junk Table (d20) |
 | 5–6 | **Junk** | Roll on Junk Table (d20) — roll twice, take both |
 | 7–8 | **Useful Item** | Roll on Item Table (d12) |
 | 9 | **Useful Item (Good)** | Roll on Item Table (d12) — roll twice, take higher number result |
-| 10 | **Trap** | Roll on Trap Table (d12) |
+| 10 | **Trap** | Roll on Trap Table (d10) |
 | 11 | **Trick** | Roll on Trick Table (d10) |
-| 12 | **Clue** | Roll on Clue Table (d20) |
+| 12 | **Clue** | Roll on Clue Table (d10) |
 | 13 | **Junk + Clue** | Roll once on each table |
 | 14 | **Item + Trap** | Roll on both — item is present but so is the trap guarding it |
 | 15 | **Item + Clue** | Roll on both — item and clue together |
@@ -306,14 +306,14 @@ A DC 11 Survival check reveals the direction Lumis was heading. A DC 14 Survival
 | d12 | Item | Effect | Notes |
 |---|---|---|---|
 | 1 | Cave Bioluminescence Flask | Throws a 20ft bright light radius for 1 hour when broken | Counts as radiant light for Death's weakness. Single use thrown item. |
-| 2 | Climbing Kit (Underdark) | Advantage on Athletics checks to climb rough stone surfaces | Standard equipment. |
+| 2 | Dynamite | Can destroy adjacent walls. . |
 | 3 | Salted Expedition Ration | Counts as a Hearty Meal (removes 1 exhaustion) | Also useful as Famine bait. |
-| 4 | Vial of Echo Dust | Thrown 30ft; creates a 10-second burst of echoing sound in a 20ft radius | Draws attention of any Horseman within 60ft toward that location. Useful as distraction. |
-| 5 | Spelunker's Oil | Applied to boots; advantage on Dexterity saves to avoid falling, and movement is silent on stone for 10 minutes | Single use. |
+| 4 | Vial of Echo Dust | Thrown 120ft; creates a 60-second burst of echoing sound in a 20ft radius | Draws attention of any Horseman within 60ft toward that location. Useful as distraction. |
+| 5 | Dynamite | Can destroy adjacent walls. |
 | 6 | Emergency Signal Stone | When broken, sends a pulse of light visible to all parties anywhere on the floor | Does not reveal position — only that the holder needs help. All parties see it. |
-| 7 | Runewrit Torch | Burns for 2 hours; produces light that does not flicker in wind | Counts as true radiant light for Death's weakness. |
-| 8 | Reinforced Canvas (large) | Can be made into a makeshift White Banner (War's weakness) in 1 minute | Better quality than torn cloth — War's halt lasts 1 extra round. |
-| 9 | Steel Mirror (undamaged) | Can reflect the Cave Bioluminescence Flask's light, extending its effective radius | Also useful for looking around corners. |
+| 7 | > Runewrit Torch | Burns for 2 hours; produces light that does not flicker in wind | Counts as true radiant light for Death's weakness. |
+| 8 | #Reinforced Canvas (large) | Can be made into a makeshift White Banner (War's weakness) in 1 minute | Better quality than torn cloth — War's halt lasts 1 extra round. |
+| 9 | Dynamite | Can destroy adjacent walls. |
 | 10 | Whetstone (fine quality) | During a short rest, sharpen one weapon: next combat, that weapon deals +2 damage on every hit. Single use per weapon. | |
 | 11 | Map Fragment (Floor 5) | Reveals the accurate layout of 1d6+2 adjacent rooms | DM marks those rooms on the player's copy of the map. |
 | 12 | Crown of Tin (crude) | A crude circlet that nevertheless qualifies for Conquest's weakness | Makeshift. Counts. Conquest will absolutely notice the craftsmanship and have opinions about it. |
@@ -454,9 +454,9 @@ All traps require a **DC 13 Passive Perception** to notice before triggering unl
 | d10 | Trick | Description |
 |---|---|---|
 | 1 | **The Confusion Room** | Confusion you will not find anything in the next two rooms you visit. |
-| 2 | **The Echo Chamber** | The nearest horseman will go to the room. |
+| 2 | **The Counting Room** | You do a random math. |
 | 3 | **The Trick Room** | Moving is now halve for 10 turns. (once) |
-| 4 | **The Counting Room** | You do a random math. |
+| 4 | **The Echo Chamber** | The nearest horseman will go to the room. |
 | 5 | **The Warm Pool** | Resting here for 10 minutes removes exhaustion. |
 | 6 | **The Silence** | No one can speak inside here |
 | 7 | **The Mystic** | A fake lumis will fly towards a direction |

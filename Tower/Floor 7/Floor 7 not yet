@@ -1,0 +1,545 @@
+
+There are 13 female NPC (Ema, Hanna, Alisa, Sherry, Nanoka, Noah, Hiro, Leah, Margo, Meruru, Coco, An-an, Miria), they can help you with destroying the ??? but there is a catch half of them (6) are enemies and will absorb the ???, for each ??? absorb the boss enemy will get stronger (one of the 6 enemies). Teams must figure out which ones are allies and which ones are the enemies (true solving puzzles and finding hints)
+
+The 13 female NPCs are split into 4 groups
+
+Group 1: Ema, Hanna, Sherry
+Group 2: Alisa, Margo, Nanoka (Evil)
+Group 3: Noah, An-an (Evil), Hiro (Evil)
+Group 4: Meruru (Evil), Coco (Evil), Miria (Evil), Leah
+
+# FLOOR 6: THE SCARLET DEVIL MANSION
+## Evidence System v2 — Group Dynamics Edition
+
+---
+
+> **Core Philosophy:** Players don't know who is in which group at first. They learn it organically through exploration and conversation. The group structure creates both cover and contradiction — enemies hide behind their groupmates, allies are inadvertently suspicious because of who they live with. The safest-looking group (Group 1, all allies) is designed to look the most suspicious on first impression. The most tightly-knit group (Group 4, three enemies and one isolated ally) is designed to make the innocent person look like the odd one out.
+
+---
+
+## CAST AND GROUP STRUCTURE
+
+| Group | Members | Alignment | Notes |
+|---|---|---|---|
+| **Group 1** | Ema, Hanna, Sherry | All Allies | Safest group. Designed to look suspicious at first glance. |
+| **Group 2** | Alisa, Margo, Nanoka | 2 Allies / 1 Enemy | Fracture group. The allies sense something is wrong. |
+| **Group 3** | Noah, An-an, Hiro | 1 Ally / 2 Enemies | Inversion group. The pair looks safe; the loner looks guilty. |
+| **Group 4** | Leah, Meruru, Coco, Miria | 1 Ally / 3 Enemies | Pressure group. The one innocent person has no one vouching for her. |
+
+---
+
+## INVESTIGATION RULES
+
+### Talking to Groups vs. Individuals
+
+**Group conversations** reveal surface-level alibis — the polished, rehearsed version. Enemies have coordinated. What they say in a group setting sounds consistent.
+
+**Individual conversations** are where the cracks appear. Separate them from their groupmates and inconsistencies emerge: different timelines, hesitations, things they said that others contradict.
+
+**DM Rule:** Never give Direct evidence during a group conversation. Circumstantial only. The Direct evidence comes from private questioning, physical exploration, or catching someone alone.
+
+---
+
+### The Cross-Examination — When Two NPCs Are Brought Face to Face
+
+The party's most powerful tool. Choose two NPCs and bring them into the same conversation simultaneously.
+
+- **Two enemies:** Their stories have been rehearsed together. They hold. But they are *too* consistent — DC 14 Insight to notice the scripted quality.
+- **An enemy and an ally:** The ally contradicts the enemy without realizing it. The enemy has to improvise. This is where enemies slip. DC 12 Insight to catch the improvisation.
+- **Two allies:** Freely corroborate each other. Their stories have natural variation (real memories do). No suspicious tells.
+
+**The Tell of a Rehearsed Alibi:** Real memories have texture. Ask two people what they had for tea and they'll give slightly different answers — one says "chamomile," one says "the herbal one." Rehearsed alibis say the same thing with the same words. A DC 14 Insight check during any cross-examination detects scripted synchronization.
+
+---
+
+### The Trust Economy
+
+| Action | Trust Effect |
+|---|---|
+| Correct accusation + valid evidence | +1 with all remaining allies |
+| Wrong accusation + real evidence (misread clue) | No change |
+| Accusation with no evidence | −1 with all allies present |
+| Wrong accusation of an ally | −2 with that ally; −1 with all witnesses |
+| Forcing open a personal item without permission | −1 with that NPC's group |
+| Asking a question an ally already answered | No penalty, but they notice |
+
+**Trust Payoff:** At Trust 2+ with any ally, they will volunteer one piece of evidence unprompted. At Trust 3+, they will name a suspect themselves if they have enough suspicion — but only if the party has already caught one enemy, proving they can handle the information.
+
+---
+
+## THE EVIDENCE — MASTER LIST
+
+---
+
+## GROUP 1: EMA, HANNA, SHERRY
+### *All Allies — Designed to Look Suspicious*
+
+**The Group's Surface Problem:** Group 1 is the most visible and the most active. They move around the mansion frequently, ask questions, and have habits that look strange if you don't know the reason. First-time investigators tend to fixate on them before discovering they're clean.
+
+---
+
+**[E-01] EMA'S CRIMSON-STAINED APRON**
+- **Type:** 🚨 Red Herring
+- **Found:** On Ema — visible in normal interaction, DC 10 Perception to notice specifically
+- **Looks Like:** She handled a Scarlet Vessel. The staining is deep crimson, on her hands and the inside of her apron.
+- **Actually:** She made strawberry preserves this morning. The jam jar is in the kitchen pantry with her name on it. The stain color, when examined carefully, is slightly warmer and more orange than Vessel residue.
+- **DC 12 Investigation** (smell it, compare color in good light) to distinguish jam from Vessel contact
+- **If accused:** Ema immediately takes the party to the pantry. She is annoyed but not angry.
+
+---
+
+**[E-02] THE EAST WING KEY**
+- **Type:** 🚨 Red Herring / ⚪ Combination with [E-09]
+- **Found:** On Ema's person, or noticed missing from the key board in the entrance hall
+- **Looks Like:** Ema had access to the east corridor near Vessel A. The key board clearly has a labeled hook that is empty.
+- **Actually:** She borrowed the key to retrieve tablecloths from the linen closet and forgot to return it. The tablecloths are set on the dining room table right now — Ema can point to them immediately.
+- **Combination Note:** When [E-09] (Nanoka's east corridor sighting) is found, the missing key initially looks like it proves Ema was there. In fact, the linen closet is a dead end past the fork — Nanoka's route went the other direction. A DC 11 Investigation of the east corridor layout separates the two paths.
+
+---
+
+**[E-03] HANNA'S DETAILED FLOOR MAPS**
+- **Type:** 🚨 Red Herring
+- **Found:** In Hanna's room, on her desk — DC 10 Perception, it's not hidden
+- **Looks Like:** Reconnaissance. Both floors, every room labeled, corridors marked. This is exactly what someone planning to reach multiple Vessels would draw.
+- **Actually:** Hanna gets lost constantly. She drew these herself over her first two weeks here because the mansion is genuinely labyrinthine. The annotations are personal: *"drafty at night, avoid,"* *"Sherry's room — borrow sugar here,"* *"this corridor smells strange, take the other one."*
+- **DC 13 Investigation** to read the full annotations and realize this is a personal navigation aid, not tactical planning
+- **Hanna will show it to anyone who asks.** She's proud of it.
+
+---
+
+**[E-04] HANNA'S VESSEL QUESTIONS**
+- **Type:** 🚨 Red Herring
+- **Found:** Through conversation — multiple NPCs (Alisa, Margo, Noah) remember Hanna asking about the Vessels
+- **Looks Like:** She was casing them — asking where they were, what they did, whether they were valuable
+- **Actually:** She thought they were decorative and was curious. Her questions to Alisa were: *"What are those pretty red things? Are they ornaments? Do they do something?"* Alisa found it charming and a little naive.
+- **Alisa will confirm this** if trusted: *"She had no idea what they were. Neither did I, honestly, but her questions were the wrong shape for someone planning something."*
+
+---
+
+**[E-05] SHERRY'S LATE-NIGHT FOOTSTEPS**
+- **Type:** 🚨 Red Herring / ⚪ Combination with [E-17]
+- **Found:** Through conversation with Ema — she heard footsteps from Sherry's direction after midnight
+- **Looks Like:** Sherry left her room at night, possibly to reach a Vessel
+- **Actually:** Sherry sleepwalks. She walked to the kitchen, drank water, and returned. Ema saw her: *"She didn't respond when I said her name. Her eyes were open but she was asleep — I've seen it before."*
+- **The path Sherry took** does not pass near any Vessel.
+- **Combination Note:** If the party has found [E-17] (the empty sitting room), they might wonder if Sherry's sleepwalk took her there. It did not — Ema tracked the direction of the footsteps to the kitchen, not the sitting room.
+
+---
+
+**[E-06] SHERRY'S LOCKED BOX**
+- **Type:** 🚨 Red Herring
+- **Found:** In Sherry's room — she reacts visibly if the party notices it
+- **Looks Like:** Hidden evidence, stolen goods, a Vessel fragment, something incriminating
+- **Actually:** Personal letters from someone she loves back home. She is embarrassed, not guilty.
+- **DC 14 Persuasion** (with patience and kindness) or simply waiting gets her to admit it without opening the box
+- **If forced open:** The letters are innocent. Doing so without permission costs −1 Trust with all of Group 1. Sherry will not speak to the party voluntarily for the rest of the floor.
+
+---
+
+## GROUP 2: ALISA, MARGO (Allies), NANOKA (Enemy)
+### *The Fracture Group — The Allies Sense Something Is Wrong*
+
+**The Group's Dynamic:** Alisa and Margo haven't spoken their suspicions aloud, but something in how Nanoka has been acting this past week sits wrong with them. They dismiss it — they've lived together for months. But the tells are there, if the party notices them noticing her.
+
+---
+
+**[E-07] THE MISSED TEA (Testimony)**
+- **Type:** 🟡 Circumstantial
+- **Found:** Alisa mentions this freely if asked where everyone was
+- **Content:** *"Nanoka was supposed to join us for tea at eight. She said she would. We waited — Margo and I — for nearly twenty minutes before we gave up."*
+- **The Contradiction:** Nanoka claims she was in her room from seven onward, undisturbed. But she made plans for eight o'clock — either she forgot because she was occupied elsewhere, or she made a false commitment knowing she'd miss it.
+- **Nanoka's Response if Pressed:** *"I fell asleep. I forgot. I'm sorry."*
+- **The Problem:** Her room shows no signs of sleep — the bed isn't rumpled (DC 11 Investigation in her room).
+
+---
+
+**[E-08] MARGO'S OBSERVATION (Testimony)**
+- **Type:** 🟡 Circumstantial
+- **Found:** Through conversation with Margo — she will not volunteer this, but shares it if the party asks whether anyone seemed unusual recently
+- **Content:** *"I paint. I watch people's hands. Last week, when the Vessels were first mentioned in front of everyone — Nanoka's hands trembled. She covered it in less than a second. But I saw it."*
+- **What It Means:** A physical tell of stress or guilt when the Vessels were mentioned — before anything was wrong. She already knew about them then.
+- **DM Note:** This is a behavioral observation. It doesn't prove anything alone. Paired with other evidence it becomes significant.
+
+---
+
+**[E-09] THE EAST CORRIDOR SIGHTING (Testimony)**
+- **Type:** 🔴 Direct (if paired with timeline)
+- **Found:** Alisa, if asked specifically whether she saw Nanoka at all that evening
+- **Content:** *"Yes, actually — around nine, I think. She was in the east corridor, near the far end. She said she was looking for the bathroom. I didn't think much of it."*
+- **The Problem:** DC 10 Intelligence (or physical exploration) — the bathrooms are on the west side of the east wing. The far end of that corridor leads to Vessel A's room.
+- **Nanoka's Response if Confronted with This:** *"Alisa has the direction wrong. It was the west corridor."*
+- **The Counter:** Alisa is specific. She notes the corridor by a distinctive crack in the wall she recognizes. The party can verify this crack is in the east corridor.
+
+---
+
+**[E-10] THE ASSIGNMENT LETTER (Physical)**
+- **Type:** 🔴 Direct
+- **Found:** Inside the spine of a book in Nanoka's room — the spine has been carefully cut and reglued. DC 14 Investigation.
+- **Content:** A letter assigning "Vessel A" to the holder with a rough location description. Signed only with: *"The arrangement stands. Do not contact the others before it is done. — [symbol]"* The other five recipients are referenced by initial: H, M, C, A, Mi.
+- **Immediate Use:** Names Nanoka's target. Also gives the party a cipher — H, M, C, A, Mi — that they can begin matching to names as they investigate.
+- **The Symbol:** A partial serpentine shape in dark red wax on the fold. This matches [E-32].
+
+---
+
+**[E-11] THE SUPPRESSION BOOK (Physical)**
+- **Type:** 🟡 Circumstantial
+- **Found:** The book on Nanoka's nightstand — not hidden, DC 10 Perception
+- **Content:** A text on defensive magical barriers. It's dog-eared at a chapter titled *"Suppression Methods for Detected Resonance Objects"* — specifically about muffling the detection signature of magical crystals.
+- **DC 12 Arcana** to understand the chapter's relevance to Vessels
+- **Nanoka's Response:** *"I find magical theory interesting. Is that suspicious?"*
+- **The Problem:** The dog-ear is fresh. The rest of the book is pristine — she wasn't reading it for pleasure.
+
+---
+
+**[E-12] ALISA'S VESSEL BOOKS (Physical)**
+- **Type:** 🚨 Red Herring
+- **Found:** On Alisa's desk — she has three books on Scarlet Vessels, openly displayed
+- **Looks Like:** Alisa was researching how to access or use them
+- **Actually:** She noticed them when they arrived and became academically curious. Her margin notes are analytical: *"possible lunar origin? compare with standard resonance crystal — different internal structure."* Scholarly, not operational.
+- **DC 12 Investigation** to read the notes and confirm their academic tone
+- **Alisa will discuss the books openly.** She's happy to talk about them. She thinks they're fascinating. This openness is itself a tell — a guilty person doesn't display their research.
+
+---
+
+**[E-13] MARGO'S VESSEL SKETCH (Physical)**
+- **Type:** 🚨 Red Herring
+- **Found:** In Margo's sketchbook — she carries it with her. DC 11 Perception if she sets it down.
+- **Looks Like:** Margo drew the Vessel in detail — mapping it, studying it for a purpose
+- **Actually:** She's an artist. She draws interesting objects. The sketch is surrounded by drawings of other mansion details: a chandelier, a window's iron lattice, Ema's teapot.
+- **DC 10 Investigation** on the sketchbook context to see the artistic pattern
+- **Margo will show the sketchbook willingly.** She's proud of the Vessel sketch specifically — *"the light through it is extraordinary."*
+
+---
+
+## GROUP 3: NOAH (Ally), AN-AN, HIRO (Enemies)
+### *The Inversion Group — The Pair Looks Safe; The Loner Looks Guilty*
+
+**The Group's Dynamic:** An-an and Hiro are tight. They finish each other's sentences, corroborate each other without being asked, and present a united front. Noah is quieter, more isolated, and visibly nervous. The surface reading says Noah is hiding something. The actual reading is that she's terrified — she suspects her groupmates and has no one to tell.
+
+---
+
+**[E-14] THE MUTUAL ALIBI (Testimony)**
+- **Type:** 🟡 Circumstantial (becomes 🔴 Direct with [E-15] or [E-17])
+- **Found:** Group conversation with An-an and Hiro
+- **Content:** An-an says she was with Hiro. Hiro says she was with An-an. They name no one else.
+- **The Surface Problem:** They are each other's only alibi. No third party confirms either of them.
+- **The Second-Layer Problem:** They don't mention where Noah was — which means they were not with Noah and cannot account for her either.
+
+---
+
+**[E-15] THE TIMELINE CRACK (Testimony — Cross-Examination)**
+- **Type:** 🔴 Direct
+- **Found:** Requires talking to An-an and Hiro separately, or cross-examining them
+- **Content:** Hiro says they were together *"from seven onward, in the east sitting room."* An-an says they met *"after my evening routine — around eight-thirty, perhaps a bit later."*
+- **The Contradiction:** One and a half hours apart on the start time.
+- **DC 12 Insight** during separate conversations to catch the discrepancy — or the party simply notices if they've recorded both statements
+- **When Confronted Together:** They look at each other. An-an adjusts to Hiro's version immediately. The adjustment itself is a tell.
+
+---
+
+**[E-16] AN-AN'S MAZE KNOWLEDGE (Testimony)**
+- **Type:** 🔴 Direct
+- **Found:** During casual conversation with An-an — she lets this slip
+- **Content:** Without being asked about the upper floor at all, An-an mentions: *"If you need to get through the maze wing quickly, there's a gap at the third left turn that cuts the route significantly. Very useful."*
+- **Then backtracks:** *"I think I read that somewhere. In a guide or something."*
+- **The Problem:** There is no written guide to the maze. DC 13 Investigation confirms no such document exists in the mansion. She knows the shortcut because she walked it herself — on her way to Vessel E.
+
+---
+
+**[E-17] THE UNDISTURBED SITTING ROOM (Physical)**
+- **Type:** 🔴 Direct
+- **Found:** DC 12 Investigation in the east sitting room
+- **Content:** The sofa cushions and secondary chairs have undisturbed dust on their surfaces. A full-length evening with two occupants would compress and shift the cushions, leaving marks. Nothing has been disturbed.
+- **Additionally:** The tea tray on the side table has two unused cups — clean, upturned, never filled.
+- **Conclusion:** Two people did not spend an evening in this room.
+
+---
+
+**[E-18] HIRO'S RESIDUE (Physical)**
+- **Type:** 🟡 Circumstantial
+- **Found:** DC 13 Perception during normal interaction with Hiro
+- **Content:** Faint crimson residue on Hiro's right thumb and index finger — the grip pattern consistent with lifting and carrying a small object.
+- **Hiro's Response:** *"I have no idea what that is. I must have touched something."*
+- **The Problem:** Nothing in the sitting room, the kitchen, or any common area produces that color. Vessel contact does.
+
+---
+
+**[E-19] AN-AN PROBING NOAH (Testimony)**
+- **Type:** 🟡 Circumstantial
+- **Found:** Hanna (Group 1) witnessed this and will mention it if the party asks about unusual behavior
+- **Content:** An-an approached Noah privately and asked, very casually: *"Have you noticed anything strange lately? Anyone asking about those crystal things?"*
+- **What It Means:** An-an was checking whether Noah had figured anything out. This is an enemy confirming their exposure risk — not friendly concern.
+- **Noah's Reaction if Asked About It:** She goes quiet. *"She does that sometimes. Asks questions."* Pause. *"I didn't like how she asked it."*
+
+---
+
+**[E-20] NOAH'S FEAR (Testimony — Red Herring that Unlocks Testimony)**
+- **Type:** 🚨 Red Herring / 🔵 Exonerating (becomes direct testimony with trust)
+- **Found:** Observable in any interaction with Noah
+- **Looks Like:** Noah is nervous and evasive. She avoids discussing An-an and Hiro, changes subjects, doesn't make eye contact when they're mentioned.
+- **Actually:** She suspects them and is scared. She lives with them. She has no proof. She's been weighing whether to say anything.
+- **DC 14 Insight:** The nervousness reads as fear of them, not guilt about something she did
+- **DC 13 Persuasion (with at least Trust 1):** She will quietly admit: *"I don't think they were in that sitting room. I walked past at half eight and the light wasn't on."* — this corroborates [E-17] and breaks [E-14].
+
+---
+
+## GROUP 4: LEAH (Ally), MERURU, COCO, MIRIA (Enemies)
+### *The Pressure Group — The Innocent Person Has No One*
+
+**The Group's Dynamic:** Three enemies presenting a unanimous front, and one ally who they've silently pushed to the margins. The party's first instinct is that the three are fine — strength in numbers — and Leah is suspicious because she's isolated. This is exactly backwards. Leah is alone because she's the only one telling the truth.
+
+---
+
+**[E-21] THE THREE-WAY ALIBI (Testimony)**
+- **Type:** 🟡 Circumstantial (becomes 🔴 Direct with [E-25] or [E-26])**
+- **Found:** Group conversation with Meruru, Coco, and Miria
+- **Content:** All three name each other as alibi witnesses. Their account: *"We had tea around nine, Coco read aloud from her book, we retired around eleven."*
+- **The Immediate Problem:** Leah is not mentioned. When asked about Leah: three versions of *"she went to bed early, I think."*
+- **Leah's Account:** *"I wasn't with them. I was in the kitchen the whole evening, making tea. By myself."*
+- **Surface Reading:** Three people vs. one person. The party may assume majority rules. This assumption is the trap.
+
+---
+
+**[E-22] LEAH'S ISOLATION (Red Herring / Inverted Evidence)**
+- **Type:** 🚨 Red Herring — designed to mislead the party toward suspecting Leah
+- **Found:** Observable — Leah has no alibi witness; her groupmates don't include her in their account
+- **Looks Like:** Leah has something to hide. She's the odd one out. Three people agree and one person has a separate, unverifiable story.
+- **Actually:** The enemies excluded her from their false alibi because she would contradict it. Leah is alone because she's honest.
+- **The Unlock:** [E-23] gives Leah physical evidence that she was in the kitchen. Once the party has that, the framing collapses.
+
+---
+
+**[E-23] THE HEARTH TALLY MARKS (Physical)**
+- **Type:** 🔵 Exonerating (Leah)
+- **Found:** DC 11 Investigation in the kitchen, near the hearth
+- **Content:** Scratched into the stone beside the fireplace: six small tally marks, fresh. This is Leah's habit — she marks each time she adds wood to the fire. Six marks over an evening corresponds to approximately three hours of tending.
+- **Leah will confirm the habit** if asked — she finds it calming. The marks are verifiably fresh (soot has not settled in them yet).
+- **What It Proves:** Leah was in the kitchen, continuously, for the entire relevant window. She cannot have reached any Vessel.
+
+---
+
+**[E-24] THE THREE-HANDED NOTE (Physical)**
+- **Type:** 🔴 Direct (breaks all three Group 4 enemies simultaneously)
+- **Found:** Behind a false panel in Miria's wardrobe. DC 15 Investigation.
+- **Content:** A single sheet of paper with writing in three distinct hands — each person wrote one section. Meruru's section lists Vessel D's location. Coco's section lists Vessel E. Miria's lists Vessel F. At the bottom, in all three hands signing off: *"Leah cannot know."*
+- **What It Proves:** Premeditated coordination. Vessel assignments. The deliberate exclusion of Leah — confirming she is not involved.
+- **DM Note:** This is the nuclear option. It breaks the entire group at once. Place it where it requires real effort to find — players who dig earn this.
+
+---
+
+**[E-25] THE REHEARSED STORY (Cross-Examination)**
+- **Type:** 🔴 Direct
+- **Found:** Requires talking to all three separately AND cross-examining at least two of them together
+- **Content:** Their individual accounts use near-identical phrasing: *"We had tea around nine, Coco read aloud from her book, we retired around eleven."* Word for word. Same order of detail.
+- **DC 14 Insight** during the cross-examination to notice scripted synchronization
+- **Real memories have variation.** If the party asks what kind of tea — two of them give different answers because they didn't rehearse that detail.
+
+---
+
+**[E-26] COCO'S UNREAD BOOK (Physical)**
+- **Type:** 🔴 Direct (vs Coco)
+- **Found:** DC 12 Investigation on the book Coco claims she read aloud from
+- **Content:** The book's spine is uncracked. The pages have never been separated — the corners are sharp, no reading wear at all. It has never been opened.
+- **The Contradiction:** She claims to have read aloud from it for hours. It has never been opened.
+- **Coco's Response:** *"I...must be thinking of a different book."*
+- **The Follow-Up:** Ask her to name the book she's thinking of. She cannot.
+
+---
+
+**[E-27] MERURU'S DELAYED REACTION (Behavioral)**
+- **Type:** 🟡 Circumstantial
+- **Found:** DC 13 Insight when the party first informs Group 4 that the Vessels have been disturbed
+- **Content:** When told about the disturbance, everyone reacts — Leah gasps, Coco and Miria perform surprise convincingly. Meruru's reaction comes approximately a half-second late. She already knew.
+- **DM Note:** This is a subtle tell. Don't give it away unless the player specifically says they're watching faces. Reward attentive players.
+
+---
+
+**[E-28] MIRIA'S LOCKPICKS (Physical)**
+- **Type:** 🔴 Direct (vs Miria)
+- **Found:** DC 14 Sleight of Hand to lift from her coat pocket; DC 12 Perception if she drops her coat carelessly
+- **Content:** A professional-quality leather roll of lockpicks, well-used.
+- **The Connection:** Vessel F is behind a door with a picked lock — the scratches on the mechanism are consistent with picks, not a key. Miria has the tools. She has no stated reason to own them.
+- **Miria's Response:** *"I like to be prepared."*
+- **The Counter:** Ask her to demonstrate what she's prepared for, in this house, with these specific tools. She has no answer that doesn't incriminate her.
+
+---
+
+**[E-29] THE SINGLE TEA CUP (Physical)**
+- **Type:** 🔵 Exonerating (Leah) / 🔴 Indirect (vs Group 4 enemies)
+- **Found:** DC 10 Perception in the kitchen — it's sitting in plain view
+- **Content:** A single used tea cup, cold. Leah's name is written on the bottom in her handwriting (she labels her personal cup).
+- **The Logic:** The three enemies claim they were all together. Leah claims she was in the kitchen alone. If the three had been meeting together somewhere *and* Leah joined them even briefly, there would be multiple cups. There is one cup. One person was in the kitchen all evening.
+- **Presented Alongside [E-23]:** This becomes an airtight timeline for Leah's evening.
+
+---
+
+## CROSS-GROUP EVIDENCE
+### *The Conspiracy Has Seams*
+
+---
+
+**[E-30] THE INITIAL CIPHER (Physical — from [E-10])**
+- **Type:** ⚪ Combination (expands value over time)
+- **Found:** As part of [E-10] — Nanoka's assignment letter
+- **Content:** References five other recipients by initial: H, M, C, A, Mi
+- **Early Game:** The party has no idea who these are. The initials are meaningless.
+- **Mid Game:** As names emerge — Hiro, Meruru, Coco, An-an, Miria — the initials start locking in. Each confirmed enemy tightens the cipher.
+- **Late Game:** When the party has confirmed four enemies, the fifth initial becomes a pointer. They know who's left.
+- **DM Note:** This is a slow-burn piece. Don't rush it. Let the party feel the growing weight of the cipher as they investigate.
+
+---
+
+**[E-31] THE SIX-CHAIR ROOM (Physical)**
+- **Type:** 🟡 Circumstantial
+- **Found:** A small storage room on the ground floor — DC 13 Perception to notice the door is slightly ajar; it's easy to miss
+- **Content:** Six chairs arranged in a rough circle, clearly moved from their original positions. The dust rings on the floor show where they were before — the marks are fresh.
+- **What It Means:** Six people met here recently. In secret. In a room with no windows.
+- **DC 11 Investigation:** The chairs came from three different rooms in the mansion — mixed origins, gathered for this purpose.
+
+---
+
+**[E-32] THE WAX SEAL FRAGMENT (Physical)**
+- **Type:** ⚪ Combination (with [E-10] and [E-31])
+- **Found:** On the floor of the six-chair room [E-31] — DC 12 Perception
+- **Content:** A fragment of dark red sealing wax with a partial impression — a serpentine curve.
+- **Alone:** Interesting. Means nothing specific.
+- **With [E-10]:** The seal on Nanoka's letter was the same wax, same impression. This room is where the conspiracy met — and the letters were distributed here.
+- **With [E-31]:** Six chairs. Six enemies. One meeting. The conspiracy planned here before they split into their groups and waited.
+
+---
+
+## COMBINATION CHAINS — CASE BUILDER
+
+The minimum case gets one defense deflection from the enemy. The airtight case forces an immediate confession.
+
+| Enemy | Minimum Case | Airtight Case | Instant Unlock |
+|---|---|---|---|
+| **Nanoka** | E-09 + E-07 | E-09 + E-07 + E-10 | E-10 alone (with confrontation) |
+| **Hiro** | E-14 + E-15 | E-14 + E-15 + E-17 + E-18 | — |
+| **An-an** | E-14 + E-16 | E-14 + E-16 + E-17 + E-20 | — |
+| **Meruru** | E-21 + E-25 | E-21 + E-25 + E-27 | E-24 (breaks all Group 4) |
+| **Coco** | E-21 + E-26 | E-21 + E-25 + E-26 | E-24 (breaks all Group 4) |
+| **Miria** | E-21 + E-28 | E-21 + E-25 + E-28 | E-24 (breaks all Group 4) |
+| **Full Conspiracy** | E-31 + E-32 + E-10 | All three + E-30 cipher complete | — |
+
+---
+
+## CONFRONTATION SCRIPTS
+
+*The first defense statement each enemy gives. Players must counter with evidence that directly breaks it.*
+
+---
+
+**NANOKA**
+> *"I was in my room all evening. I didn't go near any Vessel. I don't even know where they are."*
+
+**Broken by:** E-09 (she was seen in the east corridor near Vessel A), E-07 (she made plans for 8pm she never kept), or E-10 (she has a letter assigning her Vessel A specifically)
+
+**Her second defense (if first isn't airtight):**
+> *"Alisa was mistaken about which corridor it was. It all looks the same."*
+
+**Counter:** The distinctive crack in the east corridor wall Alisa specifically described. The party can verify the crack is there.
+
+---
+
+**HIRO**
+> *"An-an and I were in the sitting room all evening. Ask her yourself."*
+
+**Broken by:** E-17 (the room was undisturbed, tea cups unused), E-15 (their timelines contradict each other)
+
+**Her second defense:**
+> *"We weren't on the sofa the whole time. We moved around. The dust doesn't prove anything."*
+
+**Counter:** Two unused tea cups. If they were there all evening, they had tea. The cups were never filled.
+
+---
+
+**AN-AN**
+> *"Hiro and I were together. We've already told you this."*
+
+**Broken by:** E-16 (she knows the maze shortcut to Vessel E with no explanation), E-15 (her timeline doesn't match Hiro's)
+
+**Her second defense:**
+> *"I must have heard about the shortcut from someone. I don't remember who. That's hardly evidence."*
+
+**Counter:** Ask every other NPC whether they told An-an about the maze shortcut. None of them did. There is no written guide. She walked it.
+
+---
+
+**MERURU**
+> *"I was with Coco and Miria. All three of us were together. We can all confirm it."*
+
+**Broken by:** E-25 (their stories are word-for-word identical — scripted), E-27 (her delayed reaction to the Vessel disturbance news)
+
+**Her second defense:**
+> *"We were together. It's not strange that we remember it the same way."*
+
+**Counter:** Ask her what kind of tea they had. She and Coco give different answers — they didn't rehearse that detail.
+
+---
+
+**COCO**
+> *"I was with the others. And I was reading aloud. Ask them — they'll tell you."*
+
+**Broken by:** E-26 (the book she named has never been opened), E-25 (the scripted alibi)
+
+**Her second defense:**
+> *"It was a different book. I misspoke."*
+
+**Counter:** Ask her to name the book she's thinking of. Give her a moment. She cannot name one.
+
+---
+
+**MIRIA**
+> *"I was with Meruru and Coco the entire evening. There are three of us saying so."*
+
+**Broken by:** E-28 (professional lockpicks on her person — Vessel F's door was picked), E-25 (scripted alibi)
+
+**Her second defense:**
+> *"Lots of people carry lockpicks. That doesn't mean I used them on that door."*
+
+**Counter:** The scratches on Vessel F's lock mechanism are fresh. Ask her when she last used her picks. She hesitates — because the answer is tonight.
+
+---
+
+## EVIDENCE PLACEMENT MAP
+
+| Evidence | Location | Floor |
+|---|---|---|
+| E-01 | On Ema (visible) | Either |
+| E-02 | Key board at entrance / On Ema | Ground |
+| E-03 | Hanna's room, desk | Upper |
+| E-04 | Multiple NPC conversations | — |
+| E-05 | Ema (conversation) | Ground |
+| E-06 | Sherry's room | Ground |
+| E-07 | Alisa (conversation) | — |
+| E-08 | Margo (conversation) | — |
+| E-09 | Alisa (conversation, specific prompt) | — |
+| E-10 | Nanoka's room, book spine | Ground |
+| E-11 | Nanoka's nightstand (visible) | Ground |
+| E-12 | Alisa's desk (visible) | Ground |
+| E-13 | Margo's sketchbook (on her) | Either |
+| E-14 | An-an + Hiro (group conversation) | — |
+| E-15 | An-an + Hiro (separate conversations) | — |
+| E-16 | An-an (casual conversation) | — |
+| E-17 | East sitting room | Ground |
+| E-18 | On Hiro (DC 13 Perception) | Either |
+| E-19 | Hanna (conversation) | — |
+| E-20 | Noah (interaction + Insight) | — |
+| E-21 | Meruru + Coco + Miria (group) | — |
+| E-22 | Observable (Leah has no witness) | — |
+| E-23 | Kitchen hearth wall | Ground |
+| E-24 | Miria's room, wardrobe false panel | Upper |
+| E-25 | Separate + cross-examination | — |
+| E-26 | Shared sitting room bookshelf | Upper |
+| E-27 | Group 4 (DC 13 Insight, reaction) | Either |
+| E-28 | On Miria (DC 14 Sleight of Hand) | Either |
+| E-29 | Kitchen counter (visible) | Ground |
+| E-30 | Part of E-10 (Nanoka's letter) | Ground |
+| E-31 | Ground floor storage room (ajar door) | Ground |
+| E-32 | Inside E-31's room | Ground |
+
+---
+
+*End of Floor 6 Evidence System v2*
+*[Integrate with Floor 6 main document, NPC confrontation scenes, and boss fight trigger]*

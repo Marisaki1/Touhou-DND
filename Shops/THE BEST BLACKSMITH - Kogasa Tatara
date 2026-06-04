@@ -1,0 +1,221 @@
+# Enchantment Catalog
+
+---
+1-25
+## ⚔️ Weapon Enchantments
+for each + grants +1 to attack roll and damage for weapon and +1 to spell save and spell attack rolls for staffs
+
+
+
+| # | Enchantment | Cost | Unique |
+|:---:|---|---|:---:|
+| 1 | +X elemental damage | Slot Value | |
+| 2 | On hit, inflict a status condition X times per day (Roll for which status condition) | Slot Value | |
+| 3 | Critical Hit requirement reduced by X | 4 Slots per 1 | |
+| 4 | On hit, push target X ft away (X = Slot Value × 5) | Slot Value | |
+| 5 | Thrown weapon returns to hand | 1 Slot | |
+| 6 | Reach increases by X ft (X = Slot Value × 5) | Slot Value | ✦ |
+| 7 | One extra attack | 4 Slots | ✦ |
+| 8 | When you hit a creature, you can also hit another creature you can see within your range | 4 Slots | |
+| 9 | Attacks with this weapon ignore resistance to its damage type | 6 Slots | ✦ |
+| 10 | Deal maximum damage on a critical hit | 6 Slots | ✦ |
+| 11 | When you roll a 1 on your main weapon damage die, use the highest value instead | 4 Slots | ✦ |
+| 12 | Damage dealt by this weapon and all its bonuses becomes elemental damage | 3 Slots | ✦ |
+| 13 | +X to attack rolls and +X to damage (X = Slot Value / 2) | Slot Value / 2 | |
+| 14 | Bonus action: remove a reaction from a target on hit | 2 Slots | |
+| 15 | Action: target cannot be healed until your next turn | 2 Slots | |
+| 16 | You ignore half and three-quarter cover | 2 Slots | ✦ |
+| 17 | Once per turn when you hit a creature, move up to 10 ft without provoking opportunity attacks | 3 Slots | |
+| 18 | On kill, gain X temporary HP (X = Slot Value × 5) | Slot Value × 5 | |
+| 19 | Learn a Battlefield Action (Requires attunement) | See List of Battlefield Action for Slot Value | |
+| 20 | A DM Discretion Effect | DM Discretion | |
+
+---
+26-40%
+## 🛡️ Armor Enchantments
+
+| # | Enchantment | Cost | Unique |
+|:---:|---|---|:---:|
+| 1 | Gain Elemental Damage Resistance | 3 Slots |  |
+| 2 | Gain Physical Damage Resistance | 4(8 if all) Slots | ✦ |
+| 3 | Gain advantage on saving throws against spells | 6 Slots | ✦ |
+| 4 | +X bonus to all saving throws (X = Slot Value ) | Slot Value |  |
+| 5 | +X to death saving throws (X = Slot Value) | Slot Value | |
+| 6 | Immunity to a status condition | 4 Slots | |
+| 7 | +X × 5 ft movement speed (X = Slot Value / 2) | Slot Value / 2 | |
+| 8 | Allows flight equal to your movement speed | 8 Slots | ✦ |
+| 9 | Reduces incoming damage by X, Applies first before other reductions (X = Slot Value) | Slot Value | |
+| 10 | +X bonus to AC (X = Slot Value / 2) | Slot Value / 2 | |
+| 11 | Increase maximum HP by X (X = Slot Value × 4) | Slot Value × 4 |  |
+| 12 | Regain X HP at the start of your turn if above 0 HP (X = Slot Value × 2) | Slot Value × 2 | |
+| 13 | When reduced to 0 HP, return to 1 HP instead — once per long rest | 3 Slots |  |
+| 14 | When hit by a melee attack, attacker takes Xd4 damage (type matches attack, no save) (X = Slot Value / 2) | Slot Value / 2 | |
+| 15 | You cannot be forcibly moved (pushed, pulled, thrown) against your will | 4 Slots | ✦ |
+| 16 | Reduce falling damage by X × 25% (X = Slot Value) | Slot Value | |
+| 17 | Opportunity attacks against you are made with disadvantage | 2 Slots |  |
+| 18 | You can move through other creatures as difficult terrain (cannot end turn inside them) | 3 Slots | ✦ |
+| 19 | Advantage on initiative rolls | 3 Slots | ✦ |
+| 20 | A DM Discretion Effect | DM Discretion | |
+
+---
+41-100%
+## 💍 Magical Item Enchantments
+
+| # | Enchantment | Cost | Unique |
+|:---:|---|---|:---:|
+| 1 | X × 10% chance a single-target spell is reflected back to its caster (X = Slot Value / 4) | Slot Value / 4 | ✦ |
+| 2 | Once per long rest, when you fail a saving throw, you may succeed instead | 4 Slots | ✦ |
+| 3 | Advantage on skill checks  | 3 slots | |
+| 4 | Proficient to a saving throw | 2 Slots | |
+| 5 | Grants sight (see sight table) 30 ft | variable |  |
+| 6 | +X to spell attack rolls and +X to spell save DC (X = Slot Value / 2) | Slot Value / 2 | |
+| 7 | Reaction: redirect a single-target ranged attack aimed at a nearby ally to yourself | 3 Slots | |
+| 8 | Bonus action dash, once per turn | 1 Slot |  |
+| 9 | Once per combat, As a reaction, copy a spell that targets only you — one time during this combat you can cast it on a creature within 30 ft as a bonus action | 6 Slots |  |
+| 10 | +X × 2 bonus to one skill (X = Slot Value) | Slot Value | |
+| 11 | Once per long rest, treat any attack roll as a natural 20 | 8 Slots | ✦ |
+| 12 | Bonus action: Gain X charges; spend charges to restore a spell slot equal to charges spent (X = Slot Value) | Slot Value | ✦ |
+| 13 | Magic action: Cast a level X spell twice per day (X = Slot Value) | Slot Value | |
+| 14 | Gain Elemental Damage Resistance (See Damage Type Table) | 3 Slots |  |
+| 15 | +X bonus to all saving throws (X = Slot Value / 2) | Slot Value / 2 | ✦ |
+| 16 | +X to death saving throws (X = Slot Value) | Slot Value | |
+| 17 | Gain advantage on saving throws against spells | 6 Slots | ✦ |
+| 18 | You can move through other creatures as difficult terrain (cannot attack or end turn inside them) | 3 Slots | ✦ |
+| 19 | +X bonus to AC (X = Slot Value / 2) | Slot Value / 2 | ✦ (1 AC is not unique)|
+| 20 | Increase maximum HP by X (X = Slot Value × 3) | Slot Value × 3 | ✦ |
+| 21 | Allows flight | 8 Slots | ✦ |
+| 22 | +X × 5 ft movement speed (X = Slot Value / 2) | Slot Value / 2 | |
+| 23 | +X to an ability score, can be change to a different ability score once a day | Slot Value / 2 | ✦ |
+| 24 | Reduce falling damage by X × 25% (X = Slot Value) | Slot Value | |
+| 25 | Immunity to a status condition | 4 Slots | |
+| 26 | Gain advantage on saving throws (See attribute) | 4 Slots |  |
+| 27 | +X to AC (X = Slot Value) | Slot Value | ✦ |
+
+
+Sight Table
+| # | Sight Name | Cost | Unique |
+|:---:|---|---|:---:|
+| 1 | Grants Truesight 30 ft | 8 Slots | ✦ |
+| 2 | Grants Blindsight 30ft | 6 slots | ✦ |
+| 3 | Grants Darkvision 60ft | 2 slots |  |
+| 4 | Grants Devil Sight 60ft | 4 slots | ✦ |
+
+
+## Skill Table
+| # | Skill Name |
+|:---:|:---:|
+| 1  | Athletics       |
+| 2  | Acrobatics      |
+| 3  | Sleight of Hand |
+| 4  | Stealth         |
+| 5  | Arcana          |
+| 6  | History         |
+| 7  | Investigation   |
+| 8  | Nature          |
+| 9  | Religion        |
+| 10 | Animal Handling |
+| 11 | Insight         |
+| 12 | Medicine        |
+| 13 | Perception      |
+| 14 | Survival        |
+| 15 | Deception       |
+| 16 | Intimidation    |
+| 17 | Performance     |
+| 18 | Persuasion      |
+
+
+## Attribute Table
+|  #  | Attribute Name |
+| :-: | :------------: |
+|  1  |    Strength    |
+|  2  |    Dexterity   |
+|  3  |  Constitution  |
+|  4  |  Intelligence  |
+|  5  |     Wisdom     |
+|  6  |    Charisma    |
+
+
+roll 2d10 (to prevent force dmg type to be easily accessible)
+## Damage Type Table
+|  #  | Damage Type |
+| :-: | :---------: |
+|  1  |     Acid    |
+|  2  |     Cold    |
+|  3  |     Fire    |
+|  4  |    Force    |
+|  5  |  Lightning  |
+|  6  |   Necrotic  |
+|  7  |    Poison   |
+|  8  |   Psychic   |
+|  9  |   Radiant   |
+|  10 |   Thunder   |
+
+
+
+Ki Point
+Sorcery Point
+Rage
+Proficiency Bonus
+
+
+
+| Armor | Armor Class (AC) | Strength | Stealth | Weight | Cost |
+|-------|-----------------|----------|---------|--------|------|
+1| Padded Armor | 11 + Dex modifier | — | Disadvantage | 8 lb. | 5 GP |
+2| Leather Armor | 11 + Dex modifier | — | — | 10 lb. | 10 GP |
+3| Studded Leather Armor | 12 + Dex modifier | — | — | 13 lb. | 45 GP |
+
+### Medium Armor *(5 Minutes to Don and 1 Minute to Doff)*
+
+| Armor | Armor Class (AC) | Strength | Stealth | Weight | Cost |
+|-------|-----------------|----------|---------|--------|------|
+4| Hide Armor | 12 + Dex modifier (max 2) | — | — | 12 lb. | 10 GP |
+5| Chain Shirt | 13 + Dex modifier (max 2) | — | — | 20 lb. | 50 GP |
+6| Scale Mail | 14 + Dex modifier (max 2) | — | Disadvantage | 45 lb. | 50 GP |
+7| Breastplate | 14 + Dex modifier (max 2) | — | — | 20 lb. | 400 GP |
+
+### Heavy Armor *(10 Minutes to Don and 5 Minutes to Doff)*
+
+| Armor | Armor Class (AC) | Strength | Stealth | Weight | Cost |
+|-------|-----------------|----------|---------|--------|------|
+8| Ring Mail | 14 | — | Disadvantage | 40 lb. | 30 GP |
+9| Chain Mail | 16 | Str 13 | Disadvantage | 55 lb. | 75 GP |
+10| Splint Armor | 17 | Str 15 | Disadvantage | 60 lb. | 200 GP |
+| Half Plate Armor | 15 + Dex modifier (max 2) | — | Disadvantage | 40 lb. | 750 GP |
+| Plate Armor | 18 | Str 15 | Disadvantage | 65 lb. | 1,500 GP |
+
+
+
+### Martial Melee Weapons
+
+| Name | Damage | Properties | Mastery | Weight | Cost |
+|------|--------|------------|---------|--------|------|
+| Battleaxe | 1d8 Slashing | Versatile (1d10) | Topple | 4 lb. | 10 GP |
+| Flail | 1d8 Bludgeoning | — | Sap | 2 lb. | 10 GP |
+| Glaive | 1d10 Slashing | Heavy, Reach, Two-Handed | Graze | 6 lb. | 20 GP |
+| Greataxe | 1d12 Slashing | Heavy, Two-Handed | Cleave | 7 lb. | 30 GP |
+| Greatsword | 2d6 Slashing | Heavy, Two-Handed | Graze | 6 lb. | 50 GP |
+| Halberd | 1d10 Slashing | Heavy, Reach, Two-Handed | Cleave | 6 lb. | 20 GP |
+| Lance | 1d10 Piercing | Heavy, Reach, Two-Handed (unless mounted) | Topple | 6 lb. | 10 GP |
+| Longsword | 1d8 Slashing | Versatile (1d10) | Sap | 3 lb. | 15 GP |
+| Maul | 2d6 Bludgeoning | Heavy, Two-Handed | Topple | 10 lb. | 10 GP |
+| Morningstar | 1d8 Piercing | — | Sap | 4 lb. | 15 GP |
+| Pike | 1d10 Piercing | Heavy, Reach, Two-Handed | Push | 18 lb. | 5 GP |
+| Rapier | 1d8 Piercing | Finesse | Vex | 2 lb. | 25 GP |
+| Scimitar | 1d6 Slashing | Finesse, Light | Nick | 3 lb. | 25 GP |
+| Shortsword | 1d6 Piercing | Finesse, Light | Vex | 2 lb. | 10 GP |
+| Trident | 1d8 Piercing | Thrown (Range 20/60), Versatile (1d10) | Topple | 4 lb. | 5 GP |
+| Warhammer | 1d8 Bludgeoning | Versatile (1d10) | Push | 5 lb. | 15 GP |
+| War Pick | 1d8 Piercing | Versatile (1d10) | Sap | 2 lb. | 5 GP |
+| Whip | 1d4 Slashing | Finesse, Reach | Slow | 3 lb. | 2 GP |
+
+### Martial Ranged Weapons
+
+| Name | Damage | Properties | Mastery | Weight | Cost |
+|------|--------|------------|---------|--------|------|
+| Blowgun | 1 Piercing | Ammunition (Range 25/100; Needle), Loading | Vex | 1 lb. | 10 GP |
+| Hand Crossbow | 1d6 Piercing | Ammunition (Range 30/120; Bolt), Light, Loading | Vex | 3 lb. | 75 GP |
+| Heavy Crossbow | 1d10 Piercing | Ammunition (Range 100/400; Bolt), Heavy, Loading, Two-Handed | Push | 18 lb. | 50 GP |
+| Longbow | 1d8 Piercing | Ammunition (Range 150/600; Arrow), Heavy, Two-Handed | Slow | 2 lb. | 50 GP |
+| Musket | 1d12 Piercing | Ammunition (Range 40/120; Bullet), Loading, Two-Handed | Slow | 10 lb. | 500 GP |
+| Pistol | 1d10 Piercing | Ammunition (Range 30/90; Bullet), Loading | Vex | 3 lb. | 250 GP |

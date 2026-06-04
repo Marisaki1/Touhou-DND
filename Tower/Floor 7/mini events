@@ -1,0 +1,115 @@
+Here are both tables:
+
+---
+
+## Floor 7 — Minor Events (A1–A50)
+
+| # | Name | Description | Type |
+|---|---|---|---|
+| 1 | Spore Cloud Patch | A cluster of giant mushrooms releases a blinding spore cloud when disturbed. DC 13 Con save or Blinded for 1 round. The spores are harvestable — worth 5 gp to an alchemist. | Hazard |
+| 2 | Fairy Ring | A perfect circle of glowing mushrooms. Stepping inside: DC 18 Wis save or dance uncontrollably (Loses an action point). A stick with a note reads: "Don't." | Hazard |
+| 3 | Lost Familiar | A small fox with a paper charm on its collar is tangled in a briar patch. Freeing it (DC 14 Dex) causes it to lead the party to a hidden cache of 2 healing potions before vanishing. | Exploration |
+| 4 | Whispering Tree | An ancient oak murmurs half-remembered secrets. DC 13 Perception catches one useful clue about a nearby event. DC 7 or lower just hears nonsense poetry. | Lore |
+| 5 | Territorial Mushrooms | Mushrooms becomes hostile. | Combat |
+| 6 | Quickmud Pit | A patch of ground looks solid but isn't. DC 13 Passive Perception to spot. Failure: character sinks to knees, movement 0 until DC 14 Str save or an ally pulls them free. | Hazard |
+| 7 | Healing Rain | A brief, localized shower of purple rain falls for 1 minute. Any player inside the zone gets healed by 2d10 and gains the effect of a short rest. (Has a CD of 30 minutes.) | Reward |
+| 8 | Mushroom Compass | A ring of mushrooms always leans toward the nearest Major Event. DC 11 Nature or Survival to read it correctly. | Exploration |
+| 9 | Angry Bees (Not Bees) | A buzzing cloud of tiny spell-fragments shaped like bees. Swatting them: 1d6 lightning damage. Leaving them alone: they orbit one party member for 10 minutes, granting +5 AC but disadvantage on perception checks and attack rolls. | Combat |
+| 10 | The Copying Fern | A fern that stores the last spell one of the creature casted. One charge. It releases the same spell at the next creature it sees after 1 round. | Hazard |
+| 11 | Moonlit Fox Shrine | A small stone fox shrine. Offering any coin produces a soft chime and grants Guidance (advantage on next ability check) to one character. Single use per party. | Reward |
+| 12 | Cliff | The area is split into two cliffs and requires creating a bridge using a tree or use other abilities or ropes to cross it | Exploration |
+| 13 | Alchemist Residue | Scorch marks and strange stains on the ground. DC 13 Investigation: someone experimented here recently. Salvageable: 2 vials of unknown liquid (roll on a basic potion table). When tracking a non-dominant Sovereign can be found | Lore |
+| 14 | Lashing Vines | One of the trees strikes with animated vines trying to restrain the whole party, the must do a DC 17 Dex save or Restrained. DC 15 Str or slashing damage to break free. Vines recoil regardless after 1 round. | Hazard |
+| 15 | Sleeping Giant Boar | An enormous boar asleep across the path. Can be snuck past (DC 14 Stealth) or fought. Its fur has 3 potions that can be carefully removed (DC 14 Dex). | Stealth |
+| 16 | Color-Changing Puddle | A puddle reflecting colors that don't exist. Staring: DC 13 Int save or Confused for 1 round. A coin sits at the bottom — worth 0 gp but it looks magical. | Puzzle |
+| 17 | Wounded Tanuki | A tanuki with a splinted leg is resting. Healing it (Medicine DC 10 or 1 spell slot) causes it to reveal a shortcut that bypasses 1 thick-forest tile. | Social |
+| 18 | Mushroom | Combat | Combat |
+| 19 | Poisoned Stream | A stream with a glowing green tinge. DC 11 Nature to identify poison. DC 14 Survival to find a safe source upstream. Drinking unchecked: DC 14 Con save or Poisoned for 1 hour. | Survival |
+| 20 | Mushroom | Combat. | Combat |
+| 21 | Mushroom | Combat. | Combat |
+| 22 | Illusory Path | A misty area with a well-worn path that loops back to the same clearing. DC 14 Perception or Survival to realize. Escape requires moving off-path through difficult terrain for 5 minutes. | Hazard |
+| 23 | Abandoned Campsite | Non-dominant staring at the corpses of dead adventurers | Lore |
+| 24 | Many Cats | 15–20 small cats watch the party in silence. Feeding one: it follows as a mascot. Harmless, but meows at random — DC 12 Stealth required if sneaking nearby. | Social |
+| 25 | Mushroom | Combat. | Combat |
+| 26 | Spell Echo Zone | All spells cast here echo 1 round later, repeating automatically at the original target. Useful for healing. Catastrophic for Fireball. | Puzzle |
+| 27 | Mushroom | Combat. | Combat |
+| 28 | Mushroom | Combat. | Combat |
+| 29 | Flower Bomb | A large, beautiful flower. DC 14 Perception to notice the petals are under tension. Touching it: 2d6 force in a 10 ft radius, DC 13 Dex save for half. | Hazard |
+| 30 | Lucky Clover Patch | A patch of four-leaf clovers. Harvesting one (DC 10 Nature) grants Luck — once before next long rest, reroll any one d20 and take the better result. | Reward | START HERE
+| 31 | Echo Stone | A stone that perfectly repeats the last 6 words spoken near it. Useful for distraction or luring enemies. Worth 8 gp to a collector. | Puzzle |
+| 32 | Dire Squirrel Territory | A single squirrel the size of a large dog aggressively guards an acorn pile. AC 13, HP 14. Defeating it: the pile contains 2d6 gp and a rolled-up scroll. | Combat |
+| 33 | Fog Pocket | A 20 ft sphere of thick, stationary fog. Heavily obscured inside. DC 14 Survival to navigate without getting lost. An abandoned wagon inside holds 1 random item. | Stealth |
+| 34 | Mirror Butterfly | A butterfly with reflective wings follows one character. While following, that character has disadvantage on Stealth. Catching it (DC 14 Dex): a rare crafting component worth 12 gp. | Exploration |
+| 35 | Rotated Signpost | A signpost with all arrows pointing the same direction. DC 10 Investigation reveals they've been rotated. DC 14 finds a message carved on the back of one arrow — a hint to a nearby event. | Lore |
+| 36 | Mud Golem Nap | A small dormant mud golem blocks the path. Can be skirted (DC 10 Dex) or woken. Woken golem is neutral and asks for "a story" before moving. Refusing causes combat. | Social |
+| 37 | Tripwire Bell Line | Bells strung low across the path. DC 13 Perception to spot. Failure: bells ring, alerting the nearest active encounter to the party's location. | Stealth |
+| 38 | Cursed Signpost | Touching the signpost: DC 13 Wis save or become confused about cardinal directions for 1 hour (Survival checks at disadvantage). The cure is written on a note nailed to the post. | Hazard |
+| 39 | Free Sample Table | A table with labeled vials: "Try me!" All are minor, non-harmful. Roll 1d6: 1 speed, 2 strength, 3 luck, 4 speak with animals (10 min), 5 feather fall, 6 all of the above briefly. | Reward |
+| 40 | Ground Fissure | A crack in the earth vents warm air. DC 12 Perception: sound of water below. Lowering a rope (DC 10 Athletics): underground spring found. Water here counts as a Potion of Healing, once. | Exploration |
+| 41 | Spell Tag Storm | A burst of paper spell tags drifts through the area. 1d6 tags land on random party members. Harmless — until someone casts a spell with a foreign tag attached (DC 13 Arcana or misfire). | Hazard |
+| 42 | Forest Post Office | A hollow log stuffed with letters addressed to various Gensokyo residents. Delivering any 3 letters to named NPCs at base camp earns 10 gp each and a small reputation bump. | Social |
+| 43 | Stationary Cloud | A cloud sitting 3 ft off the ground. DC 10 Arcana: completely harmless, just stays there. Resting inside it: advantage on next Con save. Cannot be moved. | Puzzle |
+| 44 | Bioluminescent Grove | Giant glowing mushrooms light the area. Safe resting spot — short rest here restores 1 extra hit die. The glow makes Stealth impossible for the rest of the short rest. | Reward |
+| 45 | Cairn of Stones | Removing one stone releases a minor wailing spirit (non-hostile, but noisy for 1 minute — nearby enemies are alerted). Adding a stone instead grants one Inspiration. | Lore |
+| 46 | Reverse Gravity Mushroom | A massive mushroom cap sitting on the ground. Standing on it reverses gravity within a 10 ft area. Can be used to reach elevated areas creatively. | Puzzle |
+| 47 | Ink-Stained Fox | A fox covered in ink-spot markings leaves visible prints. Following its trail (DC 10 Survival): leads to a buried item (30%) or directly into a hazard zone (70%). The fox doesn't know either. | Exploration |
+| 48 | Forgotten Scarecrow | An old scarecrow in forest clothes. DC 14 Arcana: faintly animated and slowly walking — its shoes are worn. Its pocket holds 5 gp and a small key of unknown purpose. | Lore |
+| 49 | Tanuki Toll | A tanuki in a handmade booth demands 1 gp tribute to pass without incident. Refusing and failing DC 12 Persuasion: it pelts the party with stones for 1 minute — no damage, but Stealth is impossible during. | Social |
+| 50 | Fungal Lantern Ambush | What looks like a bioluminescent resting spot is actually three large mushroom creatures in disguise. They are passive unless the party tries to harvest them or rest here — then combat begins. | Combat |
+
+---
+
+## Floor 7 — Major Events (M1–M50)
+
+| # | Name | Description | Type |
+|---|---|---|---|
+| 1 | The Mushroom Oracle | A colossal ancient mushroom speaks only in riddles. DC 14 Insight to interpret correctly: reveals the location of one hidden area. Wrong interpretation: a convincing red herring that takes 30 minutes to disprove. | Lore |
+| 2 | The Living Maze | A section of forest that constantly rearranges its trees. Three-check navigation puzzle (DC 14 Survival each, 5 minutes between). Succeed all 3: reach the hidden center with a rare item. Fail 2: exit where you entered. | Puzzle |
+| 3 | The Witch's Bargain | A figure in a wide hat offers a trade: a guaranteed rare item now for an unknown "favor" later. The favor triggers at DM discretion at any point on this floor. No take-backs. No clarifications. | Social |
+| 4 | Fungal Bloom Siege | A timed combat. A wave of animated fungi (3 escalating waves) advances on a clearing. Party must hold for 10 rounds or the bloom permanently seals a key forest path. | Combat |
+| 5 | The Contested Grove | Two rival NPC factions fight over forest territory. Party can join one side, mediate, or exploit the chaos. The winning faction claims a resource node — its allegiance carries minor consequences for the rest of the floor. | Social |
+| 6 | The Mimic Forest | A section where trees are Mimics. DC 15 Investigation per tree to identify the safe ones. Touching a Mimic: combat. Correctly identifying all Mimics in the zone opens a sealed vault in the clearing center. | Puzzle |
+| 7 | The Haunted Clearing | Five restless forest spirits replay a past event on loop. DC 15 History or Insight to understand what they need. Giving them peace: 300 gp worth of offerings left from the original event. Ignoring them: 2d6 psychic damage each time the party passes through. | Lore |
+| 8 | The Spore Sovereign's Nest | A boss-tier Spore Sovereign patrols this zone, which must be traversed to reach other major events. Can be fought, lured away (DC 14 Survival), or appeased with a rare forest offering. | Boss |
+| 9 | The Still Pool | A motionless pond that reflects a scene that isn't there — a vision of something that happened on this floor before the party arrived. DC 16 Wis save or take 1d8 psychic and become Shaken (disadvantage on Cha checks, 1 hour). The vision contains one true clue about the floor. | Lore |
+| 10 | Fungal Colony War | Two massive fungal colonies are spreading toward each other and the party is caught in the middle. A timed 10-round crossing, with both colonies attempting to spore-infect intruders. DC 13 Con save each round or Poisoned. | Survival |
+| 11 | The Mushroom King's Court | A formal audience with a self-proclaimed Mushroom King — a very large, very serious sentient mushroom. He wants a quest completed: retrieve his stolen crown from the Dire Boar alpha. Reward: safe passage through his territory and a rare consumable. | Social |
+| 12 | Overgrown Stone Remnant | A section of old stonework completely consumed by vines — clearly predates the forest's current growth. DC 15 Investigation: it is older than anything else on this floor. Inside: a unique lore item and a dead end. | Lore |
+| 13 | Alchemical Wildfire | An out-of-control magical fire spreading 10 ft per round from a cracked cauldron at the center. Reaching and sealing it (DC 14 Investigation + action) stops it. Each round of contact: 2d6 fire, DC 13 Dex save for half. | Combat |
+| 14 | The Rot Shepherd | A corrupted dryad commanding blighted animals. Multi-phase: Phase 1 uses heavy minion support. Phase 2 she merges with a tree — immune to physical damage, vulnerable to fire. Unique drop: Heartwood Staff (+1, spells that restore HP restore 1 additional HP while attuned). | Boss |
+| 15 | The Fungal Library | Thousands of mushrooms encoded with stored impressions of the forest's history. With 20 minutes of research (DC 12 Investigation), the party learns one guaranteed fact about the floor's hidden areas, Sovereign behaviors, or event triggers. | Exploration |
+| 16 | The Great Spore Labyrinth | A dense overlapping network of spore clouds requiring three navigation checks (DC 15 Survival each). Failure: inhaled spores force DC 14 Con saves hourly or gain 1 exhaustion. The center holds a complete floor map. | Survival |
+| 17 | The Dryad Council | Three dryads arguing over a dying tree each offer a task: purify the soil (Cleric/Druid puzzle), drive out blighted animals (Combat), locate the poison source (Exploration). Completing all three earns a permanent nature-affinity boon for one character. | Puzzle |
+| 18 | The Echoing Battlefield | Ghostly soldiers reenact a battle on loop. Proximity triggers forced participation — party is drafted into one side. DC 14 Wis save to break free each round. Surviving 5 rounds without fleeing: a ghost commander gives tactical information about a Sovereign. | Combat |
+| 19 | The Poacher Camp | Armed poachers are hunting the forest's magical creatures. Can be fought (5 enemies, medium difficulty), reported to a nearby NPC faction for a social reward, or bargained with — they know the terrain better than anyone. | Social |
+| 20 | The Gravity Inversion Zone | A large area where gravity points sideways. Movement requires DC 12 Athletics per 10 ft. Combat here applies fall damage horizontally. A vault only accessible by navigating the full zone holds the area's reward. | Puzzle |
+| 21 | The Bone Groveyard | A clearing of enormous creature bones — one is still faintly alive. DC 14 Medicine to stabilize it. Success: it becomes a temporary mount or means of fast travel anywhere on this floor, usable once. | Survival |
+| 22 | The Ruined Alchemist's Tower | A small overgrown tower occupied by an eccentric alchemist NPC. Will permanently upgrade one item in exchange for 3 rare forest components. Also sells experimental potions at the buyer's own risk. | Reward |
+| 23 | The Split Path | A fork where both paths look identical. One is a shortcut; one loops back through a random encounter. DC 14 Survival, Nature, or Investigation to distinguish them. Wrong choice: 1 encounter + 20 minutes lost. | Stealth |
+| 24 | Mass Mimic Clearing | The party enters what looks like a safe camp. Every object is a Mimic — benches, barrels, the signpost, the log by the fire. 6 Mimics activate in staggered order when any object is touched. | Combat |
+| 25 | The Fog Lighthouse | A tall structure emitting a fog beacon. Climbing it (DC 13 Athletics, 5 rounds) reveals the entire floor map. Activating the beacon also draws every major enemy on the floor toward it for 30 minutes. | Exploration |
+| 26 | The Trial of Roots | A sealed ancient grove that triggers on approach. Three logic-based challenges: identify a poison plant, navigate by starlight, correctly name a forest spirit. Succeed all: rare enchanted item. Fail any one: Restrained by roots until freed by an ally (DC 16 Str). | Puzzle |
+| 27 | The Mycelium Network | A web of mycelium that communicates. DC 15 Arcana to connect. Connected character learns every enemy position on the floor for 10 minutes — but the network broadcasts their own location simultaneously. | Exploration |
+| 28 | The False Shrine | A shrine that looks holy. First character to pray: DC 15 Wis save or Charmed by a forest spirit for 1 hour. The spirit's wandering path leads to a genuine rare item — though it takes the full hour to get there. | Hazard |
+| 29 | The Mirror Twins | Two identical-looking NPCs, each claiming the other is the imposter. One is helpful; one is an enemy waiting for an opening. DC 16 Insight, Investigation, or creative social play to identify the real one. Wrong choice: ambush. | Social |
+| 30 | The Old Pact Tree | A massive runed tree. DC 14 History or Arcana: this is an ancient binding contract. One character may sign it to receive a major boon — but must complete a specific task before leaving the floor or the boon reverses to a curse. | Lore |
+| 31 | The Night Hunt | A pack of large predators is passive in dim light. They become hostile in complete darkness. The fastest path through the area passes through a zone of magical darkness where all light sources extinguish on entry. | Combat |
+| 32 | The Broken Compass Vault | A vault door with 4 directional locks. Clues to the correct combination are distributed across minor events on the floor. DC 12 Investigation to extract each clue. The vault holds the floor's best non-boss item. | Puzzle |
+| 33 | The Doppelgänger Clearing | A forest effect duplicates one party member. The copy has identical stats and fights the party. Must be distinguished from the original (DC 16 Insight) and defeated. The copy dissolves into a useful item when killed. | Combat |
+| 34 | The Wandering Colossus | A boss-tier Fungal Colossus wanders the floor's major corridors at random. Not tied to any room. Can be avoided, lured to a location and trapped (DC 15 Survival or Arcana), or fought head-on. Defeat: major reward. Being struck: significant damage and knockback. | Boss |
+| 35 | The Time-Loop Camp | A campfire that looks warm and safe. Resting here: party wakes at the exact point they entered, 30 minutes earlier, with no rest gained. DC 16 Arcana to identify before lying down. DC 18 to break the loop (requires all party members to stay awake through the full rest duration). | Puzzle |
+| 36 | The Trading Sprite | A sprite with an enormous bag proposes trades using cryptic terms ("something that has been wet" for "something that has been laughed at"). Each successful trade yields an unknown item. 5 trades available; one always yields the best item of the five. | Social |
+| 37 | The Bloom Gate | A flower arch that requires a living offering to pass through (a cutting, a feather, a seed). The item is consumed. In exchange, all difficult terrain from forest density is ignored for the remainder of the floor. | Reward |
+| 38 | The Spore Witness | A single mushroom that has observed the entire floor since before anyone arrived. DC 15 Arcana to communicate with it. It can describe each Sovereign's patrol behavior — but one of its five descriptions is wrong, as it once misidentified an enemy. | Lore |
+| 39 | The Cursed Glade | On entry: DC 14 Wis save or each character believes they are alone — they cannot perceive party members (Charmed, repeat save at end of each turn). A rare item sits at the glade's center. | Hazard |
+| 40 | The Rot Tide | A wave of corrupted earth moves slowly across the forest floor. It consumes dropped items, immobilizes standing characters (Restrained), and cannot be stopped — only outrun or flanked. Behind the tide: salvaged items from previous climbers who didn't move fast enough. | Survival |
+| 41 | The Great Race | A rival NPC party races toward the same destination. Competitive navigation challenge. Overtaking them (DC 14 group Dex): arrive first, claim the best reward. Arriving second: second-best. Allying with them: split the best reward and gain a permanent faction connection. | Exploration |
+| 42 | The Sentinel Trees | Seven ancient trees surrounding a clearing each pulse with a different damage type (fire, cold, lightning, poison, radiant, psychic, force). The center holds a unique item. Reaching it requires passing through 3 of the 7 without being struck (DC 13 Dex per tree). | Combat |
+| 43 | The Caretaker | An elderly NPC has maintained this forest for decades. They know every hidden path and will share freely if Trust 1+ is earned in 10 minutes of honest conversation. Completing their personal task (moderate combat) earns a permanent passive boon for one character. | Social |
+| 44 | The Wyrmwood Trail | A trail carved by something enormous through the trees. Following it (DC 13 Survival): leads to a dormant creature's lair, atop a pile of discarded forest items. Can be looted silently (DC 16 Stealth) or the creature wakes. | Stealth |
+| 45 | The Challenger's Fight | An NPC climber is engaging the nearest Sovereign alone and losing. The party can assist (enters combat mid-fight, Sovereign at full HP), wait and enter late (Sovereign at 40% HP, NPC defeated), or leave. Assisting: strong floor ally. Waiting: easier fight, no ally. | Boss |
+| 46 | The Fungal Titan | A stationary mega-fungus that has rooted itself to a bridge crossing. The bridge cannot be bypassed — too wide to go around, too overgrown to fly over. It ignores the party unless attacked. Three negotiation options exist, each requiring a different skill check (Arcana, Nature, or Persuasion DC 15). | Boss |
+| 47 | The Shrinking Hollow | A hollow tree that radiates a shrinking field (10 ft radius). Characters inside are reduced to Tiny size — all Str checks at disadvantage, Dex checks at advantage, movement halved. A locked box inside is only openable from Tiny size. Contains a rare item. | Puzzle |
+| 48 | The Laughing Glade | A clearing where a lingering enchantment compels uncontrollable laughter (DC 13 Wis save on entry or Incapacitated while in the area). At the center: an altar with 3 minor offerings already placed by previous visitors and space for 1 more. Placing one: receive a boon. | Lore |
+| 49 | The Sovereign Challenger (Decoy) | A powerful enemy has disguised itself as one of the four Sovereigns. DC 16 Insight to detect deception before engaging. Exposing it first reveals a crippling weakness unique to the decoy. Engaging at full strength: a significantly harder fight than the real Sovereign. | Boss |
+| 50 | The Heart Tree | The oldest tree on the floor — older than the forest around it by centuries. Approaching activates a vision: the forest before the Tower arrived. DM reveals one true fact about what the Forest of Magic was before this floor existed. The tree then fully heals all party members and resets all resources. Can only be visited once. | Lore |

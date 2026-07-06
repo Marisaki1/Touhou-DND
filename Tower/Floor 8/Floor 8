@@ -1,0 +1,1007 @@
+# FLOOR 8: THE MERCHANT'S CROSSING
+*"Five days. One stall. The market doesn't care who you are — only what you're selling."*
+
+*This is the complete, merged version of Floor 8 — all economy, robbery, reputation, and Syndicate-interruption revisions are integrated directly into the text below. There is no separate addendum; this document is the floor.*
+
+---
+
+## LORE: VERATH'S CROSSING
+
+Three roads meet at Verath's Crossing. They call them the Silver Road, the Dustway, and the High Path — and for two centuries, the town that grew at their junction was one of the most prosperous in any land. Goods moved through Verath's Crossing the way water moves through a channel: constantly, naturally, with no one owning the flow.
+
+That changed when the **Iron Ledger** arrived.
+
+No one remembers exactly when the syndicate took hold. It happened the way most corruption does — gradually, then all at once. A tax here. A protection fee there. A word in the right ear that made a competitor's shipment arrive damaged. Within a generation, the Iron Ledger controlled every major supply line in the town. Independent merchants who refused to pay tribute found their goods spoiled, their customers warned away, their reputations dismantled by whispers.
+
+**Vael Geldrun** was the town's Trade Arbitrator — a neutral judge who resolved commercial disputes fairly and without favor. The Iron Ledger bought him with patience. First a favor. Then a debt. Then an offer he couldn't refuse, made in a room with no witnesses. By the time anyone noticed what he had become, it was too late.
+
+His power came from a pact with **The Hollow Ledger** — a primordial entity that exists in the space between transactions. It is not a god. It is what greed becomes when it outlives the people who felt it. Centuries of broken contracts and unfulfilled promises and stolen coins, compressed into a will.
+
+The Hollow Ledger gave Vael the ability to sense all transactions within the town, shift perceived value with his attention, and make debt feel like physics. Merchants paid — not because the Iron Ledger scared them, though it did, but because Vael's presence made the alternative feel impossible.
+
+When the Tower consumed this place, the corruption froze it. The town became a Floor: a snapshot of the moment Verath's Crossing was at its most strangled. Merchants still set up their stalls. Customers still come to buy. But the Iron Ledger's network runs underneath everything, invisible and hungry, and Vael watches from the shadow of his arbitrator's tower at the market's edge.
+
+The floor's logic is simple: commerce happened here once. It can happen again. The question is who does it better.
+
+---
+
+## TOWER ENTRY
+
+The Masked Girl's voice arrives with the particular tone of someone who has been waiting for this floor.
+
+**Masked Girl:** *"Welcome back, dearest climbers. I have good news and complicated news."*
+
+*[A pause.]*
+
+*"The good news: no one is going to try to kill you immediately. This floor is a market. You are here to sell things. It is, on the surface, the most civilized floor we've offered so far."*
+
+*[A longer pause.]*
+
+*"The complicated news is everything else. The town has a history. The town has a present. And the town has people in it who would very much prefer you fail.*
+
+*"I suggest you pay attention to what moves quietly.*
+
+*"Five days. One stall each. Whatever it takes. ♪"*
+
+*[She steps aside. The door opens onto the smell of bread, old wood, and somewhere something burning that probably shouldn't be.]*
+
+---
+
+## SETTING: THE MARKET SQUARE OF VERATH'S CROSSING
+
+> *The square is larger than it looked from the gate. Cobblestone in concentric rings, worn smooth by decades of foot traffic. Four canvas-roofed stalls sit at cardinal positions around a central fountain — the fountain has not worked in some years, its basin currently serving as a dumping ground for unsold goods. Banners hang between buildings, their colors faded but their arrangement deliberate.*
+>
+> *Each stall is empty. A blank sign. A bare counter. A cart parked alongside it with a note attached.*
+>
+> *A thin man in grey clothes stands near the fountain, ink-stained fingers wrapped around a ledger. He has the expression of someone who has explained the same rules many times and expects to explain them several more.*
+
+---
+
+## THE BRIEFING: SOREN ASH, TOWER APPRAISER
+
+**Soren Ash** is the Tower's assigned Appraiser for this floor — a neutral party with no investment in who wins. He operates from a small booth adjacent to the central fountain and is available any time the market is open.
+
+**Soren:** *"You are Floor 8 participants. Each of you has a stall assigned by quadrant. I will explain the rules once."*
+
+> **Rule 1.** Your stalls are empty. Nothing can be sold until you have goods. Use whatever means are available to you to procure items.
+>
+> **Rule 2.** Various activities are available throughout the town. Each takes time. Skill will be required for most.
+>
+> **Rule 3.** At the end of each day, a Selling Phase occurs. Customers arrive. Whoever has the highest amount of GP after five days wins.
+>
+> **Rule 4.** During the Selling Phase, your stall must have at least one person assigned to it. That person is responsible for everything on display.
+>
+> **Rule 5.** Acts of violence within the bazaar boundary are forbidden and will be penalized accordingly.
+>
+> **Rule 6.** Any tactic that does not involve violence within the bazaar is permitted.
+>
+> **Rule 7.** You are each given one cart with a twenty-slot capacity. Manage it accordingly. Expansion is possible at cost.
+>
+> **Rule 8.** Outside the bazaar boundary, you may not access your cart. You may carry up to five items on your person when leaving the bazaar.
+>
+> **Rule 9.** Bring any item to me and I will identify its base market value. I will not tell you what to charge for it. That is your problem.
+
+*[He produces a quill.]*
+
+*"Questions?"*
+
+---
+
+## THE FOUR STALLS
+
+One stall per quadrant. Each party member claims one.
+
+| Quadrant | Position | Notes |
+|---|---|---|
+| **Northeast** | Slight elevation, central visibility | Prime foot traffic. First to be seen from the main road. |
+| **Northwest** | Near the supply lane entrance | Close to incoming deliveries. First pick on arriving goods. |
+| **Southeast** | Adjacent to the craftsmen's quarter | Specialty buyers pass through frequently. |
+| **Southwest** | Corner position, widest space | Largest physical footprint. Best for bulk displays and expansion. |
+
+**DM Note:** Party members are free to divide labor however they like day to day — there is no fixed role assignment. If party members cooperate, they are pooling customers. If they compete, each independently tracks earnings. The floor rewards individual totals — the party member with the highest sales wins the ranking, not the group as a whole. Cooperation on procurement and crafting is not only possible, it's the intended path. Credit on the ledger is individual regardless of who gathered or crafted what.
+
+---
+
+## THE CART can be updated at the craftsman Shop
+
+| Cart Type | Slots | Upgrade Cost | Notes |
+|---|---|---|---|
+| Standard Cart | 20 | — | Base equipment |
+| Reinforced Cart | 30 | 15gp + 3 rounds, Athletics DC 11 | Sturdier; resistant to sabotage damage |
+| Merchant's Wagon | 45 | 40gp + 5 rounds, Carpenter's Tools DC 13 | Requires a cleared path to the stall |
+
+**Slot Costs by Tier:**
+
+| Tier | Slots | Examples |
+|---|---|---|
+| Small | 1 | Herb sprig, single fish, common stone, small game |
+| Medium | 2 | Wild berries, river trout, copper ore, wild fowl |
+| Large | 3 | River clay bundle, large pike, iron ore, boar/deer |
+| Huge | 5 | Rare specimen, luminous eel, quartzite crystal, dangerous prey |
+
+**Personal Carry (outside bazaar):** Maximum 5 items. No cart access. Choose deliberately.
+
+**Cart Damage:** Enemy sabotage reduces total cart slots by 1d6 until repaired (2 rounds, Athletics DC 11 or Carpenter's Tools DC 10).
+
+---
+
+## VIOLENCE PENALTIES
+
+Violence inside the bazaar boundary is logged by Soren Ash without emotion.
+
+| Offense | Penalty |
+|---|---|
+| 1st | Warning + 10gp fine |
+| 2nd | 25gp fine + selling suspended for remainder of current day's phase |
+| 3rd | Stall confiscated for 1 full day — no sales |
+| 4th | Disqualification from rankings (floor still completable, no rewards) |
+
+**Outside the bazaar boundary:** No restrictions.
+
+---
+
+## STRUCTURE OF A DAY
+
+Each of the five days runs on the same clock. Every round is 5 minutes.
+
+| Time | Block |
+|---|---|
+| 8:00–9:00 | Free hour — prep, Soren, errands, robbery, alt actions |
+| 9:00–12:00 | **Gathering Window A** — Hunt / Forage (Forest Edge) |
+| 10:00–1:00 | **Gathering Window B** — Mine / Fish (Underground / Docks) |
+| 1:00–4:00 | **Gathering Window C** — Fish / Forage (Docks / Forest Edge) |
+| 2:00–5:00 | **Gathering Window D** — Mine / Hunt (Underground / Forest Edge) |
+| 5:00–6:00 | Free hour — prep stall, last advertising, Soren |
+| 6:00–10:00 | **Market Time** — the Selling Phase |
+
+8:00–6:00 (the **Production Day**) is where Gathering, Robbery, Trading, Crafting, advertising, investigation, and scouting happen. Market Time (6:00–10:00) is the Selling Phase — not round-counted, it runs until that day's customers are processed (see Selling Phase, below, for how many that typically is).
+
+### Round Action Points (RAP)
+
+Every player has **4 RAP per round**, representing minor decisions, conversations, and quick actions within a five-minute window.
+
+**Major Actions** interrupt RAP completely. When a player commits to a Major Action, they announce which round they start and how many rounds it takes. They have no RAP during those rounds. At the end of the final waived round, one die roll determines the outcome.
+
+**Natural 1 on any Major Action check:** Action takes 50% longer (round up). **Natural 20:** Takes 50% less time (round down, minimum 1 round).
+
+**On Failure by 5 or more:** Player still spends the rounds but gains nothing — plus a complication at DM discretion (lost in the forest, attracted unwanted attention, ruined the materials).
+
+---
+
+## THE VILLAGE DISTRICTS
+
+Players leave the bazaar to access these areas. Soren's booth and all four stalls are within the bazaar boundary.
+
+| District | Description | Primary Use |
+|---|---|---|
+| **The Market Square** | The four stalls, the fountain, Soren's booth, foot traffic | Selling, advertising, customer interaction |
+| **The Craftsmen's Quarter** | Workshops, a forge, weaver, potter, tanner | Crafting, commissioning, Scavenge Scraps |
+| **The Merchant District** | Warehouses, bulk suppliers, financial offices | Bulk supply deals, financial maneuvering, Day Labor, pawning |
+| **The Residential Lanes** | Homes, a school, the village elder's house | Robbery, Favors, rumor work |
+| **The Forest Edge** | Dense trees beginning a quarter-mile from the square | Gathering Windows A, C, D (Hunt/Forage) |
+| **The River & Docks** | A wide river with a small dock and fishery | Gathering Windows B, C (Fish) |
+| **The Underground** | Cellars and storage tunnels beneath the Merchant District, accessible via a hidden entrance | Gathering Windows B, D (Mine), Syndicate investigation |
+
+---
+
+## CORE RULE: WHERE PRODUCTS COME FROM
+
+**Products (Hunt/Fish/Forage/Mine Product) only ever enter play through the Craft Major Action** — performed either by a player or commissioned through an NPC crafter (Commission Craftsperson). No Gathering roll, robbery, trade, scavenging, favor, or daily event ever hands a player a finished Product directly. Crafting takes real time off the clock — that's the cost. In exchange, a Product is worth meaningfully more than the sum of the raw materials that went into it:
+
+| Product | Recipe (4 items, same tier) | Raw Material Cost (approx., 4 items at that tier) | Product Base Value | Margin |
+|---|---|---|---|---|
+| Small Hunt Product | 4 Small, 2+ Hunt | ~10–12gp | 14gp | +2–4gp |
+| Medium Hunt Product | 4 Medium, 2+ Hunt | ~22–24gp | 28gp | +4–6gp |
+| Large Hunt Product | 4 Large, 2+ Hunt | ~38–42gp | 48gp | +6–10gp |
+
+(Fish/Forage/Mine Products follow the same shape — roughly a 15–25% markup over raw cost, scaling up at Large.) That margin is the entire reason to spend rounds crafting instead of just selling raw materials straight off the cart — it's not huge, but it's consistent, and it's the only way a Product exists at all.
+
+Every other method on this floor — Gathering, Robbing, Trading, Scavenging, Favors — produces only **raw Small/Medium/Large/Huge-tier materials** from the four Gathering Tables. **Huge-tier materials are gathering-exclusive** — no other method can ever produce one. It's the only door to the best stuff, and the only thing that makes showing up to a Gathering Window on time worth the rigidity of the schedule.
+
+---
+
+## ACTION SYSTEM
+
+### MAJOR ACTIONS
+
+| Major Action | Rounds | Skill Check | DC | Outcome |
+|---|---|---|---|---|
+| **Gather (scheduled window)** | 36 (full window) | 4 checks vs DC 18, see Procurement below | 18 | See Procurement System |
+| **Rob a House — Small** | 4 | Stealth or Sleight of Hand | 12 | 1 Small-tier item, see Robbery below |
+| **Rob a House — Medium** | 7 | Stealth or Sleight of Hand | 14 | 1 Medium-tier item |
+| **Rob a House — Large** | 10 | Stealth or Sleight of Hand | 16 | 1 Large-tier item |
+| Combine Materials | 2 | — | — | 2 same-tier, same-table items become 1 item of the next tier up |
+| Craft (Small Product) | 2 | Tool Proficiency | 10 | 1 Small Product (4 Small-tier items, 2+ matching table) |
+| Craft (Medium Product) | 4 | Tool Proficiency | 14 | 1 Medium Product (4 Medium-tier items, 2+ matching table) |
+| Craft (Large Product) | 5 | Tool Proficiency | 17 | 1 Large Product (4 Large-tier items, 2+ matching table) |
+| Negotiate Supply Deal | 3 | Persuasion | 13 | Bulk **raw material** stock for 2 days at −15% cost |
+| Negotiate Exclusive Deal | 4 | Persuasion | 16 | Supplier sells only to you for 1 day |
+| Scout Rival Stall | 2 | Investigation | 11 | Learn exact inventory and current prices of 1 stall |
+| Commission Craftsperson | 3 | Persuasion | 12 | NPC crafts 1 good-quality Product for you at 60% of base value |
+| Hire Laborer | 2 | Persuasion | 10 | NPC manages stall for 3 rounds (basic tasks only) |
+| Build / Expand Stall | 5 | Athletics or Carpenter's Tools | 12 | +5 cart slots OR +1d6 bonus customers next selling phase |
+| Investigate (general) | 3 | Investigation | 12 | 1 clue about a district or NPC |
+| Investigate Syndicate | 4 | Investigation | 15 | 1 exposure clue toward Syndicate agents |
+| Investigate Market Trend | 3 | Investigation or Insight | 13 | Learn one category's status (Liked/Neutral/Disliked) for today |
+| Access Underground | 4 | Investigation + Stealth | 14 | Find the hidden entrance; unlock Underground district |
+| Find Iron Ledger Charter | 5 | Investigation | 16 | Discover boss unlock evidence (Underground only) |
+| Day Labor | 4 | — | — | 1d4+2 gp, flat, no risk |
+| Hired Hand (at a rival stall) | 5 | Persuasion | 12 | 4–8gp wage regardless of check; success also = free Scout Rival Stall |
+| Sell a Rumor | 3 | Persuasion or Deception | 13 | 2d4gp; Reputation −1 only if it concerns a fellow player's stall |
+| Scavenge Scraps | 5 | Investigation or Persuasion | 13 | 1 Small-tier item, player's choice of table |
+| Salvage Damaged Shipment | 7 | Investigation | 14 | 1 Medium-tier item, sold at Rough quality automatically (−25%) |
+| Do a Favor | 6 | Persuasion or Insight | 12 | 1 Small or Medium-tier item, player's choice; once per NPC; no Alertness |
+| Travel (adjacent district) | 1 | — | — | Move to a neighboring district |
+| Travel (far district) | 2 | — | — | Move to a non-adjacent district |
+
+### ROUND ACTIONS
+
+| Round Action | RAP Cost | Skill Check | DC | Description |
+|---|---|---|---|---|
+| Talk to NPC (basic) | 1 | — | — | Surface conversation; basic information |
+| Ask a probing question | 1 | Insight | 11 | Read an NPC's honesty or intent |
+| Spread a rumor | 1 | Deception | 12 | Plant a story about any person, place, or stall |
+| Counter a rumor | 1 | Persuasion | 13 | Dispute a false claim before it spreads |
+| Tip someone off with false information | 1 | Deception | 11 | Send a rival or NPC in the wrong direction |
+| Observe a rival stall | 1 | Perception | 11 | Learn surface details: traffic level, display quality, and (if asked) a sense of today's trend |
+| Observe a person | 1 | Perception | 11 | Notice appearance, behavior, or carried items |
+| Quick item inspection | 1 | Investigation | 10 | Assess quality of an item currently in hand |
+| Identify item via Soren | 1 | — | — | Learn base market value; Soren makes the assessment |
+| Move within a district | 1 | — | — | Cross to a different section of the current area |
+| Post a sign or flyer | 1 | — | — | Advertisement lasts 2 days; adds +1d4 base customers |
+| Shout / barter cry | 1 | Performance | 10 | Draws passersby; +1d4 customers this selling phase |
+| Live demonstration | 2 | Performance | 13 | Draws a crowd; +2d4 customers, +10% price modifier this phase |
+| Quick bribe | 2 | Persuasion | 12 | Pay 5–15gp for immediate minor NPC cooperation |
+| Intimidate NPC | 1 | Intimidation | 13 | Coerce cooperation or information; Reputation −1 if witnessed |
+| Adjust stall display | 1 | — | — | Rearrange goods; +5% price modifier until items are sold |
+| Price mark items | 1 | — | — | Set listed prices on stall goods for the selling phase |
+| Quick purchase | 1 | — | — | Buy one marked item from a nearby vendor or rival |
+| Stall a customer | 1 | Persuasion | 10 | Keep an interested customer engaged until a teammate arrives |
+| Write a contract | 2 | Intelligence | 11 | Create a binding in-floor written agreement |
+| Hire a street crier | 2 + 5gp | — | — | Automatic +1d6 customers this selling phase; no check |
+| Send a message | 1 | — | — | Deliver a note or instruction to another player or NPC |
+| Report a complaint to Soren | 1 | — | — | File a formal inquiry; goes on record, Soren investigates next day |
+| Set a watch | 2 | Perception | 11 | Active lookout for enemy activity; auto-spots anyone sneaking near your stall this round |
+| Case the House | 1 | Investigation | 11 / 13 / 15 (Small/Medium/Large) | Learn the target house's resource category before committing to rob it |
+
+**DM Note:** If a player proposes a Round Action not on this list, assess: does it take under 5 minutes and require no sustained focus? If yes, assign 1–2 RAP and an appropriate check. Improvised Round Actions are encouraged.
+
+---
+
+## PROCUREMENT SYSTEM
+
+Roles are not fixed — any party member can Gather, Rob, Trade, Craft, Vend, Scout, Advertise, Perform, or Sabotage on any given day. The only standing rule is that **someone must be at a stall during the Selling Phase** (Rule 4).
+
+There are four gathering tables, each producing results in four tiers: **Small, Medium, Large, Huge.** The flavor changes per table, but tier is what matters for crafting and combining.
+
+### Gathering (Major Action)
+
+**Cost:** the full window — 36 rounds, all RAP committed, no partial attendance. You must be present at the window's opening round; arriving even one round late forfeits that window entirely.
+
+Each window pairs two tables and the category obtained is randomized per item (see Step 3). Each resource category appears in exactly **two** windows per day:
+
+| Category | Windows |
+|---|---|
+| Hunt | A, D |
+| Forage | A, C |
+| Mine | B, D |
+| Fish | B, C |
+
+**Step 1 — Quality (rolled once, sets the tier for your whole session):** make the four listed skill checks for the table against DC 18 each.
+
+| Successes (of 4) | Tier |
+|---|---|
+| 4 | Huge |
+| 2–3 | Large |
+| 1 | Medium |
+| 0 | Small |
+
+If any of the four d20s came in below 10, drop the result one stage (floor: Small).
+
+**Step 2 — Quantity (crowding + depletion):**
+
+| Players sharing this window/location | Draws |
+|---|---|
+| 1 | 5 |
+| 2 | 4 |
+| 3 | 3 |
+| 4 | 2 |
+| 5+ | 1 each |
+
+**Depletion:** if this is the *second* window today in which this category has been gathered by anyone in the party (party-wide tracking), apply both: Draws −2 (minimum 1), and Tier capped at Large even if Step 1 produced Huge. Resets every morning.
+
+**Step 3 — Category (per item):** roll 1d2 per draw to determine which of the window's two paired tables that item comes from.
+
+**Skill checks per table:**
+
+- **Forage:** Survival (the trek), Perception (the search), Nature (the verification), Medicine (the extraction)
+- **Hunt:** Survival (the pursuit), Nature (the ambush), Animal Handling (the trap), Stealth (the approach)
+- **Fish:** Nature (the read), Survival (the preparation), Perception (the stakeout), Sleight of Hand (the catch)
+- **Mine:** Nature (the scout), Perception (the spot), Investigation (the analysis), Athletics (the strike) — Underground only, 1-in-6 Syndicate Enforcer encounter unless Stealth DC 13 is passed before descending.
+
+### The Four Gathering Tables
+
+**Forage Table**
+
+| Tier | Item | Slots | Base Value |
+|---|---|---|---|
+| Small | Herb sprig | 1 | 2gp |
+| Medium | Wild berries / fever root | 2 | 5gp |
+| Large | River clay bundle / nightbloom cluster | 3 | 9gp |
+| Huge | Rare specimen / Serpent's Tongue | 5 | 18gp (Soren-assessed, 15–30gp range) |
+
+**Hunt Table**
+
+| Tier | Item | Slots | Base Value |
+|---|---|---|---|
+| Small | Small game (meat + pelt) | 1 | 3gp |
+| Medium | Wild fowl (meat + feathers) | 2 | 6gp |
+| Large | Boar or deer (meat + hide, +antler if deer) | 3 | 12gp |
+| Huge | Dangerous prey — Athletics DC 16 or 2d8 damage, catch lost on fail | 5 | 24gp |
+
+**Fish Table**
+
+| Tier | Item | Slots | Base Value |
+|---|---|---|---|
+| Small | Common fish ×3 | 1 | 3gp |
+| Medium | River trout ×2 | 2 | 6gp |
+| Large | Large pike | 3 | 10gp |
+| Huge | Luminous eel | 5 | 20gp |
+
+**Mine Table (Underground only)**
+
+| Tier | Item | Slots | Base Value |
+|---|---|---|---|
+| Small | Common stone | 1 | 2gp |
+| Medium | Copper ore | 2 | 6gp |
+| Large | Iron ore | 3 | 10gp |
+| Huge | Quartzite crystal | 5 | 20gp |
+
+### Combine Action
+
+Major Action (2 rounds, no check): combine 2 same-tier, same-table items into 1 item of the next tier up (2 Small→1 Medium, 2 Medium→1 Large, 2 Large→1 Huge). Costs a Major Action regardless of who performs it, so over-combining instead of gathering fresh has a genuine time cost.
+
+### Crafting: Products
+
+Each **Product** requires **four items of the same tier**, at least two from that Product's home table. The other two may be from any table, at that same tier.
+
+| Product | Recipe | Tool | Base Value (Small / Medium / Large) |
+|---|---|---|---|
+| **Hunt Product** | 4 of one tier, 2+ from Hunt | Cook's, Leatherworker's, or Smith's Tools | 14gp / 28gp / 48gp |
+| **Fish Product** | 4 of one tier, 2+ from Fish | Cook's Utensils | 12gp / 24gp / 42gp |
+| **Forage Product** | 4 of one tier, 2+ from Forage | Potter's, Weaver's, or Herbalism Kit | 13gp / 26gp / 45gp |
+| **Mine Product** | 4 of one tier, 2+ from Mine | Smith's or Jeweler's Tools | 16gp / 32gp / 55gp |
+
+Huge-tier items don't feed standard Products — they're rare enough to go straight to Soren for identification, get used one-for-one as a flashy display item, or (DM discretion) substitute for an entire tier-down recipe slot — 1 Huge can count as "2 Large."
+
+A player without proficiency in the relevant tool may attempt the check at **disadvantage**.
+
+| Check Result | Quality | Sale Modifier |
+|---|---|---|
+| Failed by 5 or more | Ruined | Item destroyed; materials lost |
+| Failed by 1–4 | Rough | −25% of base value |
+| Passed | Standard | Base value |
+| Passed by 4+ | Good | +35% of base value |
+| Passed by 8+ | Excellent | +80% of base value |
+| Natural 20 | Masterwork | +150% of base value; triggers a Special Customer roll |
+
+The Product's name and flavor at the table is whatever fits the actual ingredients — a Large Hunt Product made from boar, deer, river clay, and herb sprigs might be called a "Game Hunter's Platter." Mechanically identical; narratively whatever the table wants.
+
+---
+
+## ROBBING A HOUSE (Major Action — Residential Lanes)
+
+Targets a house by size. Reward is **guaranteed** at the size's tier — no randomness on quality, only on whether you're caught. Category is set by the house's flavor (a smith's home yields Mine goods, a hunter's lodge yields Hunt goods — DM assigns, or roll 1d4 if undetermined). Houses are one-time targets; the town is large enough that there's always another, so the limiting factor is Alertness, not a finite supply. No Huge-tier houses exist — that ceiling belongs to Gathering alone.
+
+| House Size | Rounds | Check | Base DC | Reward | Alertness (success) | Alertness (caught) |
+|---|---|---|---|---|---|---|
+| Small | 4 | Stealth or Sleight of Hand | 12 | 1 Small-tier item | +1 | +2 |
+| Medium | 7 | Stealth or Sleight of Hand | 14 | 1 Medium-tier item | +2 | +4 |
+| Large | 10 | Stealth or Sleight of Hand | 16 | 1 Large-tier item | +3 | +6 |
+
+### Alertness (party-wide, Residential Lanes only — scale 0–9+)
+
+| Alertness | State | Effect |
+|---|---|---|
+| 0–1 | Quiet | No DC change |
+| 2–3 | Noticed | +2 to robbery DC |
+| 4–5 | Watching | +4 to robbery DC |
+| 6+ | Hunted | Residential Lanes locked to robbery for the rest of the day. Attempting anyway skips the check entirely — you're caught automatically. |
+
+Alertness decays **−2 every morning**, floor 0.
+
+### Getting Caught
+
+On a failed check: lose the rounds, gain no item, Alertness rises by the "caught" amount, and roll 1d4:
+
+| d4 | Consequence |
+|---|---|
+| 1 | **Guard Chase** — Stealth or Athletics contest, DC 10 + current Alertness tier's DC bonus, to escape. Failure: stall confiscated 1 day + Reputation −3. |
+| 2 | **On-the-spot fine** — lose gold equal to 2× the house tier's base value. Reputation −1. |
+| 3 | **Marked** — Reputation −2; for the rest of today, any further robbery Alertness gain is doubled. |
+| 4 | **Iron Ledger notices** — Syndicate Pressure +1. No immediate personal consequence, but it's logged. |
+
+**Case the House** (Round Action, see Round Actions table) lets a player learn a target's category in advance before committing the Major Action.
+
+---
+
+## REPUTATION TRACKER
+
+Tracks standing in Verath's Crossing. Starts at **0**, range **−10 to +10**. Governs three things: how many customers show up, how much they're willing to pay before any negotiation, and which negotiation tools are even available. The lower it gets, the less of the market you have access to.
+
+| Score | Customer Modifier | Base Price Modifier | Tool Access | Deception Discovery Modifier |
+|---|---|---|---|---|
+| **+6 to +10** | +1d6 customers; vendors 15% better rates; 1 guaranteed Special Customer | **+15%** | All tools available | −15% discovery chance |
+| **+3 to +5** | +1d4 customers; vendors 5% better | **+8%** | All tools available | −8% |
+| **+1 to +2** | minor positive recognition | **+3%** | All tools available | −3% |
+| **0** | neutral | — | All tools available | — |
+| **−1 to −2** | slight wariness | **−5%** | Luxury Upsell DC +2 | +5% |
+| **−3 to −5** | −1d4 customers; 2 vendors refuse to sell to you | **−12%** | Luxury Upsell unavailable; standard Upsell DC +2 | +12% |
+| **−6 to −9** | −1d6 customers; most vendors wary; authority watching | **−25%** | Negotiation locked entirely — customers only accept Honest Sale at listed price | +20% |
+| **−10** | stall shut down for 1 full day, pending inquiry | — | Cannot sell | — |
+
+Base Price Modifier applies to a stall's listed prices before any negotiation check, and stacks with the day's Market Trend (e.g. a Liked category at +6 Reputation sells at roughly +45%; a Disliked category at −6 Reputation drops to roughly half price).
+
+### Reputation Gains
+
+| Action | Change |
+|---|---|
+| Successful honest sale to an elder or village authority | +1 |
+| Public performance at DC 15 or higher | +1 |
+| Resolving a dispute fairly (witnessed) | +1 |
+| Donating goods to village residents (10gp value minimum) | +2 |
+| Publicly exposing and reporting a Syndicate agent via Soren | +2 |
+| Being praised openly by The Critic (Special Customer) | +2 |
+| Publicly exposing a Mark-Hunter | +1 |
+
+### Reputation Losses
+
+| Action | Change |
+|---|---|
+| Failed deception discovered by a customer | −1 |
+| Intimidating a customer (if witnessed) | −1 per instance, cumulative same day |
+| Spreading a rumor that traces back to you | −2 |
+| Theft discovered | −3 |
+| Bystanders witness an open bribe | −1 |
+| Violence inside the bazaar | −2 per incident |
+| Losing patience with a Mark-Hunter (witnessed) | −1 |
+
+---
+
+## PRICE MANIPULATION — Persuasion, Deception, Intimidation
+
+Used during the Selling Phase, once per customer, to push a sale above the listed price. DCs below are base values — apply Tool Access restrictions and the Deception Discovery Modifier from the Reputation Tracker on top of them.
+
+| Method | Skill | DC | On Success | On Failure |
+|---|---|---|---|---|
+| Honest Sale | — | — | Listed price guaranteed | — |
+| Upsell (markup ≤30%) | Persuasion | 10 + markup% | Full marked-up price | Customer pays base price only |
+| Luxury Upsell (markup 31–60%) | Persuasion | 14 + markup% | Full marked-up price | Customer walks (roll d6: 5–6, they buy from a rival instead) |
+| Storytelling | Performance | 12 | +15% flat, stacks with Upsell | Sale proceeds at listed price, no bonus |
+| Misrepresent Quality | Deception | 14 | Full inflated price now | Caught on the spot — sale fails, Reputation −1, next 1d4 customers this phase are wary (−1 to your negotiation checks) |
+| Misrepresent Rarity | Deception | 15 | Full inflated price now | Caught on the spot — sale fails, Reputation −2, same wariness effect |
+| Pressure Sell | Intimidation | 15 | Full price guaranteed | Customer leaves offended — −1d4 customers for the rest of the phase |
+
+**Pressure Sell costs Reputation −1 per use, cumulative same day, whether it succeeds or fails.**
+
+**Deception that succeeds isn't free.** Every successful Misrepresent Quality or Misrepresent Rarity sale carries a delayed Discovery chance, checked once at the end of the day (apply the Reputation Tracker's Discovery Modifier):
+
+| Method | Base Discovery Chance | If Discovered |
+|---|---|---|
+| Misrepresent Quality | 25% | Reputation −1, customer demands a refund (lose that sale's gold) |
+| Misrepresent Rarity | 35% | Reputation −2, customer demands a refund (lose that sale's gold) |
+
+A trusted merchant gets away with the occasional lie because nobody's looking for it. Reputation that's already shaky makes every lie more likely to be caught — and getting caught is what drags Reputation into the range where Tool Access locks negotiation out entirely.
+
+---
+
+## MARKET TRENDS → PRICE
+
+Each morning before Window A opens, the DM secretly rolls the day's trend across the four categories: **1 Liked (+30% sale price), 2 Neutral (no change), 1 Disliked (−25% sale price).** This affects **sale price only**, never customer count or how much you can gather. A Product's category for trend purposes follows its recipe's home table.
+
+This stays hidden — players read it via Observe/Scout Rival Stall, Investigate Market Trend, or talking to Bram, Celeste, and Garrath, who each react differently to what's moving.
+
+---
+
+## THE SELLING PHASE
+
+Market Time runs 6:00–10:00. It is not round-counted — it continues until that day's customers are processed. Players **at their stall** handle customers; players **not at their stall** may spend RAP on interference, last-minute advertising, or sabotage, but cannot start Major Actions.
+
+### How Many Customers Per Day
+
+Base is **1d6+3 per stall**, modified by everything below — but for pacing across a 5-day floor, here's the intended curve:
+
+| Day | Suggested Base | Why |
+|---|---|---|
+| Day 1 | 1d4+3 (4–7) | No reputation built yet; deliberately the slowest day |
+| Day 2 | 1d6+3 (4–9) | Standard baseline |
+| Day 3 | 1d6+3 (4–9), −1d4 all stalls (Grey Ledger opens) | Real competition arrives |
+| Day 4 | 1d6+4 (5–10) | Word of mouth and accumulated Reputation start paying off |
+| Day 5 | 1d8+4 (5–12); +2d8 if Vael is defeated | Climax day — biggest crowd of the floor |
+
+A well-advertised, high-Reputation stall can comfortably push past 15–18 customers in a single phase. For table pacing, fully roleplay only the unusual ones (Special Customers, Syndicate interruptions below) — resolve routine customers (village child, farm laborer, etc.) with a quick price-and-roll rather than a full scene.
+
+**Modifiers (tracked throughout the day):**
+
+| Source | Modifier |
+|---|---|
+| Posted sign or flyer (each active) | +1d4 |
+| Live demonstration completed | +2d4 |
+| Shout / barter cry performed | +1d4 |
+| Street crier hired (5gp) | +1d6 |
+| Masterwork item visibly displayed at stall | +1d6 |
+| Reputation modifier | see Reputation Tracker |
+| Slanderer active and not countered | −1d6 |
+| Rival sabotaged this day (their loss = your traffic) | +1d4 |
+| Grey Ledger stall open (Day 3 onward) | −1d4 all stalls |
+
+**If a customer walks after a failed upsell:** Roll d6. On a 5 or 6, they purchase from a rival stall instead (DM assigns the sale).
+
+### Customer Table — Roll d20
+
+| d20 | Customer Type | Wants | Will Spend | Notes |
+|---|---|---|---|---|
+| 1–2 | Village child | Cheap, shiny, small | 1–5cp | Won't negotiate up; may pocket small unsupervised items |
+| 3–4 | Farm laborer | Practical food or tools | 1–8sp | Honest buyer; Persuasion DC 10 to upsell |
+| 5–6 | Village housewife | Food, fabric, useful goods | 5–20sp | Experienced; knows fair prices; Deception DC 17 to fool |
+| 7–8 | Craftsperson | Raw materials, specialty supplies | 1–3gp | Professional buyer; won't buy rough quality |
+| 9–10 | Young couple | Novelty items, gifts | 2–6gp | Emotion-driven; Performance or Persuasion DC 11 to upsell |
+| 11–12 | Village elder | Medicine, familiar goods | 4–12gp | Slow to trust; loyal repeat customer if satisfied |
+| 13–14 | Passing merchant | Unusual items or bulk | 8–40gp | Highest ceiling; won't buy rough; Investigation DC 12 to read interest |
+| 15–16 | Curious scholar | Unusual specimens, rare herbs, antiquities | 5–25gp | Pays premium for strange things; History or Arcana DC 12 to identify desire |
+| 17 | Traveling pilgrims (pair) | Medicinal goods, sentimental items | 3–10gp | Sentiment buyers; Performance or Persuasion DC 10 with a story |
+| 18 | Off-duty climber | Functional items, food, tower supplies | varies | Understands tower value; pays well for functional goods |
+| 19 | Village authority | Nothing — compliance check | — | Reputation −4 or lower: stall inspection; selling phase paused 1d4 customers |
+| 20 | Special Customer | See Special Customer Table | Exceptional | Roll d8 on Special Customer Table |
+
+### Special Customer Table — Roll d8
+
+| d8 | Customer | Situation |
+|---|---|---|
+| 1 | **The Collector** | Seeks one specific unusual item; pays 3× if you have it. Investigation DC 13 to identify what they want before they state it. Leaves if nothing qualifies. |
+| 2 | **The Bulk Buyer** | Wants 5–8 of the same category at 80% per unit. Negotiation available with Persuasion DC 12. |
+| 3 | **The Desperate** | Urgently needs something medicinal or food-related; pays up to 4× without negotiating. Insight DC 10 to read the urgency before pricing. |
+| 4 | **The Critic** | An influential local who evaluates stalls openly. Approval (Performance or Persuasion DC 14): +1d8 bonus customers tomorrow. Disappointment: −1d4 instead. |
+| 5 | **The Syndicate's Eyes** | Appears as a normal buyer. Insight DC 13 to notice something off. Actually casing the stall — reporting inventory and pricing to the Iron Ledger. |
+| 6 | **The Craftsperson's Buyer** | Only purchases Excellent or Masterwork quality. Pays 2× listed price for those tiers. Ignores everything else. |
+| 7 | **The Gossip** | Buys something small and immediately starts talking about the stall to passersby. +1d6 additional customers this phase — but also mentions any negative detail they noticed. |
+| 8 | **The Wealthy Eccentric** | Deep pockets; very specific desire. Roll d4: (1) something that smells unusual, (2) the most visually striking item available, (3) a service not a product, (4) something from outside the village. Pays 5× if satisfied. |
+
+---
+
+## ENEMY ENCOUNTERS — THE SYNDICATE
+
+The Iron Ledger's network runs underneath the floor. Its agents operate through economic pressure, sabotage, and manipulation — not open violence inside the bazaar. Outside the bazaar, the rules change entirely.
+
+### Syndicate Pressure Level
+
+The DM tracks a hidden **Syndicate Pressure** value from 1 to 10. It starts at **4**.
+
+| Level | State |
+|---|---|
+| 1–3 | Quiet. Agents are cautious. Fewer random events. |
+| 4–6 | Active. Standard enemy frequency. |
+| 7–9 | Aggressive. Enemies appear more often. Arsonist becomes possible. |
+| 10 | Crisis. All enemy types active simultaneously. Grey Ledger has unlimited stock. |
+
+**Pressure Increases When:** any stall leads all others by 20gp+ (+1) · a Syndicate agent is driven off without being publicly exposed (+1) · a Tax Collector is completely ignored (+2) · players miss the Underground on Day 3 or later by choice (+1)
+
+**Pressure Decreases When:** a Syndicate agent is publicly exposed (−1) · a Syndicate agent is defeated outside the bazaar (−2) · players donate goods to village residents (−1) · the Iron Ledger Charter is found (−3, immediate)
+
+### SELLING PHASE INTERRUPTIONS — the harassment, scheduled
+
+This is how the Syndicate actually shows up: periodically, **a customer slot becomes a Syndicate event instead of a sale.** It eats the exact thing it's meant to eat — time the player could have spent selling — because that customer simply doesn't happen; the agent does.
+
+For every customer slot in a stall's queue, before resolving the normal Customer Table roll, roll **1d20** modified by current Syndicate Pressure:
+
+| Syndicate Pressure | Interruption Chance |
+|---|---|
+| 1–3 | Roll 1–2 on d20 (10%) |
+| 4–6 | Roll 1–3 on d20 (15%) |
+| 7–9 | Roll 1–4 on d20 (20%) |
+| 10 | Roll 1–6 on d20 (30%) |
+
+At the starting Pressure of 4, that's roughly **1 interruption per stall per day** on average — and it climbs fast as Pressure rises, which is the intended shape: a quiet Day 1, a genuinely harassed Day 4–5 if the party hasn't been pushing Pressure back down.
+
+On an interruption, roll **1d8**:
+
+| d8 | Result |
+|---|---|
+| 1 | **Tax Collector arrives** — always resolves against the *current leading stall*, even if a different stall's queue triggered the roll. If you're not the leader, narrate him passing your line on his way to theirs; your slot is still consumed. Use the Tax Collector encounter table below. |
+| 2 | **Slanderer** spotted working the crowd near your stall. *Day 3+ only — reroll if earlier.* Use the Slanderer encounter table below. |
+| 3 | **Cutpurse Ring** sweeps through. *Day 2+ only — reroll if earlier.* Use the Cutpurse Ring encounter table below. |
+| 4 | A customer repeats a **Counterfeit Ring** rumor about your goods. *Only if triggered — some stall has sold a single item for 15gp+ — reroll if not yet active.* Use the Counterfeit Ring encounter table below. |
+| 5 | **Mark-Hunter** reaches the front of your line. *Day 2+ only — reroll if earlier.* Use the Mark-Hunter encounter table below. (This replaces the old standalone "roll 1d20 alongside every customer" trigger — Mark-Hunters now only appear through this unified roll.) |
+| 6 | One of Edrin Voss's "shoppers" quietly compares your prices to the **Grey Ledger's**. *Day 3+ only, Grey Ledger must be open — reroll if not.* No check required: DM notes your current best-selling category; the Grey Ledger stocks and undercuts it tomorrow. |
+| 7 | **False alarm.** A tense moment — nothing happens. The slot is still lost; the scare itself was the cost. |
+| 8 | **DM's call** — pick whichever active threat best fits the current Day and Pressure level. |
+
+If a reroll lands on another unavailable entry, default to **7 (False Alarm)** rather than looping.
+
+**The Arsonist is not part of this table** — it operates separately, late in the day or overnight (see below), targeting the leading stall directly rather than consuming a customer slot.
+
+---
+
+### ENEMY: THE SYNDICATE TAX COLLECTOR
+
+*An official-looking man in grey with a ledger under his arm.*
+
+He presents a "licensing requirement" — 20% of the day's projected earnings must be paid before the selling phase continues. His documents look official. They are fabricated.
+
+| Response | Check | DC | Outcome |
+|---|---|---|---|
+| Pay the fee | — | — | Lose 20% of projected earnings; he leaves; Pressure unchanged |
+| Negotiate down | Persuasion | 14 | Pay 10% instead; he grumbles and leaves |
+| Bluff (claim you have papers) | Deception | 14 | Delays him 1d4 rounds before he returns to verify |
+| Refuse outright | — | — | He marks it down; −1d6 customers this phase (he "warns" buyers); Pressure +1 |
+| Expose him publicly with evidence | Persuasion | 15 | Requires 1 Syndicate clue in hand; counts as 1 exposure; Reputation +2; Pressure −1 |
+| Report to Soren with evidence | — | — | Soren investigates next day; requires 1 prior Investigate Syndicate Major Action |
+| Confront outside the bazaar | Combat | — | 2 Syndicate Enforcers accompany him; defeat counts as 1 exposure |
+
+---
+
+### ENEMY: THE CUTPURSE RING
+
+*Three to five pickpockets who work the market crowd. Active from Day 2 onward.*
+
+They steal from customers before those customers reach any stall — reducing the crowd that actually arrives.
+
+**Ambient Effect:** −1d4 customers from all stalls during the Selling Phase, independent of the interruption roll above (this is on top of any direct encounter).
+
+| Response | Check | DC | Outcome |
+|---|---|---|---|
+| Spot during rounds | Perception | 13 | Identify their positions; can then respond |
+| Drive them off | Intimidation | 14 | Gone for the day; must be repeated each day they appear |
+| Catch one (Major Action, 3 rounds) | Athletics | 14 | One caught; Syndicate link found on Investigation DC 13; counts as 1 exposure |
+| Hire a crowd-watcher (Round Action, 3gp) | Persuasion | 10 | Negates their effect for 1 day |
+| Report to Soren | — | — | Slows their operation next day (−1 to their customer reduction) |
+
+---
+
+### ENEMY: THE SLANDERER
+
+*A well-dressed, pleasant-seeming person who circulates through the crowd quietly telling people things about your stall. None of it is true. Active from Day 3 onward.*
+
+**Effect (if not countered):** −1d6 customers this selling phase + Reputation −1.
+
+| Response | Check | DC | Outcome |
+|---|---|---|---|
+| Spot them spreading rumors | Perception | 12 | Identify them; can then act |
+| Counter their story in the crowd | Persuasion | 13 | Negates the customer penalty |
+| Spread a counter-rumor (Round Action) | Deception | 12 | Reduces penalty to −1d4 instead of −1d6 |
+| Catch them in the act and expose publicly | Persuasion | 15 | Counts as 1 exposure; Reputation +2 |
+| Confront outside the bazaar | Intimidation or Combat | 14 | They flee on Intimidation success; defeat counts as 1 exposure |
+
+---
+
+### ENEMY: THE COUNTERFEIT RING
+
+*Operating from a side alley, sells convincing fakes of whatever's popular — specifically targeting whoever is leading sales. Active from Day 3 onward, triggered once any stall has sold a single item for 15gp+.*
+
+**Effect:** Customer skepticism spreads. All stalls take a −20% penalty on all Persuasion-based price checks for 1 day.
+
+| Response | Check | DC | Outcome |
+|---|---|---|---|
+| Locate their alley (Major Action, 3 rounds) | Investigation | 14 | Find their operation; further options become available |
+| Expose fakes to customers (once located) | Persuasion | 14 | Clears skepticism for your stall only, for this day |
+| Destroy their stock outside the bazaar | Athletics or Combat | 15 | Eliminates effect for 2 days; counts as 1 exposure |
+| Report through Soren (requires alley location) | — | — | Takes 1 day to process; permanently eliminates them after Day 4 |
+| Undercut them on price | — | — | Bypass skepticism check for your stall (no Persuasion needed; hurts your margin) |
+
+---
+
+### ENEMY: THE GREY LEDGER STALL
+
+*On Day 3, a new stall opens in the Merchant District. Its operator, **Edrin Voss**, is thin, immaculately dressed, and smiles like he's paid to do so.*
+
+Backed by the Iron Ledger's supply network. Stocks whatever's popular at 30% below standard price. Unlimited supply.
+
+**Effect:** −1d4 customers from all stalls per selling phase. Any category the Grey Ledger stocks causes a −25% price modifier on that category across all stalls.
+
+| Response | Check | DC | Outcome |
+|---|---|---|---|
+| Investigate supply chain | Investigation | 15 | 1 clue toward boss unlock; counts toward exposures |
+| Block his supply (buy out supplier first) | Persuasion | 16 | Grey Ledger loses stock in one category for 1 day |
+| Sabotage his stock outside the bazaar | Stealth + Dexterity | 14 | Reduces his selection for 1 day; Enforcers present; risk of combat |
+| Report to Soren with 2 pieces of evidence | — | — | Soren mandates an audit; Grey Ledger sales suspended 1 day |
+| Expose him publicly with Iron Ledger Charter | Persuasion | 16 | Counts as 2 exposures; Edrin Voss leaves the floor permanently |
+| Simply undercut him | — | — | Requires selling at or below cost; hurts your margin too |
+
+**Tell:** Investigation DC 15 while at his stall reveals inconsistencies in his supply documentation — the same supplier names for categories that should have separate sources.
+
+---
+
+### ENEMY: THE ARSONIST
+
+*A hired Syndicate contractor. Active only on Days 4 and 5. Triggered when Syndicate Pressure reaches 7+ and any stall leads total earnings by 50gp+.*
+
+Operates late in the day, once most of that day's customers have been processed, or overnight between days. Makes one attempt to damage the leading stall, approaching with Stealth (Passive Perception DC 14 to spot first).
+
+**Effect (if successful):** Stall display visibly damaged. Cart loses 1d6 slots until repaired. −1d4 customers next selling phase.
+
+| Response | Check | DC | Outcome |
+|---|---|---|---|
+| Spot before they act | Passive Perception | 14 | Can take response action |
+| Set active watch (Round Action, 2 RAP/round) | Perception | 11 | Auto-spots any stealth approach this round |
+| Drive off after spotting | Intimidation | 14 | Gone for the day; Pressure −1 |
+| Catch and publicly expose | Athletics then Persuasion | 14 / 15 | Counts as 1 exposure; Pressure −2 |
+| Defeat outside the bazaar | Combat | — | Counts as 1 exposure; Pressure −2 |
+
+---
+
+### ENEMY: THE MARK-HUNTER
+
+*A well-dressed customer waiting in line like anyone else. Not interested in buying anything.*
+
+Reached via Selling Phase Interruption roll #5 above. They harass, not rob — the Iron Ledger wants merchants discouraged, not bankrupted. They'll question the legitimacy of your goods, needle at your prices in front of waiting customers, or falsely claim your Products made them sick last time.
+
+| Response | Check | DC | Outcome |
+|---|---|---|---|
+| Ignore and stay professional | — | — | They leave after wasting the slot; no further effect |
+| Calm them down | Persuasion | 13 | They leave quietly; no effect on the line |
+| Call out their behavior publicly | Insight then Persuasion | 12 / 13 | If Insight succeeds first, Persuasion exposes them as a plant — counts as 1 Syndicate exposure, Reputation +1 |
+| Lose patience / snap at them | Intimidation | 13 | Success: they flee. Failure: Reputation −1 (witnessed), −1d4 customers for the rest of the phase |
+| Do nothing, let it play out | — | — | −1d4 customers for the rest of this Selling Phase |
+
+A Mark-Hunter never appears twice at the same stall in the same day. If exposed publicly, they count toward the Boss Unlock exposure requirement exactly like the Tax Collector, Slanderer, Counterfeit Ring, Arsonist, or Edrin Voss.
+
+---
+
+### Syndicate Enforcer (Combat Stats)
+
+Used by the Tax Collector, the Arsonist, and any combat outside the bazaar.
+
+| Stat | Value |
+|---|---|
+| AC | 13 |
+| HP | 22 |
+| Speed | 30ft |
+| Attack | Shortsword +4, 1d6+2 piercing |
+| Ranged | Thrown dagger +4, 1d4+2 piercing, range 20/60 |
+| Special | **Ledger's Threat (1/combat):** DC 13 Wisdom save or Frightened until end of next turn |
+
+Tax Collectors travel with 2 Enforcers. The Arsonist uses these same stats.
+
+---
+
+## DAILY EVENT TABLE
+
+Roll d10 each morning before the Production Day begins.
+
+| d10 | Event | Effect |
+|---|---|---|
+| 1 | Clear market day | Normal. No modifiers. |
+| 2 | Light rain | −1d4 customers all stalls; Fish and Hunt Products +1d4 |
+| 3 | Festival preparation nearby | +2d6 customers all stalls; all Products sell at +20% |
+| 4 | Supply shortage (roll d4: 1 Fish, 2 Mine, 3 Forage, 4 Hunt) | That category sells at +50%; stalls without stock miss out entirely |
+| 5 | Inspectors in town | Village authority passes through; Reputation below −2 triggers a stall inspection, delaying that stall's Selling Phase start (effectively skipping its first 1d6 customer slots) |
+| 6 | Traveling performer | Draws 2d6 customers split across all stalls by display quality |
+| 7 | Syndicate event | Roll d4: 1 = Tax Collector targets leading stall outside the normal interruption roll, 2 = Slanderer targets leading stall the same way, 3 = Counterfeit Ring activates early, 4 = Edrin Voss announces a price cut for 1 day |
+| 8 | Unusual rumor spreading | Customers distracted; −1d4 customers; Investigation DC 12 reveals the source |
+| 9 | Wealthy party arrives | 2 Special Customer rolls guaranteed this selling phase, in addition to any natural 20s |
+| 10 | Calm and profitable | +1d4 customers; NPC vendors in good moods; 10% price reduction on all purchases today |
+
+---
+
+## RIVAL STALL NPCs
+
+These established merchants compete from stalls in the surrounding market area, drawing from the same customer pool. They exist whether or not all four central stalls are occupied by players.
+
+### BRAM'S BOUNTY
+*Operator: Bram Hollander — broad-shouldered, easy laugh, sharp eye for volume*
+
+**Strategy:** Volume and breadth. A little of everything at slightly below market price. Thin margins, high traffic.
+
+**Inventory:** General goods — tools, cloth, basic dried food, common herbs. Restocked daily from the Supply Warehouse.
+
+**Day 1 Bonus:** +5gp (established regular customers).
+
+**Weaknesses:** No specialty. Supply chain runs entirely through the Supply Warehouse. Does not know about the Grey Ledger until Day 3; reacts with visible irritation.
+
+**Character:** Competitive, jovial, not cruel. Will not escalate to dirty tactics. Reports blatant cheating to Soren. Bribeable with food or an unusually good deal (Persuasion DC 11 for supply information). If asked, mentions offhand which category's been moving fast — a soft hint toward the day's trend.
+
+### THE IVORY COMPASS
+*Operator: Celeste Vane — elf, calm manner, artist's eye for arrangement*
+
+**Strategy:** Curated premium goods, presented beautifully, priced significantly above market.
+
+**Inventory:** Changes daily. Roll d4: 1 = minor enchanted trinkets, 2 = rare imported preserved foods, 3 = handmade crafted goods at Excellent quality, 4 = unusual specimens.
+
+**Weaknesses:** Supply is thin. Relies on reputation (one well-placed rumor at Deception DC 13 drops her sales for a day). Alienates common customers.
+
+**Character:** Composed, privately competitive. Respects clean competition. Responds to dirty tactics quietly and methodically.
+
+**Alliance Option:** Sell her something in the 8gp+ unusual category and she shares her display technique: +10% price modifier on your stall for 1 day.
+
+### IRONCLAD TRADES
+*Operators: Garrath Ironshod and his two adult sons, Deven and Pol*
+
+**Strategy:** Practical durable goods. Tools, refined ore, leather, hardware.
+
+**Inventory:** Restocked from the Craftsmen's Quarter forge. Changes little day to day.
+
+**Day 1 Bonus:** +3gp (established craftsperson clients).
+
+**Weaknesses:** Cannot handle perishables or food whatsoever. No performance ability — advertising actions fail for them entirely. Heavy inventory means cart damage hits them hardest.
+
+**Character:** Direct, no-nonsense, completely fair. Has noticed the Grey Ledger and will share his specific opinions about it unprompted.
+
+**Alliance Option:** Good terms with Garrath means he points players toward the Underground entrance — reducing the Access Underground DC by 4.
+
+---
+
+## THE FLOOR BOSS: VAEL GELDRUN, THE CORRUPTED ARBITRATOR
+
+### Lore
+
+Vael Geldrun was Verath's Crossing's most respected Trade Arbitrator for eleven years. He resolved disputes fairly, held both sides accountable, and treated the town's covenant of honest commerce as something worth protecting.
+
+The Iron Ledger approached him on a slow Tuesday with an offer he refused.
+
+They came back. Then again. Then with evidence of a debt he had not paid — fabricated, but documented convincingly. Then with a quiet question about where a certain sum of money had gone. The question did not need to be true to be dangerous.
+
+He accepted the arrangement. That was eleven years ago.
+
+The Hollow Ledger's power runs through him now like a second circulatory system. He senses every transaction within the town's boundaries — the weight of coin, the pressure of unfulfilled promises, the faint friction of an honest sale. He experiences corruption the way other people experience warmth: sustaining.
+
+He sits in his arbitrator's tower at the market's edge and does not appear to anyone. He watches. The Iron Ledger prospers.
+
+He has forgotten what the covenant felt like. He has not forgotten what it cost him to break it.
+
+### Boss Unlock Conditions
+
+All four must be satisfied. Vael cannot be confronted until every condition is met.
+
+| # | Condition | How to Complete |
+|---|---|---|
+| 1 | Total earnings across all stalls reach **150gp cumulative** | Tracked across all five days |
+| 2 | **3 Syndicate agents** have been publicly exposed | Tax Collector, Slanderer, Counterfeit Ring, Arsonist, Edrin Voss, or Mark-Hunter — any three |
+| 3 | **The Iron Ledger Charter** has been discovered | Underground only; Find Iron Ledger Charter Major Action (DC 16) |
+| 4 | **The Grey Ledger stall is open** | Opens automatically on Day 3; must still be operating |
+
+When all four conditions are met at the start of Day 5, Vael is present when the players arrive at the market square.
+
+### The Confrontation
+
+> *The market square is quieter than usual when you arrive. Customers who were milling about have stepped back without being asked. The fountain basin reflects nothing useful.*
+>
+> *The man standing at the center is unremarkable at first — plain arbitrator's robes, ink-stained hands, a ledger under one arm. He is reading it. He does not look up for several seconds.*
+>
+> *When he does, his eyes are the color of tarnished silver.*
+>
+> *"You have been disrupting my market," he says. Not an accusation. A notation. "Most climbers find the economics discouraging and leave by Day 3."*
+>
+> *He closes the ledger.*
+>
+> *"I'm going to offer you the same arrangement I offer everyone. Walk away with what you have. Don't ask about what runs underneath. Both of us benefit from the simplicity."*
+>
+> *He looks at each of you in turn.*
+>
+> *"Or don't. The Ledger accommodates that outcome as well."*
+
+**Option A — Accept:** Floor clears immediately. No boss rewards. Rankings based on earnings only.
+
+**Option B — Refuse:** Vael severs the bazaar's protection rules. The market square transforms. Prices bleed from every surface. Numbers replace cobblestones. The air tastes of iron.
+
+### Combat: Vael Geldrun
+
+| Stat | Value |
+|---|---|
+| AC | 16 |
+| HP | 180 |
+| Speed | 30ft |
+| Proficient Saves | Wisdom, Charisma |
+| Immunities | Psychic damage |
+| Resistances | Bludgeoning, slashing, and piercing from non-magical weapons |
+| Weakness | Radiant damage deals +50% to Vael |
+| Legendary Actions | 3 per round |
+
+**PASSIVE — Market Manipulation (Phase 1 only):** At the start of each player's turn while Vael is at or above 90 HP, that player must pay 1gp (removed from earnings) or suffer −2 to all attack rolls until the start of their next turn. Players with 0gp automatically take the penalty.
+
+**ACTIONS:**
+
+| Ability | Type | Description |
+|---|---|---|
+| The Ledger's Strike | Action | +8 to hit, 10ft reach. 2d10+5 force damage. One randomly chosen item from the target's cart becomes worthless. |
+| False Invoice | Action | One creature within 30ft. DC 16 Charisma save. On fail: marked **Indebted** — disadvantage on all attacks against Vael until they spend a free action to dispute the claim. |
+| Price Fixing | Action (Recharge 5–6) | All healing consumables within 60ft become inert for 1 minute. Magical healing spells unaffected. |
+| Syndicate Call | Bonus Action (Recharge 5–6) | Two Syndicate Enforcers materialize adjacent to Vael, acting on his initiative. |
+
+**LEGENDARY ACTIONS (3 per round):**
+
+| Legendary Action | Cost | Effect |
+|---|---|---|
+| Market Sense | 1 | Vael knows the exact location and current HP of every creature within 60ft until his next turn |
+| The Toll | 1 | One creature within 30ft: DC 14 Charisma save or lose their bonus action until their next turn |
+| Debt Collection | 2 | One creature that attacked Vael this round takes 3d8 force damage (no save) |
+
+### Phase 2: The Hollow Ledger Speaks (Below 90 HP)
+
+> *Vael's form becomes briefly translucent. Through his chest, visible for just a moment: a lattice of old contracts pressed so tightly they have fused into something like bone. He straightens. When he speaks again his voice carries a second resonance — something behind it, old and vast and flat.*
+>
+> *"All right. Then we resolve the balance."*
+
+| Change | Effect |
+|---|---|
+| AC increases to 18 | — |
+| Radiant Absorption | When Vael takes radiant damage, he converts half to HP; still takes the other half |
+| Market Manipulation removed | Replaced by Final Accounting |
+| **PASSIVE — Final Accounting** | When Vael drops below 45 HP, he immediately triggers Debt Collection against all creatures within 30ft simultaneously (3d8 force, no action cost, once only) |
+
+**Victory:** When Vael reaches 0 HP, the Hollow Ledger's connection to this anchor point severs. The sound is like a thousand contracts tearing at once. Every price on every surface blinks once and normalizes. Vael dissolves into a pile of counterfeit coins that tarnish immediately to black.
+
+The square is silent for three seconds. Then customers drift back toward the stalls.
+
+### Post-Boss Selling Phase
+
+If Vael is defeated, Day 5's selling phase receives: +2d8 bonus customers, all active Syndicate interference effects removed, the Grey Ledger stall empty (Edrin Voss has fled), and Bram/Celeste/Garrath visibly relieved, willing to renegotiate any standing supply deals on better terms.
+
+---
+
+## VICTORY CONDITIONS
+
+**Floor Clears When:** Day 5's selling phase ends and totals are calculated.
+
+**Minimum Clear Condition:** Any positive earnings above the starting 50gp by end of Day 5. Zero or negative return = floor fail.
+
+### Final Rankings and Rewards
+
+| Placement | Condition | Reward |
+|---|---|---|
+| **1st** | Highest total earnings | 2 unidentified items (rare) + 25% of cumulative earnings as a gold bonus |
+| **2nd** | Second-highest earnings | 1 unidentified item (uncommon) + 10% earnings bonus |
+| **3rd** | Beat at least one rival stall | 1 consumable item (potion or oil) |
+| **Last (cleared)** | Positive earnings, last place | Floor cleared. No bonus. |
+
+**Boss Rewards (all players, if Vael is defeated):**
+
+| Condition | Reward |
+|---|---|
+| Vael defeated | 1 unidentified item (rare) for every player |
+| All 4 unlock conditions met before Day 4 | +1 unidentified item (rare) per player |
+| Vael defeated without any player dropping to 0 HP | 1 unidentified item (very rare) to the player with the lowest maximum HP |
+
+**Additional Bonuses (DM discretion):**
+
+| Achievement | Reward |
+|---|---|
+| Reputation +5 or higher by end of Day 5 | A named repeat customer follows them to a future floor |
+| All 6 Syndicate enemy types exposed | 1 rare item |
+| Crafted and sold a Masterwork-quality Product | 1 uncommon item |
+| Syndicate Pressure reduced to 1 or lower | 1 rare item |
+| Single-day earnings of 50gp or more | 1 uncommon item |
+| Never lost a selling phase to the leading rival stall | 1 consumable |
+| Correctly identified all four category trends in a single day | 1 uncommon item |
+
+---
+
+## POST-FLOOR NOTES
+
+**Reporting to Soren Ash:**
+
+Before the floor closes, Soren compiles the final ledger. He approaches each stall in order and asks for a full accounting — what was sold, at what price, by what method. He is not judgmental. He is thorough. He notes every deception, every sabotage, every unusual sale. His report will be read somewhere, by someone. He appears to know this and find it neither satisfying nor troubling.
+
+**If Vael was defeated:** *"The arbitrator's position is vacant. I'll note it."* A pause. *"You did more than sell things. That is worth noting separately."*
+
+**If Vael was not confronted:** *"Results recorded. Next floor will be available when you're ready."* He closes the ledger.
+
+**The Masked Girl's Closing:**
+
+> *"Floor 8 complete. Earnings have been logged. Rankings have been assigned.*
+>
+> *[If Vael was defeated:] "The Iron Ledger will notice the disruption at some point. That is not your concern today.*
+>
+> *"For what it's worth — and I am in a position to know precisely what things are worth — what happened here does not happen often.*
+>
+> *"Most climbers sell their goods and leave.*
+>
+> *"♪"*
+>
+> *[If Vael was not confronted:] "The floor is complete. The market endures.*
+>
+> *"♪"*
+
+---
+
+*[Floor 8 complete. Standalone. No tower plot.]*
+*[Continues to Chapter 9: Floor 9 TBD]*

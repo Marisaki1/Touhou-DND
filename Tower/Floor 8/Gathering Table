@@ -1,0 +1,102 @@
+
+### The Four Gathering Tables
+Each Major Action is only available each day through a specific time.
+Each is still a Major Action with its own time cost, skill, and DC (see Action System above). Roll a d4 on the relevant table; the result tells you the tier.
+All DC 18 = Huge
+Half DC 18 = Large
+At least one DC 18 = Medium
+All below DC 18 = Small
+a roll below 10 reduces the gathered stage by 1
+
+The more players in an area the less they can obtain
+4 players same area = 2 per gather
+3 players same area = 3 per gather
+2 players same area = 4 per gather
+1 players same area = 5 per gather
+
+**Forage Table — d4**
+
+| d4 | Tier | Item | Slots | Base Value |
+|---|---|---|---|---|
+| 1 | Small | Herb sprig | 1 | 2gp |
+| 2 | Medium | Wild berries / fever root | 2 | 5gp |
+| 3 | Large | River clay bundle / nightbloom cluster | 3 | 9gp |
+| 4 | Huge | Rare specimen / Serpent's Tongue | 5 | 18gp (Soren-assessed, 15-30gp range) |
+
+Wisdom (Survival): The trek. Navigating the deep brush of the Forest Edge to locate the specific micro-climates where the gathering nodes actually grow.
+Wisdom (Perception): The search. Scanning the undergrowth to spot camouflaged items, like river clay banks or hidden nightblooms.
+Intelligence (Nature): The verification. Examining the found plants to ensure they are the safe, usable variants before picking them.
+Wisdom (Medicine): The extraction. Carefully cutting and harvesting the herbs without destroying the delicate roots, stems, or medicinal properties.
+
+**Hunt Table — d4**
+
+| d4 | Tier | Item | Slots | Base Value |
+|---|---|---|---|---|
+| 1 | Small | Small game (meat + pelt) | 1 | 3gp |
+| 2 | Medium | Wild fowl (meat + feathers) | 2 | 6gp |
+| 3 | Large | Boar or deer (meat + hide, +antler if deer) | 3 | 12gp |
+| 4 | Huge | Dangerous prey — Athletics DC 16 or 2d8 damage, catch lost on fail | 5 | 24gp |
+
+Wisdom (Survival): The pursuit. Tracking footprints, scat, and broken branches to find where the game is moving or bedding down.
+Intelligence (Nature): The ambush. Knowing the watering holes, feeding grounds, and behavior patterns of the local game to set up a blind.
+Wisdom (Animal Handling): The trap. Masking human scent and setting physical snares, lures, or bait lines in a way that naturally manipulates the beast without spooking it.
+Dexterity (Stealth): The approach. Creeping through the dense Forest Edge to get a clean, unnoticed strike on the prey.
+
+**Fish Table — d4**
+
+| d4 | Tier | Item | Slots | Base Value |
+|---|---|---|---|---|
+| 1 | Small | Common fish ×3 | 1 | 3gp |
+| 2 | Medium | River trout ×2 | 2 | 6gp |
+| 3 | Large | Large pike | 3 | 10gp |
+| 4 | Huge | Luminous eel | 5 | 20gp |
+
+Intelligence (Nature): The read. Analyzing the river currents, tides, and depths to understand where the deep-water drop-offs and fish populations are.
+Wisdom (Survival): The preparation. Sourcing the right local bait and knowing exactly what time of day the river trout or pike are biting.
+Wisdom (Perception): The stakeout. Staring intently at the water to spot the subtle shadows of a large catch or the faint glow of a luminous eel beneath the surface.
+Dexterity (Sleight of Hand): The catch. The precise, split-second wrist flick required to set the hook before the fish steals the bait, or snagging it bare-handed.
+
+**Mine Table — d4 (Underground only)**
+
+| d4 | Tier | Item | Slots | Base Value |
+|---|---|---|---|---|
+| 1 | Small | Common stone | 1 | 2gp |
+| 2 | Medium | Copper ore | 2 | 6gp |
+| 3 | Large | Iron ore | 3 | 10gp |
+| 4 | Huge | Quartzite crystal | 5 | 20gp |
+
+
+Intelligence (Nature): The scout. Reading the geological strata and rock formations of the cellar tunnels to locate where natural ore veins form.
+Wisdom (Perception): The spot. Catching the faint glint of valuable minerals or quartzite crystal in the dark, torch-lit tunnels.
+Intelligence (Investigation): The analysis. Tapping the rock face and studying the fissures to find the exact structural weak points.
+Strength (Athletics): The strike. The sheer physical power and endurance required to break hard stone with a pickaxe and extract the ore intact.
+
+**Warning:** each Mining trip carries a 1-in-6 chance of a Syndicate Enforcer encounter unless a Stealth DC 13 check is made before descending.
+
+
+> Advertisement
+Increase % of selling value
+
+> Ruin Reputation
+Decrease % of selling value of that player.
+
+
+Floor Boss,
+Dragon
+Can be summoned after destroying the syndicate.
+
+
+> Vendor
+Stays behind the whole day.
+Must make skill checks to improve stall and attract customers (performance check)
+
+> NPC basic quests
+
+> Guildhall
+
+> Gathering spots where they can do the checks Gathering spots are limited and repeated gathering on the same amount yields less
+
+
+> Create a hard cap of GP for the entire economy
+
+> When Gathering, when the time is up and when they return, they start on where they end

@@ -1,7 +1,7 @@
 A grilled lamprey cart that operates from mid-morning through midnight. The food is genuinely excellent. Mystia sings while she works, which is either pleasant or slightly unnerving depending on the hour.
 
 Operator: Mystia
-
+DM: Everyone make a charisma saving throw DC 18.
 **Menu** (displayed on a charcoal-smudged board):
 
 | Item | Effect | Price | Available |
@@ -9,7 +9,9 @@ Operator: Mystia
 | Tower-Made Grilled Lamprey | Restores 1 Action point | 100gp | 5x |
 | Tower-Made Fried Lamprey | Restores 1 Bonus action point | 30gp | 5x |
 
-Mystia's Comments: "the grilled one uses a bonus action to consume, the fried one uses your Reaction to consume".
+Mystia's Comments: "the grilled one uses a bonus action to consume, the fried one uses your Reaction to consume" And they only last for a day before spoiling (regardless of any preservation~).
+
+
 ♪
 ♫
 🎶
@@ -32,8 +34,8 @@ Mystia's Comments: "the grilled one uses a bonus action to consume, the fried on
 58
 | # | Item | Price | In stock|
 |---|---|---|---|
-| 1 | Beef Bowl | 20gp | 5x |
-| 2 | Beef Wellington | 150gp | 5x |
+| 1 | Beef Bowl | 20gp | 4x |
+| 2 | Beef Wellington | 150gp | 4x |
 | 3 | Boiled Tofu | 22gp | 5x |
 | 4 | Cantonese Char Siu | 70gp | 5x |
 | 5 | Carved Rose Salad | 20gp | 5x |
@@ -50,7 +52,7 @@ Mystia's Comments: "the grilled one uses a bonus action to consume, the fried on
 | 16 | Fresh Tofu | 21gp | 5x |
 | 17 | Fried Cicada Sloughs | 19gp | 5x |
 | 18 | Fried Lampreys | 27gp | 5x |
-| 19 | Fried Pork Cutlet | 25gp | 5x |
+| 19 | Fried Pork Cutlet | 25gp | 4x |
 | 20 | Golden Ribs Soup | 65gp | 5x |
 | 21 | Grilled Lamprey | 22gp | 5x |
 | 22 | Hodgepodge | 40gp | 5x |
@@ -65,7 +67,7 @@ Mystia's Comments: "the grilled one uses a bonus action to consume, the fried on
 | 31 | Niten Ichiryu | 90gp | 5x |
 | 32 | Pancakes with Syrup | 22gp | 5x |
 | 33 | Peach & Shrimp Salad | 25gp | 5x |
-| 34 | Peach Tapioca | 55gp | 5x |
+| 34 | Peach Tapioca | 55gp | 2x |
 | 35 | Pink Rice Ball | 30gp | 5x |
 | 36 | Pork & Bamboo Shoots Stir Fry | 25gp | 5x |
 | 37 | Pork & Trout Kebab | 26gp | 5x |
@@ -79,12 +81,12 @@ Mystia's Comments: "the grilled one uses a bonus action to consume, the fried on
 | 45 | Rice Ball | 6gp | 5x |
 | 46 | Roasted Mushroom | 18gp | 5x |
 | 47 | Salmon Steak | 58gp | 5x |
-| 48 | Sashimi Platter | 88gp | 5x |
+| 48 | Sashimi Platter | 88gp | 4x |
 | 49 | Scholar's Ginkgo | 60gp | 5x |
 | 50 | Scones | 8gp | 5x |
 | 51 | Seafood Miso Soup | 8gp | 5x |
 | 52 | Secret Dried Fish Crisps | 30gp | 5x |
-| 53 | Shirayuki | 98gp | 5x |
+| 53 | Shirayuki | 98gp | 4x |
 | 54 | Stinky Tofu | 24gp | 5x |
 | 55 | Tangyuan | 35gp | 5x |
 | 56 | Tofu Stew | 19gp | 5x |

@@ -36,26 +36,7 @@ Here are both tables:
 | 28 | Mushroom | Combat. | Combat |
 | 29 | Flower Bomb | A large, beautiful flower. DC 14 Perception to notice the petals are under tension. Touching it: 2d6 force in a 10 ft radius, DC 13 Dex save for half. | Hazard |
 | 30 | Lucky Clover Patch | A patch of four-leaf clovers. Harvesting one (DC 10 Nature) grants Luck — once before next long rest, reroll any one d20 and take the better result. | Reward | START HERE
-| 31 | Echo Stone | A stone that perfectly repeats the last 6 words spoken near it. Useful for distraction or luring enemies. Worth 8 gp to a collector. | Puzzle |
-| 32 | Dire Squirrel Territory | A single squirrel the size of a large dog aggressively guards an acorn pile. AC 13, HP 14. Defeating it: the pile contains 2d6 gp and a rolled-up scroll. | Combat |
-| 33 | Fog Pocket | A 20 ft sphere of thick, stationary fog. Heavily obscured inside. DC 14 Survival to navigate without getting lost. An abandoned wagon inside holds 1 random item. | Stealth |
-| 34 | Mirror Butterfly | A butterfly with reflective wings follows one character. While following, that character has disadvantage on Stealth. Catching it (DC 14 Dex): a rare crafting component worth 12 gp. | Exploration |
-| 35 | Rotated Signpost | A signpost with all arrows pointing the same direction. DC 10 Investigation reveals they've been rotated. DC 14 finds a message carved on the back of one arrow — a hint to a nearby event. | Lore |
-| 36 | Mud Golem Nap | A small dormant mud golem blocks the path. Can be skirted (DC 10 Dex) or woken. Woken golem is neutral and asks for "a story" before moving. Refusing causes combat. | Social |
-| 37 | Tripwire Bell Line | Bells strung low across the path. DC 13 Perception to spot. Failure: bells ring, alerting the nearest active encounter to the party's location. | Stealth |
-| 38 | Cursed Signpost | Touching the signpost: DC 13 Wis save or become confused about cardinal directions for 1 hour (Survival checks at disadvantage). The cure is written on a note nailed to the post. | Hazard |
-| 39 | Free Sample Table | A table with labeled vials: "Try me!" All are minor, non-harmful. Roll 1d6: 1 speed, 2 strength, 3 luck, 4 speak with animals (10 min), 5 feather fall, 6 all of the above briefly. | Reward |
-| 40 | Ground Fissure | A crack in the earth vents warm air. DC 12 Perception: sound of water below. Lowering a rope (DC 10 Athletics): underground spring found. Water here counts as a Potion of Healing, once. | Exploration |
-| 41 | Spell Tag Storm | A burst of paper spell tags drifts through the area. 1d6 tags land on random party members. Harmless — until someone casts a spell with a foreign tag attached (DC 13 Arcana or misfire). | Hazard |
-| 42 | Forest Post Office | A hollow log stuffed with letters addressed to various Gensokyo residents. Delivering any 3 letters to named NPCs at base camp earns 10 gp each and a small reputation bump. | Social |
-| 43 | Stationary Cloud | A cloud sitting 3 ft off the ground. DC 10 Arcana: completely harmless, just stays there. Resting inside it: advantage on next Con save. Cannot be moved. | Puzzle |
-| 44 | Bioluminescent Grove | Giant glowing mushrooms light the area. Safe resting spot — short rest here restores 1 extra hit die. The glow makes Stealth impossible for the rest of the short rest. | Reward |
-| 45 | Cairn of Stones | Removing one stone releases a minor wailing spirit (non-hostile, but noisy for 1 minute — nearby enemies are alerted). Adding a stone instead grants one Inspiration. | Lore |
-| 46 | Reverse Gravity Mushroom | A massive mushroom cap sitting on the ground. Standing on it reverses gravity within a 10 ft area. Can be used to reach elevated areas creatively. | Puzzle |
-| 47 | Ink-Stained Fox | A fox covered in ink-spot markings leaves visible prints. Following its trail (DC 10 Survival): leads to a buried item (30%) or directly into a hazard zone (70%). The fox doesn't know either. | Exploration |
-| 48 | Forgotten Scarecrow | An old scarecrow in forest clothes. DC 14 Arcana: faintly animated and slowly walking — its shoes are worn. Its pocket holds 5 gp and a small key of unknown purpose. | Lore |
-| 49 | Tanuki Toll | A tanuki in a handmade booth demands 1 gp tribute to pass without incident. Refusing and failing DC 12 Persuasion: it pelts the party with stones for 1 minute — no damage, but Stealth is impossible during. | Social |
-| 50 | Fungal Lantern Ambush | What looks like a bioluminescent resting spot is actually three large mushroom creatures in disguise. They are passive unless the party tries to harvest them or rest here — then combat begins. | Combat |
+
 
 ---
 
@@ -113,3 +94,29 @@ Here are both tables:
 | 48 | The Laughing Glade | A clearing where a lingering enchantment compels uncontrollable laughter (DC 13 Wis save on entry or Incapacitated while in the area). At the center: an altar with 3 minor offerings already placed by previous visitors and space for 1 more. Placing one: receive a boon. | Lore |
 | 49 | The Sovereign Challenger (Decoy) | A powerful enemy has disguised itself as one of the four Sovereigns. DC 16 Insight to detect deception before engaging. Exposing it first reveals a crippling weakness unique to the decoy. Engaging at full strength: a significantly harder fight than the real Sovereign. | Boss |
 | 50 | The Heart Tree | The oldest tree on the floor — older than the forest around it by centuries. Approaching activates a vision: the forest before the Tower arrived. DM reveals one true fact about what the Forest of Magic was before this floor existed. The tree then fully heals all party members and resets all resources. Can only be visited once. | Lore |
+
+
+
+
+
+minor
+| 31 | Echo Stone | A stone that perfectly repeats the last 6 words spoken near it. Useful for distraction or luring enemies. Worth 8 gp to a collector. | Puzzle |
+| 32 | Dire Squirrel Territory | A single squirrel the size of a large dog aggressively guards an acorn pile. AC 13, HP 14. Defeating it: the pile contains 2d6 gp and a rolled-up scroll. | Combat |
+| 33 | Fog Pocket | A 20 ft sphere of thick, stationary fog. Heavily obscured inside. DC 14 Survival to navigate without getting lost. An abandoned wagon inside holds 1 random item. | Stealth |
+| 34 | Mirror Butterfly | A butterfly with reflective wings follows one character. While following, that character has disadvantage on Stealth. Catching it (DC 14 Dex): a rare crafting component worth 12 gp. | Exploration |
+| 35 | Rotated Signpost | A signpost with all arrows pointing the same direction. DC 10 Investigation reveals they've been rotated. DC 14 finds a message carved on the back of one arrow — a hint to a nearby event. | Lore |
+| 36 | Mud Golem Nap | A small dormant mud golem blocks the path. Can be skirted (DC 10 Dex) or woken. Woken golem is neutral and asks for "a story" before moving. Refusing causes combat. | Social |
+| 37 | Tripwire Bell Line | Bells strung low across the path. DC 13 Perception to spot. Failure: bells ring, alerting the nearest active encounter to the party's location. | Stealth |
+| 38 | Cursed Signpost | Touching the signpost: DC 13 Wis save or become confused about cardinal directions for 1 hour (Survival checks at disadvantage). The cure is written on a note nailed to the post. | Hazard |
+| 39 | Free Sample Table | A table with labeled vials: "Try me!" All are minor, non-harmful. Roll 1d6: 1 speed, 2 strength, 3 luck, 4 speak with animals (10 min), 5 feather fall, 6 all of the above briefly. | Reward |
+| 40 | Ground Fissure | A crack in the earth vents warm air. DC 12 Perception: sound of water below. Lowering a rope (DC 10 Athletics): underground spring found. Water here counts as a Potion of Healing, once. | Exploration |
+| 41 | Spell Tag Storm | A burst of paper spell tags drifts through the area. 1d6 tags land on random party members. Harmless — until someone casts a spell with a foreign tag attached (DC 13 Arcana or misfire). | Hazard |
+| 42 | Forest Post Office | A hollow log stuffed with letters addressed to various Gensokyo residents. Delivering any 3 letters to named NPCs at base camp earns 10 gp each and a small reputation bump. | Social |
+| 43 | Stationary Cloud | A cloud sitting 3 ft off the ground. DC 10 Arcana: completely harmless, just stays there. Resting inside it: advantage on next Con save. Cannot be moved. | Puzzle |
+| 44 | Bioluminescent Grove | Giant glowing mushrooms light the area. Safe resting spot — short rest here restores 1 extra hit die. The glow makes Stealth impossible for the rest of the short rest. | Reward |
+| 45 | Cairn of Stones | Removing one stone releases a minor wailing spirit (non-hostile, but noisy for 1 minute — nearby enemies are alerted). Adding a stone instead grants one Inspiration. | Lore |
+| 46 | Reverse Gravity Mushroom | A massive mushroom cap sitting on the ground. Standing on it reverses gravity within a 10 ft area. Can be used to reach elevated areas creatively. | Puzzle |
+| 47 | Ink-Stained Fox | A fox covered in ink-spot markings leaves visible prints. Following its trail (DC 10 Survival): leads to a buried item (30%) or directly into a hazard zone (70%). The fox doesn't know either. | Exploration |
+| 48 | Forgotten Scarecrow | An old scarecrow in forest clothes. DC 14 Arcana: faintly animated and slowly walking — its shoes are worn. Its pocket holds 5 gp and a small key of unknown purpose. | Lore |
+| 49 | Tanuki Toll | A tanuki in a handmade booth demands 1 gp tribute to pass without incident. Refusing and failing DC 12 Persuasion: it pelts the party with stones for 1 minute — no damage, but Stealth is impossible during. | Social |
+| 50 | Fungal Lantern Ambush | What looks like a bioluminescent resting spot is actually three large mushroom creatures in disguise. They are passive unless the party tries to harvest them or rest here — then combat begins. | Combat |

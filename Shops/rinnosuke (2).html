@@ -1,0 +1,1731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Rinnosuke's Identification</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0E1220;--panel:#141A2E;--card:#1C2540;--card2:#222C4A;--border:#2A3668;
+  --gold:#C4A03C;--goldD:#7A6222;--goldL:#F0D060;
+  --txt:#E8E0F8;--txt2:#8878A8;--txt3:#504870;
+  --jade:#3E9870;--jadeD:#1E4838;
+  --amber:#C87040;--amberD:#602810;
+  --ameth:#9870D8;--amethD:#3C2868;
+  --crim:#D85858;--crimD:#5A1E1E;
+  --star:#E8C040;
+  --violet:#7060C8;--violetD:#2A2050;
+  --r:8px;--rl:12px;
+  --ff:'Cinzel',serif;--fb:'Crimson Pro',serif;--fm:'JetBrains Mono',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--txt);font-family:var(--fb);font-size:15px;line-height:1.55;height:100vh;overflow:hidden;-webkit-font-smoothing:antialiased}
+button{cursor:pointer}
+input,textarea{outline:none}
+#app{display:flex;flex-direction:column;height:100vh}
+
+/* ── TAB BAR ── */
+.tabbar{background:#090D1A;border-bottom:1px solid var(--border);padding:0 20px;display:flex;align-items:stretch;flex-shrink:0;gap:2px}
+.tab{font-family:var(--ff);font-size:10.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;background:none;border:none;border-bottom:2px solid transparent;color:var(--txt3);padding:11px 16px 9px;transition:all .2s;white-space:nowrap}
+.tab.active{color:var(--gold);border-bottom-color:var(--gold)}
+.tab:hover:not(.active){color:var(--txt2)}
+
+/* ── WORKSPACE ── */
+.workspace{display:grid;grid-template-columns:440px 1fr;flex:1;overflow:hidden}
+.rp{background:var(--panel);border-right:1px solid var(--border);overflow-y:auto;display:flex;flex-direction:column}
+.lp{background:var(--bg);overflow-y:auto;padding:20px}
+
+/* ── ROLL PANEL TOP ── */
+.rp-head{padding:16px 20px 12px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;flex-shrink:0;gap:10px}
+.brand{display:flex;align-items:center;gap:10px}
+.brand-icon{font-size:22px}
+.brand-name{font-family:var(--ff);font-size:16px;font-weight:700;color:var(--gold);letter-spacing:.06em}
+.brand-sub{font-family:var(--ff);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--txt3);margin-top:1px}
+.rp-head-right{display:flex;align-items:center;gap:12px}
+.ac-row{display:flex;align-items:center;gap:7px;font-family:var(--ff);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--txt3)}
+.toggle{width:32px;height:18px;background:var(--border);border-radius:9px;position:relative;transition:background .2s;cursor:pointer;flex-shrink:0}
+.toggle::after{content:'';position:absolute;width:12px;height:12px;background:#fff;border-radius:50%;top:3px;left:3px;transition:left .2s}
+.toggle.on{background:var(--jade)}
+.toggle.on::after{left:17px}
+
+/* ── ROLL PANEL BODY ── */
+.rp-body{padding:20px;flex:1;display:flex;flex-direction:column;gap:16px}
+
+/* ── PROGRESS STRIP ── */
+.progress{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.prog-row{display:flex;justify-content:space-between;align-items:center}
+.prog-label{font-family:var(--ff);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--txt3)}
+.prog-type{display:inline-flex;align-items:center;gap:5px;font-family:var(--ff);font-size:10px;font-weight:600;letter-spacing:.08em;border-radius:4px;padding:2px 8px}
+.pt-weapon{background:rgba(200,100,75,.15);border:1px solid rgba(200,100,75,.4);color:#E08878}
+.pt-armor{background:rgba(75,140,200,.15);border:1px solid rgba(75,140,200,.4);color:#78B0E0}
+.pt-accessory{background:rgba(152,112,216,.15);border:1px solid rgba(152,112,216,.4);color:var(--ameth)}
+.stars-row{display:flex;align-items:center;gap:8px}
+.stars{color:var(--star);font-size:14px;letter-spacing:2px}
+.pts-bar{display:flex;align-items:center;gap:4px;font-family:var(--fm);font-size:11px}
+.pts-rem{color:var(--gold)}
+.pts-tot{color:var(--txt3)}
+.eff-chips{display:flex;flex-direction:column;gap:4px;margin-top:4px}
+.echip{background:rgba(196,160,60,.07);border:1px solid rgba(196,160,60,.2);border-radius:5px;padding:5px 10px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.echip-name{font-family:var(--ff);font-size:10px;font-weight:600;color:var(--gold);white-space:nowrap}
+.echip-cost{font-family:var(--fm);font-size:9px;color:var(--txt3);white-space:nowrap}
+.echip-desc{font-size:12.5px;color:var(--txt2);flex:1}
+.u-pip{font-family:var(--ff);font-size:9px;color:var(--crim);background:var(--crimD);border:1px solid var(--crim);border-radius:3px;padding:1px 4px;white-space:nowrap}
+
+/* ── STEP CONTAINERS ── */
+.step{display:flex;flex-direction:column;gap:14px}
+.step-title{font-family:var(--ff);font-size:14px;font-weight:600;color:var(--txt);letter-spacing:.04em}
+.step-sub{font-size:13.5px;color:var(--txt2)}
+
+/* ── IDLE ── */
+.idle-hero{text-align:center;padding:24px 0 8px}
+.idle-glyph{font-size:48px;display:block;margin-bottom:12px;opacity:.85}
+.idle-h{font-family:var(--ff);font-size:17px;font-weight:700;color:var(--gold);letter-spacing:.05em}
+.idle-p{font-size:13.5px;color:var(--txt2);margin-top:6px;line-height:1.6}
+
+/* ── BUTTONS ── */
+.btn{font-family:var(--ff);font-size:10.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;border:1px solid;border-radius:var(--r);padding:9px 18px;transition:all .2s;display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.btn-gold{background:var(--gold);border-color:var(--gold);color:#08091A}
+.btn-gold:hover{background:var(--goldL);border-color:var(--goldL)}
+.btn-outline{background:transparent;border-color:var(--border);color:var(--txt2)}
+.btn-outline:hover{border-color:var(--gold);color:var(--gold)}
+.btn-jade{background:var(--jadeD);border-color:var(--jade);color:var(--jade)}
+.btn-jade:hover{background:var(--jade);color:#08091A}
+.btn-amber{background:var(--amberD);border-color:var(--amber);color:var(--amber)}
+.btn-amber:hover{background:var(--amber);color:#08091A}
+.btn-crim{background:var(--crimD);border-color:var(--crim);color:var(--crim)}
+.btn-crim:hover{background:var(--crim);color:#08091A}
+.btn-violet{background:var(--violetD);border-color:var(--violet);color:#C0B8F8}
+.btn-violet:hover{background:var(--violet);color:#fff}
+.btn-sm{padding:6px 12px;font-size:9.5px}
+.btn-xs{padding:4px 9px;font-size:9px}
+.btn-row{display:flex;gap:8px;flex-wrap:wrap}
+.btn-full{width:100%;justify-content:center}
+
+/* ── TYPE SELECTOR ── */
+.type-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.type-card{background:var(--card);border:2px solid var(--border);border-radius:var(--rl);padding:16px 10px;text-align:center;cursor:pointer;transition:all .2s}
+.type-card:hover{border-color:var(--goldD);background:var(--card2)}
+.type-card .tc-icon{font-size:28px;display:block;margin-bottom:6px}
+.type-card .tc-name{font-family:var(--ff);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--txt2);transition:color .2s}
+.type-card:hover .tc-name{color:var(--gold)}
+
+/* ── RARITY GRID ── */
+.rarity-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.rr-btn{background:var(--card);border:2px solid var(--border);border-radius:var(--r);padding:12px 8px;text-align:center;cursor:pointer;transition:all .2s}
+.rr-btn:hover,.rr-btn.sel{border-color:var(--gold);background:var(--card2)}
+.rr-stars{font-size:13px;color:var(--star);letter-spacing:1px;min-height:20px;display:flex;align-items:center;justify-content:center}
+.rr-name{font-family:var(--ff);font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--txt2);margin-top:4px}
+.rr-pts{font-family:var(--fm);font-size:11px;color:var(--gold);margin-top:3px}
+
+/* ── DIE ROLL ── */
+.die-area{display:flex;flex-direction:column;align-items:center;gap:12px;padding:8px 0}
+.die-wrap{position:relative;display:inline-flex;align-items:center;justify-content:center}
+.die-face{width:72px;height:72px;background:var(--card);border:2px solid var(--goldD);border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-family:var(--fm);font-size:36px;font-weight:600;color:var(--gold)}
+.die-label{font-family:var(--ff);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--txt3)}
+.die-pair{display:flex;gap:10px;align-items:center}
+.die-plus{font-size:16px;color:var(--txt3)}
+@keyframes stamp{0%{transform:scale(1.5);opacity:0}60%{transform:scale(.95)}100%{transform:scale(1);opacity:1}}
+.die-in{animation:stamp .35s cubic-bezier(.2,.8,.3,1) both}
+@keyframes cardin{0%{opacity:0;transform:translateY(6px)}100%{opacity:1;transform:translateY(0)}}
+.card-in{animation:cardin .25s ease-out both}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.6}}
+.pulsing{animation:pulse 1.4s ease-in-out infinite}
+
+/* ── MANUAL INPUT ROW ── */
+.manual-row{display:flex;gap:8px;align-items:center}
+.inp{background:var(--bg);border:1px solid var(--border);border-radius:var(--r);color:var(--txt);font-family:var(--fb);font-size:14px;padding:8px 12px;transition:border-color .2s;width:100%}
+.inp:focus{border-color:var(--goldD)}
+.inp-num{width:80px!important;text-align:center;font-family:var(--fm)}
+.inp-full{width:100%}
+
+/* ── EFFECT PREVIEW CARD ── */
+.eff-card{background:var(--card);border:2px solid var(--goldD);border-radius:var(--rl);padding:16px;display:flex;flex-direction:column;gap:8px}
+.eff-card-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.eff-num{font-family:var(--fm);font-size:10px;color:var(--txt3);background:var(--border);padding:2px 6px;border-radius:4px}
+.eff-name{font-family:var(--ff);font-size:14px;font-weight:700;color:var(--gold)}
+.eff-desc{font-size:14px;color:var(--txt);line-height:1.5}
+.eff-cost-row{display:flex;align-items:center;gap:6px;margin-top:2px;flex-wrap:wrap}
+.cost-badge{font-family:var(--fm);font-size:11px;background:rgba(196,160,60,.12);border:1px solid var(--goldD);color:var(--gold);border-radius:4px;padding:3px 8px}
+.cost-label{font-size:12px;color:var(--txt3)}
+.ubadge{font-family:var(--ff);font-size:9px;font-weight:600;letter-spacing:.08em;color:var(--crim);background:var(--crimD);border:1px solid var(--crim);border-radius:4px;padding:2px 6px}
+.note{font-size:12.5px;color:var(--txt2);background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:var(--r);padding:8px 10px}
+
+/* ── OPTS / BUTTONS ── */
+.opts-grid{display:flex;flex-direction:column;gap:8px}
+.opt-btn{background:var(--card);border:2px solid var(--border);border-radius:var(--r);padding:12px 14px;cursor:pointer;text-align:left;transition:all .2s}
+.opt-btn:hover{border-color:var(--gold);background:var(--card2)}
+.opt-btn-title{font-family:var(--ff);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--gold)}
+.opt-btn-desc{font-size:13px;color:var(--txt2);margin-top:4px}
+
+/* ── SUBROLL ── */
+.sub-title{font-family:var(--ff);font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ameth)}
+.sub-result{font-size:14px;color:var(--txt);display:flex;align-items:center;gap:8px;padding:8px 0}
+.sub-val{font-family:var(--ff);font-size:13px;color:var(--gold)}
+
+/* ── MODE PICK (1d2 for skill/save) ── */
+.mode-pick{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.mode-card{background:var(--card);border:2px solid var(--border);border-radius:var(--r);padding:14px 10px;text-align:center;cursor:pointer;transition:all .2s}
+.mode-card:hover{border-color:var(--gold);background:var(--card2)}
+.mode-icon{font-size:22px;margin-bottom:5px}
+.mode-label{font-family:var(--ff);font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--txt2)}
+
+/* ── DIVIDER / LABEL ── */
+.divider{height:1px;background:var(--border);margin:4px 0}
+.lbl{font-family:var(--ff);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--txt3);margin-bottom:4px}
+
+/* ── REF TABLE ── */
+.ref-table{font-size:11.5px;color:var(--txt3);line-height:1.9;background:rgba(0,0,0,.2);border:1px solid var(--border);border-radius:var(--r);padding:8px 10px;columns:2;column-gap:12px}
+.ref-table span{color:var(--gold);font-family:var(--fm);font-size:10px;margin-right:4px}
+
+/* ── ITEM CARD (LOG) ── */
+.item-card{background:var(--card);border:1px solid var(--border);border-radius:var(--rl);overflow:hidden;transition:border-color .2s;margin-bottom:10px}
+.item-card:hover{border-color:var(--goldD)}
+.ic-head{padding:12px 14px;cursor:pointer;display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.ic-left{flex:1;min-width:0}
+.ic-name{font-family:var(--ff);font-size:13px;font-weight:600;color:var(--txt);letter-spacing:.03em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ic-meta{display:flex;gap:8px;align-items:center;margin-top:3px;flex-wrap:wrap}
+.ic-rarity{font-size:12px;color:var(--star)}
+.ic-rar-name{font-family:var(--ff);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--txt3)}
+.ic-player{font-size:12px;color:var(--ameth)}
+.ic-expand{font-size:16px;color:var(--txt3);transition:transform .2s;flex-shrink:0}
+.item-card.exp .ic-expand{transform:rotate(180deg)}
+.ic-body{padding:12px 14px;border-top:1px solid var(--border);display:none;flex-direction:column;gap:8px}
+.item-card.exp .ic-body{display:flex}
+.ic-bonus{font-size:13px;color:var(--jade)}
+.ic-effs{display:flex;flex-direction:column;gap:4px}
+.ic-eff{padding:6px 10px;background:rgba(196,160,60,.06);border:1px solid rgba(196,160,60,.15);border-radius:5px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.ic-eff-name{font-family:var(--ff);font-size:10px;font-weight:600;color:var(--gold);white-space:nowrap}
+.ic-eff-cost{font-family:var(--fm);font-size:9px;color:var(--txt3);white-space:nowrap}
+.ic-eff-desc{font-size:13px;color:var(--txt2);flex:1}
+.ic-actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:4px}
+.ic-subline{font-size:12.5px;color:var(--txt2);font-style:italic;margin-top:2px}
+
+/* ── QUEUE ── */
+.q-section{margin-bottom:18px}
+.q-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.sec-title{font-family:var(--ff);font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--txt3)}
+.q-item{background:var(--card);border:1px dashed var(--border);border-radius:var(--r);padding:10px 12px;display:flex;align-items:center;gap:10px;margin-bottom:6px;transition:border-color .2s}
+.q-item:hover{border-color:var(--goldD)}
+.q-player{font-family:var(--ff);font-size:11px;font-weight:600;color:var(--gold);white-space:nowrap}
+.q-note{font-size:13px;color:var(--txt2);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* ── LOG HEADER ── */
+.lp-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:10px}
+.lp-actions{display:flex;gap:6px;align-items:center}
+
+/* ── ADD QUEUE FORM ── */
+.q-form{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:12px;display:flex;flex-direction:column;gap:8px;margin-bottom:10px}
+
+/* ── EMPTY STATE ── */
+.empty{text-align:center;padding:30px 0;color:var(--txt3);font-size:13.5px;font-style:italic}
+
+/* ── PREVIEW / COMPLETE ITEM ── */
+.prev-card{background:var(--card);border:2px solid var(--gold);border-radius:var(--rl);padding:20px;display:flex;flex-direction:column;gap:12px}
+.prev-name{font-family:var(--ff);font-size:18px;font-weight:700;color:var(--gold);letter-spacing:.04em}
+.prev-rar{display:flex;align-items:center;gap:8px;margin-top:-4px;flex-wrap:wrap}
+.prev-stars{color:var(--star);font-size:15px;letter-spacing:2px}
+.prev-rname{font-family:var(--ff);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--txt3)}
+.prev-type{font-size:13px;color:var(--txt2)}
+.prev-bonus{font-size:13.5px;color:var(--jade)}
+.prev-effs{display:flex;flex-direction:column;gap:5px}
+.prev-eff{background:rgba(196,160,60,.08);border:1px solid rgba(196,160,60,.2);border-radius:5px;padding:8px 10px}
+.prev-eff-head{display:flex;align-items:center;gap:6px;margin-bottom:3px;flex-wrap:wrap}
+.prev-eff-name{font-family:var(--ff);font-size:11px;font-weight:600;color:var(--gold)}
+.prev-eff-cost{font-family:var(--fm);font-size:9px;color:var(--txt3)}
+.prev-eff-desc{font-size:13.5px;color:var(--txt)}
+.prev-player{font-size:13px;color:var(--ameth);font-style:italic}
+
+/* ── REROLL MSG ── */
+.reroll-msg{font-family:var(--ff);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--amber);background:var(--amberD);border:1px solid var(--amber);border-radius:4px;padding:4px 10px;text-align:center}
+
+/* ── INLINE FORM (edit player name on log item) ── */
+.edit-row{display:flex;gap:6px;align-items:center;margin-top:4px}
+
+/* ── AUTO-COMPLETE BANNER ── */
+.ac-banner{background:linear-gradient(135deg,rgba(112,96,200,.15),rgba(196,160,60,.08));border:1px solid var(--violet);border-radius:var(--rl);padding:14px 16px;display:flex;align-items:center;gap:12px}
+.ac-banner-text{flex:1}
+.ac-banner-title{font-family:var(--ff);font-size:11px;font-weight:700;color:#C0B8F8;letter-spacing:.08em}
+.ac-banner-sub{font-size:12px;color:var(--txt3);margin-top:2px}
+.type-card.sel{border-color:var(--gold)!important;background:var(--card2)!important}
+.type-card.sel .tc-name{color:var(--gold)!important}
+.copy-chip{background:rgba(196,160,60,.06);border:1px dashed rgba(196,160,60,.28);border-radius:var(--r);padding:9px 11px;cursor:pointer;transition:all .2s;display:flex;align-items:flex-start;gap:9px;margin-top:10px;font-size:12.5px;color:var(--txt3);line-height:1.55;font-family:var(--fb)}
+.copy-chip:hover{background:rgba(196,160,60,.11);border-color:var(--goldD);color:var(--txt2)}
+.copy-chip.copied{border-color:var(--jade);background:rgba(62,152,112,.08);color:var(--jade)}
+.copy-chip-icon{flex-shrink:0;margin-top:1px;font-size:13px;transition:all .2s}
+.copy-chip-text{flex:1;word-break:break-word}
+</style>
+</head>
+<body>
+<div id="app">
+  <div class="tabbar">
+    <button class="tab active">⚗️ Rinnosuke's Identification</button>
+  </div>
+  <div class="workspace">
+    <div class="rp" id="rollPanel"></div>
+    <div class="lp" id="logPanel"></div>
+  </div>
+</div>
+<input type="file" id="fInput" accept=".json" style="display:none">
+
+<script>
+/* ═══════════════════════ DATA TABLES ═══════════════════════ */
+const DMGTYPES=['Acid','Cold','Fire','Force','Lightning','Necrotic','Poison','Psychic','Radiant','Thunder'];
+const SKILLS=['Athletics','Acrobatics','Sleight of Hand','Stealth','Arcana','History','Investigation','Nature','Religion','Animal Handling','Insight','Medicine','Perception','Survival','Deception','Intimidation','Performance','Persuasion'];
+const ATTRS=['Strength','Dexterity','Constitution','Intelligence','Wisdom','Charisma'];
+const PHYSICAL=['Slashing','Bludgeoning','Piercing'];
+const MASTERY=['Cleave','Graze','Nick','Push','Sap','Slow','Topple','Vex'];
+const STATUS_CONDITIONS=['Blinded','Charmed','Deafened','Exhaustion','Frightened','Grappled','Incapacitated','Invisible','Paralyzed','Petrified','Poisoned','Prone','Restrained','Stunned','Unconscious'];
+const ACCESSORY_TYPES=['Ring','Amulet','Necklace','Belt','Gloves','Bracelet','Boots','Cloak','Hat','Earring','Brooch','Anklet','Headband','Gauntlets','Circlet'];
+const SIGHTS=[
+  {name:'Truesight 30 ft',cost:8,u:1},
+  {name:'Blindsight 30 ft',cost:6,u:1},
+  {name:'Darkvision 60 ft',cost:2,u:0},
+  {name:'Devil Sight 60 ft',cost:4,u:1}
+];
+const PTS=[2,4,6,8,16,32];
+const RNAMES=['Common','Uncommon','Rare','Epic','Legendary','Mythic'];
+const WEAPONS=[
+  {n:'Battleaxe',d:'1d8 Slashing',m:'Topple'},{n:'Flail',d:'1d8 Bludgeoning',m:'Sap'},
+  {n:'Glaive',d:'1d10 Slashing',m:'Graze'},{n:'Greataxe',d:'1d12 Slashing',m:'Cleave'},
+  {n:'Greatsword',d:'2d6 Slashing',m:'Graze'},{n:'Halberd',d:'1d10 Slashing',m:'Cleave'},
+  {n:'Lance',d:'1d10 Piercing',m:'Topple'},{n:'Longsword',d:'1d8 Slashing',m:'Sap'},
+  {n:'Maul',d:'2d6 Bludgeoning',m:'Topple'},{n:'Morningstar',d:'1d8 Piercing',m:'Sap'},
+  {n:'Pike',d:'1d10 Piercing',m:'Push'},{n:'Rapier',d:'1d8 Piercing',m:'Vex'},
+  {n:'Scimitar',d:'1d6 Slashing',m:'Nick'},{n:'Shortsword',d:'1d6 Piercing',m:'Vex'},
+  {n:'Trident',d:'1d8 Piercing',m:'Topple'},{n:'Warhammer',d:'1d8 Bludgeoning',m:'Push'},
+  {n:'War Pick',d:'1d8 Piercing',m:'Sap'},{n:'Whip',d:'1d4 Slashing',m:'Slow'},
+  {n:'Blowgun',d:'1 Piercing',m:'Vex'},{n:'Hand Crossbow',d:'1d6 Piercing',m:'Vex'},
+  {n:'Heavy Crossbow',d:'1d10 Piercing',m:'Push'},{n:'Longbow',d:'1d8 Piercing',m:'Slow'}
+];
+const ARMORS=[
+  {n:'Padded Armor',ac:'11+Dex',t:'Light'},{n:'Leather Armor',ac:'11+Dex',t:'Light'},
+  {n:'Studded Leather',ac:'12+Dex',t:'Light'},{n:'Hide Armor',ac:'12+Dex(max2)',t:'Medium'},
+  {n:'Chain Shirt',ac:'13+Dex(max2)',t:'Medium'},{n:'Scale Mail',ac:'14+Dex(max2)',t:'Medium'},
+  {n:'Breastplate',ac:'14+Dex(max2)',t:'Medium'},{n:'Ring Mail',ac:'14',t:'Heavy'},
+  {n:'Chain Mail',ac:'16',t:'Heavy'},{n:'Splint Armor',ac:'17',t:'Heavy'}
+];
+
+// ct: cost type — fixed|sv|sv/2|sv/4|sv*3|sv*4|sv*5|x*4|opts|sight|dm
+// u: unique, cui: conditional unique
+const EFX={
+weapon:[
+  {id:1,n:'Elemental',u:0,ct:'sv',vf:n=>n,subs:['element'],df:({val,sub})=>`+${val} ${sub.element||'?'} damage on hit`},
+  {id:2,n:'Sharpened',u:0,ct:'sv',vf:n=>n,df:({val})=>`+${val} to attack rolls`},
+  {id:3,n:'Keen',u:0,ct:'x*4',vf:n=>n,df:({val})=>`Critical hit range −${val} (crits on ${20-val}+)`},
+  {id:4,n:'Forceful',u:0,ct:'sv',vf:n=>n*5,df:({val})=>`On hit, push target ${val} ft away`},
+  {id:5,n:'Returning',u:0,ct:'fixed',fc:1,vf:()=>1,df:()=>`Thrown weapon returns to hand after each throw`},
+  {id:6,n:'Extended',u:1,ct:'sv',vf:n=>n*10,df:({val})=>`Reach +${val} ft`},
+  {id:7,n:'Flurry',u:1,ct:'fixed',fc:4,vf:()=>1,df:()=>`One extra attack per Attack action`},
+  {id:8,n:'Sweeping',u:0,ct:'fixed',fc:4,vf:()=>1,df:()=>`On hit, also hit another creature within range`},
+  {id:9,n:'Penetrating',u:1,ct:'fixed',fc:6,vf:()=>1,df:()=>`Attacks ignore resistance to this weapon's damage type`},
+  {id:10,n:'Devastating',u:1,ct:'fixed',fc:6,vf:()=>1,df:()=>`Deal maximum damage on a critical hit`},
+  {id:11,n:'Relentless',u:0,ct:'fixed',fc:4,vf:()=>1,df:()=>`Roll 1 on damage die → use the maximum value instead`},
+  {id:12,n:'Infused',u:1,ct:'fixed',fc:3,vf:()=>1,subs:['element'],df:({sub})=>`All weapon damage becomes ${sub.element||'?'} damage`},
+  {id:13,n:'Masterwork',u:0,ct:'sv/2',vf:n=>Math.max(1,Math.floor(n/2)),df:({val})=>`+${val} to attack rolls and +${val} to damage rolls`},
+  {id:14,n:'Suppressing',u:0,ct:'fixed',fc:2,vf:()=>1,df:()=>`Bonus action: on hit, remove target's reaction`},
+  {id:15,n:'Wounding',u:0,ct:'fixed',fc:2,vf:()=>1,df:()=>`Action: 1 attack; on hit, target cannot be healed until end of its next turn`},
+  {id:16,n:'Unerring',u:1,ct:'fixed',fc:2,vf:()=>1,df:()=>`Ignore half cover and three-quarter cover`},
+  {id:17,n:'Nimble',u:1,ct:'fixed',fc:3,vf:()=>1,df:()=>`Once/turn after hitting: move 10 ft without provoking opportunity attacks`},
+  {id:18,n:'Vampiric',u:0,ct:'sv*5',vf:n=>n*5,df:({val})=>`On kill, gain ${val} temporary HP`},
+  {id:19,n:'Mastery',u:0,ct:'fixed',fc:4,vf:()=>1,subs:['mastery'],df:({sub})=>`Weapon Mastery: ${sub.mastery||'?'}`},
+  {id:20,n:'Arcane',u:0,ct:'dm',vf:()=>1,df:({sub})=>sub.dmDesc||'DM Discretion Effect'}
+],
+armor:[
+  {id:1,n:'Warding',u:0,ct:'fixed',fc:3,vf:()=>1,subs:['element'],df:({sub})=>`Resistance to ${sub.element||'?'} damage`},
+  {id:2,n:'Bulwark',u:1,ct:'opts',opts:[4,8],vf:()=>1,subs:['physical'],df:({sub,optIdx})=>optIdx===1?`Resistance to all physical damage (Slashing, Bludgeoning & Piercing)`:`Resistance to ${sub.physical||'?'} damage`},
+  {id:3,n:'Spellguard',u:1,ct:'fixed',fc:6,vf:()=>1,df:()=>`Advantage on saving throws against spells`},
+  {id:4,n:'Resilient',u:0,ct:'sv',vf:n=>Math.max(1,Math.floor(n/2)),df:({val})=>`+${val} to all saving throws`},
+  {id:5,n:'Tenacious',u:0,ct:'sv',vf:n=>n,df:({val})=>`+${val} to death saving throws`},
+  {id:6,n:'Steadfast',u:1,ct:'fixed',fc:6,vf:()=>1,df:()=>`Immune to weapon mastery effects and the Prone condition`},
+  {id:7,n:'Swift',u:0,ct:'sv/2',vf:n=>Math.max(1,Math.floor(n/2))*5,df:({val})=>`+${val} ft movement speed`},
+  {id:8,n:'Winged',u:1,ct:'fixed',fc:8,vf:()=>1,df:()=>`Fly speed equal to your movement speed`},
+  {id:9,n:'Fortified',u:0,ct:'sv',vf:n=>n,df:({val})=>`Reduce all incoming damage by ${val} (before other reductions)`},
+  {id:10,n:'Ironclad',u:1,ct:'sv/2',vf:n=>Math.max(1,Math.floor(n/2)),df:({val})=>`+${val} AC`},
+  {id:11,n:'Enduring',u:0,ct:'sv*4',vf:n=>n*4,df:({val})=>`+${val} maximum HP`},
+  {id:12,n:'Regenerating',u:0,ct:'sv',vf:n=>n,df:({val})=>`Regain ${val} HP at the start of your turn if above 0 HP`},
+  {id:13,n:'Undying',u:0,ct:'fixed',fc:3,vf:()=>1,df:()=>`Return to 1 HP when reduced to 0 HP — once per long rest`},
+  {id:14,n:'Retaliating',u:0,ct:'sv/2',vf:n=>Math.max(1,Math.floor(n/2)),df:({val})=>`Attacker takes ${val}d4 damage (matching type, no save) on melee hit`},
+  {id:15,n:'Immovable',u:1,ct:'fixed',fc:4,vf:()=>1,df:()=>`Cannot be forcibly moved (pushed, pulled, or thrown) against your will`},
+  {id:16,n:'Featherfall',u:0,ct:'sv',vf:n=>n,df:({val})=>`Falling damage −${val*25}% outside combat; excess above 100% applies in combat`},
+  {id:17,n:'Evasive',u:0,ct:'fixed',fc:2,vf:()=>1,df:()=>`Opportunity attacks against you are made with disadvantage`},
+  {id:18,n:'Phasing',u:1,ct:'fixed',fc:3,vf:()=>1,df:()=>`Move through creatures as difficult terrain (cannot end turn inside)`},
+  {id:19,n:'Quickened',u:0,ct:'fixed',fc:3,vf:()=>1,df:()=>`Advantage on initiative rolls`},
+  {id:20,n:'Mystical',u:0,ct:'dm',vf:()=>1,df:({sub})=>sub.dmDesc||'DM Discretion Effect'}
+],
+accessory:[
+  {id:1,n:'Reflecting',u:1,ct:'sv/4',vf:n=>Math.max(1,Math.floor(n/4))*10,df:({val})=>`${val}% chance to reflect single-target spells back at caster (4/day)`},
+  {id:2,n:'Fortunate',u:1,ct:'opts',opts:[4,8],vf:()=>1,df:({optIdx})=>optIdx===1?`Fail a saving throw → succeed instead — 3 times/long rest`:`Fail a saving throw → succeed instead — once/long rest`},
+  {id:3,n:'Gifted',u:0,ct:'fixed',fc:3,vf:()=>1,subs:['skillOrSave'],df:({sub})=>`Advantage on ${sub.skillOrSave||'?'}`},
+  {id:4,n:'Grounded',u:0,ct:'fixed',fc:2,vf:()=>1,subs:['attribute'],df:({sub})=>`Proficiency in ${sub.attribute||'?'} saving throws`},
+  {id:5,n:'Sighted',u:0,ct:'sight',vf:()=>1,df:({sub})=>`Grants ${sub.sightName||'?'}`},
+  {id:6,n:'Empowered',u:0,ct:'sv/2',vf:n=>Math.max(1,Math.floor(n/2)),df:({val})=>`+${val} to spell attack rolls and spell save DC`},
+  {id:7,n:'Guardian',u:0,ct:'fixed',fc:3,vf:()=>1,df:()=>`Reaction: redirect a ranged attack aimed at a nearby ally (within 5 ft) to yourself`},
+  {id:8,n:'Rushing',u:0,ct:'fixed',fc:1,vf:()=>1,df:()=>`Bonus action: Dash, once per turn`},
+  {id:9,n:'Mirrored',u:0,ct:'fixed',fc:6,vf:()=>1,df:()=>`Once/combat (reaction): copy a spell targeting you or ally; cast free as bonus action within 30 ft`},
+  {id:10,n:'Talented',u:0,ct:'sv',vf:n=>n*2,subs:['skill'],df:({val,sub})=>`+${val} to ${sub.skill||'?'} checks`},
+  {id:11,n:'Destined',u:1,ct:'fixed',fc:8,vf:()=>1,df:()=>`Once/long rest, treat any attack roll as a natural 20`},
+  {id:12,n:'Practiced',u:0,ct:'fixed',fc:2,vf:()=>1,subs:['skill'],df:({sub})=>`Proficiency in ${sub.skill||'?'} checks`},
+  {id:13,n:'Charged',u:0,ct:'sv',vf:n=>n,df:({val})=>`Magic Action: Arcane Charge — ${val} charges`},
+  {id:14,n:'Warding',u:0,ct:'fixed',fc:3,vf:()=>1,subs:['element'],df:({sub})=>`Resistance to ${sub.element||'?'} damage`},
+  {id:15,n:'Resilient',u:1,ct:'sv/2',vf:n=>Math.max(1,Math.floor(n/2)),df:({val})=>`+${val} to all saving throws`},
+  {id:16,n:'Tenacious',u:0,ct:'sv',vf:n=>n,df:({val})=>`+${val} to death saving throws`},
+  {id:17,n:'Spellguard',u:1,ct:'fixed',fc:6,vf:()=>1,df:()=>`Advantage on saving throws against spells`},
+  {id:18,n:'Phasing',u:0,ct:'fixed',fc:3,vf:()=>1,df:()=>`Move through creatures as difficult terrain (cannot attack or end turn inside)`},
+  {id:19,n:'Shielded',u:0,cui:1,ct:'sv/2',vf:n=>Math.max(1,Math.floor(n/2)),df:({val})=>`+${val} AC`},
+  {id:20,n:'Enduring',u:1,ct:'sv*3',vf:n=>n*3,df:({val})=>`+${val} maximum HP`},
+  {id:21,n:'Winged',u:1,ct:'fixed',fc:8,vf:()=>1,df:()=>`Fly speed equal to your movement speed`},
+  {id:22,n:'Swift',u:0,ct:'sv/2',vf:n=>Math.max(1,Math.floor(n/2))*5,df:({val})=>`+${val} ft movement speed`},
+  {id:23,n:'Enhanced',u:1,ct:'sv/2',vf:n=>Math.max(1,Math.floor(n/2)),subs:['abilityScore'],df:({val,sub})=>`+${val} to ${sub.abilityScore||'?'} (changeable once/day)`},
+  {id:24,n:'Featherfall',u:0,ct:'sv',vf:n=>n,df:({val})=>`Non-combat falling damage −${val*25}%; ${val} uses (combat immunity at +++ or higher)`},
+  {id:25,n:'Steadfast',u:0,ct:'fixed',fc:4,vf:()=>1,subs:['status'],df:({sub})=>`Immunity to the ${sub.status||'?'} condition`},
+  {id:26,n:'Attuned',u:0,ct:'fixed',fc:4,vf:()=>1,subs:['attribute'],df:({sub})=>`Advantage on ${sub.attribute||'?'} saving throws`},
+  {id:27,n:'Conserving',u:1,ct:'fixed',fc:5,vf:()=>1,df:()=>`When casting a spell, roll d(X+3) where X = spell level — max result = slot not expended`}
+]};
+
+/* ═══════════════════════ STATE ═══════════════════════ */
+let S={
+  step:null,type:null,stars:0,totalPts:0,remaining:0,
+  effects:[],hasUnique:false,effectCount:0,autoConfirm:false,setupMode:'manual',
+  P:{effect:null,sv:0,cost:0,val:0,optIdx:null,sub:{},pendingSubs:[],subIdx:0,
+     soMode:null,dmCost:1,dmDesc:'',sightObj:null,rerollMsg:'',efRoll:0},
+  weaponType:null,armorType:null,accessoryType:'',playerName:'',
+  fromQueueId:null,items:[],nextId:1,queue:[],nextQId:1,
+  expanded:null,d100Roll:null,showQForm:false,editingPlayer:null
+};
+
+/* ═══════════════════════ LOGIC ═══════════════════════ */
+const rng=n=>n<=0?0:Math.floor(Math.random()*n)+1;
+const tbl=()=>EFX[S.type];
+
+function maxSV(e,rem){
+  const c=e.ct;
+  if(c==='sv'||c==='sv/2'||c==='sv/4') return rem;
+  if(c==='sv*3') return Math.floor(rem/3);
+  if(c==='sv*4') return Math.floor(rem/4);
+  if(c==='sv*5') return Math.floor(rem/5);
+  if(c==='x*4') return Math.floor(rem/4);
+  return 0;
+}
+
+function calcCost(e,sv){
+  const c=e.ct,p=S.P;
+  if(c==='fixed') return e.fc;
+  if(c==='sv') return sv;
+  if(c==='sv/2') return Math.max(1,Math.floor(sv/2));
+  if(c==='sv/4') return Math.max(1,Math.floor(sv/4));
+  if(c==='sv*3') return sv*3;
+  if(c==='sv*4') return sv*4;
+  if(c==='sv*5') return sv*5;
+  if(c==='x*4') return sv*4;
+  if(c==='opts') return e.opts[p.optIdx??0];
+  if(c==='sight') return p.sightObj?p.sightObj.cost:0;
+  if(c==='dm') return p.dmCost;
+  return sv;
+}
+
+function isUnique(e,sv){
+  if(e.cui) return e.vf(sv)>=2;
+  return !!e.u;
+}
+
+function canUse(e,rem,hasU){
+  if(hasU&&e.u&&!e.cui) return false;
+  switch(e.ct){
+    case 'fixed': return rem>=e.fc;
+    case 'opts': return rem>=e.opts[0];
+    case 'sight': return SIGHTS.some(s=>rem>=s.cost&&(!hasU||!s.u));
+    case 'dm': return rem>=1;
+    default: return maxSV(e,rem)>=1;
+  }
+}
+
+function countValid(){return tbl().filter(e=>canUse(e,S.remaining,S.hasUnique)).length;}
+
+function rollElem(){
+  const r1=rng(10);
+  if(r1===4){const r2=rng(10);return{dice:[r1,r2],type:DMGTYPES[r2-1],rerolled:true};}
+  return{dice:[r1],type:DMGTYPES[r1-1],rerolled:false};
+}
+
+function autoRollSub(sub){
+  if(sub==='element'){const r=rollElem();return{val:r.type,extra:r};}
+  if(sub==='mastery') return{val:MASTERY[rng(8)-1],roll:rng(8)};
+  if(sub==='skill') return{val:SKILLS[rng(18)-1],roll:rng(18)};
+  if(sub==='abilityScore') return{val:ATTRS[rng(6)-1],roll:rng(6)};
+  if(sub==='attribute') return{val:ATTRS[rng(6)-1],roll:rng(6)};
+  if(sub==='physical') return{val:PHYSICAL[rng(3)-1],roll:rng(3)};
+  return{val:'?'};
+}
+
+function rollEffect(){
+  const t=tbl(),n=t.length;
+  for(let i=0;i<200;i++){
+    const r=rng(n),e=t[r-1];
+    if(canUse(e,S.remaining,S.hasUnique)) return{e,r};
+  }
+  return null;
+}
+
+function buildDesc(e,sv,cost,val,sub,optIdx){
+  return e.df({sv,cost,val,sub:sub||{},optIdx});
+}
+
+function genName(item){
+  if(!item.effects.length) return item.subtype||'Enchanted Item';
+  const top=item.effects.reduce((b,x)=>x.cost>b.cost?x:b,item.effects[0]);
+  const sub=item.type==='weapon'?(item.weaponType||item.subtype||'Weapon'):
+             item.type==='armor'?(item.armorType||item.subtype||'Armor'):
+             (item.accessoryType||item.subtype||'Accessory');
+  return`${sub} of ${top.n}`;
+}
+
+function starStr(n){return n?'★'.repeat(n):'—';}
+function typeIcon(t){return t==='weapon'?'⚔️':t==='armor'?'🛡️':'💍';}
+function typeClass(t){return`pt-${t}`;}
+
+/* ─── ITEM SUBLINE ─── */
+function getItemSubLine(item){
+  if(item.type==='weapon'){
+    const w=WEAPONS.find(x=>x.n===item.weaponType);
+    return w?`${w.n} — ${w.d} · Mastery: ${w.m}`:(item.weaponType||'');
+  }
+  if(item.type==='armor'){
+    const a=ARMORS.find(x=>x.n===item.armorType);
+    return a?`${a.n} — AC ${a.ac} · ${a.t}`:(item.armorType||'');
+  }
+  return item.accessoryType||'';
+}
+
+/* ─── NEXT TYPE STEP (after effects done) ─── */
+function gotoTypeStep(){
+  if(S.type==='weapon') S.step='weapon_type';
+  else if(S.type==='armor') S.step='armor_type';
+  else S.step='accessory_input';
+}
+
+/* ═══════════════════════ RENDER ═══════════════════════ */
+function render(){
+  document.getElementById('rollPanel').innerHTML=getRollHTML();
+  document.getElementById('logPanel').innerHTML=getLogHTML();
+  const fi=document.getElementById('fInput');
+  if(fi) fi.onchange=ev=>loadFile(ev);
+}
+
+function getRollHTML(){
+  const acCls=S.autoConfirm?'on':'';
+  let h=`<div class="rp-head">
+    <div class="brand"><span class="brand-icon">⚗</span>
+      <div><div class="brand-name">Rinnosuke's</div><div class="brand-sub">Identification Parlor</div></div>
+    </div>
+    <div class="rp-head-right">
+      <div class="ac-row">Auto<div class="toggle ${acCls}" onclick="toggleAC()" title="Auto-confirm effects without showing confirmation step"></div></div>
+    </div>
+  </div><div class="rp-body">`;
+
+  if(S.step&&S.step!=='preview'&&S.step!=='setup') h+=getProgressHTML();
+
+  switch(S.step){
+    case null:           h+=idleHTML(); break;
+    case 'setup':        h+=setupHTML(); break;
+    case 'type':         h+=typeHTML(); break;
+    case 'rarity':       h+=rarityHTML(); break;
+    case 'effect':       h+=effectHTML(); break;
+    case 'sv':           h+=svHTML(); break;
+    case 'opts':         h+=optsHTML(); break;
+    case 'sight':        h+=sightHTML(); break;
+    case 'dm_disc':      h+=dmHTML(); break;
+    case 'confirm':      h+=confirmHTML(); break;
+    case 'subroll':      h+=subrollHTML(); break;
+    case 'weapon_type':  h+=weaponTypeHTML(); break;
+    case 'armor_type':   h+=armorTypeHTML(); break;
+    case 'accessory_input': h+=accessoryInputHTML(); break;
+    case 'player':       h+=playerHTML(); break;
+    case 'preview':      h+=previewHTML(); break;
+    default: h+=idleHTML();
+  }
+  return h+'</div>';
+}
+
+function getProgressHTML(){
+  const t=S.type,ec=S.effectCount,rem=S.remaining;
+  let h=`<div class="progress">
+    <div class="prog-row">
+      <div class="prog-label">Identifying</div>
+      <span class="prog-type ${typeClass(t)}">${typeIcon(t)} ${t}</span>
+    </div>
+    <div class="prog-row">
+      <div class="stars-row">
+        <div class="stars">${starStr(S.stars)}</div>
+        <div class="prog-label" style="margin:0">${RNAMES[S.stars]}</div>
+      </div>
+      <div class="pts-bar">
+        <span class="pts-rem">${rem}</span><span class="pts-tot">/${S.totalPts} pts</span>
+        <span style="margin-left:6px;font-size:9.5px;color:var(--txt3)">${ec}/3 effects</span>
+      </div>
+    </div>`;
+  if(S.effects.length){
+    h+=`<div class="eff-chips">`;
+    S.effects.forEach(e=>{
+      h+=`<div class="echip">
+        <span class="echip-name">${e.n}</span>
+        ${e.unique?`<span class="u-pip">✦</span>`:''}
+        <span class="echip-cost">${e.cost}pt</span>
+        <span class="echip-desc">${e.desc}</span>
+      </div>`;
+    });
+    h+=`</div>`;
+  }
+  return h+'</div>';
+}
+
+function idleHTML(){
+  return`<div class="idle-hero">
+    <span class="idle-glyph">⚗️</span>
+    <div class="idle-h">Begin Identification</div>
+    <div class="idle-p" style="font-size:13.5px;color:var(--txt2);margin:8px 0 20px">Present an item to reveal its enchantments.<br>Roll effects, track them, record to the registry.</div>
+    <div class="btn-row" style="justify-content:center;margin-bottom:12px">
+      <button class="btn btn-gold" onclick="startNew()">✦ Identify New Item</button>
+      ${S.queue.length?`<button class="btn btn-outline" onclick="pickFromQueue()">📋 From Queue (${S.queue.length})</button>`:''}
+    </div>
+  </div>
+  <div class="ac-banner">
+    <div class="ac-banner-text">
+      <div class="ac-banner-title">⚡ Auto Complete</div>
+      <div class="ac-banner-sub">Instantly roll a fully identified item — type, rarity, enchantments, and base item all at once.</div>
+    </div>
+    <button class="btn btn-violet btn-sm" onclick="autoComplete()">⚡ Roll All</button>
+  </div>`;
+}
+
+function typeHTML(){
+  const rd=S.d100Roll;
+  return`<div class="step">
+    <div class="step-title">Item Category</div>
+    <div class="step-sub">What kind of item is being identified?</div>
+    <div class="type-grid">
+      <div class="type-card" onclick="selectType('weapon')"><span class="tc-icon">⚔️</span><span class="tc-name">Weapon</span></div>
+      <div class="type-card" onclick="selectType('armor')"><span class="tc-icon">🛡️</span><span class="tc-name">Armor</span></div>
+      <div class="type-card" onclick="selectType('accessory')"><span class="tc-icon">💍</span><span class="tc-name">Accessory</span></div>
+    </div>
+    <div class="divider"></div>
+    <div class="lbl" style="text-align:center">or roll randomly (1d100)</div>
+    <div class="die-area">
+      ${rd?`<div class="die-face die-in">${rd}</div>
+        <div class="step-sub" style="text-align:center">→ <b style="color:var(--gold)">${rd<=25?'Weapon':rd<=40?'Armor':'Accessory'}</b></div>
+        <div class="btn-row" style="justify-content:center">
+          <button class="btn btn-jade btn-sm" onclick="confirmD100()">Use This Roll</button>
+          <button class="btn btn-outline btn-sm" onclick="rerollD100()">Reroll</button>
+        </div>`:
+      `<button class="btn btn-outline" onclick="rollD100()">🎲 Roll 1d100</button>`}
+    </div>
+    <div class="divider"></div>
+    <div class="ac-banner" style="margin-top:4px">
+      <div class="ac-banner-text">
+        <div class="ac-banner-title">⚡ Auto Complete</div>
+        <div class="ac-banner-sub">Skip all rolls — instantly generate a complete item.</div>
+      </div>
+      <button class="btn btn-violet btn-sm" onclick="autoComplete()">⚡ Roll All</button>
+    </div>
+  </div>`;
+}
+
+function rarityHTML(){
+  return`<div class="step">
+    <div class="step-title">Rarity</div>
+    <div class="step-sub">Select the item's rarity — this determines total enchantment points.</div>
+    <div class="rarity-grid">
+      ${PTS.map((p,i)=>`<div class="rr-btn" onclick="selectRarity(${i})">
+        <div class="rr-stars">${i?'★'.repeat(i):'—'}</div>
+        <div class="rr-name">${RNAMES[i]}</div>
+        <div class="rr-pts">${p} pts</div>
+      </div>`).join('')}
+    </div>
+  </div>`;
+}
+
+function setupHTML(){
+  const isAuto=S.setupMode==='auto';
+  const typeSel=S.type;
+  const rarSel=S.totalPts>0;
+  const canProceed=typeSel&&rarSel;
+  return`<div class="step">
+    <div class="step-title">${isAuto?'⚡ Auto Complete':'✦ Item Identification'}</div>
+    <div class="step-sub">${isAuto
+      ?'Choose type and rarity — enchantments and base item will be rolled automatically.'
+      :'Choose item type and rarity to begin rolling enchantments.'}</div>
+
+    <div class="lbl" style="margin-top:4px">Item Type</div>
+    <div class="type-grid">
+      <div class="type-card${typeSel==='weapon'?' sel':''}" onclick="S.type='weapon';render()">
+        <span class="tc-icon">⚔️</span><span class="tc-name">Weapon</span>
+      </div>
+      <div class="type-card${typeSel==='armor'?' sel':''}" onclick="S.type='armor';render()">
+        <span class="tc-icon">🛡️</span><span class="tc-name">Armor</span>
+      </div>
+      <div class="type-card${typeSel==='accessory'?' sel':''}" onclick="S.type='accessory';render()">
+        <span class="tc-icon">💍</span><span class="tc-name">Accessory</span>
+      </div>
+    </div>
+    <div style="display:flex;gap:8px;align-items:center;margin-top:6px">
+      <button class="btn btn-outline btn-sm" onclick="S.type=['weapon','armor','accessory'][rng(3)-1];render()">🎲 Random</button>
+      ${typeSel?`<span style="font-family:var(--ff);font-size:10px;color:var(--jade)">✓ ${typeSel.charAt(0).toUpperCase()+typeSel.slice(1)}</span>`:''}
+    </div>
+
+    <div class="divider" style="margin:12px 0 8px"></div>
+
+    <div class="lbl">Rarity</div>
+    <div class="rarity-grid">
+      ${PTS.map((p,i)=>`<div class="rr-btn${(S.totalPts>0&&S.stars===i)?' sel':''}" onclick="S.stars=${i};S.totalPts=${p};S.remaining=${p};render()">
+        <div class="rr-stars">${i?'★'.repeat(i):'—'}</div>
+        <div class="rr-name">${RNAMES[i]}</div>
+        <div class="rr-pts">${p} pts</div>
+      </div>`).join('')}
+    </div>
+    <div style="display:flex;gap:8px;align-items:center;margin-top:6px">
+      <button class="btn btn-outline btn-sm" onclick="(()=>{const ri=rng(6)-1;S.stars=ri;S.totalPts=PTS[ri];S.remaining=PTS[ri];render()})()">🎲 Random</button>
+      ${rarSel?`<span style="font-family:var(--ff);font-size:10px;color:var(--jade)">✓ ${RNAMES[S.stars]}</span>`:''}
+    </div>
+
+    <div class="divider" style="margin:12px 0 8px"></div>
+
+    <div class="btn-row">
+      ${canProceed
+        ?(isAuto
+          ?`<button class="btn btn-gold" onclick="runAutoComplete()">⚡ Roll Everything</button>`
+          :`<button class="btn btn-jade" onclick="S.step='effect';render()">→ Roll Enchantments</button>`)
+        :`<button class="btn btn-outline" style="opacity:.4;pointer-events:none;cursor:default">Select type &amp; rarity above</button>`
+      }
+      <button class="btn btn-outline btn-sm" onclick="resetRoll();S.step=null;render()">✕ Cancel</button>
+    </div>
+  </div>`;
+}
+
+function effectHTML(){
+  const n=tbl().length,valid=countValid();
+  if(valid===0){
+    setTimeout(()=>{gotoTypeStep();render();},50);
+    return`<div class="step"><div class="note pulsing">No more affordable effects — moving to item type…</div></div>`;
+  }
+  const msg=S.P.rerollMsg?`<div class="reroll-msg">↺ ${S.P.rerollMsg}</div>`:'';
+  return`<div class="step">
+    <div class="step-title">Roll Effect</div>
+    <div class="step-sub">Roll 1d${n} to determine the next enchantment.</div>
+    ${msg}
+    <div class="die-area">
+      <div class="die-face" id="dieFace">?</div>
+      <div class="die-label">1d${n}</div>
+      <div class="btn-row" style="justify-content:center">
+        <button class="btn btn-gold" onclick="autoRollEffect()">🎲 Auto Roll</button>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="lbl">Manual Roll</div>
+    <div class="manual-row">
+      <input class="inp inp-num" id="manEff" type="number" min="1" max="${n}" placeholder="1–${n}">
+      <button class="btn btn-outline btn-sm" onclick="submitManEff()">Submit</button>
+    </div>
+    <div class="note" style="font-size:12px">Invalid effects (cost exceeds remaining points or unique conflict) are automatically rerolled.</div>
+  </div>`;
+}
+
+function svHTML(){
+  const e=S.P.effect,rem=S.remaining,mx=maxSV(e,rem);
+  const label=e.ct==='x*4'?`(×4 slots per unit)`:e.ct==='sv*3'?`(×3 slots per unit)`:e.ct==='sv*5'?`(×5 slots per unit)`:``;
+  return`<div class="step">
+    <div class="step-title">Roll Slot Value</div>
+    <div class="step-sub">How many slots go into <b style="color:var(--gold)">${e.n}</b>? ${label}</div>
+    <div class="die-area">
+      <div class="die-face" id="svFace">?</div>
+      <div class="die-label">1d${mx}</div>
+      <div class="btn-row" style="justify-content:center">
+        <button class="btn btn-gold" onclick="autoRollSV()">🎲 Auto Roll</button>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="lbl">Manual Roll</div>
+    <div class="manual-row">
+      <input class="inp inp-num" id="manSV" type="number" min="1" max="${mx}" placeholder="1–${mx}">
+      <button class="btn btn-outline btn-sm" onclick="submitManSV()">Submit</button>
+    </div>
+  </div>`;
+}
+
+function optsHTML(){
+  const e=S.P.effect,rem=S.remaining;
+  return`<div class="step">
+    <div class="step-title">Choose Strength</div>
+    <div class="step-sub">Select the tier for <b style="color:var(--gold)">${e.n}</b>:</div>
+    <div class="opts-grid">
+      ${e.opts.map((cost,i)=>{
+        const affordable=rem>=cost;
+        const labels={
+          'armor-2':[`Single Type (1d3) — ${cost} slots`,`All Physical Types — ${cost} slots`],
+          'accessory-2':[`Once/Long Rest — ${cost} slots`,`3×/Long Rest — ${cost} slots`]
+        };
+        const key=`${S.type}-${e.id}`;
+        const label=labels[key]?labels[key][i]:`Option ${i+1} — ${cost} slots`;
+        return affordable?`<div class="opt-btn" onclick="selectOpt(${i})">
+          <div class="opt-btn-title">${label}</div>
+          <div class="opt-btn-desc">${e.df({sub:{},optIdx:i})}</div>
+        </div>`:`<div class="opt-btn" style="opacity:.35;cursor:not-allowed">
+          <div class="opt-btn-title">${label}</div>
+          <div class="opt-btn-desc">Not enough points</div>
+        </div>`;
+      }).join('')}
+    </div>
+  </div>`;
+}
+
+function sightHTML(){
+  const rem=S.remaining,hasU=S.hasUnique;
+  const valid=SIGHTS.filter(s=>rem>=s.cost&&(!hasU||!s.u));
+  if(!valid.length){
+    setTimeout(()=>{S.P.rerollMsg='No valid sight type available';S.step='effect';render();},50);
+    return`<div class="step"><div class="note pulsing">No affordable sight — rerolling…</div></div>`;
+  }
+  return`<div class="step">
+    <div class="step-title">Roll Sight Type</div>
+    <div class="step-sub">Roll 1d4 to determine the granted sight:</div>
+    <div style="margin:4px 0 8px">
+      ${SIGHTS.map((s,i)=>{
+        const ok=rem>=s.cost&&(!hasU||!s.u);
+        return`<div style="display:flex;align-items:center;gap:10px;padding:5px 0;opacity:${ok?1:.4}">
+          <span class="die-label" style="width:20px;text-align:center">${i+1}</span>
+          <span style="font-size:13.5px;color:var(--txt)">${s.name}</span>
+          <span class="echip-cost">${s.cost} slots</span>
+          ${s.u?`<span class="u-pip">✦</span>`:''}
+          ${!ok?`<span style="font-size:11px;color:var(--crim)">${hasU&&s.u?'(unique conflict)':'(too costly)'}</span>`:''}
+        </div>`;
+      }).join('')}
+    </div>
+    <div class="die-area" style="padding:4px 0">
+      <div class="die-face" id="sightFace">?</div>
+      <div class="die-label">1d4</div>
+      <div class="btn-row" style="justify-content:center">
+        <button class="btn btn-gold" onclick="autoRollSight()">🎲 Auto Roll</button>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="lbl">Manual Roll</div>
+    <div class="manual-row">
+      <input class="inp inp-num" id="manSight" type="number" min="1" max="4" placeholder="1–4">
+      <button class="btn btn-outline btn-sm" onclick="submitManSight()">Submit</button>
+    </div>
+  </div>`;
+}
+
+function dmHTML(){
+  return`<div class="step">
+    <div class="step-title">DM Discretion Effect</div>
+    <div class="step-sub">Enter the custom enchantment for this item.</div>
+    <div class="lbl">Effect Description</div>
+    <textarea class="inp inp-full" id="dmDesc" rows="3" placeholder="Describe the custom effect…" style="resize:vertical;font-family:var(--fb)">${S.P.dmDesc}</textarea>
+    <div class="lbl">Slot Cost (1–${S.remaining})</div>
+    <div class="manual-row">
+      <input class="inp inp-num" id="dmCost" type="number" min="1" max="${S.remaining}" value="${S.P.dmCost||1}">
+      <span style="font-size:13px;color:var(--txt2)">slots</span>
+    </div>
+    <button class="btn btn-gold" onclick="confirmDM()">✓ Confirm Effect</button>
+  </div>`;
+}
+
+function confirmHTML(){
+  const p=S.P,e=p.effect;
+  if(!e) return'';
+  const u=isUnique(e,p.sv);
+  const desc=buildDesc(e,p.sv,p.cost,p.val,p.sub,p.optIdx);
+  return`<div class="step">
+    <div class="step-title">Confirm Enchantment</div>
+    <div class="eff-card card-in">
+      <div class="eff-card-head">
+        <span class="eff-num">#${e.id}</span>
+        <span class="eff-name">${e.n}</span>
+        ${u?`<span class="ubadge">✦ UNIQUE</span>`:''}
+      </div>
+      <div class="eff-desc">${desc}</div>
+      <div class="eff-cost-row">
+        <span class="cost-badge">${p.cost} slot${p.cost!==1?'s':''}</span>
+        <span class="cost-label">— ${S.remaining-p.cost} pts remaining after</span>
+      </div>
+    </div>
+    <div class="btn-row">
+      <button class="btn btn-jade" onclick="acceptEffect()">✓ Accept</button>
+      <button class="btn btn-amber" onclick="rerollFromConfirm()">↺ Reroll Effect</button>
+    </div>
+  </div>`;
+}
+
+function subrollHTML(){
+  const subs=S.P.pendingSubs,idx=S.P.subIdx,sub=subs[idx];
+  if(!sub){finalizeEffect();return'';}
+  const total=subs.length,done=idx;
+
+  /* ── Status Condition ── */
+  if(sub==='status'){
+    const examples=STATUS_CONDITIONS.slice(0,5).join(', ');
+    return`<div class="step">
+      <div class="sub-title">Sub-Roll: Status Condition</div>
+      <div class="step-sub">Which status condition does this grant immunity to?</div>
+      <div class="btn-row" style="margin-bottom:8px">
+        <button class="btn btn-gold" onclick="autoRollStatus()">🎲 Random Status</button>
+      </div>
+      <div class="divider"></div>
+      <div class="lbl">Manual Entry</div>
+      <input class="inp inp-full" id="statusIn" placeholder="e.g. Poisoned, Frightened, Charmed…" value="${S.P.sub.status||''}">
+      <div style="font-size:11.5px;color:var(--txt3)">Common: ${examples}…</div>
+      <button class="btn btn-jade" onclick="confirmStatus()">✓ Confirm</button>
+    </div>`;
+  }
+
+  /* ── Skill or Saving Throw (choose mode first) ── */
+  if(sub==='skillOrSave'){
+    if(!S.P.soMode){
+      return`<div class="step">
+        <div class="sub-title">Sub-Roll: Advantage Type</div>
+        <div class="step-sub">Does this advantage apply to a skill check or a saving throw? Roll 1d2 or choose manually.</div>
+        <div class="die-area" style="padding:6px 0">
+          <div class="die-face" id="soModeFace">?</div>
+          <div class="die-label">1d2 · 1=Skill · 2=Save</div>
+          <div class="btn-row" style="justify-content:center">
+            <button class="btn btn-gold" onclick="autoRollSoMode()">🎲 Auto Roll</button>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="mode-pick">
+          <div class="mode-card" onclick="setSoMode('skill')">
+            <div class="mode-icon">📚</div>
+            <div class="mode-label">Skill Check</div>
+          </div>
+          <div class="mode-card" onclick="setSoMode('save')">
+            <div class="mode-icon">🛡️</div>
+            <div class="mode-label">Saving Throw</div>
+          </div>
+        </div>
+      </div>`;
+    }
+    /* Mode chosen — now roll which skill/attr */
+    const isSk=S.P.soMode==='skill';
+    const n=isSk?18:6,list=isSk?SKILLS:ATTRS;
+    return`<div class="step">
+      <div class="sub-title">Sub-Roll: ${isSk?'Which Skill? (1d18)':'Which Attribute? (1d6)'}</div>
+      <div class="step-sub">Mode: <b style="color:var(--gold)">${isSk?'Skill Check':'Saving Throw'}</b></div>
+      <div class="die-area">
+        <div class="die-face" id="soFace">?</div>
+        <div class="die-label">1d${n}</div>
+        <div class="btn-row" style="justify-content:center">
+          <button class="btn btn-gold" onclick="autoSO()">🎲 Auto Roll</button>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="lbl">Manual Roll</div>
+      <div class="manual-row">
+        <input class="inp inp-num" id="soIn" type="number" min="1" max="${n}" placeholder="1–${n}">
+        <button class="btn btn-outline btn-sm" onclick="submitSO()">Submit</button>
+      </div>
+      <div class="ref-table" style="margin-top:4px">
+        ${list.map((l,i)=>`<div><span>${i+1}.</span>${l}</div>`).join('')}
+      </div>
+      <button class="btn btn-outline btn-sm" style="margin-top:4px" onclick="S.P.soMode=null;render()">← Change Mode</button>
+    </div>`;
+  }
+
+  /* ── Auto-rollable subs ── */
+  const labels={element:'Element Type (2d10)',mastery:'Mastery Type (1d8)',
+    skill:'Skill (1d18)',abilityScore:'Ability Score (1d6)',attribute:'Attribute (1d6)',physical:'Physical Type (1d3)'};
+  const ns={element:10,mastery:8,skill:18,abilityScore:6,attribute:6,physical:3};
+  const n2=ns[sub]||6;
+  const existingRes=S.P.sub[sub];
+
+  return`<div class="step">
+    <div class="sub-title">Sub-Roll: ${labels[sub]||sub} (${done+1}/${total})</div>
+    ${existingRes?`<div class="sub-result"><span class="sub-val">→ ${existingRes}</span></div>
+      <button class="btn btn-jade" onclick="nextSubRoll()">Continue →</button>`:
+    `<div class="die-area">
+      ${sub==='element'?`<div class="die-pair"><div class="die-face" id="d1face">?</div><div class="die-plus">+</div><div class="die-face" id="d2face">?</div></div>
+        <div class="die-label">2d10 · roll 4+4 confirms Force</div>`:
+      `<div class="die-face" id="srFace">?</div><div class="die-label">1d${n2}</div>`}
+      <div class="btn-row" style="justify-content:center">
+        <button class="btn btn-gold" onclick="autoSubRoll()">🎲 Auto Roll</button>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="lbl">Manual Roll</div>
+    <div class="manual-row">
+      <input class="inp inp-num" id="srIn" type="number" min="1" max="${n2}" placeholder="1–${n2}">
+      <button class="btn btn-outline btn-sm" onclick="submitSR()">Submit</button>
+    </div>
+    <div class="ref-table" style="margin-top:4px">
+      ${(sub==='element'?DMGTYPES:sub==='mastery'?MASTERY:sub==='skill'?SKILLS:sub==='physical'?PHYSICAL:ATTRS).map((l,i)=>`<div><span>${i+1}.</span>${l}</div>`).join('')}
+    </div>`}
+  </div>`;
+}
+
+/* ── WEAPON TYPE ── */
+function weaponTypeHTML(){
+  const n=WEAPONS.length;
+  return`<div class="step">
+    <div class="step-title">Weapon Type</div>
+    <div class="step-sub">Roll 1d${n} to determine the base weapon.</div>
+    <div class="die-area">
+      <div class="die-face" id="wtFace">?</div>
+      <div class="die-label">1d${n}</div>
+      <div class="btn-row" style="justify-content:center">
+        <button class="btn btn-gold" onclick="autoRollWT()">🎲 Auto Roll</button>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="lbl">Manual Roll</div>
+    <div class="manual-row">
+      <input class="inp inp-num" id="wtIn" type="number" min="1" max="${n}" placeholder="1–${n}">
+      <button class="btn btn-outline btn-sm" onclick="submitWT()">Submit</button>
+    </div>
+    <div class="ref-table" style="margin-top:6px">
+      ${WEAPONS.map((w,i)=>`<div><span>${i+1}.</span>${w.n}</div>`).join('')}
+    </div>
+    ${S.weaponType?`<div class="eff-card card-in" style="margin-top:8px">
+      <div class="eff-card-head"><span class="eff-name">${S.weaponType.n}</span></div>
+      <div class="eff-desc">${S.weaponType.d} · Mastery: ${S.weaponType.m}</div>
+      <div class="btn-row" style="margin-top:8px">
+        <button class="btn btn-jade" onclick="S.step='player';render()">→ Next</button>
+        <button class="btn btn-amber btn-sm" onclick="S.weaponType=null;render()">↺ Reroll</button>
+      </div>
+    </div>`:''}
+  </div>`;
+}
+
+/* ── ARMOR TYPE ── */
+function armorTypeHTML(){
+  const n=ARMORS.length;
+  return`<div class="step">
+    <div class="step-title">Armor Type</div>
+    <div class="step-sub">Roll 1d${n} to determine the base armor.</div>
+    <div class="die-area">
+      <div class="die-face" id="atFace">?</div>
+      <div class="die-label">1d${n}</div>
+      <div class="btn-row" style="justify-content:center">
+        <button class="btn btn-gold" onclick="autoRollAT()">🎲 Auto Roll</button>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="lbl">Manual Roll</div>
+    <div class="manual-row">
+      <input class="inp inp-num" id="atIn" type="number" min="1" max="${n}" placeholder="1–${n}">
+      <button class="btn btn-outline btn-sm" onclick="submitAT()">Submit</button>
+    </div>
+    <div class="ref-table" style="margin-top:6px">
+      ${ARMORS.map((a,i)=>`<div><span>${i+1}.</span>${a.n}</div>`).join('')}
+    </div>
+    ${S.armorType?`<div class="eff-card card-in" style="margin-top:8px">
+      <div class="eff-card-head"><span class="eff-name">${S.armorType.n}</span></div>
+      <div class="eff-desc">AC: ${S.armorType.ac} · ${S.armorType.t}</div>
+      <div class="btn-row" style="margin-top:8px">
+        <button class="btn btn-jade" onclick="S.step='player';render()">→ Next</button>
+        <button class="btn btn-amber btn-sm" onclick="S.armorType=null;render()">↺ Reroll</button>
+      </div>
+    </div>`:''}
+  </div>`;
+}
+
+/* ── ACCESSORY TYPE ── (now with dice roll) ── */
+function accessoryInputHTML(){
+  const n=ACCESSORY_TYPES.length;
+  return`<div class="step">
+    <div class="step-title">Accessory Type</div>
+    <div class="step-sub">Roll 1d${n} or enter a custom accessory type.</div>
+    <div class="die-area">
+      <div class="die-face" id="accFace">?</div>
+      <div class="die-label">1d${n}</div>
+      <div class="btn-row" style="justify-content:center">
+        <button class="btn btn-gold" onclick="autoRollAccType()">🎲 Auto Roll</button>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="lbl">Manual Roll</div>
+    <div class="manual-row">
+      <input class="inp inp-num" id="accRoll" type="number" min="1" max="${n}" placeholder="1–${n}">
+      <button class="btn btn-outline btn-sm" onclick="submitAccRoll()">Submit</button>
+    </div>
+    <div class="ref-table" style="margin-top:4px">
+      ${ACCESSORY_TYPES.map((t,i)=>`<div><span>${i+1}.</span>${t}</div>`).join('')}
+    </div>
+    ${S.accessoryType?`<div class="eff-card card-in" style="margin-top:8px">
+      <div class="eff-card-head"><span class="eff-name">${S.accessoryType}</span></div>
+      <div class="btn-row" style="margin-top:8px">
+        <button class="btn btn-jade" onclick="S.step='player';render()">→ Next</button>
+        <button class="btn btn-amber btn-sm" onclick="S.accessoryType='';render()">↺ Reroll</button>
+      </div>
+    </div>`:''}
+    <div class="divider"></div>
+    <div class="lbl">Custom Type</div>
+    <div class="manual-row">
+      <input class="inp" id="accType" placeholder="e.g. Mask, Tome, Vial…" value="${S.accessoryType}">
+      <button class="btn btn-outline btn-sm" onclick="confirmAccType()">Set</button>
+    </div>
+  </div>`;
+}
+
+function playerHTML(){
+  return`<div class="step">
+    <div class="step-title">Assign to Player</div>
+    <div class="step-sub">Who receives this item?</div>
+    <div class="lbl">Player / Character Name</div>
+    <input class="inp inp-full" id="plrIn" placeholder="Player name or character name…" value="${S.playerName}">
+    <div class="btn-row" style="margin-top:4px">
+      <button class="btn btn-jade" onclick="confirmPlayer()">→ Finalize Item</button>
+      <button class="btn btn-outline btn-sm" onclick="confirmPlayer(true)">Skip</button>
+    </div>
+  </div>`;
+}
+
+function previewHTML(){
+  const item=buildCurrentItem();
+  return`<div class="step">
+    <div class="step-title" style="color:var(--jade)">✦ Item Identified</div>
+    ${itemCardInner(item,true)}
+    <div class="btn-row" style="margin-top:4px">
+      <button class="btn btn-gold" onclick="saveItem()">📜 Save to Registry</button>
+      <button class="btn btn-outline btn-sm" onclick="discardItem()">Discard</button>
+    </div>
+  </div>`;
+}
+
+function buildItemSentence(item){
+  const parts=[item.name||'Enchanted Item'];
+  if(item.type==='weapon'&&item.stars) parts.push(`+${item.stars} to attack and damage rolls`);
+  else if(item.type==='armor'&&item.stars) parts.push(`+${item.stars} AC`);
+  (item.effects||[]).forEach(e=>{
+    let d=e.desc||'';
+    if(d.startsWith('+')) d='Grants '+d;
+    if(e.unique) d+=' (unique)';
+    parts.push(d);
+  });
+  return parts.filter(Boolean).join('. ')+'.';
+}
+
+function copySentenceHTML(item){
+  const raw=buildItemSentence(item);
+  const esc=raw.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  return`<div class="copy-chip" onclick="copyItemSentence(this)" data-sentence="${esc}" title="Click to copy">
+    <span class="copy-chip-icon">📋</span>
+    <span class="copy-chip-text">${esc}</span>
+  </div>`;
+}
+
+function copyItemSentence(el){
+  // Decode HTML entities back to plain text before copying
+  const raw=el.getAttribute('data-sentence');
+  const ta=document.createElement('textarea');
+  ta.innerHTML=raw;
+  const text=ta.value;
+  const icon=el.querySelector('.copy-chip-icon');
+  function flash(){
+    if(icon) icon.textContent='✓';
+    el.classList.add('copied');
+    setTimeout(()=>{if(icon) icon.textContent='📋';el.classList.remove('copied');},1800);
+  }
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(flash).catch(()=>{
+      ta.style.cssText='position:fixed;opacity:0;pointer-events:none';
+      document.body.appendChild(ta);ta.focus();ta.select();
+      try{document.execCommand('copy');}catch(e){}
+      document.body.removeChild(ta);flash();
+    });
+  } else {
+    ta.style.cssText='position:fixed;opacity:0;pointer-events:none';
+    document.body.appendChild(ta);ta.focus();ta.select();
+    try{document.execCommand('copy');}catch(e){}
+    document.body.removeChild(ta);flash();
+  }
+}
+
+function itemCardInner(item,preview){
+  const subLine=getItemSubLine(item);
+  const bonus=item.type==='weapon'&&item.stars?`+${item.stars} to attack and damage rolls`:
+               item.type==='armor'&&item.stars?`+${item.stars} AC`:null;
+  let h=`<div class="${preview?'prev-card':''}">
+    <div class="${preview?'prev-name':'ic-name'}">${item.name}</div>
+    <div class="${preview?'prev-rar':'ic-meta'}">
+      <span class="${preview?'prev-stars':'ic-rarity'}">${starStr(item.stars)}</span>
+      <span class="${preview?'prev-rname':'ic-rar-name'}">${RNAMES[item.stars]}</span>
+      ${item.playerName?`<span class="${preview?'prev-player':'ic-player'}">· ${item.playerName}</span>`:''}
+    </div>
+    ${subLine?`<div class="${preview?'prev-type':'ic-subline'}" style="margin-top:4px">${subLine}</div>`:''}
+    ${bonus?`<div class="${preview?'prev-bonus':'ic-bonus'}" style="margin-top:4px">${bonus}</div>`:''}
+    <div class="${preview?'prev-effs':'ic-effs'}" style="margin-top:8px">`;
+  item.effects.forEach(e=>{
+    h+=`<div class="${preview?'prev-eff':'ic-eff'}">
+      <div class="${preview?'prev-eff-head':''}">
+        <span class="${preview?'prev-eff-name':'ic-eff-name'}">${e.n}</span>
+        ${e.unique?`<span class="u-pip">✦</span>`:''}
+        <span class="${preview?'prev-eff-cost':'ic-eff-cost'}">${e.cost}pt</span>
+      </div>
+      <div class="${preview?'prev-eff-desc':'ic-eff-desc'}">${e.desc}</div>
+    </div>`;
+  });
+  h+=`</div>`;
+  if(preview) h+=copySentenceHTML(item);
+  h+=`</div>`;
+  return h;
+}
+
+function buildCurrentItem(){
+  const sub=S.type==='weapon'?(S.weaponType?.n||'Weapon'):
+             S.type==='armor'?(S.armorType?.n||'Armor'):
+             (S.accessoryType||'Accessory');
+  const fake={type:S.type,stars:S.stars,effects:S.effects,
+    weaponType:S.weaponType?.n,armorType:S.armorType?.n,
+    accessoryType:S.accessoryType,playerName:S.playerName,subtype:sub};
+  fake.name=genName(fake);
+  return fake;
+}
+
+/* ═══════════════════════ LOG PANEL ═══════════════════════ */
+function getLogHTML(){
+  let h=`<div class="lp-head">
+    <div class="sec-title" style="font-size:12px;color:var(--txt2)">📖 Item Registry</div>
+    <div class="lp-actions">
+      <button class="btn btn-outline btn-sm" onclick="saveFile()">💾 Save</button>
+      <button class="btn btn-outline btn-sm" onclick="document.getElementById('fInput').click()">📂 Load</button>
+      <input type="file" id="fInput" accept=".json" style="display:none">
+    </div>
+  </div>`;
+
+  h+=`<div class="q-section">
+    <div class="q-head">
+      <div class="sec-title">📋 Queue (${S.queue.length})</div>
+      <button class="btn btn-outline btn-xs" onclick="toggleQForm()">+ Add</button>
+    </div>`;
+  if(S.showQForm){
+    h+=`<div class="q-form">
+      <div class="lbl">Player Name</div>
+      <input class="inp inp-full" id="qPlayer" placeholder="Player or character name…">
+      <div class="lbl" style="margin-top:4px">Item Note</div>
+      <input class="inp inp-full" id="qNote" placeholder="e.g. Unidentified sword, glowing ring…">
+      <div class="btn-row" style="margin-top:4px">
+        <button class="btn btn-jade btn-sm" onclick="addToQueue()">Add to Queue</button>
+        <button class="btn btn-outline btn-sm" onclick="S.showQForm=false;render()">Cancel</button>
+      </div>
+    </div>`;
+  }
+  if(S.queue.length){
+    S.queue.forEach(q=>{
+      h+=`<div class="q-item">
+        <span class="q-player">${q.player||'Unknown'}</span>
+        <span class="q-note">${q.note||'Unidentified item'}</span>
+        <button class="btn btn-gold btn-xs" onclick="rollFromQueue(${q.id})">Roll</button>
+        <button class="btn btn-outline btn-xs" onclick="removeFromQueue(${q.id})">✕</button>
+      </div>`;
+    });
+  } else {
+    h+=`<div style="font-size:12.5px;color:var(--txt3);padding:6px 0">Queue is empty. Add items players bring for identification.</div>`;
+  }
+  h+=`</div><div class="divider"></div>`;
+
+  h+=`<div class="q-head" style="margin-bottom:10px"><div class="sec-title">✦ Identified Items (${S.items.length})</div></div>`;
+  if(!S.items.length){
+    h+=`<div class="empty">No items identified yet. Roll and save to populate the registry.</div>`;
+  } else {
+    [...S.items].reverse().forEach(item=>{
+      const exp=S.expanded===item.id;
+      const sub=getItemSubLine(item);
+      h+=`<div class="item-card${exp?' exp':''}">
+        <div class="ic-head" onclick="toggleExp(${item.id})">
+          <div class="ic-left">
+            <div class="ic-name">${typeIcon(item.type)} ${item.name}</div>
+            <div class="ic-meta">
+              <span class="ic-rarity">${starStr(item.stars)}</span>
+              <span class="ic-rar-name">${RNAMES[item.stars]}</span>
+              ${item.playerName?`<span class="ic-player">${item.playerName}</span>`:''}
+            </div>
+          </div>
+          <span class="ic-expand">⌄</span>
+        </div>
+        ${exp?`<div class="ic-body">
+          ${sub?`<div class="ic-subline">${sub}</div>`:''}
+          ${item.stars?`<div class="ic-bonus">${item.type==='weapon'?`+${item.stars} to attack and damage`:item.type==='armor'?`+${item.stars} AC`:''}</div>`:''}
+          <div class="ic-effs">
+            ${item.effects.map(e=>`<div class="ic-eff">
+              <span class="ic-eff-name">${e.n}</span>${e.unique?`<span class="u-pip">✦</span>`:''}
+              <span class="ic-eff-cost">${e.cost}pt</span>
+              <span class="ic-eff-desc">${e.desc}</span>
+            </div>`).join('')}
+          </div>
+          ${copySentenceHTML(item)}
+          ${S.editingPlayer===item.id?
+            `<div class="edit-row">
+              <input class="inp" id="editPlr" style="flex:1;font-size:13px" placeholder="Player name…" value="${item.playerName||''}">
+              <button class="btn btn-jade btn-xs" onclick="saveEditPlayer(${item.id})">Save</button>
+              <button class="btn btn-outline btn-xs" onclick="S.editingPlayer=null;render()">✕</button>
+            </div>`:
+            `<div class="ic-actions">
+              <button class="btn btn-outline btn-xs" onclick="startEditPlayer(${item.id})">${item.playerName?'Edit Player':'Assign Player'}</button>
+              <button class="btn btn-crim btn-xs" onclick="deleteItem(${item.id})">Delete</button>
+            </div>`}
+        </div>`:''}
+      </div>`;
+    });
+  }
+  return h;
+}
+
+/* ═══════════════════════ HANDLERS ═══════════════════════ */
+function toggleAC(){S.autoConfirm=!S.autoConfirm;render();}
+
+function startNew(){resetRoll();S.setupMode='manual';S.step='setup';render();}
+
+function resetRoll(){
+  S.type=null;S.stars=0;S.totalPts=0;S.remaining=0;
+  S.effects=[];S.hasUnique=false;S.effectCount=0;
+  S.P={effect:null,sv:0,cost:0,val:0,optIdx:null,sub:{},pendingSubs:[],subIdx:0,
+       soMode:null,dmCost:1,dmDesc:'',sightObj:null,rerollMsg:'',efRoll:0};
+  S.weaponType=null;S.armorType=null;S.accessoryType='';S.playerName='';
+  S.fromQueueId=null;S.d100Roll=null;
+}
+
+function rollD100(){S.d100Roll=rng(100);render();}
+function rerollD100(){S.d100Roll=rng(100);render();}
+function confirmD100(){const r=S.d100Roll;selectType(r<=25?'weapon':r<=40?'armor':'accessory');}
+function selectType(t){S.type=t;S.step='rarity';render();}
+function selectRarity(i){S.stars=i;S.totalPts=PTS[i];S.remaining=PTS[i];S.step='effect';render();}
+
+/* ── EFFECT ROLL ── */
+function autoRollEffect(){
+  const res=rollEffect();
+  if(!res){gotoTypeStep();render();return;}
+  const{e,r}=res;
+  S.P.rerollMsg='';S.P.effect=e;S.P.efRoll=r;
+  animateDie('dieFace',r,()=>proceedFromEffect(e));
+}
+
+function submitManEff(){
+  const v=parseInt(document.getElementById('manEff')?.value);
+  const t=tbl();
+  if(!v||v<1||v>t.length){alert(`Enter a number between 1 and ${t.length}.`);return;}
+  const e=t[v-1];
+  if(!canUse(e,S.remaining,S.hasUnique)){
+    const reason=S.hasUnique&&e.u?'This is a unique enchantment and this item already has one.':'This effect costs more than your remaining points.';
+    S.P.rerollMsg=`#${v} ${e.n} invalid: ${reason}`;render();return;
+  }
+  S.P.rerollMsg='';S.P.effect=e;S.P.efRoll=v;
+  proceedFromEffect(e);
+}
+
+function proceedFromEffect(e){
+  if(e.ct==='fixed'){S.P.sv=0;S.P.cost=e.fc;S.P.val=e.vf(e.fc);goConfirm();}
+  else if(e.ct==='opts'){S.step='opts';render();}
+  else if(e.ct==='sight'){S.step='sight';render();}
+  else if(e.ct==='dm'){S.step='dm_disc';render();}
+  else{S.step='sv';render();}
+}
+
+/* ── SV ROLL ── */
+function autoRollSV(){
+  const e=S.P.effect,mx=maxSV(e,S.remaining);
+  const sv=rng(mx);
+  animateDie('svFace',sv,()=>setSV(sv));
+}
+function submitManSV(){
+  const e=S.P.effect,mx=maxSV(e,S.remaining);
+  const v=parseInt(document.getElementById('manSV')?.value);
+  if(!v||v<1||v>mx){alert(`Enter a number between 1 and ${mx}.`);return;}
+  setSV(v);
+}
+function setSV(sv){
+  const e=S.P.effect;
+  S.P.sv=sv;S.P.cost=calcCost(e,sv);S.P.val=e.vf(sv);
+  goConfirm();
+}
+
+/* ── OPTS ── */
+function selectOpt(i){
+  const e=S.P.effect;
+  S.P.optIdx=i;S.P.sv=0;S.P.cost=e.opts[i];S.P.val=1;
+  goConfirm();
+}
+
+/* ── SIGHT ── */
+function autoRollSight(){
+  const r=rng(4);
+  animateDie('sightFace',r,()=>processSightRoll(r));
+}
+function submitManSight(){
+  const v=parseInt(document.getElementById('manSight')?.value);
+  if(!v||v<1||v>4){alert('Enter a number between 1 and 4.');return;}
+  processSightRoll(v);
+}
+function processSightRoll(r){
+  const s=SIGHTS[r-1];
+  if(s.cost>S.remaining){S.P.rerollMsg=`${s.name} costs ${s.cost} slots — too expensive`;S.step='effect';render();return;}
+  if(S.hasUnique&&s.u){S.P.rerollMsg=`${s.name} is unique — already have a unique enchantment`;S.step='effect';render();return;}
+  S.P.sightObj=s;S.P.sub.sightName=s.name;S.P.sub.sightUnique=s.u;
+  S.P.cost=s.cost;S.P.val=1;S.P.sv=0;
+  goConfirm();
+}
+
+/* ── DM DISC ── */
+function confirmDM(){
+  const desc=document.getElementById('dmDesc')?.value?.trim();
+  const cost=parseInt(document.getElementById('dmCost')?.value);
+  if(!desc){alert('Please enter an effect description.');return;}
+  if(!cost||cost<1||cost>S.remaining){alert(`Cost must be between 1 and ${S.remaining}.`);return;}
+  S.P.dmDesc=desc;S.P.dmCost=cost;S.P.sub.dmDesc=desc;
+  S.P.sv=0;S.P.cost=cost;S.P.val=1;
+  goConfirm();
+}
+
+function goConfirm(){
+  if(S.autoConfirm){acceptEffect();return;}
+  S.step='confirm';render();
+}
+
+/* ── CONFIRM ── */
+function acceptEffect(){
+  const e=S.P.effect;
+  let subs=e.subs?[...e.subs]:[];
+  if(S.type==='armor'&&e.id===2&&S.P.optIdx===1) subs=[];
+  subs=subs.filter(s=>s!=='sight');
+  S.P.pendingSubs=subs;S.P.subIdx=0;S.P.soMode=null;
+  if(subs.length>0){
+    if(S.autoConfirm) autoProcessSubs();
+    else{S.step='subroll';render();}
+  } else {
+    finalizeEffect();
+  }
+}
+
+function autoProcessSubs(){
+  while(S.P.subIdx<S.P.pendingSubs.length){
+    const sub=S.P.pendingSubs[S.P.subIdx];
+    if(sub==='status'){break;}  // Status needs manual input
+    if(sub==='skillOrSave'){
+      // Auto-roll mode (1d2) then the specific skill/attr
+      const mode=rng(2)===1?'skill':'save';
+      const list=mode==='skill'?SKILLS:ATTRS;
+      const r=rng(list.length);
+      S.P.sub['skillOrSave']=`${list[r-1]} ${mode==='skill'?'checks':'saving throws'}`;
+      S.P.subIdx++;continue;
+    }
+    const res=autoRollSub(sub);
+    S.P.sub[sub]=res.val;
+    S.P.subIdx++;
+  }
+  if(S.P.subIdx>=S.P.pendingSubs.length) finalizeEffect();
+  else{S.step='subroll';render();}
+}
+
+function rerollFromConfirm(){
+  S.P={...S.P,effect:null,sv:0,cost:0,val:0,optIdx:null,sub:{},rerollMsg:'',sightObj:null};
+  S.step='effect';render();
+}
+
+/* ── SUBROLL HANDLERS ── */
+function autoSubRoll(){
+  const sub=S.P.pendingSubs[S.P.subIdx];
+  if(sub==='element'){
+    const r=rollElem();
+    if(r.rerolled){
+      const d1=r.dice[0],d2=r.dice[1];
+      animateDie('d1face',d1,()=>{
+        setTimeout(()=>animateDie('d2face',d2,()=>{S.P.sub['element']=r.type;render();}),200);
+      });
+    } else {
+      animateDie('d1face',r.dice[0],()=>{S.P.sub['element']=r.type;render();});
+    }
+  } else {
+    const res=autoRollSub(sub);
+    const face=document.getElementById('srFace');
+    if(face) animateDie('srFace',res.roll||1,()=>{S.P.sub[sub]=res.val;render();});
+    else{S.P.sub[sub]=res.val;render();}
+  }
+}
+
+function submitSR(){
+  const sub=S.P.pendingSubs[S.P.subIdx];
+  const ns={element:10,mastery:8,skill:18,abilityScore:6,attribute:6,physical:3};
+  const n=ns[sub]||6;
+  const v=parseInt(document.getElementById('srIn')?.value);
+  if(!v||v<1||v>n){alert(`Enter a number between 1 and ${n}.`);return;}
+  if(sub==='element') S.P.sub['element']=DMGTYPES[v-1];
+  else if(sub==='mastery') S.P.sub['mastery']=MASTERY[v-1];
+  else if(sub==='skill') S.P.sub['skill']=SKILLS[v-1];
+  else if(sub==='abilityScore') S.P.sub['abilityScore']=ATTRS[v-1];
+  else if(sub==='attribute') S.P.sub['attribute']=ATTRS[v-1];
+  else if(sub==='physical') S.P.sub['physical']=PHYSICAL[v-1];
+  render();
+}
+
+function nextSubRoll(){
+  S.P.subIdx++;
+  if(S.P.subIdx>=S.P.pendingSubs.length) finalizeEffect();
+  else render();
+}
+
+function confirmStatus(){
+  const v=document.getElementById('statusIn')?.value?.trim();
+  if(!v){alert('Please enter a status condition name.');return;}
+  S.P.sub['status']=v;nextSubRoll();
+}
+
+function autoRollStatus(){
+  const v=STATUS_CONDITIONS[rng(STATUS_CONDITIONS.length)-1];
+  S.P.sub['status']=v;nextSubRoll();
+}
+
+/* ── skillOrSave mode ── */
+function setSoMode(m){S.P.soMode=m;render();}
+
+function autoRollSoMode(){
+  const r=rng(2);
+  const face=document.getElementById('soModeFace');
+  const mode=r===1?'skill':'save';
+  if(face){
+    face.textContent=r;
+    face.classList.remove('die-in');void face.offsetWidth;face.classList.add('die-in');
+    setTimeout(()=>setSoMode(mode),380);
+  } else setSoMode(mode);
+}
+
+function autoSO(){
+  const isSk=S.P.soMode==='skill';
+  const n=isSk?18:6;
+  const r=rng(n);
+  animateDie('soFace',r,()=>{
+    const val=isSk?`${SKILLS[r-1]} checks`:`${ATTRS[r-1]} saving throws`;
+    S.P.sub['skillOrSave']=val;nextSubRoll();
+  });
+}
+
+function submitSO(){
+  const isSk=S.P.soMode==='skill';
+  const n=isSk?18:6;
+  const v=parseInt(document.getElementById('soIn')?.value);
+  if(!v||v<1||v>n){alert(`Enter 1–${n}.`);return;}
+  const val=isSk?`${SKILLS[v-1]} checks`:`${ATTRS[v-1]} saving throws`;
+  S.P.sub['skillOrSave']=val;nextSubRoll();
+}
+
+/* ── FINALIZE EFFECT ── (FIX: go directly to type step, no 'finalize' state) ── */
+function finalizeEffect(){
+  const e=S.P.effect,p=S.P;
+  const u=isUnique(e,p.sv);
+  if(u&&S.hasUnique&&!e.cui){
+    S.P.rerollMsg=`${e.n} is unique — cannot add second unique`;
+    S.P={...S.P,effect:null};S.step='effect';render();return;
+  }
+  if(u&&S.hasUnique&&e.cui){
+    S.P.rerollMsg=`Shielded +${p.val} AC is unique — cannot add`;
+    S.P={...S.P,effect:null};S.step='effect';render();return;
+  }
+  const desc=buildDesc(e,p.sv,p.cost,p.val,p.sub,p.optIdx);
+  S.effects.push({n:e.n,desc,cost:p.cost,sv:p.sv,val:p.val,unique:u});
+  S.remaining-=p.cost;S.effectCount++;
+  if(u) S.hasUnique=true;
+  S.P={effect:null,sv:0,cost:0,val:0,optIdx:null,sub:{},pendingSubs:[],subIdx:0,
+       soMode:null,dmCost:1,dmDesc:'',sightObj:null,rerollMsg:'',efRoll:0};
+
+  // Direct routing — avoid the nested-render bug of going through 'finalize' step
+  if(S.effectCount>=3||S.remaining<=0||countValid()===0){
+    gotoTypeStep();
+  } else {
+    S.step='effect';
+  }
+  render();
+}
+
+/* ── WEAPON/ARMOR/ACCESSORY TYPE ── */
+function autoRollWT(){const r=rng(WEAPONS.length);animateDie('wtFace',r,()=>{S.weaponType=WEAPONS[r-1];render();});}
+function submitWT(){
+  const v=parseInt(document.getElementById('wtIn')?.value);
+  if(!v||v<1||v>WEAPONS.length){alert(`Enter 1–${WEAPONS.length}.`);return;}
+  S.weaponType=WEAPONS[v-1];render();
+}
+
+function autoRollAT(){const r=rng(ARMORS.length);animateDie('atFace',r,()=>{S.armorType=ARMORS[r-1];render();});}
+function submitAT(){
+  const v=parseInt(document.getElementById('atIn')?.value);
+  if(!v||v<1||v>ARMORS.length){alert(`Enter 1–${ARMORS.length}.`);return;}
+  S.armorType=ARMORS[v-1];render();
+}
+
+function autoRollAccType(){
+  const r=rng(ACCESSORY_TYPES.length);
+  animateDie('accFace',r,()=>{S.accessoryType=ACCESSORY_TYPES[r-1];render();});
+}
+function submitAccRoll(){
+  const v=parseInt(document.getElementById('accRoll')?.value);
+  if(!v||v<1||v>ACCESSORY_TYPES.length){alert(`Enter 1–${ACCESSORY_TYPES.length}.`);return;}
+  S.accessoryType=ACCESSORY_TYPES[v-1];render();
+}
+function confirmAccType(){
+  const v=document.getElementById('accType')?.value?.trim();
+  if(!v){alert('Please enter an accessory type.');return;}
+  S.accessoryType=v;S.step='player';render();
+}
+
+/* ── PLAYER ── */
+function confirmPlayer(skip){
+  if(!skip){const v=document.getElementById('plrIn')?.value?.trim();S.playerName=v||'';}
+  S.step='preview';render();
+}
+
+/* ═══════════════════════ AUTO COMPLETE ═══════════════════════ */
+function autoComplete(){
+  resetRoll();S.setupMode='auto';S.step='setup';render();
+}
+
+/* ── RUN AUTO COMPLETE (after setup screen selects type + rarity) ── */
+function runAutoComplete(){
+  if(!S.type||!S.totalPts){alert('Please select item type and rarity first.');return;}
+  // Reset effect state; type/rarity/remaining already set from setup screen
+  S.effects=[];S.hasUnique=false;S.effectCount=0;S.remaining=S.totalPts;
+  S.P={effect:null,sv:0,cost:0,val:0,optIdx:null,sub:{},pendingSubs:[],subIdx:0,
+       soMode:null,dmCost:1,dmDesc:'',sightObj:null,rerollMsg:'',efRoll:0};
+  S.weaponType=null;S.armorType=null;S.accessoryType='';
+  S.step='effect'; // Required for tbl()/countValid()
+  // Roll all effects
+  for(let safety=0;safety<200;safety++){
+    if(S.effectCount>=3||S.remaining<=0||countValid()===0) break;
+    const res=rollEffect();
+    if(!res) break;
+    const e=res.e;
+    let sv=0,cost=0,val=0,optIdx=null,sub={};
+    if(e.ct==='fixed'){
+      cost=e.fc;val=e.vf(e.fc);
+    } else if(e.ct==='opts'){
+      const aff=e.opts.map((c,i)=>({i,c})).filter(({c})=>S.remaining>=c);
+      if(!aff.length) continue;
+      const ch=aff[Math.floor(Math.random()*aff.length)];
+      optIdx=ch.i;cost=ch.c;val=1;
+    } else if(e.ct==='sight'){
+      const vs=SIGHTS.filter(s=>S.remaining>=s.cost&&(!S.hasUnique||!s.u));
+      if(!vs.length) continue;
+      const s=vs[Math.floor(Math.random()*vs.length)];
+      sub.sightName=s.name;sub.sightUnique=s.u;cost=s.cost;val=1;
+    } else if(e.ct==='dm'){
+      cost=Math.max(1,Math.min(S.remaining,rng(3)));
+      val=1;sub.dmDesc='DM Discretion Effect';
+    } else {
+      const mx=maxSV(e,S.remaining);
+      if(mx<1) continue;
+      sv=rng(mx);cost=calcCost(e,sv);val=e.vf(sv);
+    }
+    let subs=e.subs?[...e.subs]:[];
+    subs=subs.filter(s=>s!=='sight');
+    if(S.type==='armor'&&e.id===2&&optIdx===1) subs=[];
+    let subOk=true;
+    for(const s of subs){
+      if(s==='element'){const r=rollElem();sub['element']=r.type;}
+      else if(s==='mastery'){sub['mastery']=MASTERY[rng(8)-1];}
+      else if(s==='skill'){sub['skill']=SKILLS[rng(18)-1];}
+      else if(s==='abilityScore'){sub['abilityScore']=ATTRS[rng(6)-1];}
+      else if(s==='attribute'){sub['attribute']=ATTRS[rng(6)-1];}
+      else if(s==='physical'){sub['physical']=PHYSICAL[rng(3)-1];}
+      else if(s==='skillOrSave'){
+        const mode=rng(2)===1?'skill':'save';
+        const list=mode==='skill'?SKILLS:ATTRS;
+        sub['skillOrSave']=`${list[rng(list.length)-1]} ${mode==='skill'?'checks':'saving throws'}`;
+      }
+      else if(s==='status'){sub['status']=STATUS_CONDITIONS[rng(STATUS_CONDITIONS.length)-1];}
+      else{subOk=false;break;}
+    }
+    if(!subOk) continue;
+    const u=isUnique(e,sv);
+    if(u&&S.hasUnique&&!e.cui) continue;
+    if(u&&S.hasUnique&&e.cui&&val>=2) continue;
+    const desc=buildDesc(e,sv,cost,val,sub,optIdx);
+    S.effects.push({n:e.n,desc,cost,sv,val,unique:u});
+    S.remaining-=cost;S.effectCount++;
+    if(u) S.hasUnique=true;
+  }
+  // Roll item base type
+  if(S.type==='weapon') S.weaponType=WEAPONS[rng(WEAPONS.length)-1];
+  else if(S.type==='armor') S.armorType=ARMORS[rng(ARMORS.length)-1];
+  else S.accessoryType=ACCESSORY_TYPES[rng(ACCESSORY_TYPES.length)-1];
+  // Skip player, go to preview
+  S.step='preview';render();
+}
+/* ── SAVE/DISCARD ── */
+function saveItem(){
+  const item=buildCurrentItem();
+  item.id=S.nextId++;
+  item.type=S.type;item.stars=S.stars;item.effects=[...S.effects];
+  item.weaponType=S.weaponType?.n;item.armorType=S.armorType?.n;
+  item.accessoryType=S.accessoryType;
+  if(S.fromQueueId) S.queue=S.queue.filter(q=>q.id!==S.fromQueueId);
+  S.items.push(item);
+  S.expanded=item.id;
+  resetRoll();S.step=null;render();
+}
+function discardItem(){
+  if(S.fromQueueId) S.queue=S.queue.filter(q=>q.id!==S.fromQueueId);
+  resetRoll();S.step=null;render();
+}
+
+/* ── LOG ── */
+function toggleExp(id){S.expanded=S.expanded===id?null:id;S.editingPlayer=null;render();}
+function deleteItem(id){if(confirm('Delete this item from the registry?')){S.items=S.items.filter(i=>i.id!==id);if(S.expanded===id)S.expanded=null;render();}}
+function startEditPlayer(id){S.editingPlayer=id;render();}
+function saveEditPlayer(id){
+  const v=document.getElementById('editPlr')?.value?.trim();
+  const item=S.items.find(i=>i.id===id);
+  if(item) item.playerName=v||'';
+  S.editingPlayer=null;render();
+}
+
+/* ── QUEUE ── */
+function toggleQForm(){S.showQForm=!S.showQForm;render();}
+function addToQueue(){
+  const p=document.getElementById('qPlayer')?.value?.trim();
+  const n=document.getElementById('qNote')?.value?.trim();
+  S.queue.push({id:S.nextQId++,player:p||'Unknown',note:n||'Unidentified item'});
+  S.showQForm=false;render();
+}
+function removeFromQueue(id){S.queue=S.queue.filter(q=>q.id!==id);render();}
+function rollFromQueue(id){
+  const q=S.queue.find(x=>x.id===id);
+  if(!q) return;
+  resetRoll();S.fromQueueId=id;S.playerName=q.player||'';S.setupMode='manual';S.step='setup';render();
+}
+function pickFromQueue(){S.expanded=null;render();}
+
+/* ── ANIMATION ── */
+function animateDie(id,val,cb){
+  const el=document.getElementById(id);
+  if(!el){if(cb)cb();return;}
+  el.textContent=val;
+  el.classList.remove('die-in');
+  void el.offsetWidth;
+  el.classList.add('die-in');
+  setTimeout(()=>{if(cb)cb();},380);
+}
+
+/* ── SAVE / LOAD ── */
+function saveFile(){
+  const data={items:S.items,queue:S.queue,nextId:S.nextId,nextQId:S.nextQId};
+  const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);a.download='rinnosuke-registry.json';a.click();
+}
+function loadFile(ev){
+  const f=ev.target.files[0];if(!f)return;
+  const r=new FileReader();
+  r.onload=e=>{
+    try{
+      const d=JSON.parse(e.target.result);
+      if(d.items) S.items=d.items;
+      if(d.queue) S.queue=d.queue;
+      if(d.nextId) S.nextId=d.nextId;
+      if(d.nextQId) S.nextQId=d.nextQId;
+      render();
+    }catch{alert('Failed to load file. Make sure it is a valid registry JSON.');}
+  };
+  r.readAsText(f);
+  ev.target.value='';
+}
+
+/* ═══════════════════════ INIT ═══════════════════════ */
+render();
+</script>
+</body>
+</html>

@@ -41,7 +41,7 @@ Caps
 
 5) Sniper (40 HP) Guaranteed Crit against enemies with disadvantage or if the sniper has advantage (1 attack) (Also targets enemies that are distracted)
 
-6) Tank (200 HP) (Has no attacks) (Can distract Enemies) ()
+6) Tank (100 HP) (Has no attacks) (Can distract Enemies) ()
 
 7) Trapper (Disables an enemy) (100 HP) (Can cast entangle in a 5ft radius in a point on all enemies)
 
@@ -51,13 +51,13 @@ Mycelites
 
 (Elite Enemies) (They all have 100 HP)
 
-1) Slow Aura - Can Only use Action or Bonus Action or Reaction, until the start of your next turn 
+1) Slow Aura - Can Only use Action or Bonus Action or Reaction, until the start of your next turn   ORANGE
 
-2) Advantage Aura - All enemies attack are advantage and deals extra damage
+2) Advantage Aura - All enemies attack are advantage and deals extra damage BLUE
 
-3) Disadvantage Aura - All climbers attack are disadvantage and deals less damage
+3) Disadvantage Aura - All climbers attack are disadvantage and deals less damage  RED
 
-4) Regenerating Aura - All enemies are healed every turn (literally every turn)
+4) Regenerating Aura - All enemies are healed every turn (literally every turn) GREEN
 
 
 
@@ -66,13 +66,13 @@ Mycelites
 4 Dominant Sovereigns (200 HP)
 
 
-1) Spawner - Spawns a random cap per turn
+1) Spawner - Spawns a random cap per turn (Green)
 
-2) Reviver - revives a random cap 
+2) Reviver - revives a random cap (White)
 
-3) Consumer - every dead cap unlocks new abilities
+3) Consumer - every dead cap unlocks new abilities (Red)
 
-4) Enrager - all caps can attack 1 more time and double movement speed
+4) Enrager - all caps can attack 1 more time and double movement speed (Yellow)
 
 Each one defeated a magic circle is removed at the very center of the huge map (Which will cause the Floor Boss to spawn)
 
@@ -93,12 +93,22 @@ It moves at lightning speed attacking those who where on his path when he moved 
 
 
 4 Non-dominant Sovereigns
+cost 5 fungus to activate
+1) Can heal climbers (has a cooldown of 10 minutes) 
+2) Grants knowledge to a climber (Must succeed arcana check) (has a cooldown of 10 minutes) 
+3) Displays the location of someone you know or one of the sovereign (has a cooldown of 10 minutes) 
+4) Changes the damage type of 2 climbers (has a cooldown of 10 minutes) lasts for 30 minutes
 
-1) Can heal climbers (has a cooldown of 10 minutes)
-2) Grants knowledge to a climber (Must succeed arcana check) has a cooldown
-3) 
-4) Changes the damage type of 2 climbers (has a cooldown of 10 minutes) lasts for 20 minutes
+Receive 4 blessings from them
+Damage received is reduced by half.
 
+Each non-dominant can provide items in exchange for fungus
+10 fungus = medicinal herbs
+10 fungus = unknown variable
+10 fungus = Rare coin
+10 fungus = Toy Cylinder
+
+Every 1hr the mushroom respawns.
 
 Team Your lie in April
 Daiyousei
@@ -108,6 +118,38 @@ Parsee Mizuhashi
 
 Team Celestial Crashers
 Joon Yorigami
-Watatsuki No Toyohime
+Iku Nagae
 Toyosatomimi No Miko
 Tenshi Hinanawi
+
+
+
+Information Table
+1) Battlefield action + Ability (Depends on who asked the information)
+2) Each Colony can only have 4 Mycelites each with their own unique Aura which intensifies when near A Sovereign, A Sovereign always have one on its beck and call, but will still prioritize those that gathers mushroom. A Mycelite without a Sovereign near it cannot its true potential in the Aura it creates
+3) Eating a mushroom can help you learn our language, while smaller colonies can be talked to, those who are hostile will always resort to violence
+4) When defeating a Mycelites, it will create resistance and immunity to what damaged it the most and will transfer its evolution to all of its colony, doing this will shatter the power balance between the four Sovereign.Tipping the power balance will reduce their fighting forces as they try to devour those that are significantly weaker than them.
+5) There are other Sovereigns like me who desire peace, seak them and they will help you, if we all could build a colony of our own then perhaps its possible for us to weaken the other Dominant Sovereigns
+6) 
+
+Luminelle: "If you are willing to collect mushrooms for me, I will give you my blessings"
+Blessings:
+15 mushrooms: Your party receives the long rest condition
+10 mushrooms: Toy Cylinder x2
+5 mushrooms: 1 Information
+
+Verdilume:
+5 mushrooms: Locate a Sovereign or one of your own for 1 hour (can be stacked)
+10 mushrooms: Unknown Variable x1 left
+5 mushrooms: 1 Information
+
+Porcinus:
+10 mushrooms: Grants one creature resistance to poison and acid and immunity to bleeding and distraction
+10 mushrooms: Ancient Lucky coin
+5 mushrooms: 1 information
+
+
+Amethyla: "I want to make my own colony again which is why, I need mushrooms"
+5 mushrooms = Information
+5 mushrooms = Change a creature's damage type to that element for 30 minutes
+10 mushroom = Medicinal Herbs

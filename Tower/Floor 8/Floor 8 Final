@@ -1,0 +1,834 @@
+# FLOOR 8: THE MERCHANT'S CROSSING
+*"Five days. One stall. The market doesn't care who you are — only what you're selling."*
+
+*Complete document — all systems (map, economy cap, gathering, robbery, guards, Guild, Church, Graveyards, Slums, the Road, Syndicate Grudge) are merged directly into the text below. This is the whole floor, run-ready.*
+
+---
+
+## LORE: VERATH'S CROSSING
+
+Three roads meet at Verath's Crossing. For two centuries the town that grew at their junction was one of the most prosperous in any land — goods moved through it the way water moves through a channel, constantly, with no one owning the flow.
+
+That changed when the **Iron Ledger** arrived. Gradually, then all at once — a tax here, a protection fee there, a word in the right ear that made a rival's shipment arrive damaged. Within a generation the syndicate controlled every major supply line in town.
+
+**Vael Geldrun**, the town's neutral Trade Arbitrator, was bought with patience: a favor, then a debt, then an offer made in a room with no witnesses. His power now comes from a pact with **The Hollow Ledger** — a primordial entity that exists in the space between transactions, what greed becomes when it outlives the people who felt it. He senses every transaction in town, shifts perceived value with his attention, and makes debt feel like physics.
+
+When the Tower consumed this place, the corruption froze it. Merchants still set up their stalls. Customers still come to buy. But the Iron Ledger's network runs underneath everything, invisible and hungry, and Vael watches from his tower at the market's edge.
+
+Commerce happened here once. It can happen again. The question is who does it better.
+
+---
+
+## TOWER ENTRY
+
+**Masked Girl:** *"Welcome back, dearest climbers. I have good news and complicated news. The good news: no one is going to try to kill you immediately. This is a market floor. The complicated news is everything else — the town has a history, a present, and people in it who'd very much prefer you fail. I suggest you pay attention to what moves quietly. Five days. One stall each. Whatever it takes. ♪"*
+
+---
+
+## THE TOWN ECONOMY POOL — HARD GP CAP
+
+**Total Pool: 3,000gp.** This is the maximum amount of gold that can ever be paid out to players across the entire five-day floor — every customer sale in the Selling Phase, every Guild quest reward, every Church almsgiving roll, every Pristine Graveyard heist, every trade payout from an NPC. It is tracked as a single shared number the DM decrements every time gold moves from an NPC/town source into a player's hands.
+
+**It is not replenished.** Gold players spend — fines, bribes, purchases, stall upgrades, Fence cuts — leaves play entirely. It goes to Soren's ledger, the Guild coffers, a vendor's strongbox. It does not return to the Pool. This is deliberate: the Pool models total town wealth draining toward the players over the week, mirroring the Hollow Ledger's own nature — a finite thing being consumed.
+
+**What draws from the Pool:** Selling Phase customer payments, Guild Hall quest rewards, Church alms, Pristine/Common Graveyard finds, NPC trade payouts where gold changes hands, Special Customer overpays.
+
+**What does NOT draw from the Pool:** raw materials or Products obtained via Gathering, Robbery, or Crafting (these are goods, not gold, until sold) — the sale of those goods still draws from the Pool at the point of sale.
+
+### Pool Depletion Tiers
+
+Track remaining Pool as a percentage. Announce the tier shift narratively (Soren mentions it, NPCs get tighter with money) rather than the raw number — players should feel the recession, not see the spreadsheet.
+
+| Pool Remaining | State | Effect |
+|---|---|---|
+| 100–76% | Normal | No modifiers |
+| 75–51% | Money Tightens | NPCs haggle harder — all Persuasion-based price checks +1 DC |
+| 50–26% | Recession Looms | −1 customer per selling phase (flat), all Upsell/Luxury Upsell DCs +1 |
+| 25–1% | Deep Recession | −1d4 customers all stalls, Persuasion-based price checks −10% effective value even on success, Grey Ledger opens early if it hasn't already (Day 3 trigger becomes Day 2) |
+| 0% | **Gold Lockout** | No further gold enters play from any source for the rest of the floor. Customers still arrive and still want goods, but can only pay in **Barter** — trade goods, favors, or informal IOUs the DM adjudicates loosely. Selling continues, cumulative earnings tracking effectively freezes. |
+
+A DM running a tighter table can drop the Pool to 2,000–2,200gp; a looser, more generous one can raise it to 3,500–4,000gp. 3,000gp assumes all four teams actively use Guild quests, Church, and Graveyard income on top of normal selling.
+
+---
+
+## TOWN MAP & DISTRICTS
+
+The town is laid out around the Market Square, with the Gathering Areas reached by carriage to the west and the Slums lying further out along the same road, east of town. A full schematic diagram follows this section for building the map in Owlbear Rodeo.
+
+| Zone | Location | Contains |
+|---|---|---|
+| **Market Square** | Center | The four player stalls, the fountain, Soren's booth |
+| **Church** | North | Religion checks for alms, entry point to the Pristine Graveyard |
+| **Pristine Graveyard** | North, behind the Church | One-time high-value heist; requires sneaking through the Church |
+| **Common Graveyard** | North, adjacent | Public salvage — no sneaking required |
+| **Common Houses** | East | 22 Small, 14 Medium, 6 Large — residential lanes, robbery targets, NPC interactions |
+| **Crafting Houses** | South | Where all Craft Major Actions happen; a handful of recurring NPC crafters |
+| **Merchant District** | South, adjacent Crafting Houses | Warehouses, bulk suppliers, the Grey Ledger (from Day 3) |
+| **Guild House** | Northeast, extremely large | Quest board, guard origin point, safe zone |
+| **Syndicate House** | South, extremely large | The Iron Ledger's public-facing headquarters — imposing, heavily deterred, not enterable without serious investigation. **Distinct from the Underground** (see below), which is the hidden tunnel network beneath the Merchant District. |
+| **The Underground** | Hidden, beneath the Merchant District | Mining Area access, Syndicate investigation, the Iron Ledger Charter |
+| **Free Spaces (×12)** | Scattered, 2–3 per district | DM-flex plots — Daily Events, quest hooks, flavor. See Free Space Flavor Table. |
+| **Carriage Road** | West | Leads to the four Gathering Areas |
+| **The Road (east)** | Beyond town | Leads to the Slums; shared with the Carriage Road as one continuous route, with town in the middle |
+
+### Free Space Flavor Table — d12
+
+Roll once per Free Space to seed it, or leave blank and use as-needed.
+
+| d12 | Seed |
+|---|---|
+| 1 | Abandoned market stall — could be claimed/repaired for a Build/Expand-style bonus |
+| 2 | Overgrown garden — minor one-time Forage flavor pickup, not a full Node |
+| 3 | Town noticeboard — where flyers and rumors are posted |
+| 4 | Old well — mostly flavor, a good quiet meeting spot |
+| 5 | Burned-out shop husk — unsettling; possible Syndicate-arson clue |
+| 6 | Kids playing — potential lead for the Cat Herder Guild quest |
+| 7 | A busker's favorite corner — Performance-friendly |
+| 8 | Second broken fountain — echoes the Market Square's, quiet |
+| 9 | Guard's rest post — a friendly guard NPC willing to chat |
+| 10 | Boarded-up windows — rumor says a family left after "trouble" with the Iron Ledger |
+| 11 | Stray cat colony — directly usable for the Cat Herder quest |
+| 12 | Empty and forgettable — reserve for a future Daily Event |
+
+---
+
+## THE BRIEFING: SOREN ASH, TOWER APPRAISER
+
+**Soren:** *"You are Floor 8 participants. Each of you has a stall assigned by quadrant. I will explain the rules once."*
+
+> **Rule 1.** Your stalls are empty. Nothing can be sold until you have goods.
+>
+> **Rule 2.** Various activities are available throughout the town. Each takes time.
+>
+> **Rule 3.** At the end of each day, a Selling Phase occurs. Whoever has the highest cumulative earnings after five days wins.
+>
+> **Rule 4.** During the Selling Phase, your stall must have at least one person assigned to it.
+>
+> **Rule 5.** Acts of violence within the bazaar boundary are forbidden and will be penalized accordingly.
+>
+> **Rule 6.** Any tactic that does not involve violence within the bazaar is permitted.
+>
+> **Rule 7.** You are each given one cart with a twenty-slot capacity. Expansion is possible at cost.
+>
+> **Rule 8.** Outside the bazaar boundary, you may not access your cart. You may carry up to five items on your person.
+>
+> **Rule 9.** Bring any item to me and I will identify its base market value. I will not tell you what to charge for it.
+
+---
+
+## THE FOUR STALLS
+
+| Quadrant | Position | Notes |
+|---|---|---|
+| **Northeast** | Slight elevation, central visibility | First to be seen from the main road |
+| **Northwest** | Near the supply lane entrance | First pick on arriving goods |
+| **Southeast** | Adjacent to the craftsmen's quarter | Specialty buyers pass through frequently |
+| **Southwest** | Corner position, widest space | Best for bulk displays and expansion |
+
+**DM Note:** Party members divide labor however they like day to day. The floor rewards individual totals — the party member with the highest sales wins the ranking. Credit on the ledger is individual regardless of who gathered or crafted what.
+
+---
+
+## THE CART
+
+| Cart Type | Slots | Upgrade Cost | Notes |
+|---|---|---|---|
+| Standard Cart | 20 | — | Base equipment |
+| Reinforced Cart | 30 | 15gp + 3 rounds, Athletics DC 11 | Resistant to sabotage damage |
+| Merchant's Wagon | 45 | 40gp + 5 rounds, Carpenter's Tools DC 13 | Requires a cleared path to the stall |
+
+**Slot Costs by Tier:** Small 1 · Medium 2 · Large 3 · Huge 5
+
+**Personal Carry (outside bazaar):** Maximum 5 items. No cart access.
+
+**Cart Damage:** sabotage reduces total slots by 1d6 until repaired (2 rounds, Athletics DC 11 or Carpenter's Tools DC 10).
+
+---
+
+## VIOLENCE PENALTIES (inside the bazaar)
+
+| Offense | Penalty |
+|---|---|
+| 1st | Warning + 10gp fine |
+| 2nd | 25gp fine + selling suspended for the rest of that day's phase |
+| 3rd | Stall confiscated for 1 full day |
+| 4th | Disqualification from rankings |
+
+**Outside the bazaar boundary:** governed by the Guard system, below — not the bazaar's rules.
+
+---
+
+## STRUCTURE OF A DAY
+
+Every round is 5 minutes.
+
+| Time | Block |
+|---|---|
+| 8:00–9:00 | Free hour — prep, Soren, errands, robbery, alt actions |
+| 9:00–12:00 | **Gathering Window A** — Hunt / Forage |
+| 10:00–1:00 | **Gathering Window B** — Mine / Fish |
+| 1:00–4:00 | **Gathering Window C** — Fish / Forage |
+| 2:00–5:00 | **Gathering Window D** — Mine / Hunt |
+| 5:00–6:00 | Free hour — prep stall, last advertising, Soren |
+| 6:00–10:00 | **Market Time** — the Selling Phase |
+
+8:00–6:00 is the **Production Day**. Market Time (6:00–10:00) is the Selling Phase — not round-counted, runs until that day's customers are processed.
+
+**Every player has 4 RAP per round.** Major Actions interrupt RAP entirely for their duration. Natural 1 on a Major Action check: 50% longer (round up). Natural 20: 50% less time (round down, minimum 1). Failure by 5+: rounds spent, nothing gained, plus a DM-discretion complication.
+
+**Morning sequence, every day:** (1) Alertness decays −2. (2) Resolve Guard Investigation for any robberies committed the previous day (see Guard System). (3) Roll the day's Market Trend and Daily Event. (4) Node regeneration in all four Gathering Areas. (5) Guild Hall quest board refreshes.
+
+---
+
+## GATHERING AREAS (Mining / Hunting / Foraging / Fishing)
+
+Reached via carriage from the Market Square's western road. Each Area is a distinct map containing exactly **20 Nodes**, built for tabletop play in Owlbear Rodeo — this replaces the old abstract "roll for tier and quantity" system entirely with spatial, visible resource management.
+
+### Node Distribution (identical structure in all four Areas)
+
+| Tier | Node Count | Typical Position |
+|---|---|---|
+| Small | 6 | Near the entrance, low travel cost |
+| Medium | 8 | Mid-zone |
+| Large | 4 | Deeper in; reaching one may require a terrain check (Athletics or Stealth DC 11 — crossing a river, squeezing through a tunnel gap, climbing a ridge) |
+| Huge | 2 | Hidden — requires a Perception or Investigation check (DC 15) to even spot; usually placed behind a hazard |
+
+### Visiting an Area (Major Action, the full scheduled window — 36 rounds)
+
+A traveling party — any number of characters moving together as one group this trip — may harvest from **2 nodes** per visit, regardless of party size. This is a spatial choice made on the map: move your token to a node, declare the harvest.
+
+**Harvesting a node:** one skill check, using whichever of the table's four listed skills the player wants to lead with (representing their approach). DC by node tier:
+
+| Node Tier | DC |
+|---|---|
+| Small | 10 |
+| Medium | 13 |
+| Large | 16 |
+| Huge | 19 |
+
+- **Success:** the node yields its listed item at full value (see item tables below), and the node becomes depleted.
+- **Failure:** nothing gained this visit, but the node is **not** consumed — it remains available for a future attempt, by this team or another.
+- **Failure by 5+:** the node is disturbed/spoiled for the day — unavailable to *anyone* until it regenerates.
+
+**Positional Persistence:** when a visit ends (window closes, or the party heads back early), their token's position on that Area's map is remembered. Their next visit to that same Area — later that day in a different window, or the next morning — resumes from that spot rather than restarting at the entrance. This rewards pushing deeper across multiple visits instead of re-walking picked-over entrance nodes.
+
+**Node Regeneration** (applied each morning, Step 4 of the morning sequence):
+
+| Tier | Regenerates |
+|---|---|
+| Small | Fully, every morning |
+| Medium | Fully, every morning |
+| Large | 1-in-3 chance per depleted node, each morning |
+| Huge | Does not regenerate during the floor once harvested — five-day scarcity is the entire point |
+
+**Crowding is no longer tracked.** Multiple teams can be in the same Area at once — since each party only touches 2 nodes per visit no matter their headcount, the natural limiter is simply which nodes remain unharvested, visible on the shared map. If two teams' tokens reach for the same node, first to declare the harvest action gets it; the other can pick a different node or contest it narratively.
+
+**Skill checks per table** (unchanged flavor, still used to pick which check leads a harvest attempt):
+
+- **Forage:** Survival (the trek), Perception (the search), Nature (the verification), Medicine (the extraction)
+- **Hunt:** Survival (the pursuit), Nature (the ambush), Animal Handling (the trap), Stealth (the approach)
+- **Fish:** Nature (the read), Survival (the preparation), Perception (the stakeout), Sleight of Hand (the catch)
+- **Mine:** Nature (the scout), Perception (the spot), Investigation (the analysis), Athletics (the strike) — 1-in-6 chance of a Syndicate Enforcer encounter unless Stealth DC 13 is passed before descending.
+
+### The Four Gathering Tables (item values, unchanged)
+
+**Forage:** Small — Herb sprig, 1 slot, 2gp · Medium — Wild berries/fever root, 2 slots, 5gp · Large — River clay bundle/nightbloom cluster, 3 slots, 9gp · Huge — Rare specimen/Serpent's Tongue, 5 slots, 18gp (Soren-assessed, 15–30gp range)
+
+**Hunt:** Small — Small game, 1 slot, 3gp · Medium — Wild fowl, 2 slots, 6gp · Large — Boar/deer, 3 slots, 12gp · Huge — Dangerous prey (Athletics DC 16 or 2d8 damage, catch lost on fail), 5 slots, 24gp
+
+**Fish:** Small — Common fish ×3, 1 slot, 3gp · Medium — River trout ×2, 2 slots, 6gp · Large — Large pike, 3 slots, 10gp · Huge — Luminous eel, 5 slots, 20gp
+
+**Mine:** Small — Common stone, 1 slot, 2gp · Medium — Copper ore, 2 slots, 6gp · Large — Iron ore, 3 slots, 10gp · Huge — Quartzite crystal, 5 slots, 20gp
+
+Each window pairs two tables (A: Hunt/Forage, B: Mine/Fish, C: Fish/Forage, D: Mine/Hunt) — when harvesting, the player declares which of the two paired categories they're pursuing at that node (a node's category is fixed once placed on the map, so scouting/exploring reveals which is which).
+
+---
+
+## CORE RULE: WHERE PRODUCTS COME FROM
+
+**Products only ever enter play through the Craft Major Action** — performed by a player or commissioned through an NPC crafter. No Gathering, Robbery, Trade, Scavenging, Favor, Quest, or Graveyard find ever hands a player a finished Product directly. Crafting takes real time off the clock; a Product is worth meaningfully more than its raw materials in exchange:
+
+| Product | Recipe (4 items, same tier) | Raw Material Cost (approx.) | Product Base Value | Margin |
+|---|---|---|---|---|
+| Small Hunt Product | 4 Small, 2+ Hunt | ~10–12gp | 14gp | +2–4gp |
+| Medium Hunt Product | 4 Medium, 2+ Hunt | ~22–24gp | 28gp | +4–6gp |
+| Large Hunt Product | 4 Large, 2+ Hunt | ~38–42gp | 48gp | +6–10gp |
+
+(Fish/Forage/Mine Products follow the same 15–25% markup shape.)
+
+**Huge-tier materials are gathering-exclusive** — with one deliberate exception: the Pristine Graveyard (below), which is a one-time, floor-wide, heavily gated prize, not a repeatable source.
+
+---
+
+## ACTION SYSTEM
+
+### MAJOR ACTIONS
+
+| Major Action | Rounds | Skill Check | DC | Outcome |
+|---|---|---|---|---|
+| **Gather (scheduled window)** | 36 (full window) | 1 check per node visited, see Gathering Areas | 10/13/16/19 by tier | Up to 2 nodes harvested |
+| **Rob a House — Small** | 4 | Stealth or Sleight of Hand | 12 | 1 Small-tier item |
+| **Rob a House — Medium** | 7 | Stealth or Sleight of Hand | 14 | 1 Medium-tier item |
+| **Rob a House — Large** | 10 | Stealth or Sleight of Hand | 16 | 1 Large-tier item; automatic Guard Chase on failure |
+| **Sneak the Church (Stage 1 of Pristine Graveyard)** | 3 | Stealth | 14 | Pass through undetected |
+| **The Pristine Graveyard Heist (Stage 2)** | 8 | Stealth or Sleight of Hand | 15 | 35gp (60gp on Nat 20) — one-time, floor-wide |
+| **Salvage the Common Graveyard** | 5 | Investigation or Religion | 12 | 1 Small/Medium item OR 1d4gp found offering (see table) |
+| **Church Almsgiving** | — (Round Action, see below) | Religion | 12 | 1d4–3d4gp |
+| Combine Materials | 2 | — | — | 2 same-tier, same-table items → 1 next-tier item |
+| Craft (Small/Medium/Large Product) | 2/4/5 | Tool Proficiency | 10/14/17 | 1 Product, quality-tiered |
+| Negotiate Supply Deal | 3 | Persuasion | 13 | Bulk raw materials, 2 days, −15% cost |
+| Negotiate Exclusive Deal | 4 | Persuasion | 16 | Supplier sells only to you for 1 day |
+| Scout Rival Stall | 2 | Investigation | 11 | Learn a rival's inventory and prices |
+| Commission Craftsperson | 3 | Persuasion | 12 | NPC crafts 1 good-quality Product at 60% of base value |
+| Hire Laborer | 2 | Persuasion | 10 | NPC manages stall for 3 rounds |
+| Build / Expand Stall | 5 | Athletics or Carpenter's Tools | 12 | +5 cart slots OR +1d6 bonus customers next phase |
+| Investigate (general) | 3 | Investigation | 12 | 1 clue about a district or NPC |
+| Investigate Syndicate | 4 | Investigation | 15 | 1 exposure clue |
+| Investigate Market Trend | 3 | Investigation or Insight | 13 | Learn one category's status |
+| Access Underground | 4 | Investigation + Stealth | 14 | Unlock the hidden entrance |
+| Find Iron Ledger Charter | 5 | Investigation | 16 | Boss unlock evidence (Underground only) |
+| Day Labor | 4 | — | — | 1d4+2gp, flat, no risk |
+| Hired Hand (at a rival stall) | 5 | Persuasion | 12 | 4–8gp wage + free Scout on success |
+| Sell a Rumor | 3 | Persuasion or Deception | 13 | 2d4gp |
+| Scavenge Scraps | 5 | Investigation or Persuasion | 13 | 1 Small item, player's choice of table |
+| Salvage Damaged Shipment | 7 | Investigation | 14 | 1 Medium item, sold Rough (−25%) |
+| Do a Favor | 6 | Persuasion or Insight | 12 | 1 Small/Medium item, once per NPC |
+| Accept a Guild Quest | varies | varies | varies | See Guild Hall Quest Board |
+| Travel (adjacent district) | 1 | — | — | — |
+| Travel (far district / Gathering Area / Slums) | 2 | — | — | Roll a Road Encounter check, see The Road |
+
+### ROUND ACTIONS
+
+| Round Action | RAP | Check | DC | Description |
+|---|---|---|---|---|
+| Talk to NPC (basic) | 1 | — | — | Surface conversation |
+| Ask a probing question | 1 | Insight | 11 | Read an NPC's honesty or intent |
+| Spread a rumor | 1 | Deception | 12 | Plant a story |
+| Counter a rumor | 1 | Persuasion | 13 | Dispute a false claim |
+| Tip someone off with false information | 1 | Deception | 11 | Misdirect a rival or NPC |
+| Observe a rival stall | 1 | Perception | 11 | Traffic, display quality, trend sense |
+| Observe a person | 1 | Perception | 11 | Appearance, behavior, carried items |
+| Quick item inspection | 1 | Investigation | 10 | Assess quality in hand |
+| Identify item via Soren | 1 | — | — | Base market value |
+| Move within a district | 1 | — | — | — |
+| Post a sign or flyer | 1 | — | — | +1d4 customers, 2 days |
+| Shout / barter cry | 1 | Performance | 10 | +1d4 customers this phase |
+| Live demonstration | 2 | Performance | 13 | +2d4 customers, +10% price |
+| Quick bribe | 2 | Persuasion | 12 | 5–15gp, minor NPC cooperation |
+| Intimidate NPC | 1 | Intimidation | 13 | Coerce info; Reputation −1 if witnessed |
+| Adjust stall display | 1 | — | — | +5% price until sold |
+| Price mark items | 1 | — | — | Set listed prices |
+| Quick purchase | 1 | — | — | Buy one marked item |
+| Stall a customer | 1 | Persuasion | 10 | Hold them for a teammate |
+| Write a contract | 2 | Intelligence | 11 | Binding written agreement |
+| Hire a street crier | 2 + 5gp | — | — | +1d6 customers, no check |
+| Send a message | 1 | — | — | — |
+| Report a complaint to Soren | 1 | — | — | Goes on record |
+| Set a watch | 2 | Perception | 11 | Auto-spot sneaking near your stall this round |
+| Case the House | 1 | Investigation | 11/13/15 (S/M/L) | Learn a target house's category and schedule before robbing it |
+| Borrow a Tool | 1 + 3gp | — | — | Removes disadvantage on your next Craft check today if you lack proficiency (Crafting Houses only) |
+
+**DM Note:** Improvised Round Actions under 5 minutes get 1–2 RAP and an appropriate check. Encouraged.
+
+---
+
+## THE COMMON HOUSES — 42 total (22 Small, 14 Medium, 6 Large)
+
+This is a finite, trackable pool for the whole floor — once robbed, a specific house doesn't regenerate its "robbable" status for the rest of the floor (the same household isn't hit twice). With four teams competing, houses genuinely run out over five days if robbery is popular.
+
+### Robbing a House
+
+| House Size | Rounds | Check | Base DC | Reward | Alertness (success) | Alertness (caught) |
+|---|---|---|---|---|---|---|
+| Small | 4 | Stealth or Sleight of Hand | 12 | 1 Small-tier item | +1 | +2 |
+| Medium | 7 | Stealth or Sleight of Hand | 14 | 1 Medium-tier item | +2 | +4 |
+| **Large** | 10 | Stealth or Sleight of Hand | 16 | 1 Large-tier item | **+5** | **+8**, and failure is *always* a Guard Chase (skip the d4 roll) |
+
+**Large houses (6 total) belong to the town's wealthiest and most connected residents** — a guild official, the elder, retired merchants — and each has an active deterrent: a private guard, a watchdog, or an alarm arrangement. This is baked into the higher Alertness costs above and the automatic Guard Chase on failure.
+
+### Alertness (party-wide, shared across ALL four teams — 0–9+)
+
+| Alertness | State | Effect |
+|---|---|---|
+| 0–1 | Quiet | No DC change |
+| 2–3 | Noticed | +2 to robbery DC |
+| 4–5 | Watching | +4 to robbery DC |
+| 6+ | Hunted | Common Houses locked to robbery for the rest of the day; attempting anyway is an automatic catch |
+
+Decays −2 every morning (Step 1 of the morning sequence), before Guard Investigation is resolved.
+
+### Getting Caught
+
+| d4 | Consequence |
+|---|---|
+| 1 | **Guard Chase** — Stealth or Athletics DC 10 + current tier's DC bonus. Failure: stall confiscated 1 day + Reputation −3. |
+| 2 | **On-the-spot fine** — lose gold equal to 2× the house tier's base value. Reputation −1. |
+| 3 | **Marked** — Reputation −2; further robbery Alertness gain doubled for the rest of today. |
+| 4 | **Iron Ledger notices** — Syndicate Pressure +1, and +1 to that team's Grudge Track (see Syndicate section). |
+
+### Common House NPC Interaction Table — d10
+
+Roll when a player interacts with an occupied house (Talk to NPC, Do a Favor, or as color while Casing/Robbing).
+
+| d10 | Result |
+|---|---|
+| 1 | **Flavor only** — daily-life color, no mechanical effect |
+| 2 | **Minor trade** — NPC offers to trade a Small-tier item for something you're carrying |
+| 3 | **Rumor** — 50% a genuine Market Trend hint, 50% gossip about a rival team's stall |
+| 4 | **Clue** — an offhand comment that counts toward Investigate Syndicate progress if acted on |
+| 5 | **Quest lead** — mentions a problem matching a current Guild Hall quest |
+| 6 | **Absent** — nobody home; roll on NPC Whereabouts |
+| 7 | **Wary** — guarded and short (outright refuses at Reputation −3 or lower) |
+| 8 | **Friendly regular** — if positively interacted with before, +1 to your next Persuasion/Deception/Insight with them |
+| 9 | **Deterrent reaction** *(Large houses especially)* — a dog barks, a guard steps into view; if you're here to case or rob, roll d6: 1–2, the household guard makes a mental note (treat as a silent Alertness risk next visit) |
+| 10 | **Special** — DM discretion; something unique to this house |
+
+### NPC Whereabouts Table — d6
+
+Used when a house is "Absent," or when Case the House reveals a schedule.
+
+| d6 | Location |
+|---|---|
+| 1 | Market Square, browsing stalls |
+| 2 | Church, praying or tending a grave |
+| 3 | Crafting Houses, commissioning or gossiping |
+| 4 | Guild House, checking the board or paying dues |
+| 5 | Another Common House, visiting a neighbor |
+| 6 | On the Road, traveling to/from the Slums or Gathering Areas |
+
+---
+
+## THE CHURCH
+
+A quiet stone building north of the Market Square. Home to a small clergy, a collection plate, and the locked door to the Pristine Graveyard behind it.
+
+**Church Almsgiving** (Round Action, 2 RAP, Religion DC 12) — assisting with a service, reading a sermon, or simply being seen doing good work.
+
+| Result | Reward |
+|---|---|
+| Fail | Nothing, no cost |
+| Success | 1d4gp |
+| Success by 5+ | 2d4gp + Reputation +1 |
+| Nat 20 | 3d4gp + Reputation +1 + a minor blessing (DM discretion — e.g., advantage on your next Persuasion check today) |
+
+### Church NPC Table — d6
+
+| d6 | Result |
+|---|---|
+| 1 | The priest offers a blessing — flavor, or +1 to your next Persuasion check with an elder-type NPC today |
+| 2 | A grieving family member — a Do a Favor hook |
+| 3 | An acolyte gossips about who's been visiting the graveyard oddly often — a soft warning that rivals may be eyeing the Pristine Graveyard |
+| 4 | A wary clergy member is watching the party closely — Insight DC 12 to notice you're being watched, relevant if you're about to attempt Sneak the Church |
+| 5 | A traveling pilgrim shares a rumor |
+| 6 | Quiet; nothing of note today |
+
+---
+
+## THE PRISTINE GRAVEYARD
+
+A walled plot behind the Church, reserved for the town's oldest and wealthiest families. **This is a one-time, floor-wide prize** — once looted, by any team, it's gone for the rest of the floor. All four teams are effectively racing for it.
+
+**Stage 1 — Sneak the Church:** Major Action, 3 rounds, Stealth DC 14. Failure: caught mid-church — Reputation −3 immediately, and Alertness (shared) +3, even before reaching the graveyard.
+
+**Stage 2 — The Heist:** Major Action, 8 rounds, Stealth or Sleight of Hand DC 15.
+
+| Result | Outcome |
+|---|---|
+| Success | 35gp in grave goods and valuables (draws from the Town Economy Pool). The Pristine Graveyard is now looted — remove it from play. |
+| Nat 20 | 60gp — a hidden reliquary. Still closes the location out for the floor. |
+| Failure | Nothing gained. **Sacrilege consequence** (below) triggers instead of the standard Getting Caught table. |
+| Failure by 5+ | Same as above, but Alertness gain is doubled. |
+
+**Sacrilege Consequence (replaces Getting Caught for this location):** Alertness (shared) +8, Reputation −4, and the clergy formally reports the team to the Guild — a Guard NPC visits their stall during the next Selling Phase specifically to "ask about their whereabouts," costing 1 customer slot.
+
+---
+
+## THE COMMON GRAVEYARD
+
+Public, unwalled, no sneaking required. Mourners leave offerings; headstones crumble; there's always something worth picking through.
+
+**Salvage the Common Graveyard** — Major Action, 5 rounds, Investigation or Religion DC 12, repeatable daily.
+
+Roll d6 on success:
+
+| d6 | Result |
+|---|---|
+| 1–4 | 1 Small or Medium-tier raw material, player's choice of table |
+| 5–6 | 1d4gp found offering (draws from the Town Economy Pool) |
+
+Small risk: on a natural 1 on the check itself, a mourner witnesses the disturbance — Reputation −1.
+
+---
+
+## CRAFTING HOUSES
+
+Where every Craft Major Action happens. A cluster of workshops, a forge, a weaver, a potter, a tanner.
+
+### Crafting House NPC Table — d6
+
+| d6 | Result |
+|---|---|
+| 1 | A master smith offers unsolicited advice — a hint at today's best Craft recipe combo |
+| 2 | An apprentice botches something loudly nearby — flavor only |
+| 3 | **Tool rental offer** — see Borrow a Tool (Round Actions) |
+| 4 | A rival team's crafted goods are visibly curing nearby — a free look at what they're making |
+| 5 | Grumbling about the Grey Ledger undercutting "real craftsmanship" (Day 3+) |
+| 6 | A quiet, competent crafter offers a one-time Commission at 50% cost instead of 60%, once per floor |
+
+---
+
+## GUILD HOUSE
+
+An extremely large civic building northeast of the Market Square — the town's official authority, the origin point for the Guard patrols, and home to the quest board.
+
+### Guild Hall Quest Board
+
+Three quests are available each morning (DM picks or rolls on the table below), refreshing daily. Unclaimed quests expire at day's end unless flagged otherwise. Rewards draw from the Town Economy Pool where gold is listed.
+
+| d12 | Quest | Type | Reward |
+|---|---|---|---|
+| 1 | **Cat Herder** — find 3 lost cats around town (Free Spaces are good hiding spots) | Fetch | 1d4+2gp + Reputation +1 |
+| 2 | **Lost Delivery** — carry a sealed package between two Common Houses without peeking (Insight DC 10 to resist) | Fetch/Trust | 5gp |
+| 3 | **Bandit Patrol** — drive off or defeat a bandit group on the Road | Combat | 15–25gp + Reputation +2 |
+| 4 | **Cull the Predator** — a dangerous beast is spooking game in the Hunting Area | Combat | 20gp + a guaranteed Huge-tier Hunt item |
+| 5 | **Poacher's Trail** — investigate illegal overharvesting at the Fishing or Foraging Area | Investigation | 15gp + 1 Syndicate clue |
+| 6 | **The Missing Apprentice** — a Crafting House apprentice hasn't been seen in two days | Investigation | 10gp + a discounted Commission |
+| 7 | **Graveyard Watch** — keep an eye on the Common Graveyard overnight for unusual activity | Watch | 12gp (and may reveal a rival team's Pristine Graveyard attempt) |
+| 8 | **Church Repairs** — physical labor, Athletics DC 12 | Labor | 8gp + Reputation +1 with the Church |
+| 9 | **Mine Collapse Risk** — structural checks in the Underground, Athletics or Investigation DC 14 | Labor | 18gp + Mining checks at −2 DC for your team for the rest of the day |
+| 10 | **Slum Outreach** — deliver Small/Medium goods to the Slums as a donation | Charity | Reputation +2, no gold |
+| 11 | **Iron Ledger Tip** — a nervous informant has a lead | Investigation | 1 guaranteed Syndicate exposure-track clue, no gold |
+| 12 | **Anonymous Bounty** — information wanted on a specific act of sabotage this floor (DM discretion whether it's genuine or a Syndicate plant to sow discord) | Meta/Roleplay | 10gp if information given |
+
+---
+
+## THE SLUMS
+
+Beyond the town's edge, along the Road. Over a hundred houses — none of them enterable. A handful of fixed, recurring spots carry all the mechanical weight here; the rest is atmosphere.
+
+| Spot | Action | Cost | Effect |
+|---|---|---|---|
+| **Soup Kitchen** | Charity — donate Small/Medium goods or 10gp+ | Major Action, 3 rounds | Reputation +2 |
+| **The Fence** | Sell robbed/stolen goods off the books | Round Action, 1 RAP | 60–70% of base value, paid instantly, no Reputation risk, bypasses Soren entirely — but +1 Syndicate Pressure per use (the Fence is Iron Ledger-adjacent) |
+| **The Fight Ring** | Underground brawling for quick coin | Major Action, 4 rounds, contested Athletics or combat vs. a Syndicate Enforcer statline opponent | Win: 2d6gp. Lose: no gold, minor HP loss, no lasting penalty |
+| **Rumor Alley** | Cheap gossip network | Round Action, 1 RAP, Investigation DC 10 | 1 clue, cheaper and faster than town-side Investigate actions but lower quality |
+
+---
+
+## THE ROAD
+
+A single route running from the Gathering Areas (west), through town, out to the Slums (east). Any Travel action targeting a Gathering Area or the Slums counts as travel "on the Road" and risks an encounter.
+
+**Road Encounter Check:** roll 1d20 each time a party travels the Road. On a 1–3, roll on the table below.
+
+| d6 | Encounter |
+|---|---|
+| 1 | **Bandit Ambush** — a small group tries to rob the party's carried items (max 5 per Rule 8). Combat, or Intimidation/Persuasion to avoid. Completes the Bandit Patrol Guild quest if active. |
+| 2 | **Fellow Traveler** — a friendly NPC merchant or pilgrim; chance for a quick trade or gossip |
+| 3 | **Broken Cart** (an NPC's, not yours) — helping (Athletics or Persuasion) grants minor Reputation or a small item |
+| 4 | **Rival Team Sighting** — another team's party is also on the Road; pure tension, DM discretion |
+| 5 | **Toll/Shakedown** — low-level Syndicate-adjacent thugs demand 2–5gp; pay, or contest with Intimidation/Combat |
+| 6 | **Nothing** — the Road is quiet |
+
+---
+
+## THE GUARD SYSTEM
+
+Guards originate from the Guild House and patrol the Common Houses, Church, Graveyards, and Market Square exterior. They are the enforcement layer *outside* the bazaar, where Soren's Violence Penalties don't reach.
+
+### Town Guard (Combat Stats)
+
+| Stat | Value |
+|---|---|
+| AC | 15 |
+| HP | 26 |
+| Speed | 30ft |
+| Attack | Shortsword +5, 1d6+3 slashing (nonlethal by default — guards subdue, they don't execute) |
+| Special | **Guild Backup (1/combat):** on being reduced below half HP, a guard calls for reinforcements — a second guard arrives in 1d4 rounds |
+
+### Post-Robbery Guard Investigation
+
+Triggered automatically each morning (Step 2 of the morning sequence) for any robberies committed the previous day.
+
+Roll d20, modified: **+2** per Large house robbed that day, **+1** per Medium, **+0** per Small, **−2** if Case the House was used first, **+3** if Alertness ended the day at 6+ (Hunted).
+
+| Total | Result |
+|---|---|
+| ≤10 | No leads |
+| 11–15 | Guards increase patrols — Alertness +1 town-wide, no further consequence |
+| 16–20 | A witness comes forward. Any team that robbed a house yesterday makes a group Stealth or Deception check (DC 13) or is formally suspected: Reputation −2, and a Guard NPC visits their stall during the next Selling Phase to "ask questions" (costs 1 customer slot) |
+| 21+ | Culprits identified outright. That team is fined 2× the value of everything stolen that day, plus Reputation −4. If they were already Hunted (Alertness 6+), Soren personally investigates their stall. |
+
+### Guards and Player Misconduct Outside the Bazaar
+
+Violence, theft caught in the act, or open disruption in the Common Houses, Church, Graveyards, or Market Square exterior draws a Town Guard response directly — treat as an immediate combat or Intimidation/Persuasion-to-de-escalate encounter using the statline above, independent of the bazaar's Violence Penalties table (which only governs inside the stalls themselves).
+
+---
+
+## REPUTATION TRACKER
+
+Starts at **0**, range **−10 to +10**. Governs customer count, base sale price, and which negotiation tools are available.
+
+| Score | Customer Modifier | Base Price Modifier | Tool Access | Deception Discovery Modifier |
+|---|---|---|---|---|
+| **+6 to +10** | +1d6 customers; vendors 15% better; 1 guaranteed Special Customer | +15% | All tools | −15% discovery |
+| **+3 to +5** | +1d4 customers; vendors 5% better | +8% | All tools | −8% |
+| **+1 to +2** | minor positive recognition | +3% | All tools | −3% |
+| **0** | neutral | — | All tools | — |
+| **−1 to −2** | slight wariness | −5% | Luxury Upsell DC +2 | +5% |
+| **−3 to −5** | −1d4 customers; 2 vendors refuse to sell to you | −12% | Luxury Upsell unavailable; Upsell DC +2 | +12% |
+| **−6 to −9** | −1d6 customers; authority watching | −25% | Negotiation locked — Honest Sale only | +20% |
+| **−10** | stall shut down 1 full day | — | Cannot sell | — |
+
+Stacks with Market Trend (e.g., Liked category at +6 Reputation ≈ +45%; Disliked category at −6 Reputation ≈ half price).
+
+### Reputation Gains
+Honest sale to elder/authority +1 · Public performance DC15+ +1 · Resolving a dispute fairly +1 · Donating goods (10gp+) +2 · Publicly exposing a Syndicate agent via Soren +2 · Praised by The Critic +2 · Publicly exposing a Mark-Hunter +1
+
+### Reputation Losses
+Failed deception discovered −1 · Intimidating a witnessed customer −1 (cumulative/day) · Rumor traced to you −2 · Theft discovered −3 · Witnessed bribe −1 · Violence inside the bazaar −2/incident · Losing patience with a Mark-Hunter (witnessed) −1
+
+---
+
+## PRICE MANIPULATION — Persuasion, Deception, Intimidation
+
+Once per customer during the Selling Phase. Apply Tool Access restrictions and Deception Discovery Modifier from the Reputation Tracker on top of these base DCs.
+
+| Method | Skill | DC | On Success | On Failure |
+|---|---|---|---|---|
+| Honest Sale | — | — | Listed price guaranteed | — |
+| Upsell (≤30%) | Persuasion | 10 + markup% | Full marked-up price | Base price only |
+| Luxury Upsell (31–60%) | Persuasion | 14 + markup% | Full marked-up price | Customer walks (d6: 5–6, buys from a rival) |
+| Storytelling | Performance | 12 | +15% flat, stacks with Upsell | No bonus |
+| Misrepresent Quality | Deception | 14 | Full inflated price now | Caught on the spot — sale fails, Rep −1, next 1d4 customers wary |
+| Misrepresent Rarity | Deception | 15 | Full inflated price now | Caught on the spot — sale fails, Rep −2, same wariness |
+| Pressure Sell | Intimidation | 15 | Full price guaranteed | −1d4 customers rest of phase |
+
+**Pressure Sell:** Reputation −1 per use, cumulative same day, regardless of outcome.
+
+**Deception discovery** (checked once at end of day, per successful lie): Misrepresent Quality 25% base / Misrepresent Rarity 35% base — apply the Reputation Tracker's Discovery Modifier. If discovered: refund the sale's gold, and Reputation −1 (Quality) or −2 (Rarity).
+
+---
+
+## MARKET TRENDS → PRICE
+
+Each morning: **1 Liked (+30%), 2 Neutral, 1 Disliked (−25%)** across Hunt/Fish/Forage/Mine. Affects sale price only, never customer count or gathering. Hidden — read via Observe/Scout Rival Stall, Investigate Market Trend, or Bram/Celeste/Garrath.
+
+---
+
+## THE SELLING PHASE
+
+6:00–10:00. Not round-counted — runs until that day's customers are processed.
+
+### How Many Customers Per Day
+
+| Day | Suggested Base |
+|---|---|
+| Day 1 | 1d4+3 (4–7) |
+| Day 2 | 1d6+3 (4–9) |
+| Day 3 | 1d6+3, −1d4 all stalls (Grey Ledger opens) |
+| Day 4 | 1d6+4 (5–10) |
+| Day 5 | 1d8+4 (5–12); +2d8 if Vael is defeated |
+
+Modifiers stack on top: signs +1d4, demo +2d4, shout +1d4, street crier +1d6, masterwork display +1d6, Reputation per tracker, Slanderer −1d6, rival sabotaged +1d4, Grey Ledger −1d4.
+
+Resolve routine customers (village child, farm laborer, etc.) with a quick price-and-roll; fully roleplay Special Customers and Syndicate interruptions.
+
+### Customer Table — d20
+
+| d20 | Customer | Wants | Spends | Notes |
+|---|---|---|---|---|
+| 1–2 | Village child | Cheap, shiny, small | 1–5cp | Won't negotiate up |
+| 3–4 | Farm laborer | Practical food/tools | 1–8sp | Persuasion DC10 to upsell |
+| 5–6 | Village housewife | Food, fabric, useful goods | 5–20sp | Deception DC17 to fool |
+| 7–8 | Craftsperson | Raw materials | 1–3gp | Won't buy rough |
+| 9–10 | Young couple | Novelty, gifts | 2–6gp | Performance/Persuasion DC11 |
+| 11–12 | Village elder | Medicine, familiar goods | 4–12gp | Loyal if satisfied |
+| 13–14 | Passing merchant | Unusual/bulk | 8–40gp | Highest ceiling |
+| 15–16 | Curious scholar | Unusual specimens | 5–25gp | History/Arcana DC12 |
+| 17 | Pilgrims (pair) | Medicinal, sentimental | 3–10gp | Story-friendly |
+| 18 | Off-duty climber | Functional goods | varies | Pays well |
+| 19 | Village authority | Compliance check | — | Rep −4 or lower triggers inspection |
+| 20 | Special Customer | See below | Exceptional | Roll d8 |
+
+### Special Customer — d8
+1 Collector (3× on match) · 2 Bulk Buyer (5–8 units, 80%/unit) · 3 Desperate (4× urgent) · 4 Critic (±customers tomorrow) · 5 Syndicate's Eyes (casing) · 6 Craftsperson's Buyer (2× Excellent+) · 7 Gossip (+1d6 customers, mentions flaws too) · 8 Wealthy Eccentric (5× if a specific desire is met — cap multiplier at 1.5× against Product-tier items to keep numbers sane)
+
+---
+
+## ENEMY ENCOUNTERS — THE SYNDICATE
+
+### Syndicate Pressure (town-wide, shared, 1–10, starts at 4)
+
+| Level | State |
+|---|---|
+| 1–3 | Quiet |
+| 4–6 | Active |
+| 7–9 | Aggressive — Arsonist possible |
+| 10 | Crisis — all enemy types active, Grey Ledger unlimited stock |
+
+**Increases:** any stall leads by 20gp+ (+1) · agent driven off without exposure (+1) · Tax Collector ignored (+2) · Underground missed Day 3+ by choice (+1)
+**Decreases:** agent publicly exposed (−1) · agent defeated outside bazaar (−2) · goods donated to residents (−1) · Charter found (−3, immediate)
+
+### The Syndicate Grudge Track — per team, 0–10
+
+The Syndicate doesn't treat every team equally. This tracks how much heat *your specific team* has drawn.
+
+**Increases:** publicly exposing an agent dispatched at your stall +2 · leading all stalls by 20gp+ +1 · sabotaging/blocking the Grey Ledger +2 · finding the Iron Ledger Charter +3
+**Decreases:** a full day with no antagonism −1 · paying a Tax Collector's fee without resistance −1
+
+| Grudge | Syndicate Behavior Toward This Team |
+|---|---|
+| 0–2 | Baseline — treated like anyone else in the shared interruption roll |
+| 3–5 | Targeted — 50% chance any triggered interruption redirects to this team specifically, regardless of who's leading |
+| 6–8 | Marked — interruption rolls treat Pressure as +2 higher for this team only, and a continuous Slanderer campaign runs: −1d4 customers every day until countered |
+| 9–10 | Open Hostility — a Tax Collector visits daily without exception; Reputation cannot rise above +3 while Grudge remains this high. Only fix: expose 2 more agents, or defeat Enforcers outside the bazaar. |
+
+### SELLING PHASE INTERRUPTIONS
+
+Before resolving each customer slot, roll 1d20 modified by current Syndicate Pressure:
+
+| Pressure | Interruption Chance |
+|---|---|
+| 1–3 | 1–2 on d20 (10%) |
+| 4–6 | 1–3 on d20 (15%) |
+| 7–9 | 1–4 on d20 (20%) |
+| 10 | 1–6 on d20 (30%) |
+
+On an interruption, roll 1d8:
+
+| d8 | Result |
+|---|---|
+| 1 | **Tax Collector** — resolves against the current leading stall (or a Grudge-targeted team, if that check hits) |
+| 2 | **Slanderer** *(Day 3+)* |
+| 3 | **Cutpurse Ring** *(Day 2+)* |
+| 4 | **Counterfeit Ring rumor** *(needs a 15gp+ sale to have occurred)* |
+| 5 | **Mark-Hunter** *(Day 2+)* |
+| 6 | **Grey Ledger price comparison** *(Day 3+, Grey Ledger open)* — no check, DM notes your best-seller; Grey Ledger undercuts it tomorrow |
+| 7 | **False alarm** — slot lost, nothing else happens |
+| 8 | **DM's call** — whichever active threat fits the day |
+
+Reroll unavailable entries to 7.
+
+### ENEMY: THE SYNDICATE TAX COLLECTOR
+20% of projected earnings demanded. **Pay** (lose 20%) · **Negotiate down** (Persuasion 14, pay 10%) · **Bluff** (Deception 14, delays 1d4 rounds) · **Refuse** (−1d6 customers, Pressure +1) · **Expose with evidence** (Persuasion 15, needs 1 clue: exposure, Rep +2, Pressure −1) · **Report to Soren** (needs prior Investigate Syndicate) · **Confront outside** (Combat, 2 Enforcers, defeat = exposure)
+
+### ENEMY: THE CUTPURSE RING (Day 2+)
+Ambient −1d4 customers all stalls. **Spot** (Perception 13) · **Drive off** (Intimidation 14, daily) · **Catch one** (Athletics 14, exposure) · **Hire crowd-watcher** (Persuasion 10, 3gp, negates 1 day) · **Report to Soren**
+
+### ENEMY: THE SLANDERER (Day 3+)
+−1d6 customers + Rep −1 if uncountered. **Spot** (Perception 12) · **Counter in crowd** (Persuasion 13, negates) · **Counter-rumor** (Deception 12, reduces to −1d4) · **Expose publicly** (Persuasion 15, exposure, Rep +2) · **Confront outside** (Intimidation/Combat 14)
+
+### ENEMY: THE COUNTERFEIT RING (Day 3+, after a 15gp+ sale)
+−20% Persuasion price checks, all stalls, 1 day. **Locate alley** (Investigation 14) · **Expose fakes** (Persuasion 14, clears for your stall) · **Destroy stock outside** (Athletics/Combat 15, 2 days, exposure) · **Report via Soren** · **Undercut**
+
+### ENEMY: THE GREY LEDGER STALL (Day 3, Edrin Voss)
+−1d4 customers all stalls; −25% price on stocked categories. **Investigate supply** (Investigation 15, clue) · **Block supply** (Persuasion 16) · **Sabotage outside** (Stealth+Dex 14, Enforcers present) · **Report with 2 evidence** · **Expose with Charter** (Persuasion 16, 2 exposures, Voss leaves permanently) · **Undercut**
+
+### ENEMY: THE ARSONIST (Days 4–5, Pressure 7+, a 50gp+ lead)
+Cart loses 1d6 slots, −1d4 next phase. **Spot** (Passive Perception 14) · **Watch** (Perception 11) · **Drive off** (Intimidation 14, Pressure −1) · **Expose** (Athletics then Persuasion 14/15, Pressure −2) · **Defeat outside** (Combat, Pressure −2)
+
+### ENEMY: THE MARK-HUNTER (Day 2+, via interruption roll #5)
+**Ignore** (slot lost) · **Calm** (Persuasion 13) · **Expose** (Insight then Persuasion 12/13, exposure, Rep +1) · **Snap** (Intimidation 13; fail = Rep −1, −1d4 customers) · **Do nothing** (−1d4 customers)
+
+### Syndicate Enforcer (Combat Stats)
+AC 13, HP 22, Speed 30ft, Shortsword +4 (1d6+2), Thrown dagger +4 (1d4+2, 20/60), Ledger's Threat 1/combat (DC13 Wis save or Frightened). Tax Collectors travel with 2.
+
+---
+
+## DAILY EVENT TABLE — d10
+
+| d10 | Event | Effect |
+|---|---|---|
+| 1 | Clear market day | No modifiers |
+| 2 | Light rain | −1d4 customers; Fish/Hunt Products +1d4 |
+| 3 | Festival prep | +2d6 customers; all Products +20% |
+| 4 | Supply shortage (d4 category) | That category +50%; stalls without it miss out |
+| 5 | Inspectors in town | Rep below −2 triggers inspection (skip first 1d6 customer slots) |
+| 6 | Traveling performer | 2d6 customers split by display quality |
+| 7 | Syndicate event (d4) | Targeted Tax Collector/Slanderer/Counterfeit Ring/Grey Ledger price cut |
+| 8 | Unusual rumor | −1d4 customers; Investigation DC12 finds source |
+| 9 | Wealthy party arrives | 2 guaranteed Special Customer rolls |
+| 10 | Calm and profitable | +1d4 customers; 10% off purchases today |
+
+---
+
+## RIVAL STALL NPCs
+
+### BRAM'S BOUNTY — Bram Hollander
+Volume and breadth, general goods, thin margins. Day 1 bonus +5gp. Weak to a themed stall or a bought-out Supply Warehouse. Bribeable (Persuasion DC11) for a soft trend hint.
+
+### THE IVORY COMPASS — Celeste Vane
+Curated premium goods, rotating daily (d4: trinkets/imports/Excellent crafted/specimens). Thin supply, reputation-dependent (one rumor at Deception DC13 hurts her for a day). Alliance: sell her an 8gp+ unusual item, get +10% price for 1 day.
+
+### IRONCLAD TRADES — Garrath Ironshod & sons
+Practical durable goods. Day 1 bonus +3gp. Can't handle perishables, no performance ability. Alliance: good terms reduce Access Underground DC by 4.
+
+---
+
+## THE FLOOR BOSS: VAEL GELDRUN, THE CORRUPTED ARBITRATOR
+
+Eleven years ago, Vael was Verath's Crossing's most respected Trade Arbitrator. The Iron Ledger broke him slowly — a fabricated debt, a dangerous question, a quiet arrangement. The Hollow Ledger runs through him now like a second circulatory system; he senses every transaction in town and experiences corruption the way other people experience warmth.
+
+### Boss Unlock Conditions (all four required)
+1. Total earnings across all stalls reach **150gp cumulative**
+2. **3 Syndicate agents** publicly exposed
+3. **The Iron Ledger Charter** found (Underground only)
+4. **The Grey Ledger stall** is open
+
+### The Confrontation
+> *"You have been disrupting my market. Most climbers find the economics discouraging and leave by Day 3. I'm going to offer you the same arrangement I offer everyone. Walk away with what you have. Or don't. The Ledger accommodates that outcome as well."*
+
+**Accept:** floor clears, no boss rewards. **Refuse:** combat begins.
+
+### Combat: Vael Geldrun
+AC 16, HP 180, Speed 30ft, proficient Wis/Cha saves, immune to psychic, resists nonmagical B/S/P, radiant deals +50%. 3 Legendary Actions/round.
+
+**Phase 1 (90+ HP) passive — Market Manipulation:** each player's turn, pay 1gp or take −2 to attacks until their next turn.
+
+**Actions:** The Ledger's Strike (+8, 2d10+5 force, ruins a random cart item) · False Invoice (DC16 Cha save or Indebted — disadvantage vs. Vael until disputed) · Price Fixing (recharge 5–6, nullifies mundane healing 60ft, 1 min) · Syndicate Call (recharge 5–6, bonus action, 2 Enforcers appear)
+
+**Legendary:** Market Sense (1) · The Toll (1, DC14 Cha save or lose bonus action) · Debt Collection (2, 3d8 force to a creature that attacked this round)
+
+### Phase 2 (below 90 HP)
+AC 18, converts half radiant damage taken to HP, Market Manipulation replaced by **Final Accounting** (below 45 HP, one-time 3d8 force to everyone within 30ft, no save, no action cost).
+
+**Victory:** the Hollow Ledger's connection severs. Prices normalize. Vael dissolves into counterfeit coins that tarnish black.
+
+### Post-Boss Selling Phase
++2d8 bonus customers, all Syndicate interference removed, Grey Ledger empty, Bram/Celeste/Garrath open to renegotiating deals.
+
+---
+
+## VICTORY CONDITIONS
+
+**Floor Clears:** Day 5's selling phase ends and totals are calculated. **Minimum Clear:** any positive earnings above the starting seed by end of Day 5.
+
+### Final Rankings
+1st: highest total, 2 rare unidentified + 25% earnings bonus. 2nd: 1 uncommon unidentified + 10% bonus. 3rd: beat at least one rival, 1 consumable. Last (cleared): floor cleared, no bonus.
+
+### Boss Rewards (all players, if Vael is defeated)
+1 rare unidentified each · +1 rare each if all 4 conditions met before Day 4 · 1 very rare to the player with lowest max HP if nobody dropped to 0
+
+### Additional Bonuses (DM discretion)
+Reputation +5+ by Day 5 → repeat customer follows to a future floor · all 6 Syndicate types exposed → 1 rare · Masterwork Product sold → 1 uncommon · Pressure reduced to 1 or lower → 1 rare · single-day 50gp+ → 1 uncommon · never lost a phase to a rival → 1 consumable · all 4 trends correctly ID'd in one day → 1 uncommon
+
+---
+
+## POST-FLOOR NOTES
+
+**Soren, if Vael defeated:** *"The arbitrator's position is vacant. I'll note it. You did more than sell things. That is worth noting separately."*
+
+**Soren, if not confronted:** *"Results recorded. Next floor will be available when you're ready."*
+
+**Masked Girl:** *"Floor 8 complete. Earnings have been logged. Rankings have been assigned. [If defeated:] The Iron Ledger will notice the disruption at some point. That is not your concern today. What happened here does not happen often. Most climbers sell their goods and leave. [If not confronted:] The floor is complete. The market endures. ♪"*
+
+---
+
+## CHANGELOG (this revision)
+
+**Added:** Town Economy Pool (3,000gp hard cap, tiered recession effects, Gold Lockout state) · full Town Map with Church, Pristine/Common Graveyard, 42 numbered Common Houses, Crafting Houses, Guild House, Syndicate House, Free Spaces ×12, the Slums, the Road · Guild Hall Quest Board (12 quests) · Guard System with Post-Robbery Investigation · Syndicate Grudge Track (per-team targeting) · Road Encounter table · Church and Graveyard mechanics · Common House and NPC Whereabouts tables · Crafting House NPC table.
+
+**Reworked:** Gathering entirely — from abstract crowding/depletion math to a 20-node spatial system per Area, 2 nodes per visit, positional persistence, fixed regen rules — designed for Owlbear Rodeo play. Robbery now draws from a finite, numbered pool of houses (22/14/6) with Large houses carrying an explicit deterrent.
+
+**Unchanged:** Reputation Tracker, Price Manipulation, Market Trends, Selling Phase structure and Customer Tables, core Syndicate enemy roster, Boss fight, Victory Conditions.

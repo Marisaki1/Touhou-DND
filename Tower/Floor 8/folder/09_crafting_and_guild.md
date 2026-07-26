@@ -1,13 +1,15 @@
-# FLOOR 8: THE MERCHANT'S CROSSING
-### Part 9 — Crafting Houses & The Guild Hall
+# FLOOR 8: THE HUMAN VILLAGE
+### Part 9 — Crafting & The Guild Hall
 
-## CRAFTING HOUSES
+## CRAFTING IS A SECRET
 
-Where every Craft Major Action happens (see `03` and `04`). A cluster of workshops, a forge, a weaver, a potter, a tanner.
+**No one tells the players crafting is possible.** Not the Masked White Girl, not a sign, not a rulebook. The only way a team learns the Guild Hall can turn raw materials into Products is by having a character directly ask an **Adult Man or Adult Woman** about it (`06`) — a guaranteed, no-roll answer, but only if someone thinks to ask. Old Men, Old Women, Teenagers, and Young children genuinely don't know or don't think to mention it (it's Guild business, not household gossip).
 
-### Crafting House NPC Table — d6
+Once a team knows, all Craft Major Actions (`03`, `04`) happen at the **Guild Hall** — nowhere else on the floor has the tools.
 
-Crafters here skew Adult (the working professionals) or Old (the masters) — cross-reference `06` for a fuller conversation if one develops.
+### Guild Hall — Crafter NPCs, d6
+
+Crafters here skew Adult (working professionals) or Old (masters) — cross-reference `06` for a fuller conversation if one develops.
 
 | d6 | Result |
 |---|---|
@@ -15,60 +17,92 @@ Crafters here skew Adult (the working professionals) or Old (the masters) — cr
 | 2 | An apprentice (Teenage Boy/Girl) botches something loudly nearby — flavor only |
 | 3 | **Tool rental offer** — see Borrow a Tool (`04`) |
 | 4 | A rival team's crafted goods are visibly curing nearby — a free look at what they're making |
-| 5 | Grumbling about the Grey Ledger undercutting "real craftsmanship" (Day 3+) |
+| 5 | Grumbling about the Syndicate's cut eating into "real craftsmanship" |
 | 6 | A quiet, competent crafter (Adult) offers a one-time Commission at 50% cost instead of 60%, once per floor |
 
 ---
 
-## GUILD HOUSE
+## THE GUILD HALL
 
-An extremely large civic building northeast of the Market Square — the town's official authority, the origin point for the Guard patrols (`11`), and home to the quest board. It's also the only place in town where players can *ask directly* about the Iron Ledger without immediately raising suspicion — see `14` for how the Guild Hall feeds the hidden storyline.
+A large civic building beside Residential & Market — the village's official authority, the origin point for Guard patrols (`11`), and home to the quest board. It's also where Kazuo can eventually be tracked down, if the team's standing with the Guild is good enough (`14`).
 
 ---
 
-## THE GUILD HALL QUEST BOARD — now in three tiers
+## THE GUILD QUEST BOARD — two tiers
 
-Three **Standard** quests are available each morning as before, refreshing daily. In addition, **one Minor quest is always posted** (cheap, fast, good for filling a spare Round Action), and starting **Day 2**, **one Major quest** appears roughly every other day — these are bigger, riskier, and feed directly into the hidden storyline in `14`. Unclaimed quests expire at day's end unless flagged otherwise. Rewards draw from the Town Economy Pool (`01`) where gold is listed.
+**One Quick Job is always posted** (cheap, fast, RAP-based only — small chores, not real income). **Three Guild Quests refresh every morning**, and these follow the standard quest workflow: **Accept it at the board (1 RAP) → travel to where it happens (RAP, per `02`'s hop table) → resolve the actual objective (MAP, below)**. Unclaimed quests expire at day's end unless flagged otherwise. Rewards draw from the Town Gold Pool (`01`).
 
-**Balance note:** Standard quest rewards below are roughly 20–25% higher than a bare-bones version of this table. If you're running the full three-tier board at generous frequency, nudge the Pool up to 3,200–3,400gp per the note in `01` — the increase is intentional and already priced into that suggestion.
+**Talking to NPCs for clues about a quest's objective** (`04`, "Ask an NPC for a Guild Quest clue," 1 RAP) is how a team narrows down exactly where or what to do before spending the MAP to resolve it — a Young Girl mentioning where the cats keep vanishing to, an Old Man recalling where a poacher's been seen, that kind of thing.
 
-### Minor Quests — d6 (one always posted, low commitment)
+### Quick Jobs — d6 (one always posted, RAP only)
 
-| d6 | Quest | Cost | Reward |
+| d6 | Job | Cost | Reward |
 |---|---|---|---|
 | 1 | Carry a sealed note across town | 1 RAP, no check | 2gp |
-| 2 | Sweep the Guild Hall steps | 2 rounds, no check | 3gp + Reputation +1 |
-| 3 | Find a groundskeeper's misplaced tool | 1 Round Action, Investigation DC 9 | 1 Small item, player's choice of table |
+| 2 | Sweep the Guild Hall steps | 2 RAP, no check | 3gp + Reputation +1 |
+| 3 | Find a groundskeeper's misplaced tool | 2 RAP, Investigation DC 9 | 1 Small item, player's choice of table |
 | 4 | Feed and water the messenger post | 1 RAP, no check | 2gp |
-| 5 | Hand out flyers for the Guild itself | 1 Round Action, no check | +1d4 customers to *your own stall* next Selling Phase instead of gold |
+| 5 | Hand out flyers for the Guild itself | 2 RAP, no check | +1d4 customers to *your own stall* next Selling Phase instead of gold |
 | 6 | Fetch water for a guard post | 1 RAP, no check | 1d4gp |
 
-### Standard Quests — d12 (three posted daily, improved rewards)
+### Guild Quests — d10 (three posted daily)
 
-| d12 | Quest | Type | Reward |
-|---|---|---|---|
-| 1 | **Cat Herder** — find 3 lost cats around town (Free Spaces and Young Boy/Young Girl NPCs are good leads, `06`) | Fetch | 1d4+3gp + Reputation +1 |
-| 2 | **Lost Delivery** — carry a sealed package between two Common Houses without peeking (Insight DC 10 to resist) | Fetch/Trust | 7gp |
-| 3 | **Bandit Patrol** — drive off or defeat a bandit group on the Road | Combat | 20–30gp + Reputation +2 |
-| 4 | **Cull the Predator** — a dangerous beast is spooking game in the Hunting Area | Combat | 25gp + a guaranteed Huge-tier Hunt item |
-| 5 | **Poacher's Trail** — investigate illegal overharvesting at the Fishing or Foraging Area | Investigation | 18gp + 1 Syndicate clue |
-| 6 | **The Missing Apprentice** — a Crafting House apprentice hasn't been seen in two days | Investigation | 12gp + a discounted Commission |
-| 7 | **Graveyard Watch** — keep an eye on the Common Graveyard overnight for unusual activity | Watch | 15gp (and may reveal a rival team's Pristine Graveyard attempt) |
-| 8 | **Church Repairs** — physical labor, Athletics DC 12 | Labor | 10gp + Reputation +1 with the Church |
-| 9 | **Mine Collapse Risk** — structural checks in the Underground, Athletics or Investigation DC 14 | Labor | 20gp + Mining checks at −2 DC for your team for the rest of the day |
-| 10 | **Slum Outreach** — deliver Small/Medium goods to the Slums as a donation | Charity | Reputation +3, no gold |
-| 11 | **Iron Ledger Tip** — a nervous informant has a lead | Investigation | 1 guaranteed Syndicate exposure-track clue, no gold — also counts as an Evidence piece toward the hidden storyline (`14`) |
-| 12 | **Anonymous Bounty** — information wanted on a specific act of sabotage this floor (DM discretion whether it's genuine or a Syndicate plant to sow discord) | Meta/Roleplay | 12gp if information given |
+The MAP column below is specifically the "resolve the objective" step — accepting and traveling are separate RAP costs, on top.
 
-### Major Quests — d6 (appears roughly every other day from Day 2 on)
-
-These take real commitment — treat as an extended Major Action or a full combat encounter — and pay accordingly. Several of them also drop **Storyline Evidence** (`14`), marked below.
-
-| d6 | Quest | Type | Cost | Reward |
+| d10 | Quest | Type | MAP | Reward |
 |---|---|---|---|---|
-| 1 | **The Bandit Captain** — a named bandit leader has been spotted operating out of the Road or a Gathering Area; the Guild wants them brought down, not just scattered | Combat | Extended encounter, DC 15 to track + combat | 40–55gp + Reputation +2 + 1 rare unidentified item |
-| 2 | **The Culling** — a named, dangerous beast (bigger than a standard Cull the Predator target) is loose in a Gathering Area | Combat | Extended encounter, DC 16 to track + combat | 45gp + 2 Huge-tier items of your choice |
-| 3 | **The Informant's Gambit** — escort or protect a nervous Iron Ledger informant who wants to talk but is scared of being seen | Investigation/Escort | 8 rounds, Insight or Persuasion DC 14, contested by a chance of Syndicate Enforcer interference | 30gp + **1 guaranteed Storyline Evidence piece** (`14`) |
-| 4 | **Shoring Up the Underground** — a structural threat is blocking safe passage below the Merchant District | Labor/Investigation | 10 rounds, Athletics and Investigation, DC 15 each | 35gp + permanently reduces the Access Underground DC by 2 for the rest of the floor |
-| 5 | **Strike the Grey Ledger's Supply** *(Day 3+ only)* — a Guild-sanctioned move against Edrin Voss's operation | Sabotage | Extended encounter, Stealth/Dex DC 15, Syndicate Enforcers likely present | 40gp + Syndicate Pressure −1 |
-| 6 | **The Elder's Request** — one of the Large-household elders (roll an Old Man/Old Woman result on `06`) asks for discreet help with something that smells like Iron Ledger business | Investigation | 8 rounds, Persuasion or Insight DC 13 to be trusted, then Investigation DC 14 | 25gp + **1 guaranteed Storyline Evidence piece** (`14`) |
+| 1 | **Cat Herder** — find 3 lost cats around the village (Free Spaces and Young Boy/Girl NPCs are good leads, `06`) | Fetch | 2 | 1d4+3gp + Reputation +1 |
+| 2 | **Lost Delivery** — carry a sealed package between two houses without peeking (Insight DC 10 to resist) | Fetch/Trust | 1 | 7gp |
+| 3 | **Bandit Patrol** — drive off or defeat a bandit group on the road | Combat | 2 + combat | 20–30gp + Reputation +2 |
+| 4 | **Cull the Predator** — a dangerous beast is spooking game in the Wildlife Forest | Combat | 2 + combat | 25gp + a guaranteed Huge-tier Hunt item |
+| 5 | **Poacher's Trail** — investigate illegal overharvesting at the Mining Cave or Forest Forage | Investigation | 1 | 18gp + 1 Syndicate clue |
+| 6 | **The Missing Apprentice** — a Guild Hall apprentice hasn't been seen in two days | Investigation | 1 | 12gp + a discounted Commission |
+| 7 | **Graveyard Watch** — keep an eye on the Public Graveyard overnight for unusual activity | Watch | 1 | 15gp (and may reveal a rival team's Pristine Graveyard attempt) |
+| 8 | **Mine Collapse Risk** — structural checks in the Mining Cave, Athletics or Investigation DC 14 | Labor | 1 | 20gp + Mining checks at −2 DC for your team for the rest of the day |
+| 9 | **Slum Outreach** — deliver Small/Medium goods to the Slums as a donation | Charity | 1 | Reputation +3, no gold |
+| 10 | **Syndicate Tip** — a nervous informant has a lead on the Syndicate's local operation | Investigation | 1 | 1 guaranteed Syndicate exposure-track clue, no gold — see `13` |
+
+**A team can comfortably fit 2–3 Guild Quests into a day** if that's their focus, since most cost only 1–2 MAP for the objective itself — the real cost is the RAP spent traveling to and from each one, plus whatever combat quests demand on top.
+
+**DM Note:** completing **3 or more** Guild Quests across the floor is one of the two ways a team can eventually earn the Guild's help tracking down Kazuo — see `14`. (Guild Standing, below, can lower this to 2.)
+
+---
+
+## The Guild Is More Than a Quest Board
+
+Four systems that give the Guild a real institutional presence beyond posting jobs — it's the one civic body in the village that isn't extracting from the players *or* extorting the village, and it should feel like it.
+
+### Guild Standing — a second track, separate from Reputation
+
+Per-team, starts at 0, no hard cap. Reputation (`12`) is how the *village* feels about a team; Guild Standing is specifically how the *Guild* feels about them, and it moves independently.
+
+**Gains:** +1 per Quick Job completed · +2 per Guild Quest completed · +4 for a combat-heavy Major-effort quest · +2 for consistently fair dealing with Bursar Renna · +1 for a Groundskeeper Pell vouch (`17`)
+
+| Standing | Tier | Unlocks |
+|---|---|---|
+| 0–3 | Unfamiliar | Baseline — quest board access only |
+| 4–7 | Recognized | Borrow a Tool (`04`) free once per day; Quartermaster Sable shares an exact tally of quests completed toward Kazuo's threshold |
+| 8–11 | Trusted | Guild Storage access (below); the Kazuo Guild-route threshold (`14`) drops from 3 to **2** Guild Quests |
+| 12+ | Guild Ally | Guildmaster Orin will personally intervene once — waive a fine, vouch for the team to Reiko, or override a threshold entirely, DM's discretion |
+
+### The Guild Bounty Board — separate from the Quest Board, and permanent
+
+Standing bounties on specific named Syndicate figures (`17`), always posted, not refreshed daily. These stack **on top of** the normal effects of exposing or defeating a Syndicate agent (`13`) — the Guild has its own institutional grudges, distinct from any one team's Grudge Track.
+
+| Target | Requirement | Bounty (on top of `13`) |
+|---|---|---|
+| Nezumi (Cutpurse Ring leader) | Catch her specifically | 15gp + Reputation +2 |
+| Otoha (the Slanderer) | Expose her publicly | 15gp + Reputation +2 |
+| Doss Varnick (Syndicate Stall) | Expose with 2 clues | +10gp |
+| Boruda (Enforcer Captain) | Defeat him in combat | 25gp + Reputation +3 |
+| Akai (the Arsonist) | Drive him off | 20gp + Reputation +2 |
+
+**Reiko Kurogane is deliberately not on this board.** The Guild knows exactly who runs the local operation and has chosen, for its own political survival, not to touch her directly this floor. That ceiling is a feature, not an oversight — a DM running a longer campaign can lift it on a future floor.
+
+### Guild Storage
+
+At **Trusted** Guild Standing (8+): up to 10 slots of goods can be stored overnight at the Guild Hall, immune to cart sabotage and any Slums- or graveyard-adjacent mischief. Costs Guild Standing to unlock, never gold.
+
+### Guild Arbitration
+
+If one team accuses another of sabotage, theft, or interference, either side can request Arbitration — Guild Hall Guard Aldric mediates (`17`). Both sides make a contested Persuasion or Investigation check; the loser takes Reputation −2, the winner Reputation +1. This gives inter-team conflict a real, nonviolent, in-fiction outlet the Guild adjudicates, rather than leaving it purely to DM fiat or the Violence Penalties table (`01`), which only governs the market square itself.

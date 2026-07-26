@@ -1,7 +1,20 @@
-# FLOOR 8: THE MERCHANT'S CROSSING
-### Part 3 — Gathering Areas (Mining / Hunting / Foraging / Fishing)
+# FLOOR 8: THE HUMAN VILLAGE
+### Part 3 — Gathering Areas (Wildlife Forest / Mining Cave / River Shallows / Forest Forage)
 
-Reached via carriage from the Market Square's western road. Each Area is a distinct map containing exactly **20 Nodes**, built for tabletop play in Owlbear Rodeo — this is a spatial, visible resource system, not an abstract roll.
+Four Gathering Areas, four resource types — Hunt, Mine, Fish, Forage — each a distinct 20-node map (spatial, visible, built for tabletop play). Every category is available in exactly 2 of the 4 gathering windows below, so a team always has a choice of when to pursue what.
+
+## The Gathering Windows
+
+Gathering can only be started during these windows (Production Phase, 8:00 AM – 6:00 PM, `01`). A Gather action takes 3 hours (3 MAP) to complete once started — start it late enough in a window and it simply runs past the window's nominal end, which is fine; the window just governs when you can *begin*.
+
+| Window | Clock Time | Categories Available |
+|---|---|---|
+| A | 9:00 AM – 12:00 PM | Hunt or Forage |
+| B | 10:00 AM – 1:00 PM | Mine or Fish |
+| C | 1:00 PM – 4:00 PM | Fish or Forage |
+| D | 2:00 PM – 5:00 PM | Mine or Hunt |
+
+Every category (Hunt, Mine, Fish, Forage) appears in exactly 2 windows, so there's always a morning and an afternoon option for anything a team wants to pursue.
 
 ## Node Distribution (identical structure in all four Areas)
 
@@ -9,14 +22,16 @@ Reached via carriage from the Market Square's western road. Each Area is a disti
 |---|---|---|
 | Small | 6 | Near the entrance, low travel cost |
 | Medium | 8 | Mid-zone |
-| Large | 4 | Deeper in; reaching one may require a terrain check (Athletics or Stealth DC 11 — crossing a river, squeezing through a tunnel gap, climbing a ridge) |
-| Huge | 2 | Hidden — requires a Perception or Investigation check (DC 15) to even spot; usually placed behind a hazard |
+| Large | 4 | Deeper in; reaching one may require a terrain check (Athletics or Stealth DC 11) |
+| Huge | 2 | Hidden — requires a Perception or Investigation check (DC 15) to even spot |
 
-## Visiting an Area (Major Action, the full scheduled window — 36 rounds)
+## Gather (Major Action, 3 MAP)
 
-A traveling party — any number of characters moving together as one group this trip — may harvest from **2 nodes** per visit, regardless of party size. This is a spatial choice made on the map: move your token to a node, declare the harvest.
+The whole team travels together (Rule 10, `01`) and may harvest from **2 nodes** per Gather action, regardless of party size. Move your token to a node, declare the harvest.
 
-**Harvesting a node:** one skill check, using whichever of the table's four listed skills the player wants to lead with (representing their approach). DC by node tier:
+**The 3 MAP (3 hours) covers the whole action** — reaching the Area, working it, and getting back. Travel to and from the Area is a separate 4 RAP round trip (`02`) on top of this, same as any other destination.
+
+**Harvesting a node:** one skill check, using whichever of the table's four listed skills the player wants to lead with. DC by node tier:
 
 | Node Tier | DC |
 |---|---|
@@ -25,56 +40,62 @@ A traveling party — any number of characters moving together as one group this
 | Large | 16 |
 | Huge | 19 |
 
-- **Success:** the node yields its listed item at full value (see item tables below), and the node becomes depleted.
-- **Failure:** nothing gained this visit, but the node is **not** consumed — it remains available for a future attempt, by this team or another.
+- **Success:** the node yields its listed item at full value, and the node is depleted.
+- **Failure:** nothing gained, but the node is **not** consumed — it remains available for a future attempt, by this team or another.
 - **Failure by 5+:** the node is disturbed/spoiled for the day — unavailable to *anyone* until it regenerates.
 
-**Positional Persistence:** when a visit ends (window closes, or the party heads back early), their token's position on that Area's map is remembered. Their next visit to that same Area — later that day in a different window, or the next morning — resumes from that spot rather than restarting at the entrance. There is no bonus for arriving first; the map state is simply whatever it is when you get there. This rewards pushing deeper across multiple visits instead of re-walking picked-over entrance nodes, without giving any team an inherent head-start advantage.
+**Positional Persistence:** when a Gather action ends, the party's token position on that Area's map is remembered — their next visit resumes from that spot rather than restarting at the entrance. There's no bonus for arriving first; the map state is simply whatever it is when you get there.
 
-**Node Regeneration** (applied each morning, Step 4 of the morning sequence):
+**Node Regeneration** (every morning, Step 4 of the morning sequence, `01`):
 
 | Tier | Regenerates |
 |---|---|
 | Small | Fully, every morning |
 | Medium | Fully, every morning |
 | Large | 1-in-3 chance per depleted node, each morning |
-| Huge | Does not regenerate during the floor once harvested — five-day scarcity is the entire point |
+| Huge | Does not regenerate during the floor once harvested — five-day scarcity is the point |
 
-**Shared map, no crowding tracked.** Multiple teams can be in the same Area at once — since each party only touches 2 nodes per visit no matter their headcount, the natural limiter is simply which nodes remain unharvested, visible on the shared map. If two teams' tokens reach for the same node, first to declare the harvest action gets it; the other can pick a different node or contest it narratively.
+**Shared map, no crowding tracked.** Multiple teams can be in the same Area at once. If two teams' tokens reach for the same node, first to declare the harvest gets it.
 
-**Skill checks per table** (still used to pick which check leads a harvest attempt):
+### The Team-Wide Visit Cap
 
-- **Forage:** Survival (the trek), Perception (the search), Nature (the verification), Medicine (the extraction)
-- **Hunt:** Survival (the pursuit), Nature (the ambush), Animal Handling (the trap), Stealth (the approach)
-- **Fish:** Nature (the read), Survival (the preparation), Perception (the stakeout), Sleight of Hand (the catch)
-- **Mine:** Nature (the scout), Perception (the spot), Investigation (the analysis), Athletics (the strike) — 1-in-6 chance of a Syndicate Enforcer encounter unless Stealth DC 13 is passed before descending.
+**A team may make at most 2 Gather actions (6 MAP) per Area, per day.**
+
+With a 10-MAP Production Phase, a team could otherwise spend nearly the whole day (9 of 10 MAP) camping a single Area across 3 Gather actions, disproportionately hammering that one Area's Large/Huge nodes. The cap forces a team past their 2nd Gather in an Area to either move to a different Area or spend their remaining MAP elsewhere. See `07` for the full math on why this keeps the floor's gathering economy sustainable across all four teams.
 
 ---
 
 ## The Four Gathering Tables (item values)
 
-**Forage:** Small — Herb sprig, 1 slot, 2gp · Medium — Wild berries/fever root, 2 slots, 5gp · Large — River clay bundle/nightbloom cluster, 3 slots, 9gp · Huge — Rare specimen/Serpent's Tongue, 5 slots, 18gp (Soren-assessed, 15–30gp range)
+**Wildlife Forest (Hunt):** Small — Small game, 1 slot, 3gp · Medium — Wild fowl, 2 slots, 6gp · Large — Boar/deer, 3 slots, 12gp · Huge — Dangerous prey (Athletics DC 16 or 2d8 damage, catch lost on fail), 5 slots, 24gp
 
-**Hunt:** Small — Small game, 1 slot, 3gp · Medium — Wild fowl, 2 slots, 6gp · Large — Boar/deer, 3 slots, 12gp · Huge — Dangerous prey (Athletics DC 16 or 2d8 damage, catch lost on fail), 5 slots, 24gp
+**Mining Cave (Mine):** Small — Common stone, 1 slot, 2gp · Medium — Copper ore, 2 slots, 6gp · Large — Iron ore, 3 slots, 10gp · Huge — Quartzite crystal, 5 slots, 20gp. **Warning:** each Mining trip carries a 1-in-6 chance of a Syndicate encounter unless Stealth DC 13 is passed before descending (`13`).
 
-**Fish:** Small — Common fish ×3, 1 slot, 3gp · Medium — River trout ×2, 2 slots, 6gp · Large — Large pike, 3 slots, 10gp · Huge — Luminous eel, 5 slots, 20gp
+**The River Shallows (Fish):** Small — Common fish ×3, 1 slot, 3gp · Medium — River trout ×2, 2 slots, 6gp · Large — Large pike, 3 slots, 10gp · Huge — Luminous eel, 5 slots, 20gp
 
-**Mine:** Small — Common stone, 1 slot, 2gp · Medium — Copper ore, 2 slots, 6gp · Large — Iron ore, 3 slots, 10gp · Huge — Quartzite crystal, 5 slots, 20gp
+**Forest Forage (Forage):** Small — Herb sprig, 1 slot, 2gp · Medium — Wild berries/fever root, 2 slots, 5gp · Large — River clay bundle/nightbloom cluster, 3 slots, 9gp · Huge — Rare specimen, 5 slots, 18gp (Masked White Girl-assessed, 15–30gp range)
 
-Each window pairs two tables (A: Hunt/Forage, B: Mine/Fish, C: Fish/Forage, D: Mine/Hunt) — when harvesting, the player declares which of the two paired categories they're pursuing at that node (a node's category is fixed once placed on the map, so scouting/exploring reveals which is which).
+**Skill checks per table:**
+
+- **Hunt:** Survival (the pursuit), Nature (the ambush), Animal Handling (the trap), Stealth (the approach)
+- **Mine:** Nature (the scout), Perception (the spot), Investigation (the analysis), Athletics (the strike)
+- **Fish:** Nature (the read), Survival (the preparation), Perception (the stakeout), Sleight of Hand (the catch)
+- **Forage:** Survival (the trek), Perception (the search), Nature (the verification), Medicine (the extraction)
 
 ---
 
 ## CORE RULE: WHERE PRODUCTS COME FROM
 
-**Products only ever enter play through the Craft Major Action** — performed by a player or commissioned through an NPC crafter. No Gathering, Robbery, Trade, Scavenging, Favor, Quest, or Graveyard find ever hands a player a finished Product directly. Crafting takes real time off the clock; a Product is worth meaningfully more than its raw materials in exchange:
+**Products only ever enter play through the Craft Major Action, performed at the Guild Hall** (`09`). No Gathering, Robbery, Trade, Favor, Quest, or Graveyard find ever hands a player a finished Product directly.
 
 | Product | Recipe (4 items, same tier) | Raw Material Cost (approx.) | Product Base Value | Margin |
 |---|---|---|---|---|
-| Small Hunt Product | 4 Small, 2+ Hunt | ~10–12gp | 14gp | +2–4gp |
-| Medium Hunt Product | 4 Medium, 2+ Hunt | ~22–24gp | 28gp | +4–6gp |
-| Large Hunt Product | 4 Large, 2+ Hunt | ~38–42gp | 48gp | +6–10gp |
+| Small Product | 4 Small, 2+ same table | ~10–12gp | ~15gp (+50%) | +3–5gp |
+| Medium Product | 4 Medium, 2+ same table | ~22–24gp | ~33gp (+50%) | +9–11gp |
+| Large Product | 4 Large, 2+ same table | ~38–42gp | ~60gp (+50%) | +18–22gp |
 
-(Fish/Forage/Mine Products follow the same 15–25% markup shape.)
+(All four tables follow this same +50% markup shape — see `07` for why the margin is this generous relative to the older, lower figure.)
 
-**Huge-tier materials are gathering-exclusive** — with one deliberate exception: the Pristine Graveyard (`08`), which is a one-time, floor-wide, heavily gated prize, not a repeatable source.
+**Huge-tier materials are gathering-exclusive**, with one deliberate exception: the Pristine Graveyard (`08`), a one-time, floor-wide prize.
+
+**Reminder:** nobody in the village volunteers that crafting exists. Players only learn the Guild Hall does this by directly asking an Adult Man or Adult Woman — see `06` and `09`.

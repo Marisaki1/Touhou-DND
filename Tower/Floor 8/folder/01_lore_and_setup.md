@@ -1,82 +1,96 @@
-# FLOOR 8: THE MERCHANT'S CROSSING
-### Part 1 — Lore, Setup, and the Town Economy Pool
+# FLOOR 8: THE HUMAN VILLAGE
+### Part 1 — Lore, Setup, and the Town Gold Pool
 
 ---
 
-## LORE: VERATH'S CROSSING
+## LORE: THE HUMAN VILLAGE
 
-Three roads meet at Verath's Crossing. For two centuries the town that grew at their junction was one of the most prosperous in any land — goods moved through it the way water moves through a channel, constantly, with no one owning the flow.
+It's not a grand place. Hunters bring pelts and meat down from the **Wildlife Forest**. Miners haul ore up out of the **Mining Cave**. Foragers comb the **Forest Forage** to the south for herbs and roots. Everything else — the buying, selling, arguing over prices — happens in the square at the heart of **Residential & Market**, where the villagers live packed in close around the stalls.
 
-That changed when the **Iron Ledger** arrived. Gradually, then all at once — a tax here, a protection fee there, a word in the right ear that made a rival's shipment arrive damaged. Within a generation the syndicate controlled every major supply line in town.
+It's a good village. It's also a squeezed one. A while back, the **Syndicate** decided the market belonged to them — not officially, nobody voted on it, but try moving goods through here without eventually meeting one of their collectors. Most villagers have made their peace with it. It's just how the market works now: you sell your goods, and somewhere down the line, a cut of everything goes to people who didn't lift a finger to make it.
 
-**Vael Geldrun**, the town's neutral Trade Arbitrator, was bought with patience: a favor, then a debt, then an offer made in a room with no witnesses. His power now comes from a pact with **The Hollow Ledger** — a primordial entity that exists in the space between transactions, what greed becomes when it outlives the people who felt it. He senses every transaction in town, shifts perceived value with his attention, and makes debt feel like physics.
+That's the whole of it. No ancient pacts, no hidden entities, no ledgers with a mind of their own — just a village getting by, and a gang of locals who found a comfortable way to skim off the top.
 
-When the Tower consumed this place, the corruption froze it. Merchants still set up their stalls. Customers still come to buy. But the Iron Ledger's network runs underneath everything, invisible and hungry, and Vael watches from his tower at the market's edge.
+When the Tower swallowed this slice of the village, it froze all of that in place: the stalls, the houses, the Syndicate's grip. Five days. Whoever earns the most wins.
 
-Commerce happened here once. It can happen again. The question is who does it better.
+*(There is something else here, underneath all of it — but nobody in the village knows to be afraid of it yet. See `14`.)*
 
 ---
 
 ## TOWER ENTRY
 
-**Masked Girl:** *"Welcome back, dearest climbers. I have good news and complicated news. The good news: no one is going to try to kill you immediately. This is a market floor. The complicated news is everything else — the town has a history, a present, and people in it who'd very much prefer you fail. I suggest you pay attention to what moves quietly. Five days. One stall each. Whatever it takes. ♪"*
+**Masked Girl:** *"Welcome back, dearest climbers. Good news: nobody's trying to kill you today. Bad news: everyone's trying to out-sell you, which in my experience gets almost as ugly. Five days, one stall each. I'll be watching. I always am. ♪"*
 
 ---
 
-## THE BRIEFING: SOREN ASH, TOWER APPRAISER
+## THE BRIEFING: THE MASKED WHITE GIRL
 
-**Soren:** *"You are Floor 8 participants. Each of you has a stall assigned by quadrant. I will explain the rules once."*
+A second masked figure is waiting at the edge of the market — white mask, white coat, utterly unbothered by the obvious question. If anyone asks whether she's related to the one who greeted them at the door, she just says: *"There's more than one of us. Don't worry about it."* and moves straight into the rules.
+
+**The Masked White Girl:** *"You're this floor's participants. Each of you has a stall, assigned by quadrant. I'll explain the rules once."*
 
 > **Rule 1.** Your stalls are empty. Nothing can be sold until you have goods.
 >
-> **Rule 2.** Various activities are available throughout the town. Each takes time.
+> **Rule 2.** Various activities are available throughout the village. Each takes time.
 >
 > **Rule 3.** At the end of each day, a Selling Phase occurs. Whoever has the highest cumulative earnings after five days wins.
 >
 > **Rule 4.** During the Selling Phase, your stall must have at least one person assigned to it.
 >
-> **Rule 5.** Acts of violence within the bazaar boundary are forbidden and will be penalized accordingly.
+> **Rule 5.** Acts of violence within the market boundary are forbidden and will be penalized accordingly.
 >
-> **Rule 6.** Any tactic that does not involve violence within the bazaar is permitted.
+> **Rule 6.** Any tactic that does not involve violence within the market is permitted.
 >
-> **Rule 7.** You are each given one cart with a twenty-slot capacity. Expansion is possible at cost.
+> **Rule 7.** You are each given one cart with a 8-slot capacity where you can put items to be sold.
 >
-> **Rule 8.** Outside the bazaar boundary, you may not access your cart. You may carry up to five items on your person.
+> **Rule 8.** Outside the market boundary, you may not access your cart. You may carry up to five items/equipments on your person each. Equipments already equipped are excluded.
 >
-> **Rule 9.** Bring any item to me and I will identify its base market value. I will not tell you what to charge for it.
+> **Rule 9.** Bring any item to me and I will identify its base value.
+>
+> **Rule 10.** Your team moves and acts as one group. You do not split up to pursue separate activities in separate places at the same time.
+
+**DM Note on Rule 10:** this governs Major Actions and location, not conversation. A team standing together in Residential & Market can still have different characters individually chatting with different NPCs, crafting, or watching the stall — that's normal Round Action variety (`04`). What Rule 10 forbids is the team fragmenting *across districts* — you can't have one character robbing a house while another is simultaneously exploring the Wildlife Forest. The whole team is always in one place on the map at a time, deciding together what that place and that Major Action is.
+
+**DM Note on Rule 11:** every move between two directly connected places (`02`'s hop table) costs **2 RAP (10 minutes)**, flat, regardless of which two places they are. A trip spanning multiple hops simply costs 2 RAP per hop — see `02` for the full hop count between every district, and the Structure of a Day section below for what RAP actually is.
 
 ---
 
 ## THE FOUR STALLS
 
+All four stalls sit inside **Residential & Market**, one per quadrant.
+
 | Quadrant | Position | Notes |
 |---|---|---|
-| **Northeast** | Slight elevation, central visibility | First to be seen from the main road |
-| **Northwest** | Near the supply lane entrance | First pick on arriving goods |
-| **Southeast** | Adjacent to the craftsmen's quarter | Specialty buyers pass through frequently |
+| **Northeast** | Nearest the Guild | First stop for anyone coming from a quest |
+| **Northwest** | Nearest the Slums road | First pick on goods coming in from the Gathering Areas |
+| **Southeast** | Nearest the Syndicate house | Watched more closely than the others |
 | **Southwest** | Corner position, widest space | Best for bulk displays and expansion |
 
-**DM Note:** Party members divide labor however they like day to day. The floor rewards individual totals — the party member with the highest sales wins the ranking. Credit on the ledger is individual regardless of who gathered or crafted what. "Team," throughout these files, refers to whichever group of climbers shares a stall — for the hidden storyline (`14`) and the Grudge Track (`13`), that's the unit that matters.
+**DM Note:** Party members divide labor however they like day to day. The floor rewards individual totals — whoever on a team has the highest sales wins the ranking. "Team," throughout these files, means whichever group of climbers shares a stall — that's the unit that matters for `13` (Syndicate heat) and `14` (Kazuo).
 
 ---
 
 ## THE CART
 
+**Cart upgrades cost materials and labor, never gold.** Earnings are how teams are ranked — charging gold for a rules-required upgrade just makes a team pay down their own score to get it, which is a bad trade dressed up as a choice. Upgrading is a real opportunity cost (those materials could've been sold instead), it just isn't a *second* tax on the same number you're being judged by.
+
 | Cart Type | Slots | Upgrade Cost | Notes |
 |---|---|---|---|
 | Standard Cart | 20 | — | Base equipment |
-| Reinforced Cart | 30 | 15gp + 3 rounds, Athletics DC 11 | Resistant to sabotage damage |
-| Merchant's Wagon | 45 | 40gp + 5 rounds, Carpenter's Tools DC 13 | Requires a cleared path to the stall |
+| Reinforced Cart | 30 | 2 Medium Mine + 2 Medium Forage (or Hunt) items + **1 MAP**, Athletics DC 11 | Metal fittings and resin-treated wood. Resistant to sabotage damage. |
+| Merchant's Wagon | 45 | 2 Large Mine + 2 Large Hunt items + 1 Huge-tier item (any table) + **2 MAP**, Carpenter's Tools DC 13 | Requires a cleared path to the stall. The Huge-tier requirement makes this a genuine trade-off — that item could've gone into a Product or been sold outright instead. |
+
+**Materials can come from Gathering, Robbery, or an NPC.** An Old Man or Old Woman's Favor (`06`) can specifically reward a cart-upgrade component instead of a generic item, at the DM's discretion — worth flagging to players who ask an Elder for help and don't need gold from them.
 
 **Slot Costs by Tier:** Small 1 · Medium 2 · Large 3 · Huge 5
 
-**Personal Carry (outside bazaar):** Maximum 5 items. No cart access.
+**Personal Carry (outside the market):** Maximum 5 items. No cart access.
 
-**Cart Damage:** sabotage reduces total slots by 1d6 until repaired (2 rounds, Athletics DC 11 or Carpenter's Tools DC 10).
+**Cart Damage:** sabotage reduces total slots by 1d6 until repaired (1 MAP, Athletics DC 11 or Carpenter's Tools DC 10).
 
 ---
 
-## VIOLENCE PENALTIES (inside the bazaar)
+## VIOLENCE PENALTIES (inside the market)
 
 | Offense | Penalty |
 |---|---|
@@ -85,75 +99,71 @@ Commerce happened here once. It can happen again. The question is who does it be
 | 3rd | Stall confiscated for 1 full day |
 | 4th | Disqualification from rankings |
 
-**Outside the bazaar boundary:** governed by the Guard system (`11`) — not the bazaar's rules.
+**Outside the market boundary:** governed by the Guard system (`11`), not this table.
 
 ---
 
 ## STRUCTURE OF A DAY
 
-Every round is 5 minutes.
+The day runs on an actual clock, **8:00 AM to 10:00 PM (14 hours)**, split into two phases:
 
-| Time | Block |
-|---|---|
-| 8:00–9:00 | Free hour — prep, Soren, errands, robbery, alt actions |
-| 9:00–12:00 | **Gathering Window A** — Hunt / Forage |
-| 10:00–1:00 | **Gathering Window B** — Mine / Fish |
-| 1:00–4:00 | **Gathering Window C** — Fish / Forage |
-| 2:00–5:00 | **Gathering Window D** — Mine / Hunt |
-| 5:00–6:00 | Free hour — prep stall, last advertising, Soren |
-| 6:00–10:00 | **Market Time** — the Selling Phase |
+| Phase | Clock Time | Length | Contents |
+|---|---|---|---|
+| **Production Phase** | 8:00 AM – 6:00 PM | 10 hours | Gathering, robbery, crafting, NPC trading, quests, graveyards, prep — everything in `03`–`11`, `14` |
+| **Market Time (Selling Phase)** | 6:00 PM – 10:00 PM | 4 hours | Runs until that day's customers are processed (`12`) — a separate phase, not drawn from the Production Phase's time budget |
 
-8:00–6:00 is the **Production Day**. Market Time (6:00–10:00) is the Selling Phase — not round-counted, runs until that day's customers are processed.
+### The Two Units of Time
 
-**Every player has 4 RAP per round.** Major Actions interrupt RAP entirely for their duration. Natural 1 on a Major Action check: 50% longer (round up). Natural 20: 50% less time (round down, minimum 1). Failure by 5+: rounds spent, nothing gained, plus a DM-discretion complication.
+- **1 Major Action Point (MAP) = 1 hour.** Major Actions are the things that actually move gold, goods, or influence — gathering, robbery, crafting, sabotage, spreading a rumor, resolving a quest's objective. See `04` for the full list and costs.
+- **1 Round Action Point (RAP) = 5 minutes.** Round Actions are legwork — talking to an NPC, moving between places, casing a house, accepting a quest at the board. See `04`.
+- **12 RAP = 1 MAP.** Both draw from the same 10-hour (600-minute) Production Phase clock — a team simply spends that clock in hour-sized chunks (MAP) for big actions and 5-minute chunks (RAP) for small ones. The Production Phase ends when the clock hits 6:00 PM, whether or not the day's 10 hours were fully spent.
+
+**Per Rule 10, the team spends this clock together** — there's one shared 10-hour budget per team per day, not one per character. Natural 1 on a Major Action check: the action still costs its listed MAP, but complicates rather than fails outright (DM's call). Natural 20: a genuine best-case outcome, but never less time than listed — MAP costs are flat, not variable.
 
 **Morning sequence, every day:**
-1. Alertness decays −2.
+1. Alertness decays −2 (`11`).
 2. Resolve Guard Investigation for any robberies committed the previous day (`11`).
-3. Roll the day's Market Trend and Daily Event.
-4. Node regeneration in all four Gathering Areas (`03`).
+3. Roll the day's Market Trend (`12`) and check for Syndicate malice (`13`).
+4. Node regeneration in all three Gathering Areas (`03`).
 5. Guild Hall quest board refreshes (`09`).
-6. *(New)* Check for hidden storyline progress triggers (`14`) — some stages only become available on specific mornings.
+6. **Day 2 onward:** check Catch-Up Customers for the team in last place (`12`).
+7. **Day 2 and Day 3 only:** check the Kazuo trigger (`14`).
+8. **Day 4 only:** resolve the Kazuo curse incident (`14`).
 
 ---
 
-## THE TOWN ECONOMY POOL — HARD GP CAP
+## THE TOWN GOLD POOL — HARD GP CAP
 
-**Total Pool: 3,000gp.** This is the maximum amount of gold that can ever be paid out to players across the entire five-day floor — every customer sale in the Selling Phase, every Guild quest reward, every Church almsgiving roll, every Pristine Graveyard heist, every NPC trade or favor payout from `06`/`07`. It is tracked as a single shared number the DM decrements every time gold moves from an NPC/town source into a player's hands.
+**Total Pool: 2,400gp.** This is the maximum amount of gold that can ever be paid out to players across the entire five-day floor — every customer sale, every Guild quest reward, every NPC trade or favor, every graveyard find. Track it as a single shared number, decremented every time gold moves from an NPC or the town into a player's hands.
 
-**It is not replenished.** Gold players spend — fines, bribes, purchases, stall upgrades, Fence cuts — leaves play entirely. It goes to Soren's ledger, the Guild coffers, a vendor's strongbox. It does not return to the Pool. This is deliberate: the Pool models total town wealth draining toward the players over the week, mirroring the Hollow Ledger's own nature — a finite thing being consumed.
+**It is not replenished.** Gold players spend — fines, bribes, Fence cuts — leaves play entirely. This models the village's wealth draining toward the players over the week. (Cart upgrades cost materials, not gold, and don't touch the Pool either way — see above.)
 
-**What draws from the Pool:** Selling Phase customer payments, Guild Hall quest rewards, Church alms, Pristine/Common Graveyard finds, NPC trade payouts (`06`/`07`), Special Customer overpays.
+**What draws from the Pool:** Selling Phase payments, Guild quest rewards, graveyard finds, NPC trades and favors (`06`), Special Customer overpays.
 
-**What does NOT draw from the Pool:** raw materials or Products obtained via Gathering, Robbery, or Crafting (these are goods, not gold, until sold) — the sale of those goods still draws from the Pool at the point of sale.
+**What does NOT draw from the Pool:** raw materials or Products obtained via Gathering, Robbery, or Crafting — those are goods, not gold, until sold. The sale still draws from the Pool at the point of sale.
 
-**What is explicitly outside the Pool entirely:** the 275gp **Storyline Reward Reserve** described in `14`. That gold is recovered Iron Ledger embezzlement, not town wealth — it never counts against the 3,000gp cap and never triggers a recession tier.
+### Suggested Pool Breakdown
 
-### Pool Depletion Tiers
+Not a hard rule — the Pool is one shared number — but useful for keeping any single system from crowding out another.
 
-Track remaining Pool as a percentage. Announce the tier shift narratively (Soren mentions it, NPCs get tighter with money) rather than the raw number — players should feel the recession, not see the spreadsheet.
+| Source | Approx. Share | Approx. gp |
+|---|---|---|
+| Selling Phase (customer payments) | ~55% | ~1,320gp |
+| NPC trading (`06`) — Adult Man/Woman, Old Man/Woman | ~25% | ~600gp |
+| Guild Hall quests (`09`) | ~10% | ~240gp |
+| Graveyards (`08`) | ~5% | ~120gp |
+| Slums, performance, misc. (`10`, `12`) | ~5% | ~120gp |
+
+Selling stays the dominant engine by design. See `07` for the detailed MAP-by-MAP math behind why NPC trading, gathering, robbery, and grave robbing are priced the way they are relative to each other.
+
+### Pool Depletion — 3 Tiers
+
+Announce shifts narratively (NPCs get tighter with money, the market feels thinner) rather than the raw number.
 
 | Pool Remaining | State | Effect |
 |---|---|---|
-| 100–76% | Normal | No modifiers |
-| 75–51% | Money Tightens | NPCs haggle harder — all Persuasion-based price checks +1 DC |
-| 50–26% | Recession Looms | −1 customer per selling phase (flat), all Upsell/Luxury Upsell DCs +1 |
-| 25–1% | Deep Recession | −1d4 customers all stalls, Persuasion-based price checks −10% effective value even on success, Grey Ledger opens early if it hasn't already (Day 3 trigger becomes Day 2) |
-| 0% | **Gold Lockout** | No further gold enters play from any source for the rest of the floor. Customers still arrive and still want goods, but can only pay in **Barter** — trade goods, favors, or informal IOUs the DM adjudicates loosely. Selling continues, cumulative earnings tracking effectively freezes. |
+| 100–51% | Normal | No modifiers |
+| 50–21% | Tightening | NPCs haggle harder — Persuasion-based price checks +1 DC; −1 customer per Selling Phase |
+| 20–0% | Recession | −1d4 customers all stalls, Persuasion-based price checks +2 DC, and no further gold enters play beyond what's already circulating (customers can still buy on credit/barter, DM's call) |
 
-A DM running a tighter table can drop the Pool to 2,000–2,200gp; a looser, more generous one can raise it to 3,500–4,000gp. 3,000gp assumes all four teams actively use Guild quests, Church, Graveyard income, and NPC trading on top of normal selling. If you're using the improved Guild Hall Quest Board in `09` at full generosity, consider nudging the Pool up to 3,200–3,400gp — the note is repeated there.
-
-### Where the Pool actually goes (suggested internal split, for DM tracking)
-
-This isn't a hard rule — the Pool is one shared number — but it helps to know roughly how it's meant to be spent down so no single system (like NPC trading) accidentally crowds out another:
-
-| Source | Approx. Share of 3,000gp | Approx. gp |
-|---|---|---|
-| Selling Phase (customer payments) | ~63% | ~1,900gp |
-| Guild Hall quests | ~15% | ~450gp |
-| NPC trades & favors (`06`/`07`) | ~6% | ~175gp |
-| Church Almsgiving | ~5% | ~150gp |
-| Pristine + Common Graveyard | ~6% | ~175gp |
-| Special Customer overpay / buffer | ~5% | ~150gp |
-
-Selling stays the dominant engine by design. Gathering, Robbery, and Crafting feed selling — they don't hand out gold directly — so the real earning ceiling is still driven by what players choose to *do* with their days, not by how many NPCs they chat up.
+A tighter table can drop the Pool to 2,000gp; a looser one can raise it to 2,800gp. 2,400gp assumes all four teams make real use of Gathering, Robbery, NPC trading, Guild quests, and the graveyards on top of normal selling.

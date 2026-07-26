@@ -1,47 +1,59 @@
-# FLOOR 8: THE MERCHANT'S CROSSING
-### Part 15 — The Floor Boss: Vael Geldrun, The Corrupted Arbitrator
+# FLOOR 8: THE HUMAN VILLAGE
+### Part 15 — The Floor Boss: Kazuo
 
-Eleven years ago, Vael was Verath's Crossing's most respected Trade Arbitrator. The Iron Ledger broke him slowly — a fabricated debt, a dangerous question, a quiet arrangement. The Hollow Ledger runs through him now like a second circulatory system; he senses every transaction in town and experiences corruption the way other people experience warmth.
+Cornered at his hideout deep in the Wildlife Forest, Kazuo doesn't run. His trick only ever worked out in the open, with room for the flock to scatter and cover him — here, boxed into a hollow he chose for privacy, not escape routes, there's nowhere left to vanish to. **His usual "confront him and he disappears" behavior (`14`) does not apply once the team has successfully tracked him here.** This fight finishes.
 
-## Boss Unlock Conditions (all four required)
-
-1. Total earnings across all stalls reach **150gp cumulative**
-2. **3 Syndicate agents** publicly exposed
-3. **The Iron Ledger Charter** found (Underground only)
-4. **The Grey Ledger stall** is open
-
-*(A team that has run the hidden storyline in `14` will typically satisfy conditions 2 and 3 as a natural byproduct — Evidence collection and exposing agents overlap heavily.)*
+**Kazuo, calm even now:** *"You found me. That's earned, I won't pretend otherwise. I really was just trying to even the numbers a little. I didn't expect anyone to trace it back this far. ...Doesn't change what happens next, though."*
 
 ---
 
-## The Confrontation
+## Combat: Kazuo
 
-> *"You have been disrupting my market. Most climbers find the economics discouraging and leave by Day 3. I'm going to offer you the same arrangement I offer everyone. Walk away with what you have. Or don't. The Ledger accommodates that outcome as well."*
+AC 16, HP 150, Speed 30ft, proficient Dex/Wis saves, resistant to nonmagical piercing and slashing damage, immune to being frightened. 3 Legendary Actions/round.
 
-**Accept:** floor clears, no boss rewards. **Refuse:** combat begins.
+### Phase 1 (75+ HP)
+
+**Passive — Watchful Flock:** Kazuo cannot be surprised and has advantage on Perception checks. Once per round, when Kazuo would take damage from an attack, he may have a crow intercept it instead — reduce the damage by half.
+
+**Actions:**
+- **Talon Rake** (+7, 2d8+4 slashing)
+- **Command the Murder** (recharge 5–6): summons 2 Crow Swarms (below) at a point within 30ft
+- **Blinding Flock** (recharge 5–6, 15ft radius): DC 15 Dexterity save or Blinded until the end of their next turn, plus 2d6 damage
+- **Blood Toll** (once per creature, no recharge needed): melee touch, DC 15 Constitution save or the target takes 2d8 necrotic damage and Kazuo regains that much HP — a small, ugly echo of what his jewelry does
+
+**Legendary Actions:**
+- **Wingbeat** (1): reposition up to 15ft, or knock a Large-or-smaller creature prone (DC 13 Strength save negates)
+- **Scattered Feathers** (1): a nearby creature has disadvantage on its next attack roll
+- **Murder's Call** (2): one active Crow Swarm makes an immediate attack
+
+### Phase 2 (below 75 HP)
+
+AC increases to **18**. Watchful Flock is replaced by **Last Flock**: at the start of each of his turns, if any Crow Swarms remain, one merges into him, healing 2d8 HP and adding +1d6 to his next Talon Rake this turn.
+
+**Once, the first time he drops below 35 HP:** every Crow Swarm still active converges on the nearest target in a final desperate strike — 3d8 damage, DC 15 Dexterity save for half, no action cost. After this, no further Crow Swarms can be summoned; the flock is spent.
 
 ---
 
-## Combat: Vael Geldrun
+## Crow Swarm (Minion Stat Block)
 
-AC 16, HP 180, Speed 30ft, proficient Wis/Cha saves, immune to psychic, resists nonmagical B/S/P, radiant deals +50%. 3 Legendary Actions/round.
-
-### Phase 1 (90+ HP)
-
-**Passive — Market Manipulation:** each player's turn, pay 1gp or take −2 to attacks until their next turn. *(Does not apply for the first 3 rounds to a team that completed the hidden storyline, `14`.)*
-
-**Actions:** The Ledger's Strike (+8, 2d10+5 force, ruins a random cart item) · False Invoice (DC16 Cha save or Indebted — disadvantage vs. Vael until disputed) · Price Fixing (recharge 5–6, nullifies mundane healing 60ft, 1 min) · Syndicate Call (recharge 5–6, bonus action, 2 Enforcers appear)
-
-**Legendary:** Market Sense (1) · The Toll (1, DC14 Cha save or lose bonus action) · Debt Collection (2, 3d8 force to a creature that attacked this round)
-
-### Phase 2 (below 90 HP)
-
-AC 18, converts half radiant damage taken to HP, Market Manipulation replaced by **Final Accounting** (below 45 HP, one-time 3d8 force to everyone within 30ft, no save, no action cost).
-
-**Victory:** the Hollow Ledger's connection severs. Prices normalize. Vael dissolves into counterfeit coins that tarnish black.
+AC 12, HP 15, Speed 20ft/fly 30ft, Peck +5 (1d6+2 piercing), vulnerable to any area-effect attack (any AOE spell/effect that hits it destroys it outright regardless of damage rolled).
 
 ---
 
-## Post-Boss Selling Phase
+## Victory
 
-+2d8 bonus customers, all Syndicate interference removed, Grey Ledger empty, Bram/Celeste/Garrath (`16`) open to renegotiating deals.
+Kazuo dissolves into a scatter of black feathers that simply stop existing before they hit the ground — no body, no proof beyond whatever the team already gathered. Whatever curse was still active in the remaining jewelry (any Day 3 pieces not yet aged, if that thread is still live per `14`'s tuning note) goes inert. **What's already happened stays happened** — nobody who already aged reverses back.
+
+The team keeps whatever loot is thematically appropriate (a DM-discretion unique item — a crow feather that never seems to land, a name half-written on a torn note, anything that hints at "someone not part of the story yet"), plus:
+
+- **Reputation +4**, for whichever team finished it
+- **This team's Syndicate Grudge Track drops by 2** — the Syndicate, whatever else they are, didn't like a stranger operating in their village either, and they noticed who handled it
+- **+2d8 bonus customers** for that team's stall during the Day 5 Selling Phase (`12`)
+
+---
+
+## Post-Boss Notes
+
+**The Masked White Girl, if Kazuo is defeated:** *"That wasn't on the floor's books. I'll be filing a report about it. You should know that whoever sent him is going to notice, eventually. Not your problem today."*
+
+**If Kazuo is never found:** the floor simply ends without him ever being resolved — no penalty, no missed content beyond the encounter itself. The two teams who took his jewelry keep whatever they made from it, cursed or not.
